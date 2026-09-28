@@ -73,19 +73,32 @@ button{border:0;border-radius:12px;padding:10px 12px;font-weight:700;cursor:poin
       </div>
     </section>
 
-    <section class="bloco"><h2>6. Aceitação, comportamento e sinais associados</h2><div id="aceitacao" class="checks"></div></section>
+    <section class="bloco"><h2>6. Queixas oculares, orais e odontológicas</h2>
+      <p class="hint">Investigue sintomas dos olhos, da boca e dos dentes; descreva os detalhes quando houver queixa.</p>
+      <h3>Queixas oculares</h3>
+      <div id="ocular" class="checks"></div>
+      <div class="grid"><p class="full"><label>Detalhes das queixas oculares</label><input id="detalhesOculares" placeholder="Ex.: olho direito vermelho há 2 dias, sem secreção"></p></div>
+      <h3>Queixas orais</h3>
+      <div id="oral" class="checks"></div>
+      <div class="grid"><p class="full"><label>Detalhes das queixas orais</label><input id="detalhesOrais" placeholder="Ex.: aftas dolorosas na mucosa oral"></p></div>
+      <h3>Queixas odontológicas</h3>
+      <div id="odontologico" class="checks"></div>
+      <div class="grid"><p class="full"><label>Detalhes das queixas odontológicas</label><input id="detalhesOdontologicos" placeholder="Ex.: dor em molar inferior esquerdo desde ontem"></p></div>
+    </section>
 
-    <section class="bloco"><h2>7. Outras informações</h2><div class="grid">
+    <section class="bloco"><h2>7. Aceitação, comportamento e sinais associados</h2><div id="aceitacao" class="checks"></div></section>
+
+    <section class="bloco"><h2>8. Outras informações</h2><div class="grid">
       <p><label>Outros sintomas?</label><textarea id="outrosSintomas"></textarea></p>
       <p><label>Usou alguma medicação? Quais?</label><textarea id="medicacaoUsada"></textarea></p>
     </div></section>
 
-    <section class="bloco"><h2>8. O que está alterado no exame físico?</h2>
+    <section class="bloco"><h2>9. O que está alterado no exame físico?</h2>
       <p class="hint">Descreva apenas o que estiver alterado. Se quiser substituir um trecho específico, inicie com o sistema, por exemplo: <b>SR:</b> sibilos difusos; <b>Otoscopia:</b> hiperemia de membrana timpânica direita. O restante será mantido como exame físico normal.</p>
       <textarea id="alteracoesExame" class="tall" placeholder="Ex.: SR: sibilos expiratórios difusos, sem tiragens. Pele: lesões papulares em braços."></textarea>
     </section>
 
-    <section class="bloco"><h2>9. Hipóteses diagnósticas e condutas</h2><div class="grid">
+    <section class="bloco"><h2>10. Hipóteses diagnósticas e condutas</h2><div class="grid">
       <p><label>Hipóteses-diagnósticas?</label><textarea id="hipoteses" placeholder="Ex.: IVAS; dermatite; gastroenterite..."></textarea></p>
       <p><label>Condutas?</label><textarea id="condutas" class="tall">- Prescrevo sintomáticos como medidas suportivas devido à condição de base.
 - Oriento ao acompanhante sinais e sintomas de alarme.
@@ -110,6 +123,15 @@ const grupos = {
   ],
   pele: [
     ['lesoesPeleMucosas','Lesões de pele e mucosas'], ['cocamLesoes','Coçam as lesões?'], ['dorLesoes','Dor nas lesões?']
+  ],
+  ocular: [
+    ['olhoVermelho','Olho vermelho ou irritado'], ['secrecaoOcular','Secreção ocular'], ['dorOcular','Dor nos olhos'], ['pruridoLacrimejamento','Prurido ou lacrimejamento'], ['fotofobia','Fotofobia'], ['alteracaoVisual','Alteração visual']
+  ],
+  oral: [
+    ['lesoesOrais','Lesões ou aftas na boca'], ['dorOral','Dor na boca'], ['dorEngolir','Dor ou dificuldade para engolir']
+  ],
+  odontologico: [
+    ['dorDentaria','Dor de dente'], ['alteracaoDentaria','Cárie ou outra alteração nos dentes'], ['traumaDentario','Trauma dentário'], ['alteracaoGengival','Inchaço ou sangramento gengival']
   ],
   aceitacao: [
     ['apetite','Apetite?','Presente','Hiporexia'], ['consomeLiquidos','Consome líquidos?'], ['sialorreia','Sialorreia ou manipulação intraoral'], ['estadoClinico','Estado geral?','Normal','Prostração/irritabilidade']
@@ -251,6 +273,24 @@ function gerarAnamneseNarrativa(){
     add(blocos, fraseLesao+'.');
   } else if(R('lesoesPeleMucosas')==='nao') add(blocos,'Nega lesões em pele ou mucosas.');
 
+  [
+    ['ocular','Queixas oculares','detalhesOculares'],
+    ['oral','Queixas orais','detalhesOrais'],
+    ['odontologico','Queixas odontológicas','detalhesOdontologicos']
+  ].forEach(([grupo,titulo,detalhesId])=>{
+    const sintomas=grupos[grupo];
+    const positivos=sintomas.filter(([id])=>R(id)==='sim').map(([,label])=>label.toLowerCase());
+    const negativos=sintomas.filter(([id])=>R(id)==='nao').map(([,label])=>label.toLowerCase());
+    const detalhes=V(detalhesId);
+    if(positivos.length || negativos.length || detalhes){
+      let texto=titulo+': ';
+      if(positivos.length) texto+='apresenta '+joinPt(positivos);
+      if(negativos.length) texto+=(positivos.length?'; nega ':'nega ')+joinPt(negativos);
+      if(detalhes) texto+=(positivos.length || negativos.length?'. ':'')+'detalhes: '+low(detalhes);
+      add(blocos,frase(texto));
+    }
+  });
+
   const acc=[];
   if(R('apetite')==='sim') acc.push('apetite preservado'); else if(R('apetite')==='nao') acc.push('hiporexia');
   if(R('consomeLiquidos')==='sim') acc.push('aceita líquidos'); else if(R('consomeLiquidos')==='nao') acc.push('baixa aceitação de líquidos');
@@ -280,7 +320,7 @@ function preencherHigida(){
   peso.value='15 kg'; alergias.value='nega'; comorbidades.value='nega'; medContinuas.value='nega';
   queixa.value='sem queixas no momento, vem realizar consulta de rotina porque teve pneumonia ano passado'; picoFebril.value='sem picos térmicos termometrados';
   ['ativaReativa','comportamentoHabitual','diurese','evacuacoes','consomeLiquidos','apetite','estadoClinico'].forEach(x=>setRadio(x,'sim'));
-  ['febre','dorGemencia','corizaCongestao','tosseSecretiva','tosseSeca','dispneia','cansaco','chieira','outrosRespBaixos','diarreia','vomitosEspontaneos','vomitosPosTosse','vomitosCatarro','vomitosPosPrandiais','lesoesPeleMucosas','cocamLesoes','dorLesoes','sialorreia'].forEach(x=>setRadio(x,'nao'));
+  ['febre','dorGemencia','corizaCongestao','tosseSecretiva','tosseSeca','dispneia','cansaco','chieira','outrosRespBaixos','diarreia','vomitosEspontaneos','vomitosPosTosse','vomitosCatarro','vomitosPosPrandiais','lesoesPeleMucosas','cocamLesoes','dorLesoes','olhoVermelho','secrecaoOcular','dorOcular','pruridoLacrimejamento','fotofobia','alteracaoVisual','lesoesOrais','dorOral','dorEngolir','dorDentaria','alteracaoDentaria','traumaDentario','alteracaoGengival','sialorreia'].forEach(x=>setRadio(x,'nao'));
   queixasUrinarias.value='nega'; queixasEvacuacao.value='nega'; sangueMucoFezes.value='nega'; secrecoesAnormais.value='nega';
   gerarTextoCompleto();
 }
