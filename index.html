@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Roteiro rápido para anamnese e exame físico pediátrico." />
+    <title>Consulta Pediátrica Rápida</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">+</span>
+        <div>
+          <strong>Consulta Pediátrica</strong>
+          <span>Rápida</span>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>Roteiro de apoio</span>
+        <button class="button button-ghost" id="clear-button" type="button">Limpar consulta</button>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Pronto atendimento · pediatria</p>
+          <h1>Organize a consulta em poucos passos.</h1>
+          <p class="hero-copy">Um roteiro prático para registrar a história, conduzir o exame físico e sair com um resumo claro.</p>
+        </div>
+        <div class="hero-note">
+          <span class="note-icon" aria-hidden="true">i</span>
+          <p>Use seu julgamento clínico e os protocolos do serviço. Este roteiro não substitui avaliação médica.</p>
+        </div>
+      </section>
+
+      <section class="patient-card card" aria-labelledby="patient-heading">
+        <div class="section-heading">
+          <div>
+            <p class="step">01 · identificação</p>
+            <h2 id="patient-heading">Quem está na sua frente?</h2>
+          </div>
+          <span class="required-label">* campos essenciais</span>
+        </div>
+        <div class="form-grid patient-grid">
+          <label class="field field-wide">Nome ou iniciais *
+            <input id="patient-name" type="text" placeholder="Ex.: M. S. A." autocomplete="off" />
+          </label>
+          <label class="field">Idade *
+            <div class="inline-input">
+              <input id="patient-age" type="number" min="0" max="216" placeholder="0" />
+              <select id="age-unit" aria-label="Unidade da idade">
+                <option value="months">meses</option>
+                <option value="years">anos</option>
+              </select>
+            </div>
+          </label>
+          <label class="field">Data da consulta
+            <input id="visit-date" type="date" />
+          </label>
+        </div>
+        <div class="age-context" id="age-context">
+          <span class="context-icon" aria-hidden="true">✦</span>
+          <span>Informe a idade para adaptar o roteiro.</span>
+        </div>
+      </section>
+
+      <div class="workspace">
+        <div class="main-column">
+          <section class="card" aria-labelledby="anamnesis-heading">
+            <div class="section-heading">
+              <div>
+                <p class="step">02 · história</p>
+                <h2 id="anamnesis-heading">Anamnese guiada</h2>
+              </div>
+              <span class="progress-label" id="history-progress">0 de 4 preenchidos</span>
+            </div>
+            <div class="form-stack">
+              <label class="field">Queixa principal e duração
+                <textarea id="chief-complaint" rows="3" placeholder="O que trouxe a criança hoje? Quando começou?"></textarea>
+              </label>
+              <label class="field">História da doença atual
+                <textarea id="illness-history" rows="4" placeholder="Evolução, sintomas associados, medidas já realizadas e resposta..."></textarea>
+              </label>
+              <div class="two-columns">
+                <label class="field">Antecedentes relevantes
+                  <textarea id="background" rows="3" placeholder="Gestação, parto, internações, doenças prévias..."></textarea>
+                </label>
+                <label class="field">Medicamentos e alergias
+                  <textarea id="medications" rows="3" placeholder="Uso contínuo, última dose e reações conhecidas..."></textarea>
+                </label>
+              </div>
+              <div class="two-columns">
+                <fieldset class="choice-group">
+                  <legend>Vacinação</legend>
+                  <label><input type="radio" name="vaccination" value="Em dia" /> Em dia</label>
+                  <label><input type="radio" name="vaccination" value="Atrasada" /> Atrasada</label>
+                  <label><input type="radio" name="vaccination" value="Não informado" /> Não informado</label>
+                </fieldset>
+                <fieldset class="choice-group">
+                  <legend>Aceitação de líquidos</legend>
+                  <label><input type="radio" name="hydration" value="Preservada" /> Preservada</label>
+                  <label><input type="radio" name="hydration" value="Reduzida" /> Reduzida</label>
+                  <label><input type="radio" name="hydration" value="Não avaliada" /> Não avaliada</label>
+                </fieldset>
+              </div>
+            </div>
+          </section>
+
+          <section class="card" aria-labelledby="exam-heading">
+            <div class="section-heading">
+              <div>
+                <p class="step">03 · avaliação</p>
+                <h2 id="exam-heading">Exame físico</h2>
+              </div>
+              <span class="progress-label" id="exam-progress">0 de 6 itens</span>
+            </div>
+            <div class="vitals-grid">
+              <label class="field">Temperatura <div class="unit-input"><input id="temperature" type="number" step="0.1" placeholder="36,5" /><span>°C</span></div></label>
+              <label class="field">Frequência cardíaca <div class="unit-input"><input id="heart-rate" type="number" placeholder="bpm" /><span>bpm</span></div></label>
+              <label class="field">Frequência respiratória <div class="unit-input"><input id="respiratory-rate" type="number" placeholder="irpm" /><span>irpm</span></div></label>
+              <label class="field">SpO₂ <div class="unit-input"><input id="oxygen" type="number" min="0" max="100" placeholder="%" /><span>%</span></div></label>
+              <label class="field">Peso <div class="unit-input"><input id="weight" type="number" step="0.01" placeholder="kg" /><span>kg</span></div></label>
+              <label class="field">Glicemia (se indicada) <div class="unit-input"><input id="glucose" type="number" placeholder="mg/dL" /><span>mg/dL</span></div></label>
+            </div>
+            <div class="checklist" id="exam-checklist">
+              <label class="check-item"><input type="checkbox" data-label="Estado geral e nível de consciência" /><span><b>Estado geral e consciência</b><small>Interação, consolabilidade, responsividade</small></span></label>
+              <label class="check-item"><input type="checkbox" data-label="Perfusão e hidratação" /><span><b>Perfusão e hidratação</b><small>Mucosas, lágrimas, enchimento capilar, diurese</small></span></label>
+              <label class="check-item"><input type="checkbox" data-label="Pele e extremidades" /><span><b>Pele e extremidades</b><small>Cor, temperatura, lesões e exantemas</small></span></label>
+              <label class="check-item"><input type="checkbox" data-label="Aparelho respiratório" /><span><b>Aparelho respiratório</b><small>Esforço, ausculta e sinais de desconforto</small></span></label>
+              <label class="check-item"><input type="checkbox" data-label="Aparelho cardiovascular" /><span><b>Aparelho cardiovascular</b><small>Ausculta, pulsos e perfusão periférica</small></span></label>
+              <label class="check-item"><input type="checkbox" data-label="Abdome e neurológico" /><span><b>Abdome e neurológico</b><small>Dor, distensão, força, tônus e sinais focais</small></span></label>
+            </div>
+            <label class="field">Achados e impressão do exame
+              <textarea id="exam-notes" rows="4" placeholder="Registre achados positivos e negativos relevantes..."></textarea>
+            </label>
+          </section>
+        </div>
+
+        <aside class="side-column">
+          <section class="card quick-card" aria-labelledby="quick-heading">
+            <div class="section-heading compact">
+              <div>
+                <p class="step">atalho</p>
+                <h2 id="quick-heading">Referências rápidas</h2>
+              </div>
+            </div>
+            <div class="reference-block">
+              <h3 id="range-title">Idade não informada</h3>
+              <p id="range-copy">Preencha a idade para visualizar lembretes de faixas etárias.</p>
+            </div>
+            <details>
+              <summary>Fórmula de hematócrito estimado</summary>
+              <p class="details-copy">Quando a hemoglobina estiver disponível, uma estimativa frequentemente utilizada é <strong>Ht ≈ Hb × 3</strong>. Confirme no protocolo local e no hemograma.</p>
+              <label class="field mini-field">Hemoglobina (g/dL)
+                <input id="hemoglobin" type="number" step="0.1" placeholder="Ex.: 11,5" />
+              </label>
+              <p class="result" id="hematocrit-result">Informe a Hb para estimar.</p>
+            </details>
+          </section>
+
+          <section class="card summary-card" aria-labelledby="summary-heading">
+            <div class="section-heading compact">
+              <div>
+                <p class="step">04 · fechamento</p>
+                <h2 id="summary-heading">Resumo da consulta</h2>
+              </div>
+            </div>
+            <p class="summary-intro">Gere uma síntese para revisar antes de salvar no prontuário.</p>
+            <button class="button button-primary button-full" id="summary-button" type="button">Gerar resumo</button>
+            <button class="button button-secondary button-full" id="copy-button" type="button" disabled>Copiar resumo</button>
+            <pre class="summary-output" id="summary-output" aria-live="polite">O resumo aparecerá aqui.</pre>
+          </section>
+        </aside>
+      </div>
+    </main>
+    <footer>Consulta Pediátrica Rápida · ferramenta de apoio clínico · dados ficam apenas nesta página</footer>
+    <script src="app.js"></script>
+  </body>
+</html>
