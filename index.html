@@ -69,21 +69,22 @@ button{border:0;border-radius:12px;padding:10px 12px;font-weight:700;cursor:poin
       <div class="grid">
         <p><label>Onde estão as lesões?</label><input id="localLesoes" placeholder="Ex.: braços"></p>
         <p><label>Secreção em lesões?</label><input id="secrecaoLesoes" placeholder="Ex.: sem secreção / secreção purulenta"></p>
+        <p class="full"><label>Onde há sangramento em pele ou partes moles?</label><input id="localSangramento" placeholder="Ex.: gengiva, nariz, hematomas nos membros / não se aplica"></p>
         <p class="full"><label>Como são as lesões?</label><textarea id="comoLesoes" placeholder="Ex.: pápulas eritematosas isoladas"></textarea></p>
       </div>
     </section>
 
-    <section class="bloco"><h2>6. Queixas oculares, orais e odontológicas</h2>
-      <p class="hint">Investigue sintomas dos olhos, da boca e dos dentes; descreva os detalhes quando houver queixa.</p>
+    <section class="bloco"><h2>6. Queixas oculares, orais e otológicas</h2>
+      <p class="hint">Investigue sintomas dos olhos, da boca e dos ouvidos; descreva os detalhes quando houver queixa.</p>
       <h3>Queixas oculares</h3>
       <div id="ocular" class="checks"></div>
       <div class="grid"><p class="full"><label>Detalhes das queixas oculares</label><input id="detalhesOculares" placeholder="Ex.: olho direito vermelho há 2 dias, sem secreção"></p></div>
       <h3>Queixas orais</h3>
       <div id="oral" class="checks"></div>
       <div class="grid"><p class="full"><label>Detalhes das queixas orais</label><input id="detalhesOrais" placeholder="Ex.: aftas dolorosas na mucosa oral"></p></div>
-      <h3>Queixas odontológicas</h3>
-      <div id="odontologico" class="checks"></div>
-      <div class="grid"><p class="full"><label>Detalhes das queixas odontológicas</label><input id="detalhesOdontologicos" placeholder="Ex.: dor em molar inferior esquerdo desde ontem"></p></div>
+      <h3>Queixas otológicas</h3>
+      <div id="otologico" class="checks"></div>
+      <div class="grid"><p class="full"><label>Detalhes das queixas otológicas</label><input id="detalhesOtologicos" placeholder="Ex.: dor no ouvido direito desde ontem"></p></div>
     </section>
 
     <section class="bloco"><h2>7. Aceitação, comportamento e sinais associados</h2><div id="aceitacao" class="checks"></div></section>
@@ -122,7 +123,7 @@ const grupos = {
     ['diarreia','Diarreia'], ['diurese','Diurese preservada'], ['evacuacoes','Evacuações preservadas'], ['vomitosEspontaneos','Vômitos espontâneos'], ['vomitosPosTosse','Vômitos pós-tosse'], ['vomitosCatarro','Vômitos com catarro'], ['vomitosPosPrandiais','Vômitos pós-prandiais']
   ],
   pele: [
-    ['lesoesPeleMucosas','Lesões de pele e mucosas'], ['cocamLesoes','Coçam as lesões?'], ['dorLesoes','Dor nas lesões?']
+    ['lesoesPeleMucosas','Lesões de pele e mucosas'], ['cocamLesoes','Coçam as lesões?'], ['dorLesoes','Dor nas lesões?'], ['sangramentoPele','Sangramento em pele ou partes moles?']
   ],
   ocular: [
     ['olhoVermelho','Olho vermelho ou irritado'], ['secrecaoOcular','Secreção ocular'], ['dorOcular','Dor nos olhos'], ['pruridoLacrimejamento','Prurido ou lacrimejamento'], ['fotofobia','Fotofobia'], ['alteracaoVisual','Alteração visual']
@@ -130,8 +131,8 @@ const grupos = {
   oral: [
     ['lesoesOrais','Lesões ou aftas na boca'], ['dorOral','Dor na boca'], ['dorEngolir','Dor ou dificuldade para engolir']
   ],
-  odontologico: [
-    ['dorDentaria','Dor de dente'], ['alteracaoDentaria','Cárie ou outra alteração nos dentes'], ['traumaDentario','Trauma dentário'], ['alteracaoGengival','Inchaço ou sangramento gengival']
+  otologico: [
+    ['otalgia','Dor de ouvido'], ['otorreia','Secreção no ouvido'], ['pruridoOtologico','Coceira no ouvido'], ['alteracaoAuditiva','Alteração ou dificuldade auditiva'], ['zumbido','Zumbido no ouvido'], ['vertigem','Tontura ou vertigem']
   ],
   aceitacao: [
     ['apetite','Apetite?','Presente','Hiporexia'], ['consomeLiquidos','Consome líquidos?'], ['sialorreia','Sialorreia ou manipulação intraoral'], ['estadoClinico','Estado geral?','Normal','Prostração/irritabilidade']
@@ -273,10 +274,16 @@ function gerarAnamneseNarrativa(){
     add(blocos, fraseLesao+'.');
   } else if(R('lesoesPeleMucosas')==='nao') add(blocos,'Nega lesões em pele ou mucosas.');
 
+  const sangramento=R('sangramentoPele');
+  const localSangramento=V('localSangramento');
+  if(sangramento==='sim') add(blocos,'Refere sangramento em pele ou partes moles'+(localSangramento?' em '+low(localSangramento):'')+'.');
+  else if(sangramento==='nao') add(blocos,'Nega sangramento em pele ou partes moles'+(localSangramento?' (local informado: '+low(localSangramento)+')':'')+'.');
+  else if(localSangramento) add(blocos,'Local de sangramento informado: '+low(localSangramento)+'.');
+
   [
     ['ocular','Queixas oculares','detalhesOculares'],
     ['oral','Queixas orais','detalhesOrais'],
-    ['odontologico','Queixas odontológicas','detalhesOdontologicos']
+    ['otologico','Queixas otológicas','detalhesOtologicos']
   ].forEach(([grupo,titulo,detalhesId])=>{
     const sintomas=grupos[grupo];
     const positivos=sintomas.filter(([id])=>R(id)==='sim').map(([,label])=>label.toLowerCase());
@@ -320,7 +327,7 @@ function preencherHigida(){
   peso.value='15 kg'; alergias.value='nega'; comorbidades.value='nega'; medContinuas.value='nega';
   queixa.value='sem queixas no momento, vem realizar consulta de rotina porque teve pneumonia ano passado'; picoFebril.value='sem picos térmicos termometrados';
   ['ativaReativa','comportamentoHabitual','diurese','evacuacoes','consomeLiquidos','apetite','estadoClinico'].forEach(x=>setRadio(x,'sim'));
-  ['febre','dorGemencia','corizaCongestao','tosseSecretiva','tosseSeca','dispneia','cansaco','chieira','outrosRespBaixos','diarreia','vomitosEspontaneos','vomitosPosTosse','vomitosCatarro','vomitosPosPrandiais','lesoesPeleMucosas','cocamLesoes','dorLesoes','olhoVermelho','secrecaoOcular','dorOcular','pruridoLacrimejamento','fotofobia','alteracaoVisual','lesoesOrais','dorOral','dorEngolir','dorDentaria','alteracaoDentaria','traumaDentario','alteracaoGengival','sialorreia'].forEach(x=>setRadio(x,'nao'));
+  ['febre','dorGemencia','corizaCongestao','tosseSecretiva','tosseSeca','dispneia','cansaco','chieira','outrosRespBaixos','diarreia','vomitosEspontaneos','vomitosPosTosse','vomitosCatarro','vomitosPosPrandiais','lesoesPeleMucosas','cocamLesoes','dorLesoes','sangramentoPele','olhoVermelho','secrecaoOcular','dorOcular','pruridoLacrimejamento','fotofobia','alteracaoVisual','lesoesOrais','dorOral','dorEngolir','otalgia','otorreia','pruridoOtologico','alteracaoAuditiva','zumbido','vertigem','sialorreia'].forEach(x=>setRadio(x,'nao'));
   queixasUrinarias.value='nega'; queixasEvacuacao.value='nega'; sangueMucoFezes.value='nega'; secrecoesAnormais.value='nega';
   gerarTextoCompleto();
 }
