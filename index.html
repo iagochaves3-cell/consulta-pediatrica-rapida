@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Organize os dados e gere um texto de exame clínico pediátrico para revisar durante a consulta."
+    />
+    <title>Consulta Pediátrica | Exame clínico</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Consulta Pediátrica, início">
+        <span class="brand-mark" aria-hidden="true">+</span>
+        <span>consulta<span class="brand-light">pediátrica</span></span>
+      </a>
+      <span class="topbar-note"><span class="status-dot"></span> Ferramenta de apoio à consulta</span>
+    </header>
+
+    <main class="page-shell">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="eyebrow"><span>01</span> DOCUMENTAÇÃO CLÍNICA</div>
+        <h1 id="page-title">Exame clínico <span>pediátrico</span></h1>
+        <p>Registre os achados da consulta e organize tudo em um texto pronto para revisar.</p>
+      </section>
+
+      <div class="workspace">
+        <form id="exam-form" class="form-column">
+          <section class="card" aria-labelledby="patient-heading">
+            <div class="section-heading">
+              <span class="section-icon" aria-hidden="true">01</span>
+              <div>
+                <h2 id="patient-heading">Identificação</h2>
+                <p>Dados básicos do atendimento</p>
+              </div>
+            </div>
+            <div class="field-grid">
+              <label class="field field-wide">
+                <span>Nome da criança</span>
+                <input id="patient-name" name="patientName" autocomplete="off" placeholder="Nome completo" />
+              </label>
+              <label class="field">
+                <span>Idade</span>
+                <input id="patient-age" name="patientAge" autocomplete="off" placeholder="Ex.: 4 anos e 2 meses" />
+              </label>
+              <label class="field">
+                <span>Data do atendimento</span>
+                <input id="exam-date" name="examDate" type="date" />
+              </label>
+            </div>
+          </section>
+
+          <section class="card" aria-labelledby="vitals-heading">
+            <div class="section-heading">
+              <span class="section-icon" aria-hidden="true">02</span>
+              <div>
+                <h2 id="vitals-heading">Sinais vitais</h2>
+                <p>Informe os valores aferidos</p>
+              </div>
+            </div>
+            <div class="field-grid vitals-grid">
+              <label class="field">
+                <span>Temperatura</span>
+                <div class="input-unit"><input id="temperature" name="temperature" inputmode="decimal" placeholder="—" /><span>°C</span></div>
+              </label>
+              <label class="field">
+                <span>Frequência cardíaca</span>
+                <div class="input-unit"><input id="heart-rate" name="heartRate" inputmode="numeric" placeholder="—" /><span>bpm</span></div>
+              </label>
+              <label class="field">
+                <span>Frequência respiratória</span>
+                <div class="input-unit"><input id="respiratory-rate" name="respiratoryRate" inputmode="numeric" placeholder="—" /><span>irpm</span></div>
+              </label>
+              <label class="field">
+                <span>Saturação de O₂</span>
+                <div class="input-unit"><input id="oxygen-saturation" name="oxygenSaturation" inputmode="numeric" placeholder="—" /><span>%</span></div>
+              </label>
+              <label class="field">
+                <span>Peso</span>
+                <div class="input-unit"><input id="weight" name="weight" inputmode="decimal" placeholder="—" /><span>kg</span></div>
+              </label>
+              <label class="field">
+                <span>Estatura</span>
+                <div class="input-unit"><input id="height" name="height" inputmode="decimal" placeholder="—" /><span>cm</span></div>
+              </label>
+            </div>
+          </section>
+
+          <section class="card" aria-labelledby="exam-heading">
+            <div class="section-heading section-heading-wrap">
+              <span class="section-icon" aria-hidden="true">03</span>
+              <div>
+                <h2 id="exam-heading">Exame físico</h2>
+                <p>Descreva os achados observados</p>
+              </div>
+              <button class="text-button" id="normal-template" type="button">Usar modelo normal</button>
+            </div>
+            <p class="template-note">O modelo é apenas um ponto de partida. Revise e ajuste cada achado antes de usar.</p>
+            <div class="exam-fields">
+              <label class="field">
+                <span>Estado geral</span>
+                <textarea id="general" name="general" rows="2" placeholder="Ex.: bom estado geral, alerta, ativo e reativo"></textarea>
+              </label>
+              <label class="field">
+                <span>Pele e mucosas</span>
+                <textarea id="skin" name="skin" rows="2" placeholder="Ex.: corado, hidratado, acianótico, anictérico"></textarea>
+              </label>
+              <label class="field">
+                <span>Cardiovascular</span>
+                <textarea id="cardiovascular" name="cardiovascular" rows="2" placeholder="Ex.: ritmo regular, bulhas normofonéticas, sem sopros"></textarea>
+              </label>
+              <label class="field">
+                <span>Respiratório</span>
+                <textarea id="respiratory" name="respiratory" rows="2" placeholder="Ex.: eupneico, murmúrio vesicular presente bilateralmente, sem ruídos adventícios"></textarea>
+              </label>
+              <label class="field">
+                <span>Abdome</span>
+                <textarea id="abdomen" name="abdomen" rows="2" placeholder="Ex.: plano, flácido, indolor à palpação, sem visceromegalias"></textarea>
+              </label>
+              <label class="field">
+                <span>Neurológico</span>
+                <textarea id="neurological" name="neurological" rows="2" placeholder="Ex.: alerta, interativo, sem déficits focais aparentes"></textarea>
+              </label>
+              <label class="field">
+                <span>Outros achados</span>
+                <textarea id="other-findings" name="otherFindings" rows="2" placeholder="Registre outros sistemas examinados ou achados relevantes"></textarea>
+              </label>
+            </div>
+          </section>
+        </form>
+
+        <aside class="result-column" aria-labelledby="result-heading">
+          <section class="result-card">
+            <div class="result-header">
+              <div class="section-heading">
+                <span class="result-icon" aria-hidden="true">↗</span>
+                <div>
+                  <h2 id="result-heading">Texto do exame</h2>
+                  <p>Atualizado conforme você preenche</p>
+                </div>
+              </div>
+              <span class="live-label"><span class="status-dot"></span> AO VIVO</span>
+            </div>
+            <div id="report" class="report" aria-live="polite" aria-atomic="true">
+              <p class="empty-state">Preencha os campos ao lado para começar a montar o texto do exame.</p>
+            </div>
+            <div class="result-actions">
+              <button id="copy-report" class="button button-primary" type="button">
+                <span aria-hidden="true">▣</span> Copiar texto
+              </button>
+              <button id="print-report" class="button button-secondary" type="button">
+                <span aria-hidden="true">⎙</span> Imprimir
+              </button>
+            </div>
+            <p id="copy-status" class="copy-status" role="status" aria-live="polite"></p>
+          </section>
+          <p class="privacy-note"><span aria-hidden="true">⌑</span> Os dados são processados somente nesta página e não são salvos.</p>
+          <button id="clear-form" class="clear-button" type="button">Limpar preenchimento</button>
+        </aside>
+      </div>
+      <footer class="page-footer">Ferramenta de apoio à documentação. Confirme os dados e achados antes de inserir no prontuário.</footer>
+    </main>
+  </body>
+</html>
