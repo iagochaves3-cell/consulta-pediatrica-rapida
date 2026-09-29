@@ -37,29 +37,43 @@ button{border:0;border-radius:12px;padding:10px 12px;font-weight:700;cursor:poin
       <p><label>Medicações de uso contínuo</label><input id="medContinuas" placeholder="Ex.: nega"></p>
     </div></section>
 
-    <section class="bloco"><h2>1. Queixa e tempo de evolução</h2><div class="grid">
-      <p><label>Queixa principal?</label><textarea id="queixa"></textarea></p>
-      <p><label>Dias de sintomas?</label><input id="diasSintomas" placeholder="Ex.: 3 dias"></p>
-    </div></section>
-
-    <section class="bloco"><h2>2. Sintomas oculares, intraorais e otológicos</h2>
-      <div id="sintomasIniciais" class="checks"></div>
+    <section class="bloco"><h2>1. Histórico familiar e pessoal</h2>
+      <div id="historico" class="checks"></div>
+      <div class="grid">
+        <p><label>Quais doenças familiares?</label><input id="doencasFamiliares"></p>
+        <p><label>Quais doenças fazem parte da HPP?</label><input id="doencasHpp"></p>
+      </div>
     </section>
+
+    <section class="bloco"><h2>2. Queixa e evolução</h2><div class="grid">
+      <p><label>Queixa principal</label><textarea id="queixa"></textarea></p>
+      <p><label>Há quanto tempo?</label><input id="diasSintomas" placeholder="Ex.: 3 dias"></p>
+      <p class="full"><label>Sintomas associados?</label><textarea id="sintomasAssociados"></textarea></p>
+      <p><label>Houve piora, melhora ou está igual?</label><input id="evolucaoQueixa"></p>
+      <p><label>O que melhora?</label><input id="melhoraQueixa"></p>
+      <p><label>O que piora?</label><input id="pioraQueixa"></p>
+      <p><label>A queixa melhora com medicação?</label><input id="melhoraMedicacao"></p>
+    </div></section>
 
     <section class="bloco"><h2>3. Estado geral inicial</h2>
       <div id="estadoGeral" class="checks"></div>
       <div class="grid">
-        <p><label>Qual o pico febril?</label><input id="picoFebril" placeholder="Ex.: 38,5ºC / não aferido"></p>
-        <p><label>Localiza a dor?</label><input id="localizaDor" placeholder="Ex.: abdome / ouvido direito / garganta"></p>
+        <p><label>Febre</label><select id="tipoFebre"><option value="">Não informado</option><option value="referida">Referida</option><option value="termometrada">Termometrada</option><option value="nao-informada">Não informada</option></select></p>
+        <p><label>Qual foi o pico febril?</label><input id="picoFebril" placeholder="Ex.: 38,5 °C"></p>
+        <p><label>Onde localiza a dor?</label><input id="localizaDor" placeholder="Ex.: abdome / ouvido direito / garganta"></p>
       </div>
     </section>
 
-    <section class="bloco"><h2>4. Sintomas respiratórios</h2>
+    <section class="bloco"><h2>4. Queixas otológicas, orais e oculares</h2>
+      <div id="sintomasIniciais" class="checks"></div>
+    </section>
+
+    <section class="bloco"><h2>5. Sintomas respiratórios</h2>
       <div id="respiratorio" class="checks"></div>
       <div class="grid"><p class="full"><label>Secreções anormais?</label><input id="secrecoesAnormais" placeholder="Ex.: secreção nasal purulenta / secreção ocular / nega"></p></div>
     </section>
 
-    <section class="bloco"><h2>5. Sintomas gastrointestinais e eliminações</h2>
+    <section class="bloco"><h2>6. Sintomas gastrointestinais e eliminações</h2>
       <div id="gastro" class="checks"></div>
       <div class="grid">
         <p><label>Queixas durante evacuação?</label><input id="queixasEvacuacao"></p>
@@ -68,28 +82,68 @@ button{border:0;border-radius:12px;padding:10px 12px;font-weight:700;cursor:poin
       </div>
     </section>
 
-    <section class="bloco"><h2>6. Pele e mucosas</h2>
+    <section class="bloco"><h2>7. Pele e mucosas</h2>
       <div id="pele" class="checks"></div>
       <div class="grid">
-        <p><label>Onde estão as lesões?</label><input id="localLesoes" placeholder="Ex.: braços"></p>
-        <p><label>Secreção em lesões?</label><input id="secrecaoLesoes" placeholder="Ex.: sem secreção / secreção purulenta"></p>
+        <p><label>Onde estão as lesões ou onde estão mais concentradas?</label><input id="localLesoes" placeholder="Ex.: braços"></p>
         <p class="full"><label>Como são as lesões?</label><textarea id="comoLesoes" placeholder="Ex.: pápulas eritematosas isoladas"></textarea></p>
+      </div>
+      <div id="coceiraLesoes" class="checks"></div>
+      <div id="dorLesoes" class="checks"></div>
+      <div id="perguntaSecrecaoLesoes" class="checks"></div>
+      <div class="grid">
+        <p><label>Como é a secreção?</label><input id="tipoSecrecaoLesoes"></p>
+        <p><label>Onde as lesões iniciaram?</label><input id="inicioLesoes"></p>
+      </div>
+      <div id="disseminacaoLesoes" class="checks"></div>
+    </section>
+
+    <section class="bloco"><h2>8. Aceitação, comportamento e sinais associados</h2><div id="aceitacao" class="checks"></div></section>
+
+    <section class="bloco"><h2>9. Sintomas cardiovasculares</h2>
+      <div id="cardiovascular" class="checks"></div>
+      <div class="grid"><p><label>Onde tem cianose?</label><input id="localCianose"></p></div>
+    </section>
+
+    <section class="bloco"><h2>10. Sintomas neurológicos</h2>
+      <div id="neurologico" class="checks"></div>
+      <div class="grid">
+        <p><label>Em que região está o hematoma subgaleal?</label><input id="regiaoHematoma"></p>
+        <p><label>Há quanto tempo houve o TCE?</label><input id="tempoTce"></p>
       </div>
     </section>
 
-    <section class="bloco"><h2>7. Aceitação, comportamento e sinais associados</h2><div id="aceitacao" class="checks"></div></section>
+    <section class="bloco"><h2>11. Aparelho locomotor</h2>
+      <div class="grid">
+        <p><label>O que aconteceu?</label><input id="eventoLocomotor"></p>
+        <p><label>Há quanto tempo?</label><input id="tempoLocomotor"></p>
+      </div>
+      <div id="traumaLocomotor" class="checks"></div>
+      <div class="grid">
+        <p><label>Bateu aonde?</label><input id="localTrauma"></p>
+      </div>
+      <div id="equimoseLocomotor" class="checks"></div>
+      <div id="movimentoLocomotor" class="checks"></div>
+      <div class="grid">
+        <p><label>Qual limitação de amplitude de movimento (ADM)?</label><input id="limitacaoAdm"></p>
+        <p><label>Dor de 0 a 10?</label><input id="intensidadeDor" type="number" min="0" max="10"></p>
+      </div>
+      <div id="caracteristicasLocomotor" class="checks"></div>
+    </section>
 
-    <section class="bloco"><h2>8. Outras informações</h2><div class="grid">
+    <section class="bloco"><h2>12. Outras informações e medicações</h2><div class="grid">
       <p><label>Outros sintomas?</label><textarea id="outrosSintomas"></textarea></p>
-      <p><label>Usou alguma medicação? Quais?</label><textarea id="medicacaoUsada"></textarea></p>
+      <p><label>Quais medicações sintomáticas utilizou e por quanto tempo?</label><textarea id="medicacaoUsada"></textarea></p>
+      <p><label>Utilizou medicações sintomáticas?</label><select id="utilizouMedicacao"><option value="">Não informado</option><option value="sim">Sim</option><option value="nao">Não</option><option value="nao-informado">Não informado</option></select></p>
+      <p><label>Ajudaram a melhorar o sintoma?</label><input id="medicacaoAjudou"></p>
     </div></section>
 
-    <section class="bloco"><h2>9. O que está alterado no exame físico?</h2>
+    <section class="bloco"><h2>13. O que está alterado no exame físico?</h2>
       <p class="hint">Descreva apenas o que estiver alterado. Se quiser substituir um trecho específico, inicie com o sistema, por exemplo: <b>SR:</b> sibilos difusos; <b>Otoscopia:</b> hiperemia de membrana timpânica direita. O restante será mantido como exame físico normal.</p>
       <textarea id="alteracoesExame" class="tall" placeholder="Ex.: SR: sibilos expiratórios difusos, sem tiragens. Pele: lesões papulares em braços."></textarea>
     </section>
 
-    <section class="bloco"><h2>10. Hipóteses diagnósticas e condutas</h2><div class="grid">
+    <section class="bloco"><h2>14. Hipóteses diagnósticas e condutas</h2><div class="grid">
       <p><label>Hipóteses-diagnósticas?</label><textarea id="hipoteses" placeholder="Ex.: IVAS; dermatite; gastroenterite..."></textarea></p>
       <p><label>Condutas?</label><textarea id="condutas" class="tall">- Prescrevo sintomáticos como medidas suportivas devido à condição de base.
 - Oriento ao acompanhante sinais e sintomas de alarme.
@@ -104,19 +158,52 @@ button{border:0;border-radius:12px;padding:10px 12px;font-weight:700;cursor:poin
 <script>
 const grupos = {
   estadoGeral: [
-    ['ativaReativa','Ativa e reativa'], ['comportamentoHabitual','Comportamento habitual'], ['febre','Febre'], ['dorGemencia','Dor/gemência/choro persistente']
+    ['ativaReativa','Ativa e reativa'], ['comportamentoHabitual','Comportamento habitual'], ['febre','Teve febre?'], ['dorGemencia','Apresenta dor, gemência ou choro persistente?']
   ],
   sintomasIniciais: [
-    ['sintomasOculares','Sintomas oculares'], ['sintomasIntraorais','Sintomas intraorais'], ['sintomasOtologicos','Sintomas otológicos']
+    ['sintomasOtologicos','Sintomas otológicos?'], ['sintomasIntraorais','Sintomas orais?'], ['sintomasOculares','Sintomas oculares?']
   ],
   respiratorio: [
-    ['corizaCongestao','Coriza e congestão nasal'], ['tosseSecretiva','Tosse secretiva'], ['tosseSeca','Tosse seca'], ['dispneia','Dispneia'], ['cansaco','Cansaço respiratório'], ['chieira','Chieira no peito'], ['outrosRespBaixos','Outros sintomas respiratórios baixos']
+    ['coriza','Coriza?'], ['congestaoNasal','Congestão nasal?'], ['tosseSecretiva','Tosse secretiva?'], ['tosseSeca','Tosse seca?'], ['dispneia','Dificuldade respiratória?'], ['respiracaoOfegante','Respiração ofegante?'], ['respiracaoBucal','Respiração bucal?'], ['roncos','Roncos?'], ['pioraNoturna','Piora dos sintomas à noite?'], ['chieira','Chieira no peito?'], ['outrosRespBaixos','Outros sintomas respiratórios baixos?']
   ],
   gastro: [
     ['evacuacoes','Evacuações preservadas'], ['diurese','Diurese preservada'], ['vomitosEspontaneos','Vômitos espontâneos'], ['vomitosPosTosse','Vômitos pós-tosse'], ['vomitosCatarro','Vômitos com catarro'], ['vomitosPosPrandiais','Vômitos pós-prandiais'], ['diarreia','Diarreia']
   ],
   pele: [
-    ['lesoesPeleMucosas','Lesões de pele e mucosas'], ['cocamLesoes','Coçam as lesões?'], ['dorLesoes','Dor nas lesões?']
+    ['lesoesPeleMucosas','Lesões de pele ou mucosas?']
+  ],
+  coceiraLesoes: [
+    ['cocamLesoes','As lesões coçam?']
+  ],
+  dorLesoes: [
+    ['dorLesoes','As lesões doem?']
+  ],
+  perguntaSecrecaoLesoes: [
+    ['temSecrecaoLesoes','Há secreção nas lesões?']
+  ],
+  disseminacaoLesoes: [
+    ['disseminacaoLesoes','As lesões estão se disseminando?']
+  ],
+  historico: [
+    ['historicoFamiliar','Histórico familiar de doenças crônicas?'], ['historicoPessoal','Histórico pessoal de doenças graves?']
+  ],
+  cardiovascular: [
+    ['dorPeito','Dor no peito?'], ['palpitacoes','Palpitações?'], ['cianose','Cianose?'], ['sincopeAbrupta','Síncope abrupta?']
+  ],
+  neurologico: [
+    ['interageComandos','Interage conforme comandos?'], ['movimentosAnormais','Movimentos anormais?'], ['sincope','Síncope?'], ['convulsoes','Convulsões?'], ['sonolenciaExcessiva','Sonolência excessiva?'], ['choroInconsolavel','Choro inconsolável?'], ['comportamentoAnormal','Comportamento anormal?'], ['vomitosJato','Vômitos em jato?'], ['cefaleiaIntratavel','Cefaleia intratável?'], ['hematomaSubgaleal','Hematoma subgaleal?'], ['bateuCabeca','Bateu a cabeça?']
+  ],
+  traumaLocomotor: [
+    ['historicoTrauma','Histórico de trauma?']
+  ],
+  equimoseLocomotor: [
+    ['equimosesHematomas','Equimoses ou hematomas?']
+  ],
+  movimentoLocomotor: [
+    ['movimentaMembro','Movimenta o membro?']
+  ],
+  caracteristicasLocomotor: [
+    ['dorMecanica','Dor mecânica?'], ['dorInflamatoria','Dor inflamatória?'], ['sinaisArtrite','Sinais de artrite?'], ['desalinhamento','Desalinhamento ósseo/articular notado?'], ['extremidadesMovem','Extremidades se movimentam?'], ['sensibilidadePreservada','Sensibilidade preservada?']
   ],
   aceitacao: [
     ['apetite','Apetite?','Presente','Hiporexia'], ['consomeLiquidos','Consome líquidos?'], ['sialorreia','Sialorreia ou manipulação intraoral'], ['estadoClinico','Estado geral?','Normal','Prostração/irritabilidade']
@@ -144,6 +231,15 @@ function add(arr,txt){ if(txt && String(txt).trim()) arr.push(String(txt).trim()
 function joinPt(lista){ lista=lista.filter(Boolean); if(lista.length===0) return ''; if(lista.length===1) return lista[0]; return lista.slice(0,-1).join(', ')+' e '+lista[lista.length-1]; }
 function isNeg(texto){ return /^(nega|não|nao|sem|ausente|ausência|ausencia)$/i.test(String(texto||'').trim()); }
 function frase(txt){ txt=String(txt||'').trim(); if(!txt) return ''; return txt.endsWith('.') ? txt : txt+'.'; }
+function addTextResponses(arr, campos){
+  campos.forEach(([id,label])=>{ if(V(id)) add(arr,label+': '+V(id)+'.'); });
+}
+function addYesNoResponses(arr, afirmativas, negativas, itens){
+  const sim=itens.filter(([id])=>R(id)==='sim').map(([,texto])=>texto);
+  const nao=itens.filter(([id])=>R(id)==='nao').map(([, ,texto])=>texto);
+  if(sim.length) add(arr,afirmativas+' '+joinPt(sim)+'.');
+  if(nao.length) add(arr,negativas+' '+joinPt(nao)+'.');
+}
 
 const examePadrao = {
   'Estado geral':'Criança em bom estado geral, corada, hidratada, anictérica, acianótica, afebril, eupneica, ativa e reativa, com comportamento adequado para a idade.',
@@ -196,11 +292,23 @@ function gerarAnamneseNarrativa(){
   if(V('comorbidades')) cab.push('COMORBIDADES: '+V('comorbidades').toUpperCase());
   if(V('medContinuas')) cab.push('MEDICAÇÕES DE USO CONTÍNUO: '+V('medContinuas').toUpperCase());
   if(cab.length) blocos.push(cab.join('\n'));
+  addYesNoResponses(blocos,'Apresenta','Nega',[
+    ['historicoFamiliar','histórico familiar de doenças crônicas','histórico familiar de doenças crônicas'],
+    ['historicoPessoal','histórico pessoal de doenças graves','histórico pessoal de doenças graves']
+  ]);
+  addTextResponses(blocos,[['doencasFamiliares','Doenças familiares'],['doencasHpp','Doenças da HPP']]);
 
   const queixa=V('queixa'), dias=V('diasSintomas');
   if(queixa && dias) add(blocos,'Criança comparece ao PA por '+low(queixa)+', com '+low(dias)+' de evolução.');
   else if(queixa) add(blocos,'Criança comparece ao PA por '+low(queixa)+'.');
   else if(dias) add(blocos,'Sintomas com '+low(dias)+' de evolução.');
+  addTextResponses(blocos,[
+    ['sintomasAssociados','Sintomas associados'],
+    ['evolucaoQueixa','Evolução da queixa'],
+    ['melhoraQueixa','Fatores que melhoram'],
+    ['pioraQueixa','Fatores que pioram'],
+    ['melhoraMedicacao','Melhora com medicação']
+  ]);
 
   const est=[];
   if(R('ativaReativa')==='sim') est.push('ativa e reativa');
@@ -210,8 +318,8 @@ function gerarAnamneseNarrativa(){
   if(R('ativaReativa')==='nao') geralNeg.push('não está ativa ou reativa');
   if(R('comportamentoHabitual')==='nao') geralNeg.push('não mantém comportamento habitual');
   if(geralNeg.length) add(blocos,'Ao estado geral, '+joinPt(geralNeg)+'.');
-  if(R('febre')==='sim') add(blocos,'Há relato de febre'+(V('picoFebril')?', com pico febril de '+V('picoFebril'):'')+'.');
-  if(R('febre')==='nao') add(blocos,'Sem relato de febre'+(V('picoFebril')?', com informação adicional sobre temperatura: '+V('picoFebril'):'')+'.');
+  if(R('febre')==='sim') add(blocos,'Há relato de febre'+(V('tipoFebre')==='referida'?' referida':V('tipoFebre')==='termometrada'?' termometrada':'')+(V('picoFebril')?', com pico de '+V('picoFebril'):'')+'.');
+  if(R('febre')==='nao') add(blocos,'Nega febre.');
   const queixaOtologica=/otalgi|dor (?:no|de) ouvido|dor auricular/i.test(queixa);
   const dorLocalizadaNoOuvido=/ouvido|orelha|auricular/i.test(V('localizaDor'));
   if(R('dorGemencia')==='sim' && !(queixaOtologica && (!V('localizaDor') || dorLocalizadaNoOuvido))) add(blocos,'Há relato de dor, gemência ou choro persistente'+(V('localizaDor')?', com dor localizada em '+low(V('localizaDor')):'')+'.');
@@ -232,13 +340,9 @@ function gerarAnamneseNarrativa(){
   if(sintomasIniciaisNeg.length) add(blocos,'Nega '+joinPt(sintomasIniciaisNeg)+'.');
 
   const respPos=[]; const respNeg=[];
-  if(R('corizaCongestao')==='sim') respPos.push('coriza/congestão nasal'); else if(R('corizaCongestao')==='nao') respNeg.push('coriza ou congestão nasal');
-  if(R('tosseSecretiva')==='sim') respPos.push('tosse secretiva'); else if(R('tosseSecretiva')==='nao') respNeg.push('tosse secretiva');
-  if(R('tosseSeca')==='sim') respPos.push('tosse seca'); else if(R('tosseSeca')==='nao') respNeg.push('tosse seca');
-  if(R('dispneia')==='sim') respPos.push('dispneia'); else if(R('dispneia')==='nao') respNeg.push('dispneia');
-  if(R('cansaco')==='sim') respPos.push('cansaço respiratório'); else if(R('cansaco')==='nao') respNeg.push('cansaço respiratório');
-  if(R('chieira')==='sim') respPos.push('chieira no peito'); else if(R('chieira')==='nao') respNeg.push('chieira no peito');
-  if(R('outrosRespBaixos')==='sim') respPos.push('outros sintomas respiratórios baixos'); else if(R('outrosRespBaixos')==='nao') respNeg.push('outros sintomas respiratórios baixos');
+  [['coriza','coriza'],['congestaoNasal','congestão nasal'],['tosseSecretiva','tosse secretiva'],['tosseSeca','tosse seca'],['dispneia','dificuldade respiratória'],['respiracaoOfegante','respiração ofegante'],['respiracaoBucal','respiração bucal'],['roncos','roncos'],['pioraNoturna','piora dos sintomas à noite'],['chieira','chieira no peito'],['outrosRespBaixos','outros sintomas respiratórios baixos']].forEach(([id,label])=>{
+    if(R(id)==='sim') respPos.push(label); else if(R(id)==='nao') respNeg.push(label);
+  });
   let respFr=[];
   if(respPos.length) respFr.push('No aparelho respiratório, apresenta '+joinPt(respPos));
   if(respNeg.length) respFr.push((respPos.length?'nega ':'Nega ')+joinPt(respNeg));
@@ -260,19 +364,58 @@ function gerarAnamneseNarrativa(){
   else if(vomNeg.length) add(blocos,'Nega vômitos '+joinPt(vomNeg)+'.');
   if(R('diarreia')==='sim') add(blocos,'Apresenta diarreia'+(V('sangueMucoFezes') && !isNeg(V('sangueMucoFezes'))?', com '+low(V('sangueMucoFezes'))+' nas fezes':'')+'.');
   if(R('diarreia')==='nao') add(blocos,'Nega diarreia'+(V('sangueMucoFezes') && !isNeg(V('sangueMucoFezes'))?', porém há relato de '+low(V('sangueMucoFezes'))+' nas fezes':'')+'.');
-  const temLesao = R('lesoesPeleMucosas')==='sim' || V('localLesoes') || V('comoLesoes') || V('secrecaoLesoes') || R('cocamLesoes')==='sim' || R('dorLesoes')==='sim';
-  if(temLesao){
-    let fraseLesao = 'Criança apresenta lesões de pele/mucosas';
-    if(V('comoLesoes')) fraseLesao += ' do tipo '+low(V('comoLesoes'));
-    if(V('localLesoes')) fraseLesao += ' localizadas em '+low(V('localLesoes'));
-    const assoc=[];
-    if(R('cocamLesoes')==='sim') assoc.push('prurido associado');
-    if(R('dorLesoes')==='sim') assoc.push('dor associada');
-    if(V('secrecaoLesoes') && !isNeg(V('secrecaoLesoes'))) assoc.push('secreção em lesões: '+low(V('secrecaoLesoes')));
-    if(assoc.length) fraseLesao += ', com '+joinPt(assoc);
-    if(V('secrecaoLesoes') && isNeg(V('secrecaoLesoes'))) fraseLesao += ', sem secreção relatada';
-    add(blocos, fraseLesao+'.');
-  } else if(R('lesoesPeleMucosas')==='nao') add(blocos,'Nega lesões em pele ou mucosas.');
+  const lesoes=[];
+  if(R('lesoesPeleMucosas')==='sim') lesoes.push('apresenta lesões de pele ou mucosas');
+  else if(R('lesoesPeleMucosas')==='nao') lesoes.push('nega lesões de pele ou mucosas');
+  if(V('localLesoes')) lesoes.push('localizadas ou mais concentradas em '+low(V('localLesoes')));
+  if(V('comoLesoes')) lesoes.push('com aspecto '+low(V('comoLesoes')));
+  if(R('cocamLesoes')==='sim') lesoes.push('lesões pruriginosas');
+  else if(R('cocamLesoes')==='nao') lesoes.push('nega prurido nas lesões');
+  if(R('dorLesoes')==='sim') lesoes.push('lesões dolorosas');
+  else if(R('dorLesoes')==='nao') lesoes.push('nega dor nas lesões');
+  if(R('temSecrecaoLesoes')==='sim') lesoes.push('há secreção nas lesões');
+  else if(R('temSecrecaoLesoes')==='nao') lesoes.push('nega secreção nas lesões');
+  if(V('tipoSecrecaoLesoes')) lesoes.push('secreção '+low(V('tipoSecrecaoLesoes')));
+  if(V('inicioLesoes')) lesoes.push('iniciadas em '+low(V('inicioLesoes')));
+  if(R('disseminacaoLesoes')==='sim') lesoes.push('em disseminação');
+  else if(R('disseminacaoLesoes')==='nao') lesoes.push('sem disseminação');
+  if(lesoes.length) add(blocos,'Pele e mucosas: '+joinPt(lesoes)+'.');
+
+  addYesNoResponses(blocos,'Relata','Nega',[
+    ['dorPeito','dor no peito','dor no peito'],
+    ['palpitacoes','palpitações','palpitações'],
+    ['cianose','cianose','cianose'],
+    ['sincopeAbrupta','síncope abrupta','síncope abrupta']
+  ]);
+  addTextResponses(blocos,[['localCianose','Local da cianose']]);
+
+  addYesNoResponses(blocos,'Sintomas neurológicos relatados','Sintomas neurológicos negados',[
+    ['interageComandos','interação conforme comandos','interação conforme comandos'],
+    ['movimentosAnormais','movimentos anormais','movimentos anormais'],
+    ['sincope','síncope','síncope'],
+    ['convulsoes','convulsões','convulsões'],
+    ['sonolenciaExcessiva','sonolência excessiva','sonolência excessiva'],
+    ['choroInconsolavel','choro inconsolável','choro inconsolável'],
+    ['comportamentoAnormal','comportamento anormal','comportamento anormal'],
+    ['vomitosJato','vômitos em jato','vômitos em jato'],
+    ['cefaleiaIntratavel','cefaleia intratável','cefaleia intratável'],
+    ['hematomaSubgaleal','hematoma subgaleal','hematoma subgaleal'],
+    ['bateuCabeca','trauma craniano','trauma craniano']
+  ]);
+  addTextResponses(blocos,[['regiaoHematoma','Região do hematoma subgaleal'],['tempoTce','Tempo desde o TCE']]);
+
+  addTextResponses(blocos,[['eventoLocomotor','Evento locomotor'],['tempoLocomotor','Tempo de evolução'],['localTrauma','Local do trauma'],['limitacaoAdm','Limitação de ADM'],['intensidadeDor','Dor (0 a 10)']]);
+  addYesNoResponses(blocos,'Aparelho locomotor: relata','Aparelho locomotor: nega',[
+    ['historicoTrauma','histórico de trauma','histórico de trauma'],
+    ['equimosesHematomas','equimoses ou hematomas','equimoses ou hematomas'],
+    ['movimentaMembro','movimentação do membro','movimentação do membro'],
+    ['dorMecanica','dor mecânica','dor mecânica'],
+    ['dorInflamatoria','dor inflamatória','dor inflamatória'],
+    ['sinaisArtrite','sinais de artrite','sinais de artrite'],
+    ['desalinhamento','desalinhamento ósseo/articular','desalinhamento ósseo/articular'],
+    ['extremidadesMovem','movimentação das extremidades','movimentação das extremidades'],
+    ['sensibilidadePreservada','sensibilidade preservada','sensibilidade preservada']
+  ]);
 
   const acc=[];
   if(R('apetite')==='sim') acc.push('apetite preservado'); else if(R('apetite')==='nao') acc.push('hiporexia');
@@ -282,7 +425,10 @@ function gerarAnamneseNarrativa(){
   if(acc.length) add(blocos, cap(joinPt(acc))+'.');
 
   if(V('outrosSintomas')) add(blocos,'Outros sintomas relatados: '+V('outrosSintomas')+'.');
-  if(V('medicacaoUsada')) add(blocos,'Antes do atendimento, usou: '+V('medicacaoUsada')+'.');
+  if(V('utilizouMedicacao')==='sim') add(blocos,'Utilizou medicações sintomáticas.');
+  if(V('utilizouMedicacao')==='nao') add(blocos,'Não utilizou medicações sintomáticas.');
+  if(V('medicacaoUsada')) add(blocos,'Medicações utilizadas e duração: '+V('medicacaoUsada')+'.');
+  if(V('medicacaoAjudou')) add(blocos,'Melhora com medicação: '+V('medicacaoAjudou')+'.');
   return blocos.join('\n\n');
 }
 
