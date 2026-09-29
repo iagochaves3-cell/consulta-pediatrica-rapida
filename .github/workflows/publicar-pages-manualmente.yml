@@ -28,6 +28,7 @@ jobs:
         env:
           CONFIRMACAO: ${{ inputs.confirmacao }}
         run: |
+          CONFIRMACAO="$(python3 -c 'import os; print(os.environ.get("CONFIRMACAO", "").strip())')"
           if [ "$CONFIRMACAO" != "PUBLICAR" ]; then
             echo "Digite PUBLICAR no campo de confirmação para continuar."
             exit 1
