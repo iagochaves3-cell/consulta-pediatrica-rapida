@@ -83,12 +83,11 @@ button{border:0;border-radius:12px;padding:10px 12px;font-weight:700;cursor:poin
       <div class="grid"><p class="full"><label>Secreções anormais?</label><input id="secrecoesAnormais" placeholder="Ex.: secreção nasal purulenta / nega"></p></div>
     </section>
 
-    <section class="bloco"><h2>5. Sintomas gastrointestinais e eliminações</h2>
+    <section class="bloco"><h2>5. Sintomas gastrointestinais e eliminações intestinais</h2>
       <div id="gastro" class="checks"></div>
       <div class="grid">
-        <p><label>Queixas urinárias?</label><input id="queixasUrinarias"></p>
         <p><label>Queixas durante evacuação?</label><input id="queixasEvacuacao"></p>
-        <p class="full"><label>Sangue ou muco em fezes?</label><input id="sangueMucoFezes"></p>
+        <p><label>Sangue ou muco em fezes?</label><input id="sangueMucoFezes"></p>
       </div>
     </section>
 
@@ -164,21 +163,26 @@ button{border:0;border-radius:12px;padding:10px 12px;font-weight:700;cursor:poin
       <div id="cardioSincope" class="checks"></div>
     </section>
 
-    <section class="bloco"><h2>10. Aceitação, comportamento e sinais associados</h2><div id="aceitacao" class="checks"></div></section>
+    <section class="bloco"><h2>10. Sintomas geniturinários</h2>
+      <div id="geniturinario" class="checks"></div>
+      <div class="grid"><p class="full"><label>Queixas urinárias?</label><input id="queixasUrinarias"></p></div>
+    </section>
 
-    <section class="bloco"><h2>11. Outras informações e medicações sintomáticas</h2><div class="grid">
+    <section class="bloco"><h2>11. Aceitação, comportamento e sinais associados</h2><div id="aceitacao" class="checks"></div></section>
+
+    <section class="bloco"><h2>12. Outras informações e medicações sintomáticas</h2><div class="grid">
       <p><label>Outros sintomas?</label><textarea id="outrosSintomas"></textarea></p>
       <p><label>Utilizou medicações sintomáticas?</label><span class="radioGrid"><label><input type="radio" name="usouMedicacaoSintomatica" value="sim"> SIM</label><label><input type="radio" name="usouMedicacaoSintomatica" value="nao"> NÃO</label><label><input type="radio" name="usouMedicacaoSintomatica" value="ni" checked> N/I</label></span></p>
       <p><label>Quais você usou e por quanto tempo?</label><textarea id="medicacaoUsada"></textarea></p>
       <p><label>Ajudaram a melhorar o sintoma?</label><span class="radioGrid"><label><input type="radio" name="medicacaoAjudou" value="sim"> SIM</label><label><input type="radio" name="medicacaoAjudou" value="nao"> NÃO</label><label><input type="radio" name="medicacaoAjudou" value="ni" checked> N/I</label></span></p>
     </div></section>
 
-    <section class="bloco"><h2>12. O que está alterado no exame físico?</h2>
+    <section class="bloco"><h2>13. O que está alterado no exame físico?</h2>
       <p class="hint">Descreva apenas o que estiver alterado. Se quiser substituir um trecho específico, inicie com o sistema, por exemplo: <b>SR:</b> sibilos difusos; <b>Otoscopia:</b> hiperemia de membrana timpânica direita. O restante será mantido como exame físico normal.</p>
       <textarea id="alteracoesExame" class="tall" placeholder="Ex.: SR: sibilos expiratórios difusos, sem tiragens. Pele: lesões papulares em braços."></textarea>
     </section>
 
-    <section class="bloco"><h2>13. Hipóteses diagnósticas e condutas</h2><div class="grid">
+    <section class="bloco"><h2>14. Hipóteses diagnósticas e condutas</h2><div class="grid">
       <p><label>Hipóteses-diagnósticas?</label><textarea id="hipoteses" placeholder="Ex.: IVAS; dermatite; gastroenterite..."></textarea></p>
       <p><label>Condutas?</label><textarea id="condutas" class="tall">- Prescrevo sintomáticos como medidas suportivas devido à condição de base.
 - Oriento ao acompanhante sinais e sintomas de alarme.
@@ -203,7 +207,10 @@ const grupos = {
     ['coriza','Coriza?'], ['congestaoNasal','Congestão nasal?'], ['respiracaoBucal','Respiração bucal?'], ['respiracaoOfegante','Respiração ofegante?'], ['tosseSecretiva','Tosse secretiva?'], ['tosseSeca','Tosse seca?'], ['dispneia','Dificuldade respiratória?'], ['chieira','Chieira no peito?'], ['roncos','Roncos?'], ['pioraNoturna','Piora dos sintomas à noite?'], ['outrosRespBaixos','Outros sintomas respiratórios baixos?']
   ],
   gastro: [
-    ['diarreia','Diarreia'], ['diurese','Diurese preservada'], ['evacuacoes','Evacuações preservadas'], ['vomitosEspontaneos','Vômitos espontâneos'], ['vomitosPosTosse','Vômitos pós-tosse'], ['vomitosCatarro','Vômitos com catarro'], ['vomitosPosPrandiais','Vômitos pós-prandiais']
+    ['diarreia','Diarreia'], ['evacuacoes','Evacuações preservadas'], ['vomitosEspontaneos','Vômitos espontâneos'], ['vomitosPosTosse','Vômitos pós-tosse'], ['vomitosCatarro','Vômitos com catarro'], ['vomitosPosPrandiais','Vômitos pós-prandiais']
+  ],
+  geniturinario: [
+    ['diurese','Diurese preservada']
   ],
   peleLesoes: [['lesoesPeleMucosas','Lesões de pele ou mucosas?']],
   pelePrurido: [['cocamLesoes','As lesões coçam?']],
@@ -269,7 +276,12 @@ const V=id=>(document.getElementById(id)?.value||'').trim();
 const R=id=>document.querySelector('input[name="'+id+'"]:checked')?.value||'ni';
 const cap=s=>s? s.charAt(0).toUpperCase()+s.slice(1):'';
 const low=s=>String(s||'').trim().toLowerCase();
-function add(arr,txt){ if(txt && String(txt).trim()) arr.push(String(txt).trim()); }
+function add(arr,txt){
+  const texto=String(txt||'').trim();
+  if(!texto) return;
+  const normalizar=s=>String(s||'').toLocaleLowerCase('pt-BR').replace(/\s+/g,' ').replace(/[.;:,]+$/g,'').trim();
+  if(!arr.some(item=>normalizar(item)===normalizar(texto))) arr.push(texto);
+}
 function joinPt(lista){ lista=lista.filter(Boolean); if(lista.length===0) return ''; if(lista.length===1) return lista[0]; return lista.slice(0,-1).join(', ')+' e '+lista[lista.length-1]; }
 function isNeg(texto){ return /^(nega|não|nao|sem|ausente|ausência|ausencia)$/i.test(String(texto||'').trim()); }
 function frase(txt){ txt=String(txt||'').trim(); if(!txt) return ''; return txt.endsWith('.') ? txt : txt+'.'; }
@@ -345,7 +357,7 @@ function gerarAnamneseNarrativa(){
   if(V('alergias')) cab.push('ALERGIAS: '+V('alergias').toUpperCase());
   if(V('comorbidades')) cab.push('COMORBIDADES: '+V('comorbidades').toUpperCase());
   if(V('medContinuas')) cab.push('MEDICAÇÕES DE USO CONTÍNUO: '+V('medContinuas').toUpperCase());
-  if(cab.length) blocos.push(cab.join('\n'));
+  if(cab.length) blocos.push(cab.join('; ')+'.');
 
   adicionarRespostas(blocos,'antecedentes','Antecedentes');
   adicionarCamposAbertos(blocos,[['doencasFamiliares','Doenças familiares'],['doencasHpp','Doenças da HPP']]);
@@ -383,9 +395,7 @@ function gerarAnamneseNarrativa(){
   if(R('diarreia')==='sim') add(blocos,'Apresenta diarreia'+(V('sangueMucoFezes') && !isNeg(V('sangueMucoFezes'))?', com '+low(V('sangueMucoFezes'))+' nas fezes':'')+'.');
   if(R('diarreia')==='nao') add(blocos,'Nega diarreia'+(V('sangueMucoFezes') && !isNeg(V('sangueMucoFezes'))?', porém há relato de '+low(V('sangueMucoFezes'))+' nas fezes':'')+'.');
   const elim=[];
-  if(R('diurese')==='sim') elim.push('diurese preservada'); else if(R('diurese')==='nao') elim.push('diurese alterada');
   if(R('evacuacoes')==='sim') elim.push('evacuações preservadas'); else if(R('evacuacoes')==='nao') elim.push('evacuações alteradas');
-  if(V('queixasUrinarias')) elim.push(isNeg(V('queixasUrinarias'))?'sem queixas urinárias':'queixas urinárias: '+low(V('queixasUrinarias')));
   if(V('queixasEvacuacao')) elim.push(isNeg(V('queixasEvacuacao'))?'sem queixas durante evacuação':'queixas durante evacuação: '+low(V('queixasEvacuacao')));
   if(V('sangueMucoFezes') && isNeg(V('sangueMucoFezes'))) elim.push('sem sangue ou muco em fezes');
   if(elim.length) add(blocos, cap(joinPt(elim))+'.');
@@ -418,6 +428,11 @@ function gerarAnamneseNarrativa(){
   adicionarRespostas(blocos,['cardioDor','cardioPalpitacoes','cardioCianose','cardioSincope'],'Sintomas cardiovasculares');
   adicionarCamposAbertos(blocos,[['localCianose','Local da cianose']]);
 
+  const genitourinario=[];
+  if(R('diurese')==='sim') genitourinario.push('diurese preservada'); else if(R('diurese')==='nao') genitourinario.push('diurese alterada');
+  if(V('queixasUrinarias')) genitourinario.push(isNeg(V('queixasUrinarias'))?'sem queixas urinárias':'queixas urinárias: '+low(V('queixasUrinarias')));
+  if(genitourinario.length) add(blocos, 'Sintomas geniturinários: '+joinPt(genitourinario)+'.');
+
   const acc=[];
   if(R('apetite')==='sim') acc.push('apetite preservado'); else if(R('apetite')==='nao') acc.push('hiporexia');
   if(R('consomeLiquidos')==='sim') acc.push('aceita líquidos'); else if(R('consomeLiquidos')==='nao') acc.push('baixa aceitação de líquidos');
@@ -431,7 +446,7 @@ function gerarAnamneseNarrativa(){
   if(V('medicacaoUsada')) add(blocos,'Medicações utilizadas e duração: '+V('medicacaoUsada')+'.');
   if(R('medicacaoAjudou')==='sim') add(blocos,'As medicações ajudaram a melhorar o sintoma.');
   if(R('medicacaoAjudou')==='nao') add(blocos,'As medicações não ajudaram a melhorar o sintoma.');
-  return blocos.join('\n\n');
+  return blocos.join(' ').replace(/\s+/g,' ').trim();
 }
 
 function gerarTextoCompleto(){
