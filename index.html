@@ -367,8 +367,10 @@ function gerarAnamneseNarrativa(){
   const tipoFebre=V('tipoFebre');
   if(R('febre')==='sim') add(blocos,'Há relato de febre'+(tipoFebre && tipoFebre!=='nao-informada'?', '+tipoFebre:'')+(V('picoFebril')?', com pico febril de '+V('picoFebril'):'')+'.');
   if(R('febre')==='nao') add(blocos,'Sem relato de febre.');
+  if(R('febre')==='ni' && V('picoFebril')) add(blocos,'Pico febril informado: '+V('picoFebril')+'.');
   if(R('dorGemencia')==='sim') add(blocos,'Há relato de dor, gemência ou choro persistente'+(V('localizaDor')?', com dor localizada em '+low(V('localizaDor')):'')+'.');
   if(R('dorGemencia')==='nao') add(blocos,'Acompanhante nega dor, gemência ou choro persistente.');
+  if(R('dorGemencia')==='ni' && V('localizaDor')) add(blocos,'Localização da dor informada: '+low(V('localizaDor'))+'.');
 
   adicionarRespostas(blocos,'respiratorio','Sintomas respiratórios');
   if(V('secrecoesAnormais') && !isNeg(V('secrecoesAnormais'))) add(blocos,'Secreções anormais: '+low(V('secrecoesAnormais'))+'.');
