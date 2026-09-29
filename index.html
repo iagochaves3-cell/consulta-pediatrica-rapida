@@ -11,7 +11,7 @@ header{text-align:center;padding:26px 12px 16px} header h1{margin:0 0 6px;font-s
 main{max-width:1120px;margin:auto;padding:0 12px 48px}.bar{position:sticky;top:8px;z-index:10;display:flex;gap:8px;flex-wrap:wrap;justify-content:center;background:#ffffffee;border:1px solid var(--border);border-radius:16px;padding:10px;box-shadow:0 8px 24px #0001;backdrop-filter:blur(8px)}
 .bloco{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:16px;margin:14px 0;box-shadow:0 8px 18px #0000000d}.bloco h2{font-size:1.05rem;margin:0 0 12px}.hint{font-size:.88rem;color:var(--muted);margin:6px 0 10px;line-height:1.35}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.checks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.full{grid-column:1/-1}.item{border:1px solid var(--border);border-radius:14px;padding:10px;background:#fbfcff}.ttl,label{font-weight:700;font-size:.92rem;display:block;margin-bottom:6px}
-input,textarea{width:100%;border:1px solid var(--border);border-radius:12px;padding:10px;font-size:1rem;background:#fff}textarea{min-height:84px;resize:vertical}.tall{min-height:180px}.extraTall{min-height:300px}
+input,textarea,select{width:100%;border:1px solid var(--border);border-radius:12px;padding:10px;font-size:1rem;background:#fff}textarea{min-height:84px;resize:vertical}.tall{min-height:180px}.extraTall{min-height:300px}
 button{border:0;border-radius:12px;padding:10px 12px;font-weight:700;cursor:pointer}.pri{background:var(--primary);color:white}.sec{background:var(--soft);color:var(--text)}.danger{background:#fff1f1;color:var(--danger);border:1px solid #f1caca}.radioGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.radioGrid label{font-weight:700;border:1px solid var(--border);border-radius:10px;background:#fff;padding:8px;text-align:center;margin:0}.radioGrid input{width:auto;margin-right:4px}.out{background:var(--dark);color:#fff}.out textarea{min-height:430px;background:#fff;color:#111}.mini{font-size:.82rem;color:var(--muted);font-weight:400}
 @media(max-width:760px){.grid,.checks{grid-template-columns:1fr}.bar{position:static}button{width:100%}.radioGrid{grid-template-columns:1fr}}
 </style>
@@ -57,9 +57,13 @@ button{border:0;border-radius:12px;padding:10px 12px;font-weight:700;cursor:poin
 
     <section class="bloco"><h2>3. Estado geral inicial</h2>
       <div id="estadoGeral" class="checks"></div>
+      <div id="perguntaFebre" class="checks"></div>
       <div class="grid">
         <p><label>Febre</label><select id="tipoFebre"><option value="">Não informado</option><option value="referida">Referida</option><option value="termometrada">Termometrada</option><option value="nao-informada">Não informada</option></select></p>
         <p><label>Qual foi o pico febril?</label><input id="picoFebril" placeholder="Ex.: 38,5 °C"></p>
+      </div>
+      <div id="perguntaDor" class="checks"></div>
+      <div class="grid">
         <p><label>Onde localiza a dor?</label><input id="localizaDor" placeholder="Ex.: abdome / ouvido direito / garganta"></p>
       </div>
     </section>
@@ -87,15 +91,13 @@ button{border:0;border-radius:12px;padding:10px 12px;font-weight:700;cursor:poin
       <div class="grid">
         <p><label>Onde estão as lesões ou onde estão mais concentradas?</label><input id="localLesoes" placeholder="Ex.: braços"></p>
         <p class="full"><label>Como são as lesões?</label><textarea id="comoLesoes" placeholder="Ex.: pápulas eritematosas isoladas"></textarea></p>
-      </div>
-      <div id="coceiraLesoes" class="checks"></div>
-      <div id="dorLesoes" class="checks"></div>
-      <div id="perguntaSecrecaoLesoes" class="checks"></div>
-      <div class="grid">
+        <p><label>As lesões coçam?</label><input id="cocamLesoes"></p>
+        <p><label>As lesões doem?</label><input id="dorLesoes"></p>
+        <p><label>Há secreção nas lesões?</label><input id="secrecaoLesoes"></p>
         <p><label>Como é a secreção?</label><input id="tipoSecrecaoLesoes"></p>
         <p><label>Onde as lesões iniciaram?</label><input id="inicioLesoes"></p>
+        <p><label>As lesões estão se disseminando?</label><input id="disseminacaoLesoes"></p>
       </div>
-      <div id="disseminacaoLesoes" class="checks"></div>
     </section>
 
     <section class="bloco"><h2>8. Aceitação, comportamento e sinais associados</h2><div id="aceitacao" class="checks"></div></section>
@@ -133,8 +135,8 @@ button{border:0;border-radius:12px;padding:10px 12px;font-weight:700;cursor:poin
 
     <section class="bloco"><h2>12. Outras informações e medicações</h2><div class="grid">
       <p><label>Outros sintomas?</label><textarea id="outrosSintomas"></textarea></p>
-      <p><label>Quais medicações sintomáticas utilizou e por quanto tempo?</label><textarea id="medicacaoUsada"></textarea></p>
       <p><label>Utilizou medicações sintomáticas?</label><select id="utilizouMedicacao"><option value="">Não informado</option><option value="sim">Sim</option><option value="nao">Não</option><option value="nao-informado">Não informado</option></select></p>
+      <p><label>Quais medicações sintomáticas utilizou e por quanto tempo?</label><textarea id="medicacaoUsada"></textarea></p>
       <p><label>Ajudaram a melhorar o sintoma?</label><input id="medicacaoAjudou"></p>
     </div></section>
 
@@ -158,7 +160,13 @@ button{border:0;border-radius:12px;padding:10px 12px;font-weight:700;cursor:poin
 <script>
 const grupos = {
   estadoGeral: [
-    ['ativaReativa','Ativa e reativa'], ['comportamentoHabitual','Comportamento habitual'], ['febre','Teve febre?'], ['dorGemencia','Apresenta dor, gemência ou choro persistente?']
+    ['ativaReativa','Ativa e reativa'], ['comportamentoHabitual','Comportamento habitual']
+  ],
+  perguntaFebre: [
+    ['febre','Teve febre?']
+  ],
+  perguntaDor: [
+    ['dorGemencia','Apresenta dor, gemência ou choro persistente?']
   ],
   sintomasIniciais: [
     ['sintomasOtologicos','Sintomas otológicos?'], ['sintomasIntraorais','Sintomas orais?'], ['sintomasOculares','Sintomas oculares?']
@@ -171,18 +179,6 @@ const grupos = {
   ],
   pele: [
     ['lesoesPeleMucosas','Lesões de pele ou mucosas?']
-  ],
-  coceiraLesoes: [
-    ['cocamLesoes','As lesões coçam?']
-  ],
-  dorLesoes: [
-    ['dorLesoes','As lesões doem?']
-  ],
-  perguntaSecrecaoLesoes: [
-    ['temSecrecaoLesoes','Há secreção nas lesões?']
-  ],
-  disseminacaoLesoes: [
-    ['disseminacaoLesoes','As lesões estão se disseminando?']
   ],
   historico: [
     ['historicoFamiliar','Histórico familiar de doenças crônicas?'], ['historicoPessoal','Histórico pessoal de doenças graves?']
@@ -217,7 +213,7 @@ function montarRadios(){
       return '<div class="item"><div class="ttl">'+a[1]+'</div><div class="radioGrid">'+
       '<label><input type="radio" name="'+a[0]+'" value="sim"> '+sim+'</label>'+
       '<label><input type="radio" name="'+a[0]+'" value="nao"> '+nao+'</label>'+
-      '<label><input type="radio" name="'+a[0]+'" value="ni" checked> N/I</label>'+
+      '<label><input type="radio" name="'+a[0]+'" value="ni" checked> NÃO INFORMADO</label>'+
       '</div></div>';
     }).join('');
   });
@@ -318,12 +314,14 @@ function gerarAnamneseNarrativa(){
   if(R('ativaReativa')==='nao') geralNeg.push('não está ativa ou reativa');
   if(R('comportamentoHabitual')==='nao') geralNeg.push('não mantém comportamento habitual');
   if(geralNeg.length) add(blocos,'Ao estado geral, '+joinPt(geralNeg)+'.');
-  if(R('febre')==='sim') add(blocos,'Há relato de febre'+(V('tipoFebre')==='referida'?' referida':V('tipoFebre')==='termometrada'?' termometrada':'')+(V('picoFebril')?', com pico de '+V('picoFebril'):'')+'.');
+  if(R('febre')==='sim') add(blocos,'Há relato de febre'+(V('tipoFebre')==='referida'?' referida':V('tipoFebre')==='termometrada'?' termometrada':'')+'.');
   if(R('febre')==='nao') add(blocos,'Nega febre.');
+  addTextResponses(blocos,[['picoFebril','Pico febril']]);
   const queixaOtologica=/otalgi|dor (?:no|de) ouvido|dor auricular/i.test(queixa);
   const dorLocalizadaNoOuvido=/ouvido|orelha|auricular/i.test(V('localizaDor'));
-  if(R('dorGemencia')==='sim' && !(queixaOtologica && (!V('localizaDor') || dorLocalizadaNoOuvido))) add(blocos,'Há relato de dor, gemência ou choro persistente'+(V('localizaDor')?', com dor localizada em '+low(V('localizaDor')):'')+'.');
-  if(R('dorGemencia')==='nao') add(blocos,'Acompanhante nega dor, gemência ou choro persistente'+(V('localizaDor')?', apesar de informar localização/queixa relacionada: '+low(V('localizaDor')):'')+'.');
+  if(R('dorGemencia')==='sim' && !(queixaOtologica && dorLocalizadaNoOuvido)) add(blocos,'Há relato de dor, gemência ou choro persistente.');
+  if(R('dorGemencia')==='nao') add(blocos,'Acompanhante nega dor, gemência ou choro persistente.');
+  if(V('localizaDor') && !(queixaOtologica && dorLocalizadaNoOuvido)) add(blocos,'Localização da dor: '+V('localizaDor')+'.');
 
   const sintomasIniciais=[];
   const sintomasIniciaisNeg=[];
@@ -354,7 +352,7 @@ function gerarAnamneseNarrativa(){
   if(R('diurese')==='sim') elim.push('diurese preservada'); else if(R('diurese')==='nao') elim.push('diurese alterada');
   if(V('queixasEvacuacao')) elim.push(isNeg(V('queixasEvacuacao'))?'sem queixas durante evacuação':'queixas durante evacuação: '+low(V('queixasEvacuacao')));
   if(V('queixasUrinarias')) elim.push(isNeg(V('queixasUrinarias'))?'sem queixas urinárias':'queixas urinárias: '+low(V('queixasUrinarias')));
-  if(V('sangueMucoFezes') && isNeg(V('sangueMucoFezes'))) elim.push('sem sangue ou muco em fezes');
+  if(V('sangueMucoFezes')) elim.push(isNeg(V('sangueMucoFezes'))?'sem sangue ou muco em fezes':'sangue ou muco em fezes: '+low(V('sangueMucoFezes')));
   if(elim.length) add(blocos, cap(joinPt(elim))+'.');
 
   const vom=[]; const vomNeg=[];
@@ -362,26 +360,29 @@ function gerarAnamneseNarrativa(){
   if(vom.length) add(blocos,'Apresenta vômitos '+joinPt(vom)+'.');
   else if(vomNeg.length===4) add(blocos,'Não apresentou vômitos.');
   else if(vomNeg.length) add(blocos,'Nega vômitos '+joinPt(vomNeg)+'.');
-  if(R('diarreia')==='sim') add(blocos,'Apresenta diarreia'+(V('sangueMucoFezes') && !isNeg(V('sangueMucoFezes'))?', com '+low(V('sangueMucoFezes'))+' nas fezes':'')+'.');
-  if(R('diarreia')==='nao') add(blocos,'Nega diarreia'+(V('sangueMucoFezes') && !isNeg(V('sangueMucoFezes'))?', porém há relato de '+low(V('sangueMucoFezes'))+' nas fezes':'')+'.');
+  if(R('diarreia')==='sim') add(blocos,'Apresenta diarreia.');
+  if(R('diarreia')==='nao') add(blocos,'Nega diarreia.');
   const lesoes=[];
   if(R('lesoesPeleMucosas')==='sim') lesoes.push('apresenta lesões de pele ou mucosas');
   else if(R('lesoesPeleMucosas')==='nao') lesoes.push('nega lesões de pele ou mucosas');
   if(V('localLesoes')) lesoes.push('localizadas ou mais concentradas em '+low(V('localLesoes')));
   if(V('comoLesoes')) lesoes.push('com aspecto '+low(V('comoLesoes')));
-  if(R('cocamLesoes')==='sim') lesoes.push('lesões pruriginosas');
-  else if(R('cocamLesoes')==='nao') lesoes.push('nega prurido nas lesões');
-  if(R('dorLesoes')==='sim') lesoes.push('lesões dolorosas');
-  else if(R('dorLesoes')==='nao') lesoes.push('nega dor nas lesões');
-  if(R('temSecrecaoLesoes')==='sim') lesoes.push('há secreção nas lesões');
-  else if(R('temSecrecaoLesoes')==='nao') lesoes.push('nega secreção nas lesões');
+  if(V('cocamLesoes')) lesoes.push('prurido: '+low(V('cocamLesoes')));
+  if(V('dorLesoes')) lesoes.push('dor: '+low(V('dorLesoes')));
+  if(V('secrecaoLesoes')) lesoes.push('secreção nas lesões: '+low(V('secrecaoLesoes')));
   if(V('tipoSecrecaoLesoes')) lesoes.push('secreção '+low(V('tipoSecrecaoLesoes')));
   if(V('inicioLesoes')) lesoes.push('iniciadas em '+low(V('inicioLesoes')));
-  if(R('disseminacaoLesoes')==='sim') lesoes.push('em disseminação');
-  else if(R('disseminacaoLesoes')==='nao') lesoes.push('sem disseminação');
+  if(V('disseminacaoLesoes')) lesoes.push('disseminação: '+low(V('disseminacaoLesoes')));
   if(lesoes.length) add(blocos,'Pele e mucosas: '+joinPt(lesoes)+'.');
 
-  addYesNoResponses(blocos,'Relata','Nega',[
+  const acc=[];
+  if(R('apetite')==='sim') acc.push('apetite preservado'); else if(R('apetite')==='nao') acc.push('hiporexia');
+  if(R('consomeLiquidos')==='sim') acc.push('aceita líquidos'); else if(R('consomeLiquidos')==='nao') acc.push('baixa aceitação de líquidos');
+  if(R('estadoClinico')==='sim') acc.push('estado geral preservado'); else if(R('estadoClinico')==='nao') acc.push('prostração ou irritabilidade');
+  if(R('sialorreia')==='sim') acc.push('sialorreia ou manipulação intraoral persistente'); else if(R('sialorreia')==='nao') acc.push('sem sialorreia ou manipulação intraoral persistente');
+  if(acc.length) add(blocos, cap(joinPt(acc))+'.');
+
+  addYesNoResponses(blocos,'Sintomas cardiovasculares: relata','Sintomas cardiovasculares: nega',[
     ['dorPeito','dor no peito','dor no peito'],
     ['palpitacoes','palpitações','palpitações'],
     ['cianose','cianose','cianose'],
@@ -389,7 +390,7 @@ function gerarAnamneseNarrativa(){
   ]);
   addTextResponses(blocos,[['localCianose','Local da cianose']]);
 
-  addYesNoResponses(blocos,'Sintomas neurológicos relatados','Sintomas neurológicos negados',[
+  addYesNoResponses(blocos,'Sintomas neurológicos: apresenta','Sintomas neurológicos: nega',[
     ['interageComandos','interação conforme comandos','interação conforme comandos'],
     ['movimentosAnormais','movimentos anormais','movimentos anormais'],
     ['sincope','síncope','síncope'],
@@ -417,13 +418,6 @@ function gerarAnamneseNarrativa(){
     ['sensibilidadePreservada','sensibilidade preservada','sensibilidade preservada']
   ]);
 
-  const acc=[];
-  if(R('apetite')==='sim') acc.push('apetite preservado'); else if(R('apetite')==='nao') acc.push('hiporexia');
-  if(R('consomeLiquidos')==='sim') acc.push('aceita líquidos'); else if(R('consomeLiquidos')==='nao') acc.push('baixa aceitação de líquidos');
-  if(R('estadoClinico')==='sim') acc.push('estado geral preservado'); else if(R('estadoClinico')==='nao') acc.push('prostração ou irritabilidade');
-  if(R('sialorreia')==='sim') acc.push('sialorreia ou manipulação intraoral persistente'); else if(R('sialorreia')==='nao') acc.push('sem sialorreia ou manipulação intraoral persistente');
-  if(acc.length) add(blocos, cap(joinPt(acc))+'.');
-
   if(V('outrosSintomas')) add(blocos,'Outros sintomas relatados: '+V('outrosSintomas')+'.');
   if(V('utilizouMedicacao')==='sim') add(blocos,'Utilizou medicações sintomáticas.');
   if(V('utilizouMedicacao')==='nao') add(blocos,'Não utilizou medicações sintomáticas.');
@@ -434,7 +428,8 @@ function gerarAnamneseNarrativa(){
 
 function gerarTextoCompleto(){
   const partes=[];
-  add(partes, 'ANAMNESE\n'+gerarAnamneseNarrativa());
+  const anamnese=gerarAnamneseNarrativa();
+  if(anamnese) add(partes, 'ANAMNESE\n'+anamnese);
   add(partes, 'EXAME FÍSICO\n'+gerarExameFisico());
   if(V('hipoteses')) add(partes, 'HIPÓTESES DIAGNÓSTICAS\n'+V('hipoteses'));
   if(V('condutas')) add(partes, 'CONDUTAS\n'+V('condutas'));
@@ -447,9 +442,9 @@ function limparFormulario(){ if(!confirm('Limpar todos os campos?')) return; doc
 function preencherHigida(){
   limparSemConfirmar();
   peso.value='15 kg'; alergias.value='nega'; comorbidades.value='nega'; medContinuas.value='nega';
-  queixa.value='sem queixas no momento, vem realizar consulta de rotina porque teve pneumonia ano passado'; picoFebril.value='sem picos térmicos termometrados';
+  queixa.value='sem queixas no momento, vem realizar consulta de rotina porque teve pneumonia ano passado'; picoFebril.value='';
   ['ativaReativa','comportamentoHabitual','diurese','evacuacoes','consomeLiquidos','apetite','estadoClinico'].forEach(x=>setRadio(x,'sim'));
-  ['febre','dorGemencia','corizaCongestao','tosseSecretiva','tosseSeca','dispneia','cansaco','chieira','outrosRespBaixos','diarreia','vomitosEspontaneos','vomitosPosTosse','vomitosCatarro','vomitosPosPrandiais','lesoesPeleMucosas','cocamLesoes','dorLesoes','sialorreia'].forEach(x=>setRadio(x,'nao'));
+  ['febre','dorGemencia','coriza','congestaoNasal','tosseSecretiva','tosseSeca','dispneia','respiracaoBucal','respiracaoOfegante','roncos','pioraNoturna','chieira','outrosRespBaixos','diarreia','vomitosEspontaneos','vomitosPosTosse','vomitosCatarro','vomitosPosPrandiais','lesoesPeleMucosas','sialorreia'].forEach(x=>setRadio(x,'nao'));
   queixasUrinarias.value='nega'; queixasEvacuacao.value='nega'; sangueMucoFezes.value='nega'; secrecoesAnormais.value='nega';
   gerarTextoCompleto();
 }
