@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       confirmacao:
-        description: 'Digite PUBLICAR para iniciar a publicação da branch main'
+        description: "Confirme a publicação"
         required: true
         type: choice
         options:
