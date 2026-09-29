@@ -1,2 +1,3 @@
-# consulta-pediatrica-rapida
-Apoio durante consulta em pronto atendimento 
+# Compêndio Pediátrico
+
+Site oficial: [https://iagochaves3-cell.github.io/compeniowb](https://iagochaves3-cell.github.io/compeniowb)
