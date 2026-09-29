@@ -198,7 +198,7 @@ const grupos = {
     ['dorPeito','Dor no peito?'], ['palpitacoes','Palpitações?'], ['cianose','Cianose?'], ['sincopeAbrupta','Síncope abrupta?']
   ],
   neurologico: [
-    ['interageComandos','Interage conforme comandos?'], ['movimentosAnormais','Movimentos anormais?'], ['sincope','Síncope?'], ['convulsoes','Convulsões?'], ['sonolenciaExcessiva','Sonolência excessiva?'], ['choroInconsolavel','Choro inconsolável?'], ['comportamentoAnormal','Comportamento anormal?'], ['vomitosJato','Vômitos em jato?'], ['cefaleiaIntratavel','Cefaleia intratável?'], ['hematomaSubgaleal','Hematoma subgaleal?'], ['bateuCabeca','Bateu a cabeça?']
+    ['consciente','Consciente?'], ['orientada','Orientada?'], ['alerta','Alerta?'], ['interageComandos','Interage conforme comandos?'], ['movimentosAnormais','Movimentos anormais?'], ['sincope','Síncope?'], ['convulsoes','Convulsões?'], ['sonolenciaExcessiva','Sonolência excessiva?'], ['choroInconsolavel','Choro inconsolável?'], ['comportamentoAnormal','Comportamento anormal?'], ['vomitosJato','Vômitos em jato?'], ['cefaleiaIntratavel','Cefaleia intratável?'], ['hematomaSubgaleal','Hematoma subgaleal?'], ['bateuCabeca','Bateu a cabeça?']
   ],
   traumaLocomotor: [
     ['historicoTrauma','Histórico de trauma?']
@@ -410,6 +410,9 @@ function gerarAnamneseNarrativa(){
   addTextResponses(blocos,[['localCianose','Local da cianose']]);
 
   addYesNoResponses(blocos,'Sintomas neurológicos: apresenta','Sintomas neurológicos: nega',[
+    ['consciente','consciência preservada','alteração da consciência'],
+    ['orientada','orientação preservada','desorientação'],
+    ['alerta','estado de alerta preservado','redução do estado de alerta'],
     ['interageComandos','interação conforme comandos','interação conforme comandos'],
     ['movimentosAnormais','movimentos anormais','movimentos anormais'],
     ['sincope','síncope','síncope'],
