@@ -6,7 +6,9 @@ on:
       confirmacao:
         description: 'Digite PUBLICAR para iniciar a publicação da branch main'
         required: true
-        type: string
+        type: choice
+        options:
+          - PUBLICAR
 
 permissions:
   contents: read
