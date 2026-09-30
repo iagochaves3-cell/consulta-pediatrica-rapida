@@ -392,6 +392,11 @@ function separarAlteracoesExame(alt){
   const divisor=new RegExp(';\\s*(?='+prefixos+'\\s*:)', 'i');
   return String(alt||'').split(/\n+/).flatMap(linha=>linha.split(divisor)).map(x=>x.trim()).filter(Boolean);
 }
+function adicionarAchadoUnico(lista,texto){
+  const achado=frase(cap(texto));
+  const normalizar=s=>normalizarTermoExame(s).replace(/\s+/g,' ').replace(/[.;:,]+$/g,'').trim();
+  if(!lista.some(item=>normalizar(item)===normalizar(achado))) lista.push(achado);
+}
 function gerarExameFisico(){
   const alt=V('alteracoesExame');
   const secoes=Object.assign({}, examePadrao);
@@ -409,9 +414,9 @@ function gerarExameFisico(){
       if(!chave) chave=detectarSistemaExame(parte);
       if(chave){
         if(!alteracoesPorSistema[chave]) alteracoesPorSistema[chave]=[];
-        alteracoesPorSistema[chave].push(frase(cap(texto)));
+        adicionarAchadoUnico(alteracoesPorSistema[chave],texto);
       }else{
-        naoClassificadas.push(frase(cap(parte)));
+        adicionarAchadoUnico(naoClassificadas,parte);
       }
     });
     Object.entries(alteracoesPorSistema).forEach(([chave,textos])=>{ secoes[chave]=textos.join(' '); });
@@ -533,3 +538,4 @@ function limparSemConfirmar(){ document.getElementById('formulario').reset(); do
 </script>
 </body>
 </html>
+
