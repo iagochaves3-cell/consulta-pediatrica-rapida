@@ -8,12 +8,15 @@ const script = html.match(/<script>([\s\S]*)<\/script>/)?.[1];
 assert.ok(script, 'inline application script not found');
 
 const elements = new Map();
+const selectedRadios = new Map();
+const clipboardWrites = [];
 function element(id) {
   if (!elements.has(id)) {
     elements.set(id, {
       id,
       value: '',
       innerHTML: '',
+      textContent: '',
       checked: false,
       reset() {
         for (const item of elements.values()) item.value = '';
@@ -29,7 +32,9 @@ const context = {
   document: {
     getElementById: element,
     querySelector(selector) {
-      return selector.includes(':checked') ? { value: 'ni' } : null;
+      if (!selector.includes(':checked')) return null;
+      const name = selector.match(/name="([^"]+)"/)?.[1];
+      return { value: selectedRadios.get(name) || 'ni' };
     },
     querySelectorAll() {
       return [];
@@ -38,7 +43,7 @@ const context = {
       return true;
     },
   },
-  navigator: { clipboard: { writeText: async () => {} } },
+  navigator: { clipboard: { writeText: async (text) => clipboardWrites.push(text) } },
   alert() {},
   confirm() {
     return true;
@@ -47,6 +52,10 @@ const context = {
 
 vm.createContext(context);
 vm.runInContext(script, context, { filename: 'index-inline.js' });
+
+function setRadio(name, value) {
+  selectedRadios.set(name, value);
+}
 
 test('deduplicates repeated findings and preserves canonical system order', () => {
   element('alteracoesExame').value = [
@@ -66,4 +75,74 @@ test('deduplicates repeated findings and preserves canonical system order', () =
   assert.ok(report.indexOf('- SR:') < report.indexOf('- SCV:'));
   assert.doesNotMatch(report, /Ritmo cardíaco regular, em dois tempos/);
   assert.doesNotMatch(report, /Tórax simétrico, com boa expansibilidade bilateral/);
+});
+
+test('identification output contains only requested clinical details', () => {
+  element('nomePaciente').value = 'Ana';
+  element('idadePaciente').value = '4 anos';
+  element('peso').value = '15 kg';
+  element('alergias').value = 'nega';
+  element('comorbidades').value = 'asma';
+  element('medContinuas').value = 'salbutamol';
+  element('doencasFamiliares').value = 'diabetes';
+  element('doencasHpp').value = 'pneumonia prévia';
+  setRadio('historicoFamiliar', 'sim');
+  setRadio('historicoPessoal', 'nao');
+
+  const text = vm.runInContext('gerarIdentificacao()', context);
+
+  assert.match(text, /Peso: 15 kg/);
+  assert.match(text, /Alergias: nega/);
+  assert.match(text, /Na história familiar, há diabetes/);
+  assert.match(text, /Na história patológica pregressa, consta pneumonia prévia/);
+  assert.doesNotMatch(text, /Ana|4 anos/);
+});
+
+test('item 2–12 narrative omits N/I and phrases the separate symptoms naturally', () => {
+  element('queixa').value = 'tosse';
+  element('diasSintomas').value = '2 dias';
+  element('localizaDor').value = 'abdome';
+  element('tempoSemEvacuar').value = '3 dias';
+  setRadio('febre', 'nao');
+  setRadio('dor', 'sim');
+  setRadio('gemencia', 'ni');
+  setRadio('choroPersistente', 'nao');
+  setRadio('constipacao', 'sim');
+
+  const text = vm.runInContext('gerarAnamneseNarrativa()', context);
+
+  assert.match(text, /Acompanhante nega febre/);
+  assert.match(text, /Apresenta dor localizada em abdome/);
+  assert.match(text, /Acompanhante nega choro persistente/);
+  assert.match(text, /sem evacuar há 3 dias/);
+  assert.doesNotMatch(text, /N\/I|dor, gemência ou choro persistente|febre:\s*nega/);
+});
+
+test('generation fills four independent outputs with replacement exam and spaced conduct', () => {
+  element('peso').value = '15 kg';
+  element('queixa').value = 'tosse';
+  element('alteracoesExame').value = 'SR: sibilos difusos';
+  element('hipoteses').value = 'IVAS';
+  element('condutas').value = '- Orientações e retorno se sinais de alarme.';
+
+  vm.runInContext('gerarTextoCompleto()', context);
+
+  assert.match(element('textoIdentificacao').value, /Peso: 15 kg/);
+  assert.match(element('textoAnamnese').value, /Criança comparece ao PA por tosse/);
+  assert.match(element('textoExame').value, /- SR: Sibilos difusos\./);
+  assert.doesNotMatch(element('textoExame').value, /Murmúrio vesicular fisiológico/);
+  assert.equal(element('textoHipotesesCondutas').value, 'IVAS\n\n\n- Orientações e retorno se sinais de alarme.');
+  assert.match(html, /id="textoIdentificacao"/);
+  assert.match(html, /id="textoAnamnese"/);
+  assert.match(html, /id="textoExame"/);
+  assert.match(html, /id="textoHipotesesCondutas"/);
+});
+
+test('copy action copies the selected output textarea', async () => {
+  element('textoExame').value = 'Exame físico';
+
+  await vm.runInContext("copiarCaixa('textoExame', 'statusExame')", context);
+
+  assert.equal(clipboardWrites.at(-1), 'Exame físico');
+  assert.equal(element('statusExame').textContent, 'Texto copiado.');
 });
