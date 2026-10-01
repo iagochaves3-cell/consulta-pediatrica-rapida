@@ -26,6 +26,9 @@ body {
 
 button, input, textarea { font: inherit; }
 button { cursor: pointer; }
+.resultado-grid { display: grid; gap: 14px; }
+.resultado-grid label { display: flex; flex-direction: column; gap: 7px; color: #53635e; font-size: 11px; font-weight: 600; }
+.resultado-grid textarea { width: 100%; min-height: 120px; padding: 10px 11px; border: 1px solid #e8eeea; border-radius: 7px; outline: none; background: #fbfcfb; color: #2b3d39; resize: vertical; line-height: 1.5; }
 
 .topbar {
   height: 68px;

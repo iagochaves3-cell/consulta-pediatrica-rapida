@@ -217,7 +217,15 @@ textarea{min-height:56px;resize:vertical;line-height:1.3}.tall{min-height:120px}
     </details>
   </form>
 
-  <section class="bloco out"><h2>Texto final da consulta</h2><textarea id="textoFinal" placeholder="Clique em GERAR TEXTO COMPLETO..."></textarea></section>
+  <section class="bloco out">
+    <h2>Texto final da consulta</h2>
+    <div class="resultado-grid">
+      <label>Item 1<textarea id="textoItem1" placeholder="Clique em GERAR TEXTO COMPLETO..."></textarea></label>
+      <label>Itens 2 a 12<textarea id="textoItens2a12" placeholder="Clique em GERAR TEXTO COMPLETO..."></textarea></label>
+      <label>Item 13<textarea id="textoItem13" placeholder="Clique em GERAR TEXTO COMPLETO..."></textarea></label>
+      <label>Item 14<textarea id="textoItem14" placeholder="Clique em GERAR TEXTO COMPLETO..."></textarea></label>
+    </div>
+  </section>
 </main>
 
 <script>
@@ -427,16 +435,6 @@ function gerarExameFisico(){
 
 function gerarAnamneseNarrativa(){
   const blocos=[]; const cab=[];
-  if(V('nomePaciente')) cab.push('NOME: '+V('nomePaciente').toUpperCase());
-  if(V('idadePaciente')) cab.push('IDADE: '+V('idadePaciente').toUpperCase());
-  if(V('peso')) cab.push('PESO: '+V('peso').toUpperCase());
-  if(V('alergias')) cab.push('ALERGIAS: '+V('alergias').toUpperCase());
-  if(V('comorbidades')) cab.push('COMORBIDADES: '+V('comorbidades').toUpperCase());
-  if(V('medContinuas')) cab.push('MEDICAÇÕES DE USO CONTÍNUO: '+V('medContinuas').toUpperCase());
-  if(cab.length) blocos.push(cab.join('; ')+'.');
-  adicionarRespostas(blocos,'antecedentes','Antecedentes');
-  adicionarCamposAbertos(blocos,[['doencasFamiliares','Doenças familiares'],['doencasHpp','Doenças da HPP']]);
-
   const queixa=V('queixa'), dias=V('diasSintomas');
   if(queixa && dias) add(blocos,'Criança comparece ao PA por '+low(queixa)+', com '+low(dias)+' de evolução.');
   else if(queixa) add(blocos,'Criança comparece ao PA por '+low(queixa)+'.');
@@ -510,18 +508,45 @@ function gerarAnamneseNarrativa(){
   return blocos.join(' ').replace(/\s+/g,' ').trim();
 }
 
-function gerarTextoCompleto(){
-  const partes=[];
-  add(partes, 'ANAMNESE\n'+gerarAnamneseNarrativa());
-  add(partes, 'EXAME FÍSICO\n'+gerarExameFisico());
-  if(V('hipoteses')) add(partes, 'HIPÓTESES DIAGNÓSTICAS\n'+V('hipoteses'));
-  if(V('condutas')) add(partes, 'CONDUTAS\n'+V('condutas'));
-  document.getElementById('textoFinal').value = partes.filter(Boolean).join('\n\n');
-  return document.getElementById('textoFinal').value;
+function gerarIdentificacaoAntecedentes(){
+  const blocos=[]; const cab=[];
+  if(V('nomePaciente')) cab.push('NOME: '+V('nomePaciente').toUpperCase());
+  if(V('idadePaciente')) cab.push('IDADE: '+V('idadePaciente').toUpperCase());
+  if(V('peso')) cab.push('PESO: '+V('peso').toUpperCase());
+  if(V('alergias')) cab.push('ALERGIAS: '+V('alergias').toUpperCase());
+  if(V('comorbidades')) cab.push('COMORBIDADES: '+V('comorbidades').toUpperCase());
+  if(V('medContinuas')) cab.push('MEDICAÇÕES DE USO CONTÍNUO: '+V('medContinuas').toUpperCase());
+  if(cab.length) blocos.push(cab.join('; ')+'.');
+  adicionarRespostas(blocos,'antecedentes','Antecedentes');
+  adicionarCamposAbertos(blocos,[['doencasFamiliares','Doenças familiares'],['doencasHpp','Doenças da HPP']]);
+  return blocos.join(' ').replace(/\s+/g,' ').trim();
 }
-async function copiarTexto(){ const t=gerarTextoCompleto(); if(!t){alert('Nenhum texto gerado.');return;} try{await navigator.clipboard.writeText(t); alert('Texto copiado.');}catch(e){document.getElementById('textoFinal').select(); document.execCommand('copy'); alert('Texto selecionado/copiadável.');}}
+
+function juntarTextoFinal(){
+  return [
+    document.getElementById('textoItem1').value,
+    document.getElementById('textoItens2a12').value,
+    document.getElementById('textoItem13').value,
+    document.getElementById('textoItem14').value,
+  ].filter(Boolean).join('\n\n');
+}
+
+function gerarTextoCompleto(){
+  const item1 = gerarIdentificacaoAntecedentes();
+  const itens2a12 = gerarAnamneseNarrativa();
+  const item13 = gerarExameFisico();
+  const hipotese = V('hipoteses');
+  const condutas = V('condutas');
+  const item14 = [hipotese, condutas].filter(Boolean).join('\n\n\n');
+  document.getElementById('textoItem1').value = item1;
+  document.getElementById('textoItens2a12').value = itens2a12;
+  document.getElementById('textoItem13').value = item13;
+  document.getElementById('textoItem14').value = item14;
+  return juntarTextoFinal();
+}
+async function copiarTexto(){ const t=gerarTextoCompleto(); if(!t){alert('Nenhum texto gerado.');return;} try{await navigator.clipboard.writeText(t); alert('Texto copiado.');}catch(e){document.getElementById('textoItem1').select(); document.execCommand('copy'); alert('Texto selecionado/copiadável.');}}
 function setRadio(id,val){ const el=document.querySelector('input[name="'+id+'"][value="'+val+'"]'); if(el) el.checked=true; }
-function limparFormulario(){ if(!confirm('Limpar todos os campos?')) return; document.getElementById('formulario').reset(); document.querySelectorAll('input[value="ni"]').forEach(e=>e.checked=true); document.getElementById('condutas').value='- Prescrevo sintomáticos como medidas suportivas devido à condição de base.\n- Oriento ao acompanhante sinais e sintomas de alarme.\n- Acompanhante ciente e concordante com plano terapêutico proposto.\n- Deixo-me à disposição para esclarecimento de dúvidas ou eventuais ocorrências.'; document.getElementById('textoFinal').value=''; }
+function limparFormulario(){ if(!confirm('Limpar todos os campos?')) return; document.getElementById('formulario').reset(); document.querySelectorAll('input[value="ni"]').forEach(e=>e.checked=true); document.getElementById('condutas').value='- Prescrevo sintomáticos como medidas suportivas devido à condição de base.\n- Oriento ao acompanhante sinais e sintomas de alarme.\n- Acompanhante ciente e concordante com plano terapêutico proposto.\n- Deixo-me à disposição para esclarecimento de dúvidas ou eventuais ocorrências.'; limparResultados(); }
 function preencherHigida(){
   limparSemConfirmar();
   peso.value='15 kg'; alergias.value='nega'; comorbidades.value='nega'; medContinuas.value='nega';
@@ -534,8 +559,8 @@ function preencherHigida(){
   queixasUrinarias.value='nega'; queixasEvacuacao.value='nega'; sangueMucoFezes.value='nega'; secrecoesAnormais.value='nega';
   gerarTextoCompleto();
 }
-function limparSemConfirmar(){ document.getElementById('formulario').reset(); document.querySelectorAll('input[value="ni"]').forEach(e=>e.checked=true); document.getElementById('condutas').value='- Prescrevo sintomáticos como medidas suportivas devido à condição de base.\n- Oriento ao acompanhante sinais e sintomas de alarme.\n- Acompanhante ciente e concordante com plano terapêutico proposto.\n- Deixo-me à disposição para esclarecimento de dúvidas ou eventuais ocorrências.'; document.getElementById('textoFinal').value=''; }
+function limparResultados(){ ['textoItem1','textoItens2a12','textoItem13','textoItem14'].forEach(id=>document.getElementById(id).value=''); }
+function limparSemConfirmar(){ document.getElementById('formulario').reset(); document.querySelectorAll('input[value="ni"]').forEach(e=>e.checked=true); document.getElementById('condutas').value='- Prescrevo sintomáticos como medidas suportivas devido à condição de base.\n- Oriento ao acompanhante sinais e sintomas de alarme.\n- Acompanhante ciente e concordante com plano terapêutico proposto.\n- Deixo-me à disposição para esclarecimento de dúvidas ou eventuais ocorrências.'; limparResultados(); }
 </script>
 </body>
 </html>
-
