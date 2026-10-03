@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: read
+  actions: write
   pages: write
   id-token: write
 
@@ -41,15 +42,38 @@ jobs:
         with:
           ref: principal
 
+      - name: Testar site
+        run: node --test tests/*.test.mjs
+
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
         with:
           enablement: true
 
+      - name: Build site
+        run: |
+          rm -rf dist
+          mkdir -p dist
+          cp .nojekyll index.html app.js styles.css dist/
+          cp -R pedwb dist/
+
+      - name: Clean previous Pages artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          artifact_ids=$(gh api --paginate "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" \
+            --jq '.artifacts[] | select(.name == "github-pages") | .id')
+          while IFS= read -r artifact_id; do
+            if [ -n "$artifact_id" ]; then
+              gh api --method DELETE "repos/$GITHUB_REPOSITORY/actions/artifacts/$artifact_id"
+            fi
+          done <<< "$artifact_ids"
+
       - name: Preparar arquivos do site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
+          retention-days: 1
 
       - name: Publicar site
         id: deployment
