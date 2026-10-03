@@ -146,3 +146,45 @@ test('copy action copies the selected output textarea', async () => {
   assert.equal(clipboardWrites.at(-1), 'Exame físico');
   assert.equal(element('statusExame').textContent, 'Texto copiado.');
 });
+
+test('compact layout is restricted to the nine requested sections', () => {
+  const sections = [...html.matchAll(/<details class="([^"]+)"[^>]*>\s*<summary><span class="num">(\d+)<\/span>/g)];
+  assert.equal(sections.length, 14);
+  assert.deepEqual(
+    sections.filter(([, classes]) => classes.split(' ').includes('compact')).map(([, , number]) => Number(number)),
+    [1, 4, 5, 6, 7, 8, 9, 10, 11],
+  );
+});
+
+test('acceptance renders two independent general-state fields defaulting to N/I', () => {
+  const markup = element('aceitacao').innerHTML;
+  assert.equal((markup.match(/class="ttl">Estado geral\?/g) || []).length, 2);
+  for (const name of ['estadoClinico', 'estadoIrritabilidade']) {
+    assert.equal((markup.match(new RegExp(`name="${name}"`, 'g')) || []).length, 3);
+    assert.match(markup, new RegExp(`name="${name}" value="ni" checked`));
+  }
+  assert.match(markup, /name="estadoClinico" value="nao"> Prostração/);
+  assert.match(markup, /name="estadoIrritabilidade" value="nao"> Irritabilidade/);
+});
+
+test('prostration and irritability are reported independently for every response combination', () => {
+  selectedRadios.clear();
+  for (const item of elements.values()) item.value = '';
+  const cases = [
+    ['ni', 'ni', ''],
+    ['sim', 'ni', 'Estado geral preservado.'],
+    ['nao', 'ni', 'Prostração.'],
+    ['ni', 'sim', 'Sem irritabilidade.'],
+    ['ni', 'nao', 'Irritabilidade.'],
+    ['sim', 'sim', 'Estado geral preservado.'],
+    ['sim', 'nao', 'Irritabilidade, sem prostração.'],
+    ['nao', 'sim', 'Prostração e sem irritabilidade.'],
+    ['nao', 'nao', 'Prostração e irritabilidade.'],
+  ];
+  for (const [prostration, irritability, expected] of cases) {
+    setRadio('estadoClinico', prostration);
+    setRadio('estadoIrritabilidade', irritability);
+    assert.equal(vm.runInContext('gerarAnamneseNarrativa()', context), expected);
+  }
+  selectedRadios.clear();
+});
