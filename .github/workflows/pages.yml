@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: write
   pages: write
   id-token: write
 concurrency:
@@ -21,16 +22,34 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: principal
-      - name: Test exam report deduplication
-        run: node --test tests/exam-dedup.test.mjs
+      - name: Test site
+        run: node --test tests/*.test.mjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
           enablement: true
+      - name: Build site
+        run: |
+          rm -rf dist
+          mkdir -p dist
+          cp .nojekyll index.html app.js styles.css dist/
+          cp -R pedwb dist/
+      - name: Clean previous Pages artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          artifact_ids=$(gh api --paginate "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" \
+            --jq '.artifacts[] | select(.name == "github-pages") | .id')
+          while IFS= read -r artifact_id; do
+            if [ -n "$artifact_id" ]; then
+              gh api --method DELETE "repos/$GITHUB_REPOSITORY/actions/artifacts/$artifact_id"
+            fi
+          done <<< "$artifact_ids"
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
+          retention-days: 1
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
