@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T06:02:52.774511+00:00",
+  "publishedAt": "2026-10-04T07:24:54.852946+00:00",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 13,
-  "savedCorpusSha256": "10ed2fc7fd1fb68844883ed9ee810369789114f3d2ed42546831680c08ff278a",
-  "publicCorpusSha256": "ac71f4d341a15ba3313e719dcddcc1d9ee81d462c140363e8809004dfdc6f757",
+  "sourceVersion": 14,
+  "savedCorpusSha256": "18e257dc7758d5dab62b2177e9fb88f39010bc71459a05aadd0dbb4b7e5764e8",
+  "publicCorpusSha256": "a36678664abec3a11a67eee9780305546cca596aecf521816f104921c693ca29",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "2e3aa15cf69e8f93091f00a7be072e75e1168f50",
+  "sourceBaselineCommit": "e68aa23b4e77b2f3367e546e511a392215d26915",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -145,13 +145,25 @@
       "bodySha256": "6d2feef5af8867efe7b9d549725d748aa356a227ce6aebf25e87684102d60c3b",
       "savedBlockSha256": "ea017d29fb64249e8b0201513b15ad64cbe56be7d3e3d2f2a0deb3e5c5b4cc7b",
       "reviewEnvelopeSha256": "ec666f3ab64b097017fa97747903f44e3b3938b112d780df8289927f4b13fc4e"
+    },
+    {
+      "title": "Síndrome de Mallory-Weiss",
+      "savedOrdinal": 87,
+      "publicOrdinal": 278,
+      "stableIdentity": "pedwb:sindrome-de-mallory-weiss",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de gastroenterologia/endoscopia pediátrica, cirurgia, anestesia/sedação, farmácia e revisão humana; selecionar protocolo local de hemorragia digestiva/hemostasia. Não promover técnica, PPI, antiemético, vasoativo, dose, preparo, volume ou intervalo universal.",
+      "bodySha256": "e7842d0abe7b87206ba4bcc4318604163eda7549b5f7c1e52f35652efa895e74",
+      "savedBlockSha256": "ce9106585398026e790128590c04c11b57a9c228f40c9facfbbb57b4b1e3b521",
+      "reviewEnvelopeSha256": "81a817f5013065c669393dd09282c53066f8b16a398e4e2ca89bd90c2b9491c3"
     }
   ],
   "previousPublication": {
-    "publishedAt": "2026-10-04T04:34:17.944025+00:00",
-    "sourceVersion": 12,
-    "savedCorpusSha256": "9d6a30e3c0699613a4e0198eb1b8985d0f7cea2ad9bf1bde8adb63ce41320b30",
-    "publicCorpusSha256": "93a4a30573149d736096bf689f4103faa440af5fd700b5a97788260a37c43695",
-    "sourceBaselineCommit": "6064be6ac18ad0c0279ebf2d163df28678bd4769"
+    "publishedAt": "2026-10-04T06:02:52.774511+00:00",
+    "sourceVersion": 13,
+    "savedCorpusSha256": "10ed2fc7fd1fb68844883ed9ee810369789114f3d2ed42546831680c08ff278a",
+    "publicCorpusSha256": "ac71f4d341a15ba3313e719dcddcc1d9ee81d462c140363e8809004dfdc6f757",
+    "sourceBaselineCommit": "2e3aa15cf69e8f93091f00a7be072e75e1168f50"
   }
 }
