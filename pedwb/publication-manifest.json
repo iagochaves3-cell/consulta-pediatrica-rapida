@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": "2026-10-04T03:44:07.069326+00:00",
+  "kind": "documentary_saved_delta",
+  "sourceVersion": 10,
+  "savedCorpusSha256": "cb161bf77f6417fda548792849607791d3adb4ed9950e9099578f1376a8cc499",
+  "publicCorpusSha256": "369eb22b118871f211540088572ff33b6bcf4fe8fe49a2929c08e0444f5f299a",
+  "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
+  "sourceBaselineCommit": "278f1b71647dccfd99f79ce66904205013035c83",
+  "humanClinicalApproval": false,
+  "prescriptionOrCalculatorEnabled": false,
+  "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
+  "topics": [
+    {
+      "title": "Estenose Hipertrófica do Piloro",
+      "savedOrdinal": 75,
+      "publicOrdinal": 137,
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Selecionar protocolo local de fluidos e metas bioquímicas, individualizar prematuros e exames limítrofes, confirmar fluxo anestésico/cirúrgico do centro e concluir gates cirúrgico, anestésico e humano; não voltar a cortes ultrassonográficos rígidos simultâneos nem fixar volume/velocidade sem dados.",
+      "bodySha256": "c02d7beb667e340b1b9f0fc10fbf4bb08a7b652c3043127ca9c9da501ad4fddc",
+      "savedBlockSha256": "3c805c027502f74918bbe117f199722d548f7b0b2c843af88725889618ffb8b5"
+    },
+    {
+      "title": "Estomatite Aftosa Recorrente (Aftas)",
+      "savedOrdinal": 76,
+      "publicOrdinal": 139,
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Obter evidência pediátrica independente e, se outro produto for considerado, recuperar sua bula profissional brasileira atual. Manter triancinolona tópica fora de prescrição automática pediátrica; excluir infecção oral, individualizar risco/benefício e não converter o comprimento da faixa em mg sem massa medida.",
+      "bodySha256": "698e25002fc9a9f6b9f126620699cef6899213b04ec9e456af2d314be08cc11d",
+      "savedBlockSha256": "f44907c9753d811d9fcdc3ac0303b8f46e2e0ca50f6ca9e26c0ad6688fa14f40"
+    },
+    {
+      "title": "Fibrose Hepática Congênita",
+      "savedOrdinal": 77,
+      "publicOrdinal": 153,
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates hepatológico, nefrológico, transplante e humano; selecionar protocolo local de hipertensão portal/colangite, confirmar qualquer produto e bula brasileira antes de dose, e reconciliar indicação de biópsia com fenótipo, genética e imagem do caso.",
+      "bodySha256": "a8fce997ddde867a999eb99cc0736bbb84d3c0afa4d1ea4fcff3bf6f87df48b9",
+      "savedBlockSha256": "4ec002c42d7226e7860a991e486c503b691704b5ecc24795dbbbbab744bc68e8"
+    },
+    {
+      "title": "Hepatite Autoimune em Pediatria",
+      "savedOrdinal": 78,
+      "publicOrdinal": 162,
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates hepatológico, farmacêutico, regulatório e humano; confirmar produto/apresentação brasileira de prednisona/prednisolona e azatioprina, reconciliar tetos 40 versus 60 mg, TPMT/NUDT15, critérios de resposta/retirada e protocolo local de colangiopatia/transplante antes de promover dose ou prescrição.",
+      "bodySha256": "8956aab4c65cfdf835c56cb15507f6e6b7958d333cd17395733a51b8c25882c6",
+      "savedBlockSha256": "e2b8047b6fde91902b75295b321c752a6453f10e9e6e7e035a1092c1c1c1a34a"
+    },
+    {
+      "title": "Hepatites Virais",
+      "savedOrdinal": 79,
+      "publicOrdinal": 163,
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates hepatológico/infectológico, farmacêutico, regulatório e humano; confirmar produto/apresentação brasileira de entecavir e tenofovir, reconciliar PCDT HCV 2026 com opções internacionais, interações, função renal/hepática e algoritmos perinatais antes de promover dose, comprimido, grânulo ou mL.",
+      "bodySha256": "4a82ad7e5a6a0cd844e00e2857796e8bc0a2a059dabe552959fb1f0cc860e896",
+      "savedBlockSha256": "e6d7cd2cc17e325ad7f7950566206358a1608b745779f7a81d3a4c40550963f2"
+    },
+    {
+      "title": "Insuficiência Hepática Fulminante em Pediatria",
+      "savedOrdinal": 80,
+      "publicOrdinal": 193,
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates hepatológico/transplante, UTI, farmacêutico, toxicológico e humano; selecionar protocolos institucionais por etiologia e suporte de alta vigilância, confirmar produto/regime de NAC quando houver acetaminofeno e não promover hemocomponentes, lactulose, rifaximina, monitor intracraniano ou suporte extracorpóreo como rotina universal.",
+      "bodySha256": "e67927ba20a2fe1534cc43e600573bcb44110eb2a5732bfd2a6b70e3bff4608d",
+      "savedBlockSha256": "9735c8a85f88f041d99ce42101c733ece8907b3c0cdbdc1662335ba6662906db"
+    },
+    {
+      "title": "Intoxicação por Inibidores de Monoaminoxidase",
+      "savedOrdinal": 81,
+      "publicOrdinal": 199,
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates toxicológico pediátrico, farmacêutico/regulatório e humano; confirmar agentes/produtos brasileiros e protocolo institucional para observação, hipertensão, hipotensão e descontaminação. Não promover ciproeptadina, vasodilatador, vasopressor, carvão ou dose sem cenário e validação.",
+      "bodySha256": "e8449cf6b6fbb7eece3036f31a36a5c825774fa867d3c5b661d9ac2f8a5316ca",
+      "savedBlockSha256": "8a4f5357a5576690dd808ae3bd37922f49fbf5e858371b6900e4332a028cfe9a"
+    },
+    {
+      "title": "Invaginação Intestinal",
+      "savedOrdinal": 82,
+      "publicOrdinal": 203,
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de cirurgia pediátrica, radiologia intervencionista, anestesia/sedação, antimicrobianos institucionais e revisão humana; definir protocolo local de seleção para repetição de enema, observação/alta e investigação de ponto de tração. Não promover dose, sedativo, antibiótico, pressão ou técnica sem cenário e equipe.",
+      "bodySha256": "d3166978ec8b2cd55563ff75632a34b30198767eb7bcebe3f541e6ae9115b661",
+      "savedBlockSha256": "caa632abcc3cf1b417c6cb8c060622c206e0dd0003309a462646f144054595e8"
+    },
+    {
+      "title": "Parasitoses Intestinais em Pediatria",
+      "savedOrdinal": 83,
+      "publicOrdinal": 233,
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Confirmar bulas profissionais, produtos e concentrações brasileiros; concluir gates de infectologia/parasitologia, farmacêutico, regulatório e humano. Manter vias alternativas de ivermectina e qualquer arredondamento por comprimido fora de promoção clínica.",
+      "bodySha256": "4568eb0b65ee4f423c09b68fa908c51d2705d1e592f1256757065d1675479bb0",
+      "savedBlockSha256": "418d654ba6193db1424e522ab29ddf2d22d8bd0cbeb07633b50021ab01bed85e"
+    },
+    {
+      "title": "Ventrículo Único",
+      "savedOrdinal": 43,
+      "publicOrdinal": 329,
+      "reviewStatus": "fully_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Propagar payload43 somente após baseline e pertinência por destino; Soroterapia64 confirmada. Não transpor como regime de prescrição.",
+      "bodySha256": "26cac689fd59567944ae6ba7b35629ff79b06d0b838663d1609967bf6799700a",
+      "savedBlockSha256": "96103a32c7df637c3e23c09764dfa22a922427d007b23bc272589c5b0a7bc4a4"
+    }
+  ]
+}
