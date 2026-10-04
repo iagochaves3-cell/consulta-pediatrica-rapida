@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T08:38:17.727Z",
+  "publishedAt": "2026-10-04T09:47:25.664Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 16,
-  "savedCorpusSha256": "ca912e0ff9f9690906962f7cf4b5dc562e0b69f1023d3cf119e6846d60c3112b",
-  "publicCorpusSha256": "cd9d4d78c85707087c9df753c26bc756a9f68c1c86ef1f4ac794eb999c9067b6",
+  "sourceVersion": 17,
+  "savedCorpusSha256": "c9f8104c65eb62c2c5edbf19f3fd4f4a3f27670f21945dc114faee114eeb7dd2",
+  "publicCorpusSha256": "85467ebbc82d0f902c1ec359c07f99979bc2f3f7c46e1bbd8447bec741e78fec",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "49de4fc3214de6eec4d73d80a48107bb13fe6de4",
+  "sourceBaselineCommit": "537b70f8439b6d23d77c2b04cf578b075502ae2c",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -181,6 +181,20 @@
       "bodySha256": "7a8025378562063eb1ae8af01849ae7d296b477179801ef4f1c523f5d873d078",
       "savedBlockSha256": "f2781389940b163974d6afe07185ea3f82b484174d56861d8ec90af5e0882d7c",
       "reviewEnvelopeSha256": "8307a8f60ccb705f2e53a119bb99ee41934672b5a68bc274b00dcd320957baa8"
+    },
+    {
+      "title": "Trombocitopenia Primária Imune",
+      "savedOrdinal": 90,
+      "nativeTitleOrdinal": 123,
+      "publicOrdinal": 322,
+      "stableIdentity": "pedwb:trombocitopenia-primaria-imune",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Recuperar bulas profissionais brasileiras vigentes e selecionar produto/protocolo institucional antes de restaurar dose, concentração, preparo, infusão ou cálculo; concluir gates de hematologia pediátrica, medicina transfusional, farmácia clínica, regulação e revisão humana.",
+      "bodySha256": "91aa21df47c00ec7d3702970ddb20807ce6ec5235748e67686a7c4971e756caa",
+      "savedBlockSha256": "53debf91c7fd4a2d7a2b71239c42f243b3c652764431ac3cd612bd2ac345ead9",
+      "publicBlockSha256": "33ed77f1bf91affdf2cf1005f832f61b8ce22b6da62d19482ef621e9d6bad2c0",
+      "reviewEnvelopeSha256": "07d15aa1e8742b9cbd72865b5949f3f646c3fb77512bed978c301a42a43d8cdc"
     }
   ],
   "previousPublication": {
@@ -191,4 +205,3 @@
     "sourceBaselineCommit": "d94a90d99389b99fe0a539e3225b00f8434fe814"
   }
 }
-
