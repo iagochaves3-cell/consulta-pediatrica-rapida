@@ -14,6 +14,8 @@ const fields = [
   ["height", "Estatura", (value) => `${value} cm`],
 ];
 
+form.addEventListener("submit", (event) => event.preventDefault());
+
 const examinationFields = [
   ["general", "Estado geral"],
   ["skin", "Pele e mucosas"],

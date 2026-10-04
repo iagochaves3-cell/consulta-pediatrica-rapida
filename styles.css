@@ -77,6 +77,8 @@ h1 {
 }
 h1 span { color: var(--teal); }
 .intro > p { margin: 0; color: #77847f; font-size: 14px; }
+.intro-link { display: inline-block; margin-top: 16px; color: var(--teal); font-size: 12px; font-weight: 700; text-decoration: none; }
+.intro-link:hover { color: #0e5d54; text-decoration: underline; }
 
 .workspace { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(300px, .9fr); gap: 22px; align-items: start; }
 .form-column { display: grid; gap: 15px; }
