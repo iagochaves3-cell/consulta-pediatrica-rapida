@@ -1919,6 +1919,27 @@ A diretriz ASH/ISTH 2025 admite anticoagulantes orais diretos em crianças eleg�
 
 ## 117. Enterobíase em Pediatria
 
+
+### Enterobíase em Pediatria — subbloco diagnóstico e controle da reinfecção
+
+**Reconhecimento clínico.** Muitas pessoas infectadas não apresentam sintomas. Quando presentes, prurido perianal persistente, sobretudo à noite, sono inquieto e visualização de vermes pequenos e filiformes na região perianal, roupa ou roupa de cama sustentam a suspeita. A observação pode ser feita duas a três horas após a pessoa adormecer; a confirmação deve ser conduzida com orientação profissional. [CDC-DIAG-2024; CDC-HCP-2024]
+
+**Teste da fita adesiva.** O exame preferido é a coleta perianal com fita transparente logo ao despertar, antes de lavar a região, ir ao banheiro ou vestir-se. Para aumentar a chance de detecção, o CDC orienta repetir a coleta em três manhãs consecutivas, seguindo as instruções de acondicionamento do serviço. Higienizar as mãos ao terminar e evitar tocar o rosto durante a coleta. [CDC-DIAG-2024]
+
+**O que não usar como exclusão isolada.** Exame parasitológico de fezes, urina, swab vaginal ou anorretal geralmente não contém quantidade suficiente de ovos ou vermes para ser a estratégia diagnóstica de rotina. Resultado negativo nesses materiais, ou em uma única coleta com fita, não exclui enterobíase quando a suspeita permanece. Não existe exame de sangue diagnóstico para enterobíase. [CDC-HCP-2024]
+
+**Interrupção da transmissão e reinfecção.** Reforçar lavagem frequente das mãos com água morna e sabão, especialmente após usar o banheiro, trocar fraldas, manipular itens da pessoa afetada e antes de preparar alimentos. Manter unhas curtas e limpas, evitar coçar a região perianal e roer unhas, tomar banho pela manhã, trocar diariamente roupa íntima e roupa de dormir e não compartilhar toalhas de banho. Roupas, toalhas e roupa de cama devem ser manuseadas sem sacudir, lavadas com água quente e secas em ciclo quente. Essas medidas devem ser seguidas por todos no domicílio durante duas semanas após a última dose do tratamento selecionado pelo profissional, porque reinfecções são frequentes. [CDC-PREV-2026]
+
+**Escopo da revisão por IA.** Subbloco documental parcial, vinculado ao capítulo nativo 144. Não revisa nem aprova albendazol, mebendazol ou pamoato de pirantel; indicação, escolha, idade mínima, dose, apresentação brasileira, concentração, volume, intervalo, repetição, gestação/lactação, interações, toxicidade, tratamento simultâneo de conviventes ou monitorização. Não habilita prescrição. Todo o conteúdo farmacológico histórico permanece não promovido e requer revisão clínica, regulatória, farmacêutica e matemática específica.
+
+**Referências consultadas em 04/10/2026.**
+
+- **CDC-DIAG-2024.** Centers for Disease Control and Prevention. *Diagnosing Pinworms*. Atualizado em 20/02/2024. https://www.cdc.gov/pinworm/diagnosing/index.html. População: pessoas com suspeita de enterobíase, incluindo crianças e cuidadores. Sustenta sintomas típicos, observação noturna e coleta perianal em três manhãs consecutivas antes de higiene, evacuação ou vestimenta.
+- **CDC-HCP-2024.** Centers for Disease Control and Prevention. *Clinical Overview of Pinworm infection*. Atualizado em 20/02/2024. https://www.cdc.gov/pinworm/hcp/clinical-overview/index.html. População: orientação para profissionais de saúde. Sustenta fita adesiva como teste diagnóstico mais comum, baixa utilidade rotineira de outros espécimes e inexistência de exame sanguíneo diagnóstico.
+- **CDC-PREV-2026.** Centers for Disease Control and Prevention. *Preventing Pinworm Infection*. Atualizado em 29/04/2026. https://www.cdc.gov/pinworm/prevention/index.html. População: pessoas infectadas, cuidadores e contatos domiciliares. Sustenta higiene das mãos, unhas, banho matinal, troca e lavagem cuidadosa de roupas e manutenção das medidas por duas semanas após a última dose.
+
+### Conteúdo histórico ainda não promovido neste subbloco
+
 **Diagnóstico.** Prurido anal noturno, sono inquieto e visualização de vermes filiformes sugerem enterobíase. Fita adesiva perianal ao despertar, antes do banho/evacuação, aumenta a chance de confirmação; exame parasitológico de fezes isolado é menos útil. Dor abdominal importante, sangramento, perda ponderal ou febre exigem outro diagnóstico.
 
 **Tratamento.** Em criança de 2 anos ou mais, albendazol 400 mg VO em dose única e repetir após 14 dias; suspensão 40 mg/mL corresponde a 10 mL por administração. Alternativa: mebendazol 100 mg VO em dose única, repetida em 14 dias. Pamoato de pirantel 11 mg/kg em dose única, máximo 1 g, também repetido após 14 dias, é outra opção quando disponível. Não somar esses esquemas. Em menores de 2 anos, ponderar benefício/risco e bula da apresentação; a dose de campanhas coletivas não deve ser transferida sem avaliação individual.
@@ -1928,7 +1949,6 @@ A diretriz ASH/ISTH 2025 admite anticoagulantes orais diretos em crianças eleg�
 **Seguimento e segurança.** Não requer exames laboratoriais de rotina para duas doses usuais em criança saudável. Persistência após esquema correto pede confirmar diagnóstico e reexposição antes de cursos prolongados. Registrar data exata da repetição e volume correspondente à concentração entregue, evitando apenas escrever “um frasco”.
 
 **Fontes: ** [CDC — enterobíase, tratamento](https://www.cdc.gov/pinworm/hcp/clinical-overview/index.html); [CDC — prevenção e conviventes](https://cdc.gov/pinworm/prevention/index.html)
-
 
 ## 118. Enterocolite Necrosante
 
