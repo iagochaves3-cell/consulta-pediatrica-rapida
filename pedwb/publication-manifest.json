@@ -4,7 +4,7 @@
   "kind": "documentary_saved_delta",
   "sourceVersion": 30,
   "savedCorpusSha256": "8cc4bc20b5d398bc873cdd59681166f06cf86c1d70760ea1f81afb9d69e229f2",
-  "publicCorpusSha256": "4d3ce92cdd6d915c7a8d66f4895bf240b9bda26b98d0d10cb77a27eda2353d1b",
+  "publicCorpusSha256": "aa3899a0b27f9e0f31b2abdafb126449253ebdfb85e654781c85770595fdbbdc",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
   "sourceBaselineCommit": "9d16d755d5a079271262e0cb0ebf219128e2c29a",
   "humanClinicalApproval": false,
@@ -541,13 +541,13 @@
       "pendingAction": "Concluir gates de infectologia pediátrica, farmacêutico/regulatório brasileiro, matemático, reverso e humano antes de antibiótico, produto, dose, intervalo, duração, concentração ou volume.",
       "bodySha256": "538d884cbe3edee20fb26d89d66f118c16bcc850704d20bfd953a3fc4f8bf22d",
       "savedBlockSha256": "69094f24712c943c9ce30d75b8c6fb72c7adeb29ac51e595dd62ea346523b902",
-      "publicBlockSha256": "8a0c28432fc8841e6ecb27a660790a2e20ec800079a0603928ff55fea2518ce8",
+      "publicBlockSha256": "f3181b3b363b411fbc56154ad67a7a173c16da361fcef962f75c78e15e23aabc",
       "candidateSha256": "538d884cbe3edee20fb26d89d66f118c16bcc850704d20bfd953a3fc4f8bf22d",
       "reviewEnvelopeSha256": "f3d9d6e85845be0b39b5179a7e1b9ab7e479e501c7eee25b191b02c5763d4217"
     }
   ],
   "previousPublication": {
     "commit": "9d29c4edeede60f21435bbdf33cfe8ec27759c37",
-    "note": "Tema 147 publicado; esta versão acrescenta somente o subescopo diagnóstico, de complicações, prevenção e destino do tema 148, sem números terapêuticos."
+    "note": "Tema 147 publicado; esta versão acrescenta somente o subescopo diagnóstico, de complicações, prevenção e destino do tema 148. Hash público confirmado pela fonte carregada em produção; nenhum número terapêutico promovido."
   }
 }
