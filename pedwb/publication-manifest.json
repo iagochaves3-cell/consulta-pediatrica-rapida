@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T21:50:00.000Z",
+  "publishedAt": "2026-10-04T22:50:00.000Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 29,
-  "savedCorpusSha256": "45bdd4d2e17f153cda5e1f2d3af5ec928442ef324a5fb3aba2a3a2805c0d981b",
-  "publicCorpusSha256": "1f4c29da80fca5cebe18e42c21bab7a85d7dd6b2cceca7f46727e7615bed5ff2",
+  "sourceVersion": 30,
+  "savedCorpusSha256": "8cc4bc20b5d398bc873cdd59681166f06cf86c1d70760ea1f81afb9d69e229f2",
+  "publicCorpusSha256": "4d3ce92cdd6d915c7a8d66f4895bf240b9bda26b98d0d10cb77a27eda2353d1b",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "9591c07008587ac3d33731779e827f3081ae4661",
+  "sourceBaselineCommit": "9d16d755d5a079271262e0cb0ebf219128e2c29a",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -530,10 +530,24 @@
       "savedBlockSha256": "066a0c0d8418a7af61e035aabf0db86cced7d3c9d83026eb72eb9a5c3764181f",
       "publicBlockSha256": "6061a92ade25868a36b0c6f0a98d8a287dfb6beb6f701e999326733db761d578",
       "candidateSha256": "77477898c8007184f120074655f79bb13365741753bc6d31a8693c81849d5f07"
+    },
+    {
+      "title": "Escarlatina",
+      "savedOrdinal": 148,
+      "publicOrdinal": 129,
+      "stableIdentity": "pedwb:escarlatina",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de infectologia pediátrica, farmacêutico/regulatório brasileiro, matemático, reverso e humano antes de antibiótico, produto, dose, intervalo, duração, concentração ou volume.",
+      "bodySha256": "538d884cbe3edee20fb26d89d66f118c16bcc850704d20bfd953a3fc4f8bf22d",
+      "savedBlockSha256": "69094f24712c943c9ce30d75b8c6fb72c7adeb29ac51e595dd62ea346523b902",
+      "publicBlockSha256": "8a0c28432fc8841e6ecb27a660790a2e20ec800079a0603928ff55fea2518ce8",
+      "candidateSha256": "538d884cbe3edee20fb26d89d66f118c16bcc850704d20bfd953a3fc4f8bf22d",
+      "reviewEnvelopeSha256": "f3d9d6e85845be0b39b5179a7e1b9ab7e479e501c7eee25b191b02c5763d4217"
     }
   ],
   "previousPublication": {
-    "commit": "9591c07008587ac3d33731779e827f3081ae4661",
-    "note": "Tema 146 publicado e manifesto UTF-8 corrigido; esta versão acrescenta somente o subbloco diagnóstico, hematológico e de destino do tema 147."
+    "commit": "9d29c4edeede60f21435bbdf33cfe8ec27759c37",
+    "note": "Tema 147 publicado; esta versão acrescenta somente o subescopo diagnóstico, de complicações, prevenção e destino do tema 148, sem números terapêuticos."
   }
 }
