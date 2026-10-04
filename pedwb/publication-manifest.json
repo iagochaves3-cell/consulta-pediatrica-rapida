@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T04:34:17.944025+00:00",
+  "publishedAt": "2026-10-04T06:02:52.774511+00:00",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 12,
-  "savedCorpusSha256": "9d6a30e3c0699613a4e0198eb1b8985d0f7cea2ad9bf1bde8adb63ce41320b30",
-  "publicCorpusSha256": "93a4a30573149d736096bf689f4103faa440af5fd700b5a97788260a37c43695",
+  "sourceVersion": 13,
+  "savedCorpusSha256": "10ed2fc7fd1fb68844883ed9ee810369789114f3d2ed42546831680c08ff278a",
+  "publicCorpusSha256": "ac71f4d341a15ba3313e719dcddcc1d9ee81d462c140363e8809004dfdc6f757",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "6064be6ac18ad0c0279ebf2d163df28678bd4769",
+  "sourceBaselineCommit": "2e3aa15cf69e8f93091f00a7be072e75e1168f50",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -133,13 +133,25 @@
       "bodySha256": "b7b9f8b2169dc9cd575dcd44680b167737bc6c8bab924ef73441a34f2afa0532",
       "savedBlockSha256": "1c28dbb0e63f198f2df3a052c3e3329b74f41659487f744e0aeaebc518994d5d",
       "reviewEnvelopeSha256": "c749beec394ee4a748ba74e910dd49f326d4bbbb14f73f3b91118ab4197ced81"
+    },
+    {
+      "title": "Síndrome de Alagille",
+      "savedOrdinal": 86,
+      "publicOrdinal": 266,
+      "stableIdentity": "pedwb:sindrome-de-alagille",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Recuperar a bula profissional brasileira vigente e confirmar comercialização/estoque, preço CMED e eventual incorporação ao SUS; concluir gates de hepatologia/transplante, cardiologia, nefrologia, nutrição, farmácia, regulação e revisão humana. Não habilitar prescrição, ajuste por interpolação ou troca entre 9,5 e 19 mg/mL.",
+      "bodySha256": "6d2feef5af8867efe7b9d549725d748aa356a227ce6aebf25e87684102d60c3b",
+      "savedBlockSha256": "ea017d29fb64249e8b0201513b15ad64cbe56be7d3e3d2f2a0deb3e5c5b4cc7b",
+      "reviewEnvelopeSha256": "ec666f3ab64b097017fa97747903f44e3b3938b112d780df8289927f4b13fc4e"
     }
   ],
   "previousPublication": {
-    "publishedAt": "2026-10-04T04:16:37.413400+00:00",
-    "sourceVersion": 11,
-    "savedCorpusSha256": "fbcabff7bfe1269018108c1bc75c3a2a034c911f6f1dcf5191603ae7e2faeb40",
-    "publicCorpusSha256": "41cd2a0d5243939da026ac729494c82adb21df30a0815485b1b4ec244e6cf294",
-    "sourceBaselineCommit": "0b1d417e56d894006c203a808c6c9a53b82a68e6"
+    "publishedAt": "2026-10-04T04:34:17.944025+00:00",
+    "sourceVersion": 12,
+    "savedCorpusSha256": "9d6a30e3c0699613a4e0198eb1b8985d0f7cea2ad9bf1bde8adb63ce41320b30",
+    "publicCorpusSha256": "93a4a30573149d736096bf689f4103faa440af5fd700b5a97788260a37c43695",
+    "sourceBaselineCommit": "6064be6ac18ad0c0279ebf2d163df28678bd4769"
   }
 }
