@@ -2086,6 +2086,27 @@ A diretriz ASH/ISTH 2025 admite anticoagulantes orais diretos em crianças eleg�
 
 ## 126. Erisipela em Pediatria
 
+### Erisipela em Pediatria — subbloco de reconhecimento, gravidade, exames e destino
+
+**Reconhecimento clínico.** Erisipela e celulite são diagnósticos clínicos com terminologia parcialmente sobreposta. Favorecem infecção cutânea aguda a combinação de eritema em expansão, calor, edema e dor ou sensibilidade. Na erisipela, o acometimento é mais superficial e a borda pode ser elevada e mais bem delimitada; esse aspecto isolado não confirma etiologia. Examinar toda a área, demarcar a extensão, procurar porta de entrada, drenagem, flutuação e comprometimento de articulação, osso ou partes moles profundas, além de registrar estado geral e sinais sistêmicos.
+
+**Diferenciais e sinais de alerta.** Reação a picada costuma ter punctum e prurido predominante, com pouca dor; dermatite de contato, eczema, urticária e trauma também podem simular infecção. Flutuação ou secreção direcionam para abscesso ou infecção purulenta. Dor desproporcional ao exame, progressão rápida e toxicidade sistêmica exigem considerar infecção necrosante; anestesia cutânea, coloração violácea, bolhas ou necrose reforçam a urgência. Região periorbitária ou facial, mãos, imunossupressão, mordedura, corpo estranho, varicela e suspeita de estrutura profunda demandam via assistencial específica.
+
+**Gravidade.** Quadro leve é localizado, sem sinais sistêmicos e sem comorbidade relevante. Febre, taquicardia, dor ou edema importantes e extensão crescente elevam a gravidade. Criança com aparência tóxica, alteração de consciência, taquipneia, hipotensão, progressão acelerada, grande área acometida ou suspeita de sepse/doença profunda requer avaliação hospitalar imediata. Hipotensão pode ser manifestação tardia e não deve ser aguardada.
+
+**Exames.** Em apresentação típica e leve, o diagnóstico permanece clínico. Hemocultura não é útil de rotina em doença leve ou moderada. Coletar material apenas quando houver secreção ou drenagem disponível e interpretar no contexto clínico. Ultrassom ou outra imagem é indicada quando há dúvida de abscesso, corpo estranho, osteomielite ou extensão profunda; suspeita de infecção necrosante exige avaliação cirúrgica urgente e não deve ser atrasada para obter imagem.
+
+**Destino e reavaliação.** Manejo ambulatorial só é apropriado para criança em bom estado, sem sinais de gravidade ou localização de alto risco, capaz de receber terapia prescrita e com retorno confiável. Reavaliar em 24–48 horas; ausência de melhora ou deterioração exige rever diagnóstico, adesão, coleção e doença profunda. Encaminhar ao hospital diante de sepse, progressão rápida, incapacidade de via oral, imunossupressão importante, suspeita de infecção necrosante ou profunda, localização especial, falha ambulatorial ou seguimento inseguro. Solicitar cirurgia precocemente na suspeita de necrose ou abscesso profundo.
+
+**Referências consultadas em 04/10/2026.**
+
+1. Royal Children's Hospital Melbourne. *Clinical Practice Guideline: Cellulitis and other bacterial skin infections*. Atualização: março de 2020. População pediátrica. https://www.rch.org.au/clinicalguide/guideline_index/cellulitis_and_skin_infections/
+2. Stevens DL, et al. IDSA. *Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update*. Publicação: 15/07/2014; correção: 01/05/2015. Inclui crianças e adultos. https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/
+3. Glennon J, et al. *Cellulitis in Pediatric Patients: Recognition and Management in the Era of Evolving Resistance*. Am J Clin Dermatol. 2025;26(3):349-360. PMID 40259138; DOI 10.1007/s40257-025-00936-w. https://pubmed.ncbi.nlm.nih.gov/40259138/
+4. Ministério da Saúde, BVS APS. *Erisipela*. Fevereiro de 2012. Contexto brasileiro geral; não específica para pediatria e não usada para validar dose. https://aps-repo.bvs.br/aps/erisipela/
+
+### Conteúdo histórico ainda não promovido neste subbloco
+
 **Definição.** Placa eritematosa dolorosa de início agudo, elevada e com borda relativamente bem delimitada favorece erisipela; frequentemente estreptocócica. Diferenciar dermatite de contato, reação a picada, celulite, trombose e infecção necrosante. Dor muito intensa, necrose, bolhas hemorrágicas, progressão acelerada ou instabilidade exigem hospital e cirurgia.
 
 **Tratamento.** Na criança estável, sem purulência ou fatores de resistência, utilizar betalactâmico com cobertura estreptocócica. Um esquema operacional possível é cefalexina do tema 131: 20 mg/kg/dose VO a cada 8 horas, máximo 750 mg/dose, por 5 dias inicialmente, ampliando se resposta lenta. Suspensão 50 mg/mL: 0,4 mL/kg/dose. Penicilina/amoxicilina são alternativas de espectro mais estreito quando a etiologia estreptocócica é convincente e não há necessidade de cobertura estafilocócica. A escolha não exige associação automática de dois antibióticos.
@@ -2095,7 +2116,6 @@ A diretriz ASH/ISTH 2025 admite anticoagulantes orais diretos em crianças eleg�
 **Reavaliação.** Rever em 24–48 horas, registrar expansão da borda e estado sistêmico. Falha exige avaliar adesão, diagnóstico e coleção, não apenas trocar o fármaco. Internar se houver incapacidade de VO, sepse, rápida progressão ou seguimento inviável. Ajustar cefalexina à função renal e verificar história de reação imediata a betalactâmicos.
 
 **Fontes: ** [IDSA — erisipela/celulite](https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/)
-
 
 ## 127. Eritroparvovirose B19 (parvovirose B19)
 

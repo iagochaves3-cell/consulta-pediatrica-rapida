@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T19:31:00.000Z",
+  "publishedAt": "2026-10-04T20:26:00.000Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 27,
-  "savedCorpusSha256": "932ace42e7bca00d0f45b72b7262565c4eedda3ab01f24434b8b656fedc4bc9c",
-  "publicCorpusSha256": "177b4b94f638e9399a1264f5fae3613b7af59a6f83237c03a90c6d8ca0cbecd0",
+  "sourceVersion": 28,
+  "savedCorpusSha256": "b023f2d2d339157fc959bf1811d89ab2a96104e22716b6dd6fe73ba1a02c7f93",
+  "publicCorpusSha256": "578cafa7bfd5b30d539b682e6242ac66797d10dbb83f4bbdc00db26b3847e36b",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "ca4ea5dbd74cb35a9de492e596cd6aaebf51b4c5",
+  "sourceBaselineCommit": "d562b0334842c07531909ad52613566c829c44e2",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -504,10 +504,23 @@
       "savedBlockSha256": "523fdec6fa968118fef0009a0749984fed3127d37a5958305f829ee7c2455260",
       "publicBlockSha256": "66364ea521253925fe9c13380eeae294e6b9714e0992695914eb16c3cdf24b84",
       "candidateSha256": "d0146d6a6f79e8ac76e9594d797f053f6506b77600d8c66eafaa901fb5b26d13"
+    },
+    {
+      "title": "Erisipela em Pediatria",
+      "savedOrdinal": 146,
+      "publicOrdinal": 126,
+      "stableIdentity": "pedwb:erisipela-em-pediatria",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de infectologia pediátrica, farmacêutico, regulatório, matemático e humano antes de antimicrobiano, produto, dose, intervalo ou duração.",
+      "bodySha256": "bedf46d628fd2bcb72d5c812688ae74be6215474ff5d15c1c59be0b4b962e045",
+      "savedBlockSha256": "ca22f0a59b67e2d28f647953d5d8c98754072c291710312c1839e2c91413059b",
+      "publicBlockSha256": "f249e62129ec9bc3451cba5be760eba1ca84f3dac603e5d3390eb2fcddbcaef7",
+      "candidateSha256": "bedf46d628fd2bcb72d5c812688ae74be6215474ff5d15c1c59be0b4b962e045"
     }
   ],
   "previousPublication": {
-    "commit": "ca4ea5dbd74cb35a9de492e596cd6aaebf51b4c5",
-    "note": "Tema 144 publicado e verificado; esta versão acrescenta somente o subbloco diagnóstico/estadiamento seguro do tema 145 e reconcilia o manifesto dos temas 143–145."
+    "commit": "d562b0334842c07531909ad52613566c829c44e2",
+    "note": "Tema 145 publicado e verificado; esta versão acrescenta somente o subbloco de reconhecimento, gravidade, exames e destino do tema 146."
   }
 }
