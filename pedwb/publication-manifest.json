@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T03:44:07.069326+00:00",
+  "publishedAt": "2026-10-04T04:16:37.413400+00:00",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 10,
-  "savedCorpusSha256": "cb161bf77f6417fda548792849607791d3adb4ed9950e9099578f1376a8cc499",
-  "publicCorpusSha256": "369eb22b118871f211540088572ff33b6bcf4fe8fe49a2929c08e0444f5f299a",
+  "sourceVersion": 11,
+  "savedCorpusSha256": "fbcabff7bfe1269018108c1bc75c3a2a034c911f6f1dcf5191603ae7e2faeb40",
+  "publicCorpusSha256": "41cd2a0d5243939da026ac729494c82adb21df30a0815485b1b4ec244e6cf294",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "278f1b71647dccfd99f79ce66904205013035c83",
+  "sourceBaselineCommit": "0b1d417e56d894006c203a808c6c9a53b82a68e6",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -110,6 +110,24 @@
       "pendingAction": "Propagar payload43 somente após baseline e pertinência por destino; Soroterapia64 confirmada. Não transpor como regime de prescrição.",
       "bodySha256": "26cac689fd59567944ae6ba7b35629ff79b06d0b838663d1609967bf6799700a",
       "savedBlockSha256": "96103a32c7df637c3e23c09764dfa22a922427d007b23bc272589c5b0a7bc4a4"
+    },
+    {
+      "title": "Retocolite Ulcerativa em Pediatria",
+      "savedOrdinal": 84,
+      "publicOrdinal": 250,
+      "stableIdentity": "pedwb:retocolite-ulcerativa-pediatria",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de DII pediátrica/cirurgia, farmacêutico, regulatório e humano; confirmar bulas profissionais e apresentações brasileiras, individualizar resgate/tromboprofilaxia e reconciliar a sobreposição do limite PUCAI 65 entre recomendações. Recuperar estudo primário de 2026 antes de alterar marcos.",
+      "bodySha256": "7abd03eda005646b649294c9ed63c4c97a3171ea1b5fafd4a1a6e47ef54625c7",
+      "savedBlockSha256": "bdf578e64afd50907952e6b214074ea7c39f138189155ca3e68929d34f1844ee"
     }
-  ]
+  ],
+  "previousPublication": {
+    "publishedAt": "2026-10-04T03:44:07.069326+00:00",
+    "sourceVersion": 10,
+    "savedCorpusSha256": "cb161bf77f6417fda548792849607791d3adb4ed9950e9099578f1376a8cc499",
+    "publicCorpusSha256": "369eb22b118871f211540088572ff33b6bcf4fe8fe49a2929c08e0444f5f299a",
+    "sourceBaselineCommit": "278f1b71647dccfd99f79ce66904205013035c83"
+  }
 }
