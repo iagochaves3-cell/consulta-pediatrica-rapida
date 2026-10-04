@@ -1886,6 +1886,25 @@ A diretriz ASH/ISTH 2025 admite anticoagulantes orais diretos em crianças eleg�
 
 ## 116. Endocardite Infecciosa em Pediatria
 
+### Endocardite Infecciosa em Pediatria — subbloco diagnóstico inicial
+
+**Quando suspeitar.** Considerar endocardite infecciosa diante de febre ou bacteremia sem foco alternativo convincente, sobretudo quando coexistem cardiopatia congênita, cirurgia cardíaca prévia, material protético intracardíaco, endocardite anterior, dispositivo ou acesso intravascular. Em recém-nascidos hospitalizados e crianças com cardiopatia complexa, a apresentação pode ser inespecífica. Sopro novo, fenômenos embólicos, insuficiência cardíaca, alteração de condução ou foco neurológico aumentam a urgência, mas a ausência de sopro não exclui o diagnóstico. [AHA-2015; ESC-2023]
+
+**Microbiologia sem atraso indevido.** Obter hemoculturas antes do antimicrobiano quando isso for clinicamente seguro, com amostras separadas e documentação do momento e de antimicrobianos prévios. A interpretação depende do microrganismo, da persistência e do conjunto clínico; não se deve transformar a coleta em condição para iniciar terapia efetiva em criança instável. Resultado negativo após exposição prévia a antibiótico não encerra a investigação quando a suspeita permanece alta. [AHA-2015; ESC-2023]
+
+**Imagem integrada ao contexto.** Ecocardiografia transtorácica é o exame de imagem inicial. Estudo negativo ou inconclusivo não afasta endocardite quando a probabilidade clínica continua relevante; a anatomia, a qualidade da janela, a presença de prótese/material e a evolução orientam repetição, ecocardiografia transesofágica ou outra modalidade em centro experiente. Microbiologia, imagem e manifestações clínicas devem ser interpretadas em conjunto, e não como testes isolados. [AHA-2015; ESC-2023]
+
+**Destino e equipe.** Suspeita relevante requer avaliação hospitalar e discussão precoce entre cardiologia pediátrica, infectologia/microbiologia e cirurgia cardíaca conforme gravidade e anatomia. Choque, insuficiência cardíaca, bloqueio de condução, complicação neurológica, bacteremia persistente, abscesso ou disfunção de prótese/material são sinais de complicação e exigem escalonamento imediato. Crianças com cardiopatia congênita complexa devem ser conduzidas em centro com experiência em cardiopatia congênita, imagem e cirurgia. [AHA-2015; ESC-2023]
+
+**Escopo da revisão por IA.** Subbloco documental parcial, vinculado ao capítulo nativo 143. Não revisa nem aprova escolha empírica ou dirigida de antimicrobiano, dose, apresentação, intervalo, duração, monitorização farmacológica, profilaxia, critérios operacionais de cirurgia, técnica de coleta, sedação, preparo, diluição ou cálculo. Não habilita prescrição. O regime histórico de MSSA e as demais partes terapêuticas permanecem não promovidos e exigem revisão clínica, farmacêutica e matemática específica.
+
+**Referências consultadas em 04/10/2026.**
+
+- **AHA-2015.** Baltimore RS et al. *Infective Endocarditis in Childhood: 2015 Update: A Scientific Statement From the American Heart Association*. Circulation. 2015;132:1487–1515. DOI: 10.1161/CIR.0000000000000298. Página oficial: https://professional.heart.org/en/science-news/infective-endocarditis-in-childhood-2015-update. População: lactentes, crianças e adolescentes. Sustenta epidemiologia pediátrica associada a cardiopatia congênita/material protético, investigação microbiológica, ecocardiografia e cuidado especializado.
+- **ESC-2023.** Delgado V, Borger MA et al. *2023 ESC Guidelines for the management of endocarditis*. Eur Heart J. 2023;44:3948–4042. DOI: 10.1093/eurheartj/ehad193; página oficial publicada em 25/08/2023, com corrigenda listada em janeiro de 2025: https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/. População: predominantemente geral/adulta, com seções de cardiopatia congênita e material/dispositivos; usada apenas para princípios diagnósticos atuais, imagem e organização multidisciplinar, sem transportar posologia adulta para pediatria.
+
+### Conteúdo histórico ainda não promovido neste subbloco
+
 **Suspeita clínica.** Febre persistente com cardiopatia predisponente, material intracardíaco, bacteremia persistente, fenômenos embólicos ou novo sopro deve levantar endocardite. Ausência de sopro não exclui. Choque, insuficiência cardíaca, bloqueio de condução e evento neurológico impõem internação e equipe de cardiologia, infectologia e cirurgia.
 
 **Investigação.** Coletar múltiplos conjuntos de hemoculturas de punções distintas antes do antimicrobiano quando o estado permitir; não adiar terapia no instável. Ecocardiograma transtorácico é inicial, com transesofágico em situações selecionadas ou suspeita persistente. Registrar função renal, hemograma e marcadores de lesão orgânica.
@@ -1897,7 +1916,6 @@ A diretriz ASH/ISTH 2025 admite anticoagulantes orais diretos em crianças eleg�
 **Fontes: ** [AHA — endocardite na infância](https://www.ahajournals.org/doi/pdf/10.1161/cir.0000000000000298)
 
 **Limitação específica: ** O esquema empírico requer válvula/material, idade, origem da infecção e microbiologia; foi fornecido regime dirigido MSSA, não uma combinação universal.
-
 
 ## 117. Enterobíase em Pediatria
 
