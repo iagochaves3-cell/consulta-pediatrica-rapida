@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T09:47:25.664Z",
+  "publishedAt": "2026-10-04T11:12:14.512Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 17,
-  "savedCorpusSha256": "c9f8104c65eb62c2c5edbf19f3fd4f4a3f27670f21945dc114faee114eeb7dd2",
-  "publicCorpusSha256": "85467ebbc82d0f902c1ec359c07f99979bc2f3f7c46e1bbd8447bec741e78fec",
+  "sourceVersion": 18,
+  "savedCorpusSha256": "04617b37dee19c83a78cbed0bdd132c978ffc1f886bf3f5e2481217d69ac27fb",
+  "publicCorpusSha256": "4fa8d18e3bbc8060d9c58e71487a3af319c3bdac1f168c26d79ef132cace4e1d",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "537b70f8439b6d23d77c2b04cf578b075502ae2c",
+  "sourceBaselineCommit": "38ae3efea79d25001bdb84c5930dc1d6b8de1d1b",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -195,6 +195,20 @@
       "savedBlockSha256": "53debf91c7fd4a2d7a2b71239c42f243b3c652764431ac3cd612bd2ac345ead9",
       "publicBlockSha256": "33ed77f1bf91affdf2cf1005f832f61b8ce22b6da62d19482ef621e9d6bad2c0",
       "reviewEnvelopeSha256": "07d15aa1e8742b9cbd72865b5949f3f646c3fb77512bed978c301a42a43d8cdc"
+    },
+    {
+      "title": "Abscesso Dentário",
+      "savedOrdinal": 91,
+      "nativeTitleOrdinal": 124,
+      "publicOrdinal": 1,
+      "stableIdentity": "pedwb:abscesso-dentario",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Recuperar bula profissional brasileira vigente e selecionar produto/protocolo institucional apenas se houver indicação de antimicrobiano; concluir gates de odontopediatria, cirurgia bucomaxilofacial, infectologia, farmácia clínica e revisão humana antes de dose, duração, concentração, preparo ou cálculo.",
+      "bodySha256": "e72c67b7fe9887b78057e67e9e4d588cfd43660037e3a9d973c27743bb60ba44",
+      "savedBlockSha256": "922dc6ce0016c467fee442c101df79bb642598f1a0813dbc26091cd0c736bc5a",
+      "publicBlockSha256": "6fd18990fd071938f0a584eacf97aa4d766190cc650a254e6adde1f0167c3518",
+      "reviewEnvelopeSha256": "8cc4c9a2d08946791061635d456fc21e451cb17688fe830cce56ef960b5cd97c"
     }
   ],
   "previousPublication": {
