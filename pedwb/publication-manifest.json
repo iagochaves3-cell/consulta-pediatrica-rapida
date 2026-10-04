@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T20:26:00.000Z",
+  "publishedAt": "2026-10-04T21:50:00.000Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 28,
-  "savedCorpusSha256": "b023f2d2d339157fc959bf1811d89ab2a96104e22716b6dd6fe73ba1a02c7f93",
-  "publicCorpusSha256": "b31b0205cfbdc22ff9b5bbae43d96b8b0391d32e65ee8cd8804fe60863f654b9",
+  "sourceVersion": 29,
+  "savedCorpusSha256": "45bdd4d2e17f153cda5e1f2d3af5ec928442ef324a5fb3aba2a3a2805c0d981b",
+  "publicCorpusSha256": "1f4c29da80fca5cebe18e42c21bab7a85d7dd6b2cceca7f46727e7615bed5ff2",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "d562b0334842c07531909ad52613566c829c44e2",
+  "sourceBaselineCommit": "9591c07008587ac3d33731779e827f3081ae4661",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -517,10 +517,23 @@
       "savedBlockSha256": "ca22f0a59b67e2d28f647953d5d8c98754072c291710312c1839e2c91413059b",
       "publicBlockSha256": "9f3a818d63e9435d831a855987f0ada143367ac9b182dc96dd31ec5440c45615",
       "candidateSha256": "bedf46d628fd2bcb72d5c812688ae74be6215474ff5d15c1c59be0b4b962e045"
+    },
+    {
+      "title": "Eritroparvovirose B19 (parvovirose B19)",
+      "savedOrdinal": 147,
+      "publicOrdinal": 127,
+      "stableIdentity": "pedwb:eritroparvovirose-b19",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de hematologia e infectologia pediátricas, medicina transfusional, farmácia clínica, isolamento institucional e revisão humana antes de transfusão, imunoglobulina, produto, dose, preparo ou cálculo.",
+      "bodySha256": "77477898c8007184f120074655f79bb13365741753bc6d31a8693c81849d5f07",
+      "savedBlockSha256": "066a0c0d8418a7af61e035aabf0db86cced7d3c9d83026eb72eb9a5c3764181f",
+      "publicBlockSha256": "6061a92ade25868a36b0c6f0a98d8a287dfb6beb6f701e999326733db761d578",
+      "candidateSha256": "77477898c8007184f120074655f79bb13365741753bc6d31a8693c81849d5f07"
     }
   ],
   "previousPublication": {
-    "commit": "d562b0334842c07531909ad52613566c829c44e2",
-    "note": "Tema 145 publicado e verificado; esta versão acrescenta somente o subbloco de reconhecimento, gravidade, exames e destino do tema 146."
+    "commit": "9591c07008587ac3d33731779e827f3081ae4661",
+    "note": "Tema 146 publicado e manifesto UTF-8 corrigido; esta versão acrescenta somente o subbloco diagnóstico, hematológico e de destino do tema 147."
   }
 }
