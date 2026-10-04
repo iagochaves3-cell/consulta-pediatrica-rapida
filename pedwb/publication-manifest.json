@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T22:50:00.000Z",
+  "publishedAt": "2026-10-04T23:41:00.000Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 30,
-  "savedCorpusSha256": "8cc4bc20b5d398bc873cdd59681166f06cf86c1d70760ea1f81afb9d69e229f2",
-  "publicCorpusSha256": "aa3899a0b27f9e0f31b2abdafb126449253ebdfb85e654781c85770595fdbbdc",
+  "sourceVersion": 31,
+  "savedCorpusSha256": "ab5a40428040cd433ce3a0904dafd8c619d309b1d71d177e5945b8370e68003f",
+  "publicCorpusSha256": "146a58083159b728a4d9f41daf9ab72b74e3e9589630f57301427c78558584ca",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "9d16d755d5a079271262e0cb0ebf219128e2c29a",
+  "sourceBaselineCommit": "5410083aca58aab551d271856a226714eaa6d4b1",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -544,10 +544,24 @@
       "publicBlockSha256": "f3181b3b363b411fbc56154ad67a7a173c16da361fcef962f75c78e15e23aabc",
       "candidateSha256": "538d884cbe3edee20fb26d89d66f118c16bcc850704d20bfd953a3fc4f8bf22d",
       "reviewEnvelopeSha256": "f3d9d6e85845be0b39b5179a7e1b9ab7e479e501c7eee25b191b02c5763d4217"
+    },
+    {
+      "title": "Esporotricose em Pediatria",
+      "savedOrdinal": 149,
+      "publicOrdinal": 131,
+      "stableIdentity": "pedwb:esporotricose-em-pediatria",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de infectologia/dermatologia pediátrica, farmacêutico/regulatório brasileiro, matemático, reverso e humano antes de antifúngico, produto, dose, duração, concentração, volume ou monitorização.",
+      "bodySha256": "60597ce1fab8795aed2ed6be7a17f67435fdba43742594da4345de761eb00f22",
+      "savedBlockSha256": "3ce033d273a492341d0730c9b5fd71c0f3a28a7cf46677c1c58ce74c1b94308a",
+      "publicBlockSha256": "bac47eb557e7c53dc19a1801f210fe398dd05edc7613b8cbe26ab70242f936de",
+      "candidateSha256": "60597ce1fab8795aed2ed6be7a17f67435fdba43742594da4345de761eb00f22",
+      "reviewEnvelopeSha256": "2a8082c5207d4130ac8ae27ddfee5ca9c5193b62a32188b567f500d84fe50186"
     }
   ],
   "previousPublication": {
-    "commit": "9d29c4edeede60f21435bbdf33cfe8ec27759c37",
-    "note": "Tema 147 publicado; esta versão acrescenta somente o subescopo diagnóstico, de complicações, prevenção e destino do tema 148. Hash público confirmado pela fonte carregada em produção; nenhum número terapêutico promovido."
+    "commit": "9d16d755d5a079271262e0cb0ebf219128e2c29a",
+    "note": "Tema 148 publicado; esta versão acrescenta somente o subescopo diagnóstico, de gravidade, vigilância e prevenção do tema 149. Nenhum antifúngico ou número terapêutico foi promovido."
   }
 }
