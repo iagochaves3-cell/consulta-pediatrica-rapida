@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T07:24:54.852946+00:00",
+  "publishedAt": "2026-10-04T07:48:51.411371+00:00",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 14,
-  "savedCorpusSha256": "18e257dc7758d5dab62b2177e9fb88f39010bc71459a05aadd0dbb4b7e5764e8",
-  "publicCorpusSha256": "a36678664abec3a11a67eee9780305546cca596aecf521816f104921c693ca29",
+  "sourceVersion": 15,
+  "savedCorpusSha256": "9e76351b236d46da7a41f833959a88b6712504b89280bbaa98fe2403ec4641c3",
+  "publicCorpusSha256": "2de30882fe82e3fa45c624ba5fd91a8fc2c05ccddf51a49fd8251110e33b6af8",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "e68aa23b4e77b2f3367e546e511a392215d26915",
+  "sourceBaselineCommit": "d94a90d99389b99fe0a539e3225b00f8434fe814",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -157,13 +157,25 @@
       "bodySha256": "e7842d0abe7b87206ba4bcc4318604163eda7549b5f7c1e52f35652efa895e74",
       "savedBlockSha256": "ce9106585398026e790128590c04c11b57a9c228f40c9facfbbb57b4b1e3b521",
       "reviewEnvelopeSha256": "81a817f5013065c669393dd09282c53066f8b16a398e4e2ca89bd90c2b9491c3"
+    },
+    {
+      "title": "Síndrome dos Vômitos Cíclicos",
+      "savedOrdinal": 88,
+      "publicOrdinal": 294,
+      "stableIdentity": "pedwb:sindrome-dos-vomitos-ciclicos",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de gastroenterologia, neurologia/metabolismo, farmácia clínica brasileira e revisão humana. Para cada fármaco, confirmar produto/apresentação nacional, indicação/off-label, faixa etária, sal/base, dose, máximos, intervalo, duração, contraindicações, interações, ECG/QTc, ajustes, monitorização e cálculos dimensional/reverso antes de restaurar posologia operacional.",
+      "bodySha256": "7b4d37d0565cd01024a62701083a6cca1532c0d7940a28eea61baee5a0d4f3a3",
+      "savedBlockSha256": "71924781553a4f10e7beacf805218472ad6bf2d431c7008d3f3e9a814c978d99",
+      "reviewEnvelopeSha256": "c4e31c2a0a623279dc4069b637676b26eb9537929c810100d79c459c25380599"
     }
   ],
   "previousPublication": {
-    "publishedAt": "2026-10-04T06:02:52.774511+00:00",
-    "sourceVersion": 13,
-    "savedCorpusSha256": "10ed2fc7fd1fb68844883ed9ee810369789114f3d2ed42546831680c08ff278a",
-    "publicCorpusSha256": "ac71f4d341a15ba3313e719dcddcc1d9ee81d462c140363e8809004dfdc6f757",
-    "sourceBaselineCommit": "2e3aa15cf69e8f93091f00a7be072e75e1168f50"
+    "publishedAt": "2026-10-04T07:24:54.852946+00:00",
+    "sourceVersion": 14,
+    "savedCorpusSha256": "18e257dc7758d5dab62b2177e9fb88f39010bc71459a05aadd0dbb4b7e5764e8",
+    "publicCorpusSha256": "a36678664abec3a11a67eee9780305546cca596aecf521816f104921c693ca29",
+    "sourceBaselineCommit": "e68aa23b4e77b2f3367e546e511a392215d26915"
   }
 }
