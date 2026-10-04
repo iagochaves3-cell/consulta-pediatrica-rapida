@@ -224,14 +224,14 @@ textarea{min-height:56px;resize:vertical;line-height:1.3}.tall{min-height:120px}
       </div>
     </details>
     <details class="accordion" name="consulta-secoes">
-      <summary><span class="num">13</span>Exame físico — alterações</summary>
+      <summary>Exame físico — alterações</summary>
       <div class="conteudo">
         <p class="hint">Descreva somente os achados alterados. O sistema correspondente será identificado e o texto normal daquele sistema será substituído integralmente, evitando contradições. Você pode escrever livremente (“ausculta pulmonar reduzida em base direita”) ou usar prefixos como “SR:”, “SCV:”, “Pele e fâneros:”, “Otoscopia:”. Para alterações em sistemas diferentes, prefira uma linha para cada sistema.</p>
         <textarea id="alteracoesExame" class="tall" placeholder="Ex.: ausculta pulmonar reduzida em base direita&#10;Pele e fâneros: presença de furúnculo em perna esquerda de 5 cm de diâmetro com orifício de drenagem"></textarea>
       </div>
     </details>
     <details class="accordion" name="consulta-secoes">
-      <summary><span class="num">14</span>Hipóteses diagnósticas e condutas</summary>
+      <summary>Hipóteses diagnósticas e condutas</summary>
       <div class="conteudo grid">
         <p><label>Hipóteses-diagnósticas?</label><textarea id="hipoteses" placeholder="Ex.: IVAS; dermatite; gastroenterite..."></textarea></p>
         <p><label>Condutas?</label><textarea id="condutas" class="tall">- Prescrevo sintomáticos como medidas suportivas devido à condição de base.
@@ -617,7 +617,7 @@ function gerarAnamneseNarrativa(){
 
 function gerarIdentificacao(){
   const partes=[];
-  [['peso','Peso'],['alergias','Alergias'],['comorbidades','Comorbidades'],['medContinuas','Medicações de uso contínuo']].forEach(([id,label])=>{
+  [['nomePaciente','Nome'],['idadePaciente','Idade'],['peso','Peso'],['alergias','Alergias'],['comorbidades','Comorbidades'],['medContinuas','Medicações de uso contínuo']].forEach(([id,label])=>{
     if(V(id)) partes.push(label+': '+V(id)+'.');
   });
   const antecedentes=grupos.antecedentes.map(([id])=>{
@@ -663,14 +663,14 @@ function setRadio(id,val){ const el=document.querySelector('input[name="'+id+'"]
 function limparFormulario(){ if(!confirm('Limpar todos os campos?')) return; document.getElementById('formulario').reset(); document.querySelectorAll('input[value="ni"]').forEach(e=>e.checked=true); document.getElementById('condutas').value='- Prescrevo sintomáticos como medidas suportivas devido à condição de base.\n- Oriento ao acompanhante sinais e sintomas de alarme.\n- Acompanhante ciente e concordante com plano terapêutico proposto.\n- Deixo-me à disposição para esclarecimento de dúvidas ou eventuais ocorrências.'; limparCaixas(); }
 function preencherHigida(){
   limparSemConfirmar();
-  peso.value='15 kg'; alergias.value='nega'; comorbidades.value='nega'; medContinuas.value='nega';
-  queixa.value='sem queixas no momento, vem realizar consulta de rotina porque teve pneumonia ano passado';
+  document.getElementById('peso').value='15 kg'; document.getElementById('alergias').value='nega'; document.getElementById('comorbidades').value='nega'; document.getElementById('medContinuas').value='nega';
+  document.getElementById('queixa').value='sem queixas no momento, vem realizar consulta de rotina porque teve pneumonia ano passado';
   ['ativaReativa','comportamentoHabitual','consciente','orientada','alerta','interageComandos','movimentaMembro','extremidadesMovem','sensibilidadePreservada','diurese','evacuacoes','consomeLiquidos','apetite','estadoClinico','estadoIrritabilidade'].forEach(x=>setRadio(x,'sim'));
   ['febre','dor','gemencia','choroPersistente','coriza','congestaoNasal','respiracaoBucal','respiracaoOfegante','tosseSecretiva','tosseSeca','dispneia','chieira','roncos','pioraNoturna','outrosRespBaixos','diarreia','constipacao','vomitosEspontaneos','vomitosPosTosse','vomitosCatarro','vomitosPosPrandiais','lesoesPeleMucosas','cocamLesoes','dorLesoes','secrecaoLesoesPresente','disseminacaoLesoes','sangramentoPele','olhoVermelho','secrecaoOcular','dorOcular','pruridoLacrimejamento','fotofobia','alteracaoVisual','lesoesOrais','dorOral','dorEngolir','otalgia','otorreia','pruridoOtologico','alteracaoAuditiva','zumbido','vertigem','movimentosAnormais','sincope','convulsoes','sonolenciaExcessiva','choroInconsolavel','comportamentoAnormal','vomitoJato','cefaleiaIntratavel','hematomaSubgaleal','bateuCabeca','historiaTrauma','equimosesHematomas','dorMecanica','dorInflamatoria','sinaisArtrite','desalinhamento','dorPeito','palpitacoes','cianose','sincopeAbrupta','sialorreia'].forEach(x=>setRadio(x,'nao'));
-  tipoFebre.value='nao-informada';
+  document.getElementById('tipoFebre').value='nao-informada';
   setRadio('usouMedicacaoSintomatica','nao');
   setRadio('medicacaoAjudou','nao');
-  queixasUrinarias.value='nega'; queixasEvacuacao.value='nega'; sangueMucoFezes.value='nega'; secrecoesAnormais.value='nega';
+  document.getElementById('queixasUrinarias').value='nega'; document.getElementById('queixasEvacuacao').value='nega'; document.getElementById('sangueMucoFezes').value='nega'; document.getElementById('secrecoesAnormais').value='nega';
   gerarTextoCompleto();
 }
 function limparCaixas(){ ['textoIdentificacao','textoAnamnese','textoExame','textoHipotesesCondutas'].forEach(id=>document.getElementById(id).value=''); ['statusIdentificacao','statusAnamnese','statusExame','statusHipotesesCondutas'].forEach(id=>document.getElementById(id).textContent=''); }
