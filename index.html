@@ -1,45 +1,129 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Consulta Pediátrica Rápida</title>
-<meta name="description" content="Consulta Pediátrica Rápida — página inicial do projeto.">
-<style>
-:root{--bg:#f5f7fb;--card:#fff;--text:#182033;--muted:#65708a;--primary:#2457c5;--border:#d8deea;--soft:#eef2f8;--shadow:0 10px 30px rgba(20,62,55,.08)}
-*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#eef3ff,var(--bg));color:var(--text);min-height:100vh;display:grid;place-items:center;padding:24px}
-main{width:min(900px,100%);background:var(--card);border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow);padding:40px}
-h1{margin:0 0 12px;font-size:clamp(2rem,5vw,3.2rem);line-height:1.05}p{margin:0 0 24px;color:var(--muted);line-height:1.6}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}a{display:inline-block;text-decoration:none;padding:12px 18px;border-radius:999px;font-weight:700;transition:transform .15s ease,background .15s ease,border-color .15s ease}
-a:hover{transform:translateY(-1px)}.primary{background:var(--primary);color:#fff}.primary:hover{background:#1f4ea8}.secondary{background:#eef3ff;color:var(--primary);border:1px solid var(--border)}
-.panel{margin-top:28px;padding:18px;border-radius:16px;background:#fbfcff;border:1px solid var(--border)}.panel h2{margin:0 0 10px;font-size:1.05rem}.panel ul{margin:0;padding-left:18px;color:var(--muted)}footer{margin-top:22px;font-size:.95rem;color:var(--muted)}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ferramenta para organizar informações e gerar um rascunho de exame pediátrico.">
+  <title>Consulta Pediátrica Rápida</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
 </head>
 <body>
-<main>
-  <h1>Consulta Pediátrica Rápida</h1>
-  <p>
-    Página inicial do projeto, pensada para uso no GitHub Pages e para servir
-    como base da navegação do conteúdo pediátrico.
-  </p>
+  <header class="topbar">
+    <a class="brand" href="./">
+      <span class="brand-mark" aria-hidden="true">+</span>
+      <span>Consulta <span class="brand-light">Pediátrica</span></span>
+    </a>
+    <div class="topbar-note"><span class="status-dot"></span>Ferramenta de apoio à consulta</div>
+  </header>
 
-  <div class="actions">
-    <a class="primary" href="#conteudo">Ver conteúdo</a>
-    <a class="secondary" href="#sobre">Sobre o projeto</a>
-  </div>
+  <main class="page-shell">
+    <section class="intro" aria-labelledby="page-title">
+      <div class="eyebrow"><span aria-hidden="true">●</span>PRONTO ATENDIMENTO</div>
+      <h1 id="page-title">Exame físico <span>pediátrico</span></h1>
+      <p>Preencha os dados da consulta e gere um rascunho organizado para revisar.</p>
+      <a class="intro-link" href="./pedwb/">Consultar o Compêndio Pediátrico <span aria-hidden="true">→</span></a>
+    </section>
 
-  <section class="panel" id="conteudo">
-    <h2>O que este índice pode oferecer</h2>
-    <ul>
-      <li>Acesso rápido ao conteúdo principal do projeto.</li>
-      <li>Estrutura simples e responsiva.</li>
-      <li>Base para evolução futura com novas seções e links.</li>
-    </ul>
-  </section>
+    <div class="workspace">
+      <form class="form-column" id="exam-form">
+        <section class="card" aria-labelledby="identity-heading">
+          <div class="section-heading">
+            <span class="section-icon" aria-hidden="true">01</span>
+            <div>
+              <h2 id="identity-heading">Identificação</h2>
+              <p>Dados básicos do atendimento</p>
+            </div>
+          </div>
+          <div class="field-grid">
+            <label class="field" for="patient-name">Nome</label>
+            <label class="field" for="patient-age">Idade</label>
+            <label class="field field-wide" for="exam-date">Data do atendimento</label>
+          </div>
+          <div class="field-grid">
+            <input id="patient-name" name="patient-name" type="text" autocomplete="off" placeholder="Nome da criança">
+            <input id="patient-age" name="patient-age" type="text" autocomplete="off" placeholder="Ex.: 3 anos e 2 meses">
+            <input class="field-wide" id="exam-date" name="exam-date" type="date">
+          </div>
+        </section>
 
-  <footer id="sobre">
-    Projeto em construção para facilitar a organização e consulta de informações pediátricas.
-  </footer>
-</main>
+        <section class="card" aria-labelledby="vitals-heading">
+          <div class="section-heading">
+            <span class="section-icon" aria-hidden="true">02</span>
+            <div>
+              <h2 id="vitals-heading">Sinais vitais e medidas</h2>
+              <p>Preencha os valores disponíveis</p>
+            </div>
+          </div>
+          <div class="field-grid">
+            <label class="field" for="temperature">Temperatura</label>
+            <label class="field" for="heart-rate">Frequência cardíaca</label>
+            <label class="field" for="respiratory-rate">Frequência respiratória</label>
+            <label class="field" for="oxygen-saturation">Saturação de O₂</label>
+            <label class="field" for="weight">Peso</label>
+            <label class="field" for="height">Estatura</label>
+          </div>
+          <div class="field-grid">
+            <div class="input-unit"><input id="temperature" name="temperature" type="number" step="0.1" inputmode="decimal" aria-label="Temperatura"><span>°C</span></div>
+            <div class="input-unit"><input id="heart-rate" name="heart-rate" type="number" step="1" inputmode="numeric" aria-label="Frequência cardíaca"><span>bpm</span></div>
+            <div class="input-unit"><input id="respiratory-rate" name="respiratory-rate" type="number" step="1" inputmode="numeric" aria-label="Frequência respiratória"><span>irpm</span></div>
+            <div class="input-unit"><input id="oxygen-saturation" name="oxygen-saturation" type="number" min="0" max="100" step="1" inputmode="numeric" aria-label="Saturação de oxigênio"><span>%</span></div>
+            <div class="input-unit"><input id="weight" name="weight" type="number" min="0" step="0.01" inputmode="decimal" aria-label="Peso"><span>kg</span></div>
+            <div class="input-unit"><input id="height" name="height" type="number" min="0" step="0.1" inputmode="decimal" aria-label="Estatura"><span>cm</span></div>
+          </div>
+        </section>
+
+        <section class="card" aria-labelledby="examination-heading">
+          <div class="section-heading section-heading-wrap">
+            <span class="section-icon" aria-hidden="true">03</span>
+            <div>
+              <h2 id="examination-heading">Exame físico</h2>
+              <p>Edite o texto conforme os achados observados</p>
+            </div>
+            <button class="text-button" id="normal-template" type="button">Preencher modelo normal</button>
+          </div>
+          <p class="template-note">O modelo é apenas um ponto de partida. Confira e ajuste cada achado antes de usar o texto.</p>
+          <div class="exam-fields">
+            <label class="field" for="general">Estado geral<textarea id="general" name="general" rows="2" placeholder="Descreva o estado geral"></textarea></label>
+            <label class="field" for="skin">Pele e mucosas<textarea id="skin" name="skin" rows="2" placeholder="Descreva pele e mucosas"></textarea></label>
+            <label class="field" for="cardiovascular">Cardiovascular<textarea id="cardiovascular" name="cardiovascular" rows="2" placeholder="Descreva os achados cardiovasculares"></textarea></label>
+            <label class="field" for="respiratory">Respiratório<textarea id="respiratory" name="respiratory" rows="2" placeholder="Descreva os achados respiratórios"></textarea></label>
+            <label class="field" for="abdomen">Abdome<textarea id="abdomen" name="abdomen" rows="2" placeholder="Descreva os achados abdominais"></textarea></label>
+            <label class="field" for="neurological">Neurológico<textarea id="neurological" name="neurological" rows="2" placeholder="Descreva os achados neurológicos"></textarea></label>
+            <label class="field" for="other-findings">Outros achados<textarea id="other-findings" name="other-findings" rows="2" placeholder="Registre outros achados"></textarea></label>
+          </div>
+        </section>
+      </form>
+
+      <aside class="result-column" aria-labelledby="report-heading">
+        <section class="result-card">
+          <div class="result-header">
+            <div class="section-heading">
+              <span class="result-icon" aria-hidden="true">≡</span>
+              <div>
+                <h2 id="report-heading">Rascunho do exame</h2>
+                <p>Atualizado conforme você preenche</p>
+              </div>
+            </div>
+            <span class="live-label"><span class="status-dot"></span>AO VIVO</span>
+          </div>
+          <div class="report" id="report" aria-live="polite" aria-atomic="true">
+            <p class="empty-state">Preencha os campos ao lado para começar a montar o texto do exame.</p>
+          </div>
+          <div class="result-actions">
+            <button class="button button-primary" id="copy-report" type="button"><span aria-hidden="true">▣</span> Copiar texto</button>
+            <button class="button button-secondary" id="print-report" type="button"><span aria-hidden="true">⎙</span> Imprimir</button>
+          </div>
+          <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+        </section>
+        <p class="privacy-note"><span aria-hidden="true">●</span>Os dados preenchidos não são enviados nem salvos por esta página.</p>
+        <button class="clear-button" id="clear-form" type="button">Limpar formulário</button>
+      </aside>
+    </div>
+
+    <footer class="page-footer">
+      Ferramenta de apoio à documentação. Revise o conteúdo e confirme todos os dados antes de incorporá-los ao prontuário.
+    </footer>
+  </main>
 </body>
 </html>
