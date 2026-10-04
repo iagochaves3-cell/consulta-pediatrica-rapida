@@ -1732,8 +1732,6 @@ A ERNICA recomenda cobertura de amplo espectro e irrigação retal nos internado
 
 ### Conteúdo histórico ainda não promovido neste subbloco
 
-## 106. Doença Meningocócica em Pediatria
-
 **Não esperar exantema completo.** Febre, prostração, dor em membros, alteração da perfusão e petéquias/púrpura podem representar meningococcemia. Choque, rebaixamento ou progressão rápida requerem ABCDE, acesso EV/IO, antibiótico imediato e UTI. Ausência de meningismo não reduz a gravidade da bacteremia meningocócica.
 
 **Exames e tratamento.** Colher hemocultura e amostras para PCR se não atrasarem terapia. Punção lombar apenas após estabilização e se não houver contraindicação; nunca adiar antibiótico para realizá-la. Para suspeita de doença invasiva em criança além do período neonatal: ceftriaxona 100 mg/kg/dia EV, máximo 4 g/dia, em dose diária ou dividida conforme protocolo de meningite. Após identificação e sensibilidade, estreitar espectro; não assumir sensibilidade à penicilina. A duração de meningite meningocócica não complicada costuma ser 5–7 dias, definida por evolução e diagnóstico microbiológico.

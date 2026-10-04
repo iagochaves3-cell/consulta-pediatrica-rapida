@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T17:12:00.000Z",
+  "publishedAt": "2026-10-04T17:15:00.000Z",
   "kind": "documentary_saved_delta",
   "sourceVersion": 24,
   "savedCorpusSha256": "40bfb0bf998096bc54d92d819ef93847b53d4f3150bfbd6b13163b022e273b4a",
-  "publicCorpusSha256": "a1289060186e56ad59ceac7b28e563e077e496efbca40406d57d2890a713e62f",
+  "publicCorpusSha256": "a7d32427eb59336cfe92fe0854d47b9253e2e866d367a09cdb72c04eff88b028",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "6475e31f148240fcf695630cd3c3b1fd790468bf",
+  "sourceBaselineCommit": "7bb2f97adb9daded381a5216d8df28f068aa8d1a",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -468,10 +468,7 @@
     }
   ],
   "previousPublication": {
-    "publishedAt": "2026-10-04T14:22:39.661905+00:00",
-    "sourceVersion": 22,
-    "savedCorpusSha256": "b0a6a5dbf96923a22032316dbc8fd7ce5e484f3a8a409b0337ec059c8844a275",
-    "publicCorpusSha256": "18bd7c3d7f0d34e1e108b065aa9c4a1fbf9067324bcd9c4205f0a66150ccdc59",
-    "sourceBaselineCommit": "bde52502b174bb3070327384b1ae0e33b7faeb05"
+    "commit": "7bb2f97adb9daded381a5216d8df28f068aa8d1a",
+    "note": "Correção estrutural: remoção de cabeçalho duplicado introduzido na integração do tema 142; conteúdo clínico preservado."
   }
 }
