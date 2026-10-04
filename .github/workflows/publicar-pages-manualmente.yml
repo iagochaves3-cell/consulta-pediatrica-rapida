@@ -62,6 +62,9 @@ jobs:
           mkdir -p dist
           cp .nojekyll index.html app.js styles.css dist/
           cp -R pedwb dist/
+          mkdir -p dist/nexo
+          cp .nojekyll index.html app.js styles.css dist/nexo/
+          cp -R pedwb dist/nexo/
 
       - name: Clean previous Pages artifacts
         env:

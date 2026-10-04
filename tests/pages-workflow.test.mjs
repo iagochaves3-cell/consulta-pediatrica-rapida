@@ -10,6 +10,7 @@ const publicFiles = [
   '.nojekyll', 'index.html', 'app.js', 'styles.css',
   'pedwb/index.html', 'pedwb/PedWB_Consolidado.md',
 ];
+const mirroredFiles = publicFiles.map(file => `nexo/${file}`);
 
 function runBlock(workflow, name) {
   const step = workflow.split(`- name: ${name}\n`)[1]?.split(/\n\s*- name:/)[0];
@@ -55,9 +56,13 @@ for (const name of ['pages.yml', 'publicar-pages-manualmente.yml']) {
       assert.equal(result.status, 0, result.stderr);
       const files = fs.readdirSync(path.join(directory, 'dist'), { recursive: true })
         .filter(file => fs.statSync(path.join(directory, 'dist', file)).isFile());
-      assert.deepEqual(files.sort(), [...publicFiles].sort());
+      assert.deepEqual(files.sort(), [...publicFiles, ...mirroredFiles].sort());
       for (const file of publicFiles) {
         assert.deepEqual(fs.readFileSync(path.join(directory, 'dist', file)), fs.readFileSync(new URL(file, root)));
+        assert.deepEqual(
+          fs.readFileSync(path.join(directory, 'dist', 'nexo', file)),
+          fs.readFileSync(new URL(file, root)),
+        );
       }
     } finally {
       fs.rmSync(directory, { recursive: true, force: true });
