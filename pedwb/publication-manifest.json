@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T11:12:14.512Z",
+  "publishedAt": "2026-10-04T12:18:00.000Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 18,
-  "savedCorpusSha256": "04617b37dee19c83a78cbed0bdd132c978ffc1f886bf3f5e2481217d69ac27fb",
-  "publicCorpusSha256": "4fa8d18e3bbc8060d9c58e71487a3af319c3bdac1f168c26d79ef132cace4e1d",
+  "sourceVersion": 19,
+  "savedCorpusSha256": "fb77b6b810d62f6253962e73bd43c4c3c5f6079b32cd0f8839110160fa69888c",
+  "publicCorpusSha256": "cd14cd0d03afc58c8c476870040b92b7458681a4722a88a1443d51feb72a37e5",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "38ae3efea79d25001bdb84c5930dc1d6b8de1d1b",
+  "sourceBaselineCommit": "47186445277254bb06858408dd81e7d04c258cff",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -209,6 +209,20 @@
       "savedBlockSha256": "922dc6ce0016c467fee442c101df79bb642598f1a0813dbc26091cd0c736bc5a",
       "publicBlockSha256": "6fd18990fd071938f0a584eacf97aa4d766190cc650a254e6adde1f0167c3518",
       "reviewEnvelopeSha256": "8cc4c9a2d08946791061635d456fc21e451cb17688fe830cce56ef960b5cd97c"
+    },
+    {
+      "title": "Actinomicose na Infância",
+      "savedOrdinal": 92,
+      "nativeTitleOrdinal": 125,
+      "publicOrdinal": 6,
+      "stableIdentity": "pedwb:actinomicose-na-infancia",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Delimitar localização e extensão, recuperar bula profissional brasileira vigente e selecionar produto/protocolo institucional; concluir gates de infectologia pediátrica, microbiologia, cirurgia/odontologia conforme foco, farmácia clínica e revisão humana antes de dose, duração, concentração, preparo ou cálculo.",
+      "bodySha256": "a2f4f68b5f5088f345ad171397deb47ec543e85a6673f2f3773ca81eab7ddf46",
+      "savedBlockSha256": "678fd5d015201dbe35b6740414cf0102b763db804f19486a870814c74ac0d534",
+      "publicBlockSha256": "3d753ae61a9acb7780ac786c6327a85fa6dbc24d800f6b161cdf91492eee2c5b",
+      "reviewEnvelopeSha256": "eaa40c82203f34829d039d3c48b7c89bfe8a93177e7f57061e2903c9ab009012"
     }
   ],
   "previousPublication": {
