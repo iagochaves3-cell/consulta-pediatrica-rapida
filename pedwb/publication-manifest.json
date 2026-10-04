@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T14:22:39.661905+00:00",
+  "publishedAt": "2026-10-04T16:22:01.760Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 22,
-  "savedCorpusSha256": "b0a6a5dbf96923a22032316dbc8fd7ce5e484f3a8a409b0337ec059c8844a275",
-  "publicCorpusSha256": "18bd7c3d7f0d34e1e108b065aa9c4a1fbf9067324bcd9c4205f0a66150ccdc59",
+  "sourceVersion": 23,
+  "savedCorpusSha256": "74bf58a00b1815a1e5026f72a0d6734ba5dcc4a3e1318bcd7f4571e20a4e5f82",
+  "publicCorpusSha256": "dd6575772fe6cfae1223dd577ca4be1ce7eb55ec7e4e4083e8d0da5f9a4a46f4",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "d83d2c520492950258ae9a06d0e0c3a64bf6de04",
+  "sourceBaselineCommit": "bde52502b174bb3070327384b1ae0e33b7faeb05",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -438,13 +438,28 @@
       "publicBlockSha256": "39ef2ee8e207415f835e19e807cedb14fedcd29720ffbca40f0d5cac3a1f90c8",
       "candidateSha256": "0d1f63b0d71c3488ac694d3cdec27bc23bec1dd8beb15caba4c28244bc084398",
       "reviewEnvelopeSha256": "6a33f04608078eada348aa1190d8341c49afac04860d9efd1464ad00acf87b14"
+    },
+    {
+      "title": "Doença Mão-Pé-Boca",
+      "savedOrdinal": 108,
+      "nativeTitleOrdinal": 141,
+      "publicOrdinal": 108,
+      "stableIdentity": "pedwb:doenca-mao-pe-boca",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Revisar separadamente tratamento, medicamentos, investigação operacional de casos graves, surtos/afastamento e alterações ungueais; não habilitar prescrição ou cálculo.",
+      "bodySha256": "ac9dd31576931b7fd17e058c6ea2caaaf63c8014a5d17a1598ab3b5178f8eaf3",
+      "savedBlockSha256": "b5822df3040dcd0253b5dc3b4c7a1b8f0b1eabe4b65ff256e95b9c2e43f66a66",
+      "publicBlockSha256": "0428b52f97376053f2bf099ed8de689dd59bee146642a1bae6260e9c2cf610d8",
+      "candidateSha256": "58a4f0c76ab5277246e7b6fd5c9f7118db4faab43ff744f8126740b541494468",
+      "reviewEnvelopeSha256": "8b9d5c60eb1c92531357b5c6f1315d58760823dd67403776c47d34b9b90db33f"
     }
   ],
   "previousPublication": {
-    "publishedAt": "2026-10-04T13:14:13.907744+00:00",
-    "sourceVersion": 21,
-    "savedCorpusSha256": "4600386d78ac1acf264d84bb3d4f9a06d06e4ae11ba9fa2c13af8042044b3384",
-    "publicCorpusSha256": "8cdc5bb4e083eccfef33f678274f05c82709a7bf229a2d29a819bfec763eae66",
-    "sourceBaselineCommit": "383da5349ed4b1ba5caaf3aab592fd2863f0f4b1"
+    "publishedAt": "2026-10-04T14:22:39.661905+00:00",
+    "sourceVersion": 22,
+    "savedCorpusSha256": "b0a6a5dbf96923a22032316dbc8fd7ce5e484f3a8a409b0337ec059c8844a275",
+    "publicCorpusSha256": "18bd7c3d7f0d34e1e108b065aa9c4a1fbf9067324bcd9c4205f0a66150ccdc59",
+    "sourceBaselineCommit": "bde52502b174bb3070327384b1ae0e33b7faeb05"
   }
 }

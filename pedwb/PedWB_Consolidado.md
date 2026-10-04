@@ -1742,16 +1742,29 @@ A ERNICA recomenda cobertura de amplo espectro e irrigação retal nos internado
 
 ## 108. Doença Mão-Pé-Boca
 
-**Quadro usual.** Febre, úlceras orais dolorosas e lesões em mãos/pés, por vezes nádegas e outras áreas, sugerem doença mão-pé-boca. O diagnóstico geralmente é clínico. Avaliar ingestão, diurese e estado neurológico; disfagia com desidratação é a complicação prática mais frequente. Prostração desproporcional, mioclonias, ataxia, cefaleia intensa, taquicardia persistente ou dificuldade respiratória exigem atendimento hospitalar.
+### Doença Mão-Pé-Boca — subbloco de diagnóstico, triagem e retorno
+
+**Suspeita clínica.** Em criança com febre e lesões de mãos e pés, considerar doença mão-pé-boca mesmo sem úlceras orais: elas não são obrigatórias na definição de caso suspeito do Ministério da Saúde. O diagnóstico é habitualmente clínico. Lesões fora das palmas e plantas podem ocorrer, mas exantema disseminado, conjuntivite, sintomas respiratórios ou adenomegalia pedem diagnóstico diferencial, incluindo sarampo, varicela e gengivoestomatite herpética; não atribuir automaticamente toda erupção ao enterovírus. [MS16]
+
+**Ingestão e gravidade.** Dor oral, recusa de líquidos e salivação aumentada podem indicar dificuldade para engolir. Verificar capacidade de ingerir líquidos e hidratação. Avaliar prontamente incapacidade de beber, suspeita de desidratação ou sinais graves; cefaleia ou rigidez de nuca, alteração neurológica ou dificuldade respiratória pedem avaliação clínica de possível complicação. Não exigir que cefaleia e rigidez coexistam para avaliar sinais meníngeos. A falta de ingestão suficiente pode requerer suporte hospitalar; a erupção isolada não determina internação. [CDC-S; MS16]
+
+**Reavaliação.** Orientar avaliação por profissional de saúde se a febre durar mais de três dias, se os sintomas não melhorarem após dez dias, se houver imunodeficiência ou se a criança for muito pequena, especialmente menor de seis meses. São gatilhos de avaliação, não critérios automáticos de internação. Os prazos não autorizam esperar diante de baixa ingestão ou gravidade. [CDC-S]
+
+**Escopo da revisão por IA.** Subbloco documental candidato de diagnóstico/triagem/retorno, vinculado ao capítulo nativo141. Não revisa integralmente tratamento, medicamentos, investigação de casos graves, controle de surtos, afastamento escolar ou alterações ungueais; não habilita receita ou cálculo. O texto histórico dessas partes permanece sujeito à revisão própria.
+
+**Referências consultadas em 04/10/2026.**
+
+- [MS16 — Nota Técnica nº16/2023-CGCIEVS/DEMSP/SVSA/MS, seções4–6; documento assinado em maio/2023, página oficial atualizada em01/06/2023](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2023/sei_ms-0033506310-nota-tecnica.pdf).
+- [CDC-S — HFMD Symptoms and Complications, 07/05/2024](https://www.cdc.gov/hand-foot-mouth/signs-symptoms/index.html).
+### Conteúdo histórico ainda não promovido neste subbloco
 
 **Tratamento.** Hidratação em pequenos volumes frequentes, líquidos frescos e alimentos não irritantes; analgesia do módulo comum antes das refeições pode facilitar aceitação. Não há indicação habitual de antibiótico, aciclovir ou corticoide sistêmico. Lidocaína viscosa e benzocaína em crianças pequenas podem causar toxicidade e não devem ser usadas como solução automática para a dor oral. Não prescrever associações caseiras com anestésico ou múltiplos fármacos de concentração incerta.
 
 **Exames e destino.** Teste viral e hemograma não são necessários em apresentação típica, estável; reservar investigação para gravidade, imunodeficiência, surto relevante ou diagnóstico diferencial. Internar quando não for possível hidratar, houver alteração neurológica/cardiopulmonar ou necessidade de suporte.
 
-**Orientações.** Higiene rigorosa das mãos e superfícies, evitar compartilhamento de utensílios e contato com secreções. Explicar que descamação/alterações ungueais tardias podem ocorrer e não significam nova infecção bacteriana. Retorno por oligúria, incapacidade de beber, sonolência anormal ou febre persistente.
+**Orientações.** Higiene rigorosa das mãos e superfícies, evitar compartilhamento de utensílios e contato com secreções. Explicar que descamação/alterações ungueais tardias podem ocorrer e não significam nova infecção bacteriana.
 
 **Fontes: ** [CDC — doença mão-pé-boca](https://www.cdc.gov/hand-foot-mouth/index.html); [CDC — sintomas e complicações](https://www.cdc.gov/hand-foot-mouth/signs-symptoms/index.html)
-
 
 ## 109. Doença Renal Crônica em Pediatria
 

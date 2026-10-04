@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "stableIdentity": "pedwb:doenca-mao-pe-boca",
+  "nativeTitleOrdinal": 141,
+  "publicOrdinal": 108,
+  "candidateSha256": "58a4f0c76ab5277246e7b6fd5c9f7118db4faab43ff744f8126740b541494468",
+  "independentGateSha256": "19fb180a8e245e7aa0713a63566791d5492b79c5e0b6917d4a7f94874f6417b3",
+  "integratedNativeVersion": 23,
+  "nativeCorpusSha256": "74bf58a00b1815a1e5026f72a0d6734ba5dcc4a3e1318bcd7f4571e20a4e5f82",
+  "publicCorpusSha256": "dd6575772fe6cfae1223dd577ca4be1ce7eb55ec7e4e4083e8d0da5f9a4a46f4",
+  "publicationPreparedAt": "2026-10-04T16:22:01.760Z",
+  "humanReview": false,
+  "prescriptionOrCalculatorEnabled": false,
+  "wholeChapterApproved": false,
+  "gate": {
+    "schemaVersion": "1.0",
+    "reviewerType": "AI_independent",
+    "reviewedAtUtc": "2026-10-04T15:20:00Z",
+    "scope": {
+      "stableIdentity": "pedwb:doenca-mao-pe-boca",
+      "nativeQueueNumber": 141,
+      "scopeType": "partial_documentary_clinical_gate",
+      "included": [
+        "suspeita clínica sem lesão oral obrigatória",
+        "triagem de ingestão, hidratação e possíveis complicações",
+        "retorno por febre >3 dias, ausência de melhora após 10 dias, imunodeficiência e idade muito baixa, especialmente <6 meses",
+        "distinção entre gatilho de avaliação e internação automática"
+      ],
+      "excluded": [
+        "revisão ou aprovação integral do capítulo nativo141",
+        "tratamento, medicamentos, apresentações, doses, volumes ou cálculos",
+        "investigação operacional de casos graves",
+        "controle de surtos, afastamento escolar e alterações ungueais",
+        "homologação humana, integração, publicação ou prescrição automatizada"
+      ]
+    },
+    "artifacts": {
+      "candidateFinal": {
+        "path": "continue141/review141/candidate-root-final.md",
+        "sha256Expected": "58a4f0c76ab5277246e7b6fd5c9f7118db4faab43ff744f8126740b541494468",
+        "sha256Observed": "58a4f0c76ab5277246e7b6fd5c9f7118db4faab43ff744f8126740b541494468",
+        "hashMatch": true,
+        "readInFull": true
+      },
+      "rootFinalNotes": {
+        "path": "continue141/review141/root-final-notes.json",
+        "sha256": "6c4a90c60f9feccb5f035810b2dd925e190ac01108f7b75951e84e224399cc5c",
+        "readInFull": true
+      },
+      "priorCandidate": {
+        "path": "continue141/review141/candidate.md",
+        "sha256": "f2d735d96a22e5aa4d6ca542661faa6e21870332b32529289f1ae5926ecab269",
+        "comparison": "Diff integral conferido; somente o parágrafo Ingestão e gravidade mudou."
+      },
+      "priorIndependentGate": {
+        "path": "continue141/independent-gate/gate-clinico-parcial141.json",
+        "sha256": "c05cc370c3ca0522134f2d171e84bd9ace5b9e1c1ae11ae65155029fb1c060a5",
+        "disposition": "Preservado para rastreabilidade; não substituído."
+      }
+    },
+    "sourcesVerified": [
+      {
+        "sourceId": "MS16",
+        "document": "Nota Técnica nº 16/2023-CGCIEVS/DEMSP/SVSA/MS",
+        "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2023/sei_ms-0033506310-nota-tecnica.pdf",
+        "documentDate": "2023-05",
+        "verifiedFreshAt": "2026-10-04",
+        "access": "PDF oficial atual, seis páginas/235 linhas lidas integralmente",
+        "claimsUsed": [
+          "Caso suspeito febril com lesões em mãos e pés, associadas ou não a úlceras orais.",
+          "Diagnóstico clínico e diferenciais diante de apresentação menos característica.",
+          "Dor oral, dificuldade de ingestão e desidratação; complicações neurológicas e síndrome neurorrespiratória são raras.",
+          "Doença usualmente não requer internação; incapacidade de hidratação oral pode exigir suporte parenteral e internação."
+        ]
+      },
+      {
+        "sourceId": "CDC-S",
+        "document": "HFMD Symptoms and Complications",
+        "url": "https://www.cdc.gov/hand-foot-mouth/signs-symptoms/index.html",
+        "pageDate": "2024-05-07",
+        "verifiedFreshAt": "2026-10-04",
+        "access": "Página oficial atual, 121 linhas lidas integralmente",
+        "claimsUsed": [
+          "Não comer/beber e salivação aumentada podem indicar dor ao engolir.",
+          "Ingestão insuficiente pode causar desidratação.",
+          "Meningite viral pode apresentar cefaleia e rigidez de nuca; encefalite/paralisia são raras.",
+          "Avaliação profissional por incapacidade de beber, febre >3 dias, imunodeficiência, sintomas graves, ausência de melhora após 10 dias ou idade muito baixa, especialmente <6 meses."
+        ]
+      }
+    ],
+    "exactAmendmentReview": [
+      {
+        "change": "Remoção de diurese",
+        "before": "Verificar hidratação e diurese.",
+        "after": "Verificar capacidade de ingerir líquidos e hidratação.",
+        "assessment": "A nova redação fica diretamente vinculada às duas fontes e elimina a inferência não explicitada.",
+        "status": "pass"
+      },
+      {
+        "change": "Separação de cefaleia e rigidez de nuca",
+        "before": "cefaleia com rigidez de nuca",
+        "after": "cefaleia ou rigidez de nuca ... Não exigir que cefaleia e rigidez coexistam",
+        "assessment": "A nova redação evita um requisito conjunto ausente no CDC e é mais segura para triagem, inclusive em lactentes incapazes de verbalizar cefaleia.",
+        "status": "pass"
+      },
+      {
+        "change": "Força da recomendação",
+        "before": "exigem avaliação de complicação",
+        "after": "pedem avaliação clínica de possível complicação",
+        "assessment": "A nova formulação mantém o encaminhamento prudente sem diagnosticar automaticamente complicação.",
+        "status": "pass"
+      }
+    ],
+    "claimChecklist": [
+      {
+        "item": "suspeita_sem_ulcera_oral",
+        "status": "pass",
+        "basis": "MS16 seção 4.1"
+      },
+      {
+        "item": "diagnostico_clinico_e_diferenciais",
+        "status": "pass",
+        "basis": "MS16 seções 6.1–6.2"
+      },
+      {
+        "item": "ingestao_e_hidratacao",
+        "status": "pass",
+        "basis": "MS16 seções 3.4/5.1 e CDC-S"
+      },
+      {
+        "item": "sinais_meningeos_nao_conjuntivos",
+        "status": "pass",
+        "basis": "CDC-S enumera cefaleia e rigidez de nuca sem requerer coexistência"
+      },
+      {
+        "item": "alteracao_neurologica_ou_respiratoria",
+        "status": "pass",
+        "basis": "MS16 complicações graves e CDC-S sintomas graves/encefalite/paralisia"
+      },
+      {
+        "item": "suporte_hospitalar_por_baixa_ingestao",
+        "status": "pass",
+        "basis": "MS16 seção 5.1"
+      },
+      {
+        "item": "erupcao_isolada_nao_define_internacao",
+        "status": "pass",
+        "basis": "MS16: doença normalmente não necessita internação; internação vinculada à impossibilidade de hidratação oral"
+      },
+      {
+        "item": "febre_maior_que_3_dias",
+        "status": "pass",
+        "basis": "CDC-S",
+        "boundary": "Exatamente três dias não satisfaz isoladamente o critério textual >3 dias."
+      },
+      {
+        "item": "sem_melhora_apos_10_dias",
+        "status": "pass",
+        "basis": "CDC-S",
+        "boundary": "Sintomas residuais em melhora não equivalem a ausência de melhora."
+      },
+      {
+        "item": "imunodeficiencia_ou_menor_6_meses",
+        "status": "pass",
+        "basis": "CDC-S"
+      },
+      {
+        "item": "nao_internacao_automatica",
+        "status": "pass",
+        "basis": "CDC-S recomenda avaliação profissional; MS16 diz que a doença normalmente não requer internação"
+      },
+      {
+        "item": "prazos_nao_autorizam_espera_com_alarme",
+        "status": "pass",
+        "basis": "Síntese conservadora dos critérios independentes de avaliação imediata do CDC-S e do risco de desidratação do MS16"
+      }
+    ],
+    "boundaryScenarios": [
+      {
+        "scenario": "Febre e lesões de mãos/pés sem úlcera oral",
+        "expected": "DMPB permanece suspeita; ausência de úlcera não confirma nem exclui.",
+        "status": "pass"
+      },
+      {
+        "scenario": "Febre por exatamente três dias, estável, hidratando",
+        "expected": "Sem internação automática e sem atingir isoladamente o gatilho >3 dias.",
+        "status": "pass"
+      },
+      {
+        "scenario": "Febre por mais de três dias",
+        "expected": "Avaliação profissional sem aguardar dez dias.",
+        "status": "pass"
+      },
+      {
+        "scenario": "Sintomas sem melhora após dez dias",
+        "expected": "Reavaliação clínica.",
+        "status": "pass"
+      },
+      {
+        "scenario": "Menor de seis meses, estável e hidratando",
+        "expected": "Avaliação favorecida pela idade, não internação automática.",
+        "status": "pass"
+      },
+      {
+        "scenario": "Incapacidade de beber no primeiro dia",
+        "expected": "Avaliação imediata; não esperar os marcos temporais.",
+        "status": "pass"
+      },
+      {
+        "scenario": "Rigidez de nuca sem cefaleia verbalizável",
+        "expected": "Avaliar possível complicação; não exigir coexistência de sintomas.",
+        "status": "pass"
+      },
+      {
+        "scenario": "Erupção isolada, boa ingestão e ausência de sinais graves",
+        "expected": "Erupção isolada não determina internação.",
+        "status": "pass"
+      }
+    ],
+    "medicationAndCalculationReview": {
+      "applicability": "not_applicable",
+      "reason": "Não há medicamento, apresentação, dose, concentração, volume, diluição, infusão ou fórmula no escopo."
+    },
+    "divergences": [
+      {
+        "subject": "duração_habitual",
+        "finding": "MS16 refere melhora espontânea em 3–7 dias; CDC refere sintomas leves em 7–10 dias.",
+        "candidateResolution": "O candidato não declara duração universal e usa apenas o gatilho CDC específico de ausência de melhora após 10 dias.",
+        "status": "resolved_nonblocking"
+      }
+    ],
+    "blockingIssues": [],
+    "decision": {
+      "status": "approve_exact_hash_partial_scope",
+      "eligibleForDocumentaryIntegrationByRoot": true,
+      "eligibilityStatement": "O texto exato de SHA-256 58a4f0c76ab5277246e7b6fd5c9f7118db4faab43ff744f8126740b541494468 é clinicamente defensável para integração documental somente no subescopo diagnóstico/triagem/retorno descrito.",
+      "previousTraceabilityLimitsResolved": true,
+      "wholeChapterApproved": false,
+      "medicationsApproved": false,
+      "automatedPrescribingApproved": false,
+      "humanApproval": false,
+      "integrationAttested": false,
+      "publicationAttested": false,
+      "gitWritePerformed": false,
+      "siteWritePerformed": false,
+      "libraryWritePerformed": false,
+      "remoteQueueWritePerformed": false
+    }
+  }
+}

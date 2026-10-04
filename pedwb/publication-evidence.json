@@ -2097,6 +2097,63 @@
       ],
       "pendingAction": "Resolver os campos críticos explicitados e propagar somente o escopo documental qualificado; não habilitar prescrição/preparo automático.",
       "reviewEnvelopeSha256": "6a33f04608078eada348aa1190d8341c49afac04860d9efd1464ad00acf87b14"
+    },
+    {
+      "schemaVersion": 1,
+      "stableIdentity": "pedwb:doenca-mao-pe-boca",
+      "title": "Doença Mão-Pé-Boca",
+      "historicalReviewPosition": 108,
+      "nativeTitleOrdinal": 141,
+      "publicOrdinal": 108,
+      "reviewedAt": "2026-10-04T16:22:01.760Z",
+      "reviewType": "Revisão clínica documental parcial por IA com gate independente",
+      "scope": "Diagnóstico, triagem de ingestão/hidratação e possíveis complicações, retorno e distinção entre avaliação e internação automática.",
+      "text": "### Doença Mão-Pé-Boca — subbloco de diagnóstico, triagem e retorno\n\n**Suspeita clínica.** Em criança com febre e lesões de mãos e pés, considerar doença mão-pé-boca mesmo sem úlceras orais: elas não são obrigatórias na definição de caso suspeito do Ministério da Saúde. O diagnóstico é habitualmente clínico. Lesões fora das palmas e plantas podem ocorrer, mas exantema disseminado, conjuntivite, sintomas respiratórios ou adenomegalia pedem diagnóstico diferencial, incluindo sarampo, varicela e gengivoestomatite herpética; não atribuir automaticamente toda erupção ao enterovírus. [MS16]\n\n**Ingestão e gravidade.** Dor oral, recusa de líquidos e salivação aumentada podem indicar dificuldade para engolir. Verificar capacidade de ingerir líquidos e hidratação. Avaliar prontamente incapacidade de beber, suspeita de desidratação ou sinais graves; cefaleia ou rigidez de nuca, alteração neurológica ou dificuldade respiratória pedem avaliação clínica de possível complicação. Não exigir que cefaleia e rigidez coexistam para avaliar sinais meníngeos. A falta de ingestão suficiente pode requerer suporte hospitalar; a erupção isolada não determina internação. [CDC-S; MS16]\n\n**Reavaliação.** Orientar avaliação por profissional de saúde se a febre durar mais de três dias, se os sintomas não melhorarem após dez dias, se houver imunodeficiência ou se a criança for muito pequena, especialmente menor de seis meses. São gatilhos de avaliação, não critérios automáticos de internação. Os prazos não autorizam esperar diante de baixa ingestão ou gravidade. [CDC-S]\n\n**Escopo da revisão por IA.** Subbloco documental candidato de diagnóstico/triagem/retorno, vinculado ao capítulo nativo141. Não revisa integralmente tratamento, medicamentos, investigação de casos graves, controle de surtos, afastamento escolar ou alterações ungueais; não habilita receita ou cálculo. O texto histórico dessas partes permanece sujeito à revisão própria.\n\n**Referências consultadas em 04/10/2026.**\n\n- [MS16 — Nota Técnica nº16/2023-CGCIEVS/DEMSP/SVSA/MS, seções4–6; documento assinado em maio/2023, página oficial atualizada em01/06/2023](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2023/sei_ms-0033506310-nota-tecnica.pdf).\n- [CDC-S — HFMD Symptoms and Complications, 07/05/2024](https://www.cdc.gov/hand-foot-mouth/signs-symptoms/index.html).\n",
+      "sources": [
+        {
+          "id": "MS16",
+          "title": "Nota Técnica nº 16/2023-CGCIEVS/DEMSP/SVSA/MS",
+          "issuer": "Ministério da Saúde",
+          "documentDate": "2023-05",
+          "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2023/sei_ms-0033506310-nota-tecnica.pdf",
+          "primary": true,
+          "population": "Brasil; doença mão-pé-boca; vigilância e manejo clínico",
+          "access": "PDF oficial de seis páginas lido integralmente em 04/10/2026"
+        },
+        {
+          "id": "CDC-S",
+          "title": "HFMD Symptoms and Complications",
+          "issuer": "CDC",
+          "documentDate": "2024-05-07",
+          "url": "https://www.cdc.gov/hand-foot-mouth/signs-symptoms/index.html",
+          "primary": true,
+          "population": "Doença mão-pé-boca; sintomas e complicações",
+          "access": "Página oficial lida integralmente em 04/10/2026"
+        }
+      ],
+      "checks": {
+        "clinical": "passed",
+        "pharmaceutical": "not_applicable_no_medication_fields",
+        "mathematical": "not_applicable_no_drug_or_calculation_fields",
+        "reverse": "not_applicable_no_drug_or_calculation_fields"
+      },
+      "gate": {
+        "decision": "approve_exact_hash_partial_scope",
+        "candidateSha256": "58a4f0c76ab5277246e7b6fd5c9f7118db4faab43ff744f8126740b541494468",
+        "independentGateSha256": "19fb180a8e245e7aa0713a63566791d5492b79c5e0b6917d4a7f94874f6417b3",
+        "blockingIssues": 0,
+        "boundaryScenarios": 8
+      },
+      "exclusions": [
+        "tratamento e medicamentos",
+        "investigação operacional de casos graves",
+        "controle de surtos e afastamento escolar",
+        "alterações ungueais",
+        "homologação humana e prescrição automatizada"
+      ],
+      "humanReview": false,
+      "prescriptionOrCalculatorEnabled": false,
+      "wholeChapterApproved": false
     }
   ]
 }
