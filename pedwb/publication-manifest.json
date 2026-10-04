@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T04:16:37.413400+00:00",
+  "publishedAt": "2026-10-04T04:34:17.944025+00:00",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 11,
-  "savedCorpusSha256": "fbcabff7bfe1269018108c1bc75c3a2a034c911f6f1dcf5191603ae7e2faeb40",
-  "publicCorpusSha256": "41cd2a0d5243939da026ac729494c82adb21df30a0815485b1b4ec244e6cf294",
+  "sourceVersion": 12,
+  "savedCorpusSha256": "9d6a30e3c0699613a4e0198eb1b8985d0f7cea2ad9bf1bde8adb63ce41320b30",
+  "publicCorpusSha256": "93a4a30573149d736096bf689f4103faa440af5fd700b5a97788260a37c43695",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "0b1d417e56d894006c203a808c6c9a53b82a68e6",
+  "sourceBaselineCommit": "6064be6ac18ad0c0279ebf2d163df28678bd4769",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -121,13 +121,25 @@
       "pendingAction": "Concluir gates de DII pediátrica/cirurgia, farmacêutico, regulatório e humano; confirmar bulas profissionais e apresentações brasileiras, individualizar resgate/tromboprofilaxia e reconciliar a sobreposição do limite PUCAI 65 entre recomendações. Recuperar estudo primário de 2026 antes de alterar marcos.",
       "bodySha256": "7abd03eda005646b649294c9ed63c4c97a3171ea1b5fafd4a1a6e47ef54625c7",
       "savedBlockSha256": "bdf578e64afd50907952e6b214074ea7c39f138189155ca3e68929d34f1844ee"
+    },
+    {
+      "title": "Sangramento Digestivo",
+      "savedOrdinal": 85,
+      "publicOrdinal": 254,
+      "stableIdentity": "pedwb:sangramento-digestivo",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de gastro/hepatologia, endoscopia/UTI, farmacêutico e humano; selecionar protocolo local por etiologia, reconciliar preparação final 40 mL versus diluição brasileira em 60 mL, estabilidade e compatibilidade/dispositivo, ajustes IV pediátricos e esquemas antimicrobianos por cenário antes de habilitar prescrição ou calculadora.",
+      "bodySha256": "b7b9f8b2169dc9cd575dcd44680b167737bc6c8bab924ef73441a34f2afa0532",
+      "savedBlockSha256": "1c28dbb0e63f198f2df3a052c3e3329b74f41659487f744e0aeaebc518994d5d",
+      "reviewEnvelopeSha256": "c749beec394ee4a748ba74e910dd49f326d4bbbb14f73f3b91118ab4197ced81"
     }
   ],
   "previousPublication": {
-    "publishedAt": "2026-10-04T03:44:07.069326+00:00",
-    "sourceVersion": 10,
-    "savedCorpusSha256": "cb161bf77f6417fda548792849607791d3adb4ed9950e9099578f1376a8cc499",
-    "publicCorpusSha256": "369eb22b118871f211540088572ff33b6bcf4fe8fe49a2929c08e0444f5f299a",
-    "sourceBaselineCommit": "278f1b71647dccfd99f79ce66904205013035c83"
+    "publishedAt": "2026-10-04T04:16:37.413400+00:00",
+    "sourceVersion": 11,
+    "savedCorpusSha256": "fbcabff7bfe1269018108c1bc75c3a2a034c911f6f1dcf5191603ae7e2faeb40",
+    "publicCorpusSha256": "41cd2a0d5243939da026ac729494c82adb21df30a0815485b1b4ec244e6cf294",
+    "sourceBaselineCommit": "0b1d417e56d894006c203a808c6c9a53b82a68e6"
   }
 }
