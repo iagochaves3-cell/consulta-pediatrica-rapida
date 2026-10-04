@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T16:22:01.760Z",
+  "publishedAt": "2026-10-04T17:12:00.000Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 23,
-  "savedCorpusSha256": "74bf58a00b1815a1e5026f72a0d6734ba5dcc4a3e1318bcd7f4571e20a4e5f82",
-  "publicCorpusSha256": "dd6575772fe6cfae1223dd577ca4be1ce7eb55ec7e4e4083e8d0da5f9a4a46f4",
+  "sourceVersion": 24,
+  "savedCorpusSha256": "40bfb0bf998096bc54d92d819ef93847b53d4f3150bfbd6b13163b022e273b4a",
+  "publicCorpusSha256": "a1289060186e56ad59ceac7b28e563e077e496efbca40406d57d2890a713e62f",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "bde52502b174bb3070327384b1ae0e33b7faeb05",
+  "sourceBaselineCommit": "6475e31f148240fcf695630cd3c3b1fd790468bf",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -453,6 +453,18 @@
       "publicBlockSha256": "0428b52f97376053f2bf099ed8de689dd59bee146642a1bae6260e9c2cf610d8",
       "candidateSha256": "58a4f0c76ab5277246e7b6fd5c9f7118db4faab43ff744f8126740b541494468",
       "reviewEnvelopeSha256": "8b9d5c60eb1c92531357b5c6f1315d58760823dd67403776c47d34b9b90db33f"
+    },
+    {
+      "title": "Doença Meningocócica em Pediatria",
+      "savedOrdinal": 142,
+      "publicOrdinal": 106,
+      "stableIdentity": "pedwb:doenca-meningococica-em-pediatria",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Revisar separadamente antibiótico, apresentação, dose, duração, punção lombar operacional, neuroimagem, quimioprofilaxia, definição de contatos, isolamento, vacinação, erradicação de portador e seguimento; concluir gates farmacêutico, infectológico e humano antes de prescrição ou cálculo.",
+      "bodySha256": "2f94852a6f15f206e9c7ec5a654012f0e9d7c8e20d83b7853ac8f4387c5607e4",
+      "savedBlockSha256": "b21718ca235116a27767b7a21ed865c2e77bfe1589f245260525249d415091a2",
+      "publicBlockSha256": "eb534ef420ce1951a5de1c91f676a052343ea43792008c8c38ef43a68f254c0c"
     }
   ],
   "previousPublication": {

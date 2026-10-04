@@ -1714,6 +1714,26 @@ A ERNICA recomenda cobertura de amplo espectro e irrigação retal nos internado
 
 ## 106. Doença Meningocócica em Pediatria
 
+### Doença Meningocócica em Pediatria — subbloco de reconhecimento e emergência
+
+**Suspeita clínica.** Considerar doença meningocócica invasiva diante de febre aguda com petéquias ou púrpura, alteração do estado mental, dificuldade para despertar, convulsões ou sinais de sepse/hipoperfusão. Em lactentes, irritabilidade, pouca atividade, recusa alimentar, vômitos ou fontanela abaulada podem ser a apresentação inicial. Meningococcemia pode ocorrer sem rigidez de nuca ou outros sinais clássicos de meningite; não aguardar exantema completo ou meningismo para reconhecer gravidade. [MS-MEN; CDC-CG]
+
+**Destino e tempo crítico.** Meningite bacteriana e suspeita de doença meningocócica são emergências médicas. Encaminhar para avaliação hospitalar e iniciar tratamento efetivo prontamente. A coleta de exames para identificação do agente não deve atrasar o tratamento; a obtenção de sangue ou líquor depende de segurança clínica e do fluxo assistencial, sem transformar o procedimento diagnóstico em pré-requisito para tratar. [MS-MEN; CDC-CG]
+
+**Vigilância.** No Brasil, doença meningocócica e outras meningites permanecem de notificação imediata, em até 24 horas, às Secretarias Estadual e Municipal de Saúde. Notificar a suspeita pelo fluxo local sem aguardar confirmação microbiológica para iniciar o atendimento clínico. [MS-P11211]
+
+**Escopo da revisão por IA.** Subbloco documental parcial, vinculado ao capítulo nativo 142, limitado a reconhecimento, gravidade, destino, tratamento sem atraso por exames e notificação. Não revisa nem aprova antibiótico, dose, apresentação, duração, punção lombar operacional, neuroimagem, quimioprofilaxia, definição de contatos, isolamento, vacinação, erradicação de portador ou seguimento; não habilita receita ou cálculo. O texto histórico dessas partes permanece sujeito a revisão própria.
+
+**Referências consultadas em 04/10/2026.**
+
+- [MS-MEN — Ministério da Saúde, página “Meningite”, conteúdo vigente consultado em 04/10/2026](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/meningite).
+- [CDC-CG — Clinical Guidance for Meningococcal Disease, 04/06/2026](https://www.cdc.gov/meningococcal/hcp/clinical-guidance/index.html).
+- [MS-P11211 — Portaria GM/MS nº 11.211, de 13/05/2026, Anexo I](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html).
+
+### Conteúdo histórico ainda não promovido neste subbloco
+
+## 106. Doença Meningocócica em Pediatria
+
 **Não esperar exantema completo.** Febre, prostração, dor em membros, alteração da perfusão e petéquias/púrpura podem representar meningococcemia. Choque, rebaixamento ou progressão rápida requerem ABCDE, acesso EV/IO, antibiótico imediato e UTI. Ausência de meningismo não reduz a gravidade da bacteremia meningocócica.
 
 **Exames e tratamento.** Colher hemocultura e amostras para PCR se não atrasarem terapia. Punção lombar apenas após estabilização e se não houver contraindicação; nunca adiar antibiótico para realizá-la. Para suspeita de doença invasiva em criança além do período neonatal: ceftriaxona 100 mg/kg/dia EV, máximo 4 g/dia, em dose diária ou dividida conforme protocolo de meningite. Após identificação e sensibilidade, estreitar espectro; não assumir sensibilidade à penicilina. A duração de meningite meningocócica não complicada costuma ser 5–7 dias, definida por evolução e diagnóstico microbiológico.
@@ -1723,7 +1743,6 @@ A ERNICA recomenda cobertura de amplo espectro e irrigação retal nos internado
 **Seguimento.** Avaliar lesões isquêmicas, disfunção adrenal, perda auditiva e sequelas neurológicas. Caso receba esquema que não erradique portador nasofaríngeo, indicar erradicação antes da alta conforme diretriz. Não usar a dose de profilaxia como dose de tratamento invasivo.
 
 **Fontes: ** [CDC — doença meningocócica, orientação 2026](https://www.cdc.gov/meningococcal/hcp/clinical-guidance/index.html); [OMS — meningite](https://www.who.int/news-room/fact-sheets/detail/meningitis); [RCH — antimicrobianos](https://www.rch.org.au/clinicalguide/guideline_index/antibiotics/)
-
 
 ## 107. Doença Mista do Tecido Conjuntivo em Pediatria
 
