@@ -1,0 +1,974 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-04T12:44:52.724068+00:00",
+  "reviewBy": "IA; sem homologação humana",
+  "envelopes": [
+    {
+      "schemaVersion": 1,
+      "stableIdentity": "pedwb:adenoidite-aguda-em-pediatria",
+      "title": "Adenoidite Aguda em Pediatria",
+      "historicalReviewPosition": 93,
+      "nativeTitleOrdinal": 126,
+      "publicOrdinal": 7,
+      "reviewedAt": "2026-10-04T12:44:52.724068+00:00",
+      "reviewType": "Revisão clínica e farmacêutica por IA; pesquisa dirigida em fontes primárias",
+      "scope": "Todo o capítulo documental disponível do título, incluindo reconhecimento, diferencial, critérios bacterianos, exames, medidas gerais, seleção conceitual de antibiótico, reavaliação, urgências e seguimento; não inclui os protocolos de rinossinusite, via aérea, analgesia ou cirurgia remetidos.",
+      "text": "## 126. Adenoidite Aguda em Pediatria\n\n**Reconhecer e diferenciar.** Adenoidite é inflamação da tonsila faríngea; obstrução, rinorreia posterior e tosse se sobrepõem aos achados de rinossinusite. Adenoide aumentada ou secreção amarelada, isoladamente, não demonstram infecção bacteriana. Diferenciar rinofaringite viral, rinite alérgica, hipertrofia adenoideana e rinossinusite; secreção unilateral fétida sugere corpo estranho nasal. Adenoidite e rinossinusite podem coexistir.\n\n**Critérios bacterianos e divergência.** Os critérios AAP de rinossinusite bacteriana, aplicáveis a crianças de 1–18 anos sem as comorbidades excluídas pela diretriz, são: secreção nasal de qualquer aspecto e/ou tosse diurna por mais de dez dias sem melhora; piora ou novos sintomas após melhora inicial; ou febre ≥39 °C junto de secreção purulenta por pelo menos três dias consecutivos. Eles não confirmam adenoidite bacteriana isolada. O consenso brasileiro ABR/ABORL-CCF “2024”, publicado em 2025, usa dupla piora ou manutenção de sintomas iniciais intensos sem melhora progressiva após 14 dias. Sintomas prolongados que estão melhorando ainda podem ser virais; não iniciar antibiótico somente por alcançar o décimo dia. Registrar o critério e a diretriz utilizados, em vez de misturar os limiares. Lactentes menores de um ano, imunodeficiência, fibrose cística, discinesia ciliar ou alterações anatômicas exigem avaliação específica.\n\n**Avaliar e investigar.** Verificar evolução, ingestão, respiração, sono, ouvidos, orofaringe e sinais alérgicos. A avaliação inicial é clínica; imagem não distingue de modo confiável virose de rinossinusite bacteriana simples. Nasofibroscopia pode esclarecer adenoidite, hipertrofia, corpo estranho ou doença persistente quando houver indicação otorrinolaringológica, mas não é obrigatória no quadro agudo não complicado; purulência endoscópica não define etiologia bacteriana. Recorrência ou obstrução persistente pede avaliação especializada.\n\n**Conduta e reavaliação.** Na provável virose, orientar hidratação e alívio dos sintomas. Higiene nasal com salina pode ser usada para conforto, sem promessa de tratar infecção bacteriana. Corticoide sistêmico e descongestionante não constituem tratamento rotineiro deste quadro; rinite alérgica ou hipertrofia têm avaliação própria. Quando estabelecida rinossinusite bacteriana, manejar por esse protocolo: AAP indica antibiótico nos quadros graves ou com piora; na persistência não grave, admite tratamento ou observação adicional de três dias com seguimento confiável. Amoxicilina com ou sem clavulanato é primeira linha conforme contexto; registrar alergia, gravidade, tratamento recente e risco de resistência. O rótulo “adenoidite” não indica azitromicina automaticamente. Reavaliar se piorar a qualquer momento ou se não houver melhora em 72 horas; conferir diagnóstico, adesão e complicações antes de trocar tratamento. O consenso brasileiro admite manejo clínico semelhante nas duas entidades, sem criar uma posologia independente para adenoidite isolada.\n\n**Sinais de urgência e seguimento.** Desconforto respiratório, estridor, hipoxemia, alteração da consciência ou incapacidade de lidar com secreções exigem atendimento imediato; manter a criança confortável e priorizar a via aérea antes de exames. Dor cervical intensa ou torcicolo com febre/infeção requer investigação de doença profunda ou instabilidade atlantoaxial; síndrome de Grisel foi descrita após adenoidite. Proptose, alteração visual, limitação ocular ou sinais neurológicos exigem avaliação hospitalar por possível complicação. Após melhora infecciosa, investigar ronco habitual, pausas no sono, respiração oral, perda auditiva e alterações de linguagem. Encaminhamento e eventual adenoidectomia dependem de repercussão funcional, recorrência documentada e resposta ao tratamento; não de um episódio agudo isolado.\n\n**Status da revisão.** Capítulo documental disponível integralmente conferido por IA em 04/10/2026, sem homologação humana. Não seleciona dose, apresentação, concentração, preparo ou infusão; a conferência farmacêutica quantitativa e a aritmética/reversa são não aplicáveis. As remissões não aprovam automaticamente outros protocolos nem habilitam cálculo ou prescrição.\n\n**Fontes verificadas em 04/10/2026:** [ABR/ABORL-CCF — Rhinosinusitis: Evidence and experience – 2024, publicação 2025](https://doi.org/10.1016/j.bjorl.2025.101595) · [AAP — diretriz de rinossinusite bacteriana, 2013](https://doi.org/10.1542/peds.2013-1071) · [Marseglia et al. — estudo pediátrico endoscópico, 2007](https://pubmed.ncbi.nlm.nih.gov/17239449/) · [S2k — hipertrofia adenoideana, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10409824/) · [RCH — obstrução aguda de via aérea, atualização março de 2021](https://www.rch.org.au/clinicalguide/guideline_index/acute_upper_airway_obstruction/) · [RCH — torcicolo adquirido, atualização junho de 2020](https://www.rch.org.au/clinicalguide/guideline_index/Acquired_torticollis/) · [Thomas et al. — relato de síndrome de Grisel após adenoidite, 2025](https://doi.org/10.1007/s12070-025-05568-4)\n",
+      "sources": [
+        {
+          "id": "ABR-ABORL-2024-pub2025",
+          "document": "Rhinosinusitis: Evidence and experience - 2024",
+          "authors": "Romano et al.; ABR/ABORL-CCF, apoio ASBAI",
+          "documentDate": "2025",
+          "version": "Consenso 2024; publicação Braz J Otorhinolaryngol91 (2025)",
+          "doi": "10.1016/j.bjorl.2025.101595",
+          "url": "https://www.scielo.br/j/bjorl/a/hmyMzFwqrCXkqMXjtM4bxHh/?format=html&lang=en",
+          "access": "Texto integral",
+          "population": "Rinossinusite em adultos e crianças, seção pediátrica especificada",
+          "claims": [
+            "Adenoidite aguda infecciosa é diferencial importante/coexistente da rinossinusite; manejo pode ser semelhante",
+            "Sintomas melhorando lentamente ainda podem ser virais; critérios ABR dupla piora ou manutenção de quadro intenso após14d",
+            "Endoscopia não essencial em ABRS não complicada, purulência não diferencia vírus/bactéria; não usar imagem rotineiramente",
+            "Secreção unilateral fétida sugere corpo estranho; complicações orbitárias/neurológicas pedem hospital"
+          ],
+          "divergence": "Limite temporal brasileiro14d difere do AAP >10d SEM MELHORA; não combinar em algoritmo único. Consenso admite macrolídeos em circunstâncias específicas, mas não apoia escolha automática por rótulo adenoidite. Não se promoveu dose ou esquema de tabela.",
+          "appraisal": "Documento de sociedade médica recente, síntese/consenso não ensaio. Não aplicar recomendações adultas aos pediátricos."
+        },
+        {
+          "id": "AAP2013",
+          "document": "Clinical Practice Guideline for the Diagnosis and Management of Acute Bacterial Sinusitis in Children Aged 1 to 18 Years",
+          "authors": "Wald et al., American Academy of Pediatrics",
+          "documentDate": "2013-07-01",
+          "version": "Pediatrics132(1):e262–e280",
+          "doi": "10.1542/peds.2013-1071",
+          "pmid": "23796742",
+          "url": "https://publications.aap.org/pediatrics/article/132/1/e262/31288/Clinical-Practice-Guideline-for-the-Diagnosis-and?autologincheck=redirected",
+          "access": "Texto integral recuperado no editor; PubMed instável",
+          "population": "1–18 anos; exclui neonatos/<1ano, alterações anatômicas, imunodeficiências, fibrose cística, discinesia ciliar primária e sinusite crônica/subaguda",
+          "claims": [
+            ">10dias de rinorreia de qualquer aspecto/tosse diurna SEM MELHORA, dupla piora ou febre≥39°C+purulência≥3dias",
+            "Antibiótico grave/piora, observação3d admissível persistência não grave com acompanhamento; primeira linha amoxicilina com/sem clavulanato",
+            "Reavaliar piora ou ausência de melhora72h; imagem não distingue virose/bactéria simples"
+          ],
+          "divergence": "Diretriz histórica2013, reconsultada2026, não descrita como atualização2026. Não é validação de adenoidite bacteriana isolada.",
+          "appraisal": "Diretriz de sociedade com método explícito, evidência limitada por heterogeneidade e poucos RCTs; aplicabilidade explicitamente delimitada."
+        },
+        {
+          "id": "Marseglia2007",
+          "document": "The 10-day mark is a good way to diagnose not only acute rhinosinusitis but also adenoiditis, as confirmed by endoscopy",
+          "documentDate": "2007-04",
+          "doi": "10.1016/j.ijporl.2006.12.003",
+          "pmid": "17239449",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17239449/",
+          "access": "Abstract original",
+          "population": "287 crianças consecutivas2–15anos com suspeita de rinossinusite; estudo transversal selecionado",
+          "claims": [
+            "Endoscopia pode identificar adenoidite isolada ou coexistente em crianças com suspeita de rinossinusite"
+          ],
+          "divergence": "Não determina sensibilidade/especificidade do dia10 na população geral, etiologia bacteriana ou eficácia de esquema próprio; porcentagens não promovidas.",
+          "appraisal": "Estudo transversal selecionado, abstract-only e sem comparador viral apropriado; não torna dia10 teste bacteriano universal."
+        },
+        {
+          "id": "S2k2023",
+          "document": "Adenoid hypertrophy—diagnosis and treatment: the new S2k guideline",
+          "authors": "Ahmad et al.",
+          "documentDate": "2023-07-25",
+          "doi": "10.1007/s00106-023-01299-6",
+          "pmid": "37491540",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10409824/",
+          "access": "Texto integral",
+          "population": "Crianças com hipertrofia adenoideana, doença inflamatória persistente, sono e ouvido",
+          "claims": [
+            "Avaliar sono, audição e linguagem; especialista pode realizar endoscopia para diferencial",
+            "Antibiótico/corticoide sistêmico não usados rotineiramente em hipertrofia isolada",
+            "Cirurgia depende de gravidade, recorrência e falha conservadora; não automática em episódio isolado"
+          ],
+          "divergence": "Diretriz de hipertrofia/doença persistente não regime farmacológico de adenoidite aguda; não extrapolar off-label intranasal ou critérios de cirurgia para receita de infecção aguda.",
+          "appraisal": "ConsensoS2k com revisão narrativa e contexto alemão; CC BY; adequada para diferencial/seguimento, não prova causal de qualquer tratamento agudo."
+        },
+        {
+          "id": "RCH-airway2021",
+          "document": "Acute upper airway obstruction",
+          "documentDate": "2021-03",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/acute_upper_airway_obstruction/",
+          "access": "Diretriz institucional integral",
+          "population": "Crianças com obstrução aguda de via aérea superior",
+          "claims": [
+            "Deterioração pode ser rápida; preservar posição de conforto; exames adiados se via aérea não segura",
+            "Estridor/desconforto/hipoxemia/consciência alterada indicam avaliação emergencial"
+          ],
+          "divergence": "Fonte de triagem de urgência; não habilita medicações/doses ou adaptação de via aérea.",
+          "appraisal": "Diretriz do provedor pediátrico, não ensaio; data de revisão explícita e consulta atual."
+        },
+        {
+          "id": "RCH-torticollis2020",
+          "document": "Acquired torticollis",
+          "documentDate": "2020-06",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acquired_torticollis/",
+          "access": "Diretriz institucional integral",
+          "population": "Crianças com torcicolo adquirido",
+          "claims": [
+            "Febre/infecção ou alteração neurológica em torcicolo pedem investigação por imagem adequada; infecção profunda pode não dar sinal externo",
+            "Suspeita de abscesso cervical requer avaliação pediátrica/ORL"
+          ],
+          "divergence": "Nem todo torcicolo é Grisel e nem toda dor cervical é infecção profunda; avaliar contexto.",
+          "appraisal": "Diretriz institucional, evidência observacional/revisão; útil para gatilho de avaliação, sem definir etiologia individual."
+        },
+        {
+          "id": "Thomas2025",
+          "document": "Inflammatory Pediatric Grisel Syndrome Secondary to Acute Adenoiditis: A Rare Case Report and Review of Literature",
+          "authors": "Thomas et al.",
+          "documentDate": "2025-05-26",
+          "doi": "10.1007/s12070-025-05568-4",
+          "pmid": "40727170",
+          "url": "https://link.springer.com/article/10.1007/s12070-025-05568-4",
+          "access": "Abstract/preview do editor; integral por assinatura não consultado",
+          "population": "Relato de menino7anos, adenoidite aguda e subluxação atlantoaxial",
+          "claims": [
+            "Grisel foi descrita após adenoidite; torcicolo doloroso em contexto inflamatório deve ser reconhecido"
+          ],
+          "divergence": "Não promover incidência estimada extremamente rara, duração7d, esquema IV ou tratamento universal a partir de caso.",
+          "appraisal": "Caso único + revisão, abstract-only, nível limitado de evidência para causalidade/conduta."
+        },
+        {
+          "id": "Cochrane2010-CD008282",
+          "document": "Adenoidectomy for recurrent or chronic nasal symptoms in children",
+          "authors": "van den Aardweg et al.",
+          "documentDate": "2010-01-20",
+          "searchDate": "2009-03-30",
+          "doi": "10.1002/14651858.CD008282",
+          "url": "https://www.cochrane.org/evidence/CD008282_adenoidectomy-recurrent-chronic-nasal-symptoms-children",
+          "access": "Resumo oficial integral",
+          "population": "Sintomas nasais recorrentes/crônicos; dois ensaios256crianças, não um episódio agudo isolado",
+          "claims": [
+            "Evidência esparsa/inconclusiva e com risco de viés para benefício de adenoidectomia apenas em sintomas nasais recorrentes/crônicos"
+          ],
+          "divergence": "Histórica; não negar indicações funcionais contemporâneas nem usar para intervenção no episódio agudo.",
+          "appraisal": "Revisão sistemática antiga, efeito impreciso; utilizada adversarialmente para impedir indicação cirúrgica automática, sem números no texto clínico."
+        }
+      ],
+      "status": "fully_reviewed",
+      "wholeAvailableChapterReviewed": true,
+      "humanReview": false,
+      "automatedPrescribing": false,
+      "externalWhitebookConsulted": false,
+      "checks": {
+        "clinical": "passed",
+        "pharmaceutical": "passed",
+        "mathematical": "passed",
+        "reverse": "passed"
+      },
+      "checkScope": "Passes referem-se aos campos efetivamente apresentados. Valores não selecionados ou sem preparo operacional definido não são habilitados. Limiares sem dose foram conferidos nas fontes; aritmética não aplicável é justificada.",
+      "independentAudit": {
+        "clinical": "Segundo leitor independente, correções incorporadas pelo integrador",
+        "mathematical": "Decimal/Fraction independente, incluindo pesos fracionários e limites do teto; sem calculadora automática"
+      },
+      "pendingAction": "Propagar este escopo documental aos destinos pertinentes; os protocolos remetidos mantêm revisão própria.",
+      "reviewEnvelopeSha256": "f6e069748912b38d1077c3d338545b3f8b858aefe8c8b23ed9c82145b40de2b1"
+    },
+    {
+      "schemaVersion": 1,
+      "stableIdentity": "pedwb:arboviroses-dengue-zika-e-chikungunya",
+      "title": "Arboviroses: Dengue, Zika e Chikungunya",
+      "historicalReviewPosition": 94,
+      "nativeTitleOrdinal": 127,
+      "publicOrdinal": 23,
+      "reviewedAt": "2026-10-04T12:44:52.724068+00:00",
+      "reviewType": "Revisão clínica e farmacêutica por IA; pesquisa dirigida em fontes primárias",
+      "scope": {
+        "consolidated": [
+          "Reconhecimento, classificação brasileira, sinais de alarme e seguimento",
+          "Dengue: expansão inicial dos grupos C/D, reavaliação e prevenção de sobrecarga",
+          "Identificação farmacêutica de SF 0,9% pronto Eurofarma, sem aditivos",
+          "Seleção temporal de exames MS para dengue/chikungunya e reação cruzada dengue/zika",
+          "Risco pediátrico/neonatal da chikungunya e distinção da zika adquirida/congênita"
+        ],
+        "pending": [
+          "Regimes pediátricos de corticoide/AINE/opioide para chikungunya; requerem resolução de divergência e bula específica",
+          "Reposição em choque refratário com coloide/albumina e hemoderivados; não promovidos doses/preparos",
+          "Protocolo completo da síndrome congênita de zika",
+          "Conversão de analgesia do módulo comum em volume/produto; módulo não revalidado neste bloco",
+          "Comparação integral das recomendações OMS2025; acesso ao conteúdo completo bloqueado"
+        ]
+      },
+      "text": "## 127. Arboviroses: Dengue, Zika e Chikungunya\n\n**Reconhecimento e destino.** Na cocirculação, avaliar dengue mesmo quando exantema ou dor articular sugerirem outra arbovirose. Reclassificar em cada atendimento, especialmente na queda da febre. Dor abdominal intensa e contínua, vômitos persistentes, sangramento mucoso, letargia/irritabilidade, lipotímia/hipotensão postural, líquido em cavidades, hepatomegalia maior que 2 cm abaixo do rebordo costal ou hematócrito progressivamente maior exigem avaliação de alarme. Plaquetopenia isolada não define choque. Perfusão ruim pode anteceder hipotensão. No modelo brasileiro, sem alarme e sem risco adicional corresponde ao grupo A; sem alarme, mas com sangramento cutâneo espontâneo ou prova do laço positiva, ou risco especial, ao B; alarme ao C; choque, extravasamento plasmático com insuficiência respiratória, sangramento grave ou disfunção orgânica grave ao D. Menores de dois anos e crianças com comorbidade ou seguimento inseguro precisam de maior vigilância. Esses nomes diferem de classificações estrangeiras.\n\n**Exames e seguimento.** A decisão de hidratar ou internar não aguarda confirmação etiológica. Hemograma/hematócrito acompanham a evolução; grupo B permanece em observação até avaliação do resultado e resposta clínica. Criança estável, hidratada e com retorno viável pode receber líquidos orais fracionados e seguimento no período crítico; orientar retorno na defervescência e imediatamente diante de alarme. No grupo A, retornar no quinto dia se não houver defervescência; no grupo B, reavaliar diariamente até 48 horas após a remissão da febre. Selecionar teste e amostra pelo vírus e dia dos sintomas: nos guias MS, dengue utiliza RT-PCR/NS1 até o quinto dia e sorologia a partir do sexto; chikungunya utiliza RT-PCR até o quinto e sorologia a partir do sexto. Sorologia dengue–zika pode ter reação cruzada. Resultado negativo fora da janela não autoriza dispensar avaliação clínica.\n\n**Fluidos na dengue com alarme ou choque.** Grupo C: internação e SF 0,9% **10 mL/kg na primeira hora**; reavaliar clinicamente após uma hora e repetir hematócrito em duas horas. O MS descreve mais 10 mL/kg na segunda hora da expansão, conforme indicação e resposta; o máximo de cada fase de expansão é 20 mL/kg em duas horas, com administração gradativa e monitorada; não é um teto cumulativo de toda a reposição. Choque: SF 0,9% **20 mL/kg em até 20 minutos**, com reavaliação da perfusão durante e após a expansão e cuidado intensivo. Repetir, reduzir ou interromper volumes conforme clínica, hematócrito e balanço; prescrever cada etapa. Hematócrito caindo com choque persistente exige procurar hemorragia; deterioração respiratória ou cardíaca requer avaliar sobrecarga e miocardite. Não repetir bolus automaticamente nem transfundir plaquetas preventivamente apenas pela contagem. A transição para manutenção e a alta dependem de estabilidade sustentada e recuperação clínica/laboratorial.\n\n**Apresentação e checagem do volume.** A apresentação brasileira conferida, Fisiológico Eurofarma VPS_V05, é solução EV pronta de NaCl 0,9%: **9 mg de NaCl/mL**, com 154 mEq de sódio/L; não necessita diluição para essa reposição. São frascos/bolsas de 100, 250, 500 e 1.000 mL; o volume da embalagem não é a dose. Conferir peso, volume prescrito, tempo, bomba e balanço com dupla checagem humana. Ajustar a estratégia em disfunção renal/cardíaca ou sobrecarga; a bula não fornece fator fixo de redução. Não acrescentar medicamentos sem compatibilidade específica. Não confundir 9 mg de NaCl com 9 mg de sódio elementar.\n\n**Suporte e riscos específicos.** Usar o módulo comum de analgesia, com produto e dose próprios conferidos. Evitar AAS, AINE e via IM enquanto dengue permanecer possível; corticoide e antibiótico não são tratamentos de rotina da dengue. Chikungunya confirmada com dor persistente exige avaliação da fase e do padrão inflamatório, sem reaplicar tratamento de dengue nem transferir doses adultas. Em criança pequena, ausência de artralgia típica não exclui chikungunya; hiperalgesia, recusa de movimento ou lesões bolhosas podem predominar. Exposição materna periparto requer avaliação neonatal: doença pode aparecer entre o terceiro e o sétimo dia em recém-nascido inicialmente bem. Alteração neurológica, sangramento ou comprometimento cardíaco exigem hospital; manter seguimento após doença neonatal grave. Zika adquirida não complicada recebe suporte; fraqueza progressiva, parestesias ou alteração da consciência exigem avaliação urgente. Exposição gestacional e síndrome congênita têm percurso próprio, com acompanhamento especializado do desenvolvimento.\n\n**Orientação e limites.** Registrar classificação, plano de retorno e sinais de alarme por escrito; notificar suspeitas conforme vigilância e orientar prevenção de picadas. Revisão por IA do bloco disponível; não constitui homologação humana nem habilita cálculo ou prescrição automática. Regimes pediátricos específicos de corticoide/AINE para chikungunya e tratamento de choque refratário permanecem em revisão separada.\n\n**Fontes:** [MS — Dengue, 6ª ed., 2024](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/dengue/dengue-diagnostico-e-manejo-clinico-adulto-e-crianca); [SES-SP — Manejo das arboviroses, 31/03/2025](https://www.saude.sp.gov.br/resources/cve-centro-de-vigilancia-epidemiologica/areas-de-vigilancia/doencas-de-transmissao-por-vetores-e-zoonoses/manejo-clinico-arboviroses/20250331_manejo_clinico_arboviroses_urbanas.pdf); [MS — Chikungunya, 2ª ed. revisada, 2025](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2025/chikungunya-manejo-clinico-2o-edicao-revisada.pdf); [MS — Zika](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/z/zika-virus); [CDC — Dengue, 15/04/2026](https://www.cdc.gov/dengue/hcp/clinical-care/index.html); [CDC — Chikungunya, 19/02/2026](https://www.cdc.gov/chikungunya/hcp/treatment-prevention/index.html); [Eurofarma — Fisiológico, VPS_V05, bula aprovada em 08/12/2025](https://eurofarma.com.br/produtos/bulas/view/healthcare/pt/bula-fisiologico.html).\n",
+      "sources": [
+        {
+          "id": "ms-dengue-2024",
+          "document": "Dengue: diagnóstico e manejo clínico adulto e criança",
+          "version": "6ª edição",
+          "publicationDate": "2024",
+          "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/dengue/dengue-diagnostico-e-manejo-clinico-adulto-e-crianca",
+          "population": "Adulto e criança; identificar os trechos pediátricos antes de aplicar",
+          "locator": "PDF83 páginas; impressas28–39,43,57,77",
+          "supports": "Classificação brasileira, risco<2anos, retorno na defervescência, C10mL/kg/1h e segunda hora, D20mL/kg≤20min, revisão e testes por dia",
+          "divergence": "Hidratação oral pediátrica categórica; critérios de diurese variam entre seções. Não adotado limiar isolado universal."
+        },
+        {
+          "id": "ses-sp-2025",
+          "document": "Manejo Clínico das Arboviroses",
+          "version": "Documento SES-SP2025",
+          "publicationDate": "2025-03-31 (nome do arquivo)",
+          "url": "https://www.saude.sp.gov.br/resources/cve-centro-de-vigilancia-epidemiologica/areas-de-vigilancia/doencas-de-transmissao-por-vetores-e-zoonoses/manejo-clinico-arboviroses/20250331_manejo_clinico_arboviroses_urbanas.pdf",
+          "population": "Adulto/criança, classificação MS",
+          "locator": "PDF69 páginas, gruposB/C/D e alta",
+          "supports": "Classificação, monitorização, cristaloide inicial e retorno; confronto com MS",
+          "divergence": "Texto de repetição numérica ambíguo; preservada prescrição por resposta. Dados epidemiológicos2025 não afirmados como estado2026."
+        },
+        {
+          "id": "ms-chik-2025",
+          "document": "Chikungunya: manejo clínico",
+          "version": "2ª edição revisada2025; portal atualizado10/07/2026, sem evidência de nova edição",
+          "publicationDate": "2025",
+          "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2025/chikungunya-manejo-clinico-2o-edicao-revisada.pdf",
+          "population": "Inclui infância e neonatos; não copiar tabelas adultas",
+          "locator": "Impressas45–46,50–52,55,70",
+          "supports": "Exposição periparto, doença neonatal tardia, dor em criança pequena, exame no tempo apropriado e fases articulares",
+          "divergence": "Anexo pediátrico admite prednisolona em cenário agudo confirmado/plaquetas normais. Regime e dose não promovidos; corpo e fontes estrangeiras não oferecem uma regra pediátrica única."
+        },
+        {
+          "id": "ms-zika",
+          "document": "Zika vírus: portal Saúde de A a Z",
+          "version": "Página vigente consultada; sem data editorial visível",
+          "publicationDate": null,
+          "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/z/zika-virus",
+          "population": "Doença adquirida, gestação e complicações congênitas",
+          "locator": "Seções diagnóstico, tratamento e complicações",
+          "supports": "Suporte, reação cruzada e complicações neurológicas/congênitas",
+          "divergence": "Página sem versão detalhada não sustenta afirmar um protocolo congênito completo ou uma data de recomendação."
+        },
+        {
+          "id": "eurofarma-sf-v05",
+          "document": "Fisiológico, solução de cloreto de sódio0,9%; bula profissional",
+          "version": "VPS_V05",
+          "publicationDate": "2025-12-08 (aprovação Anvisa declarada na bula)",
+          "url": "https://eurofarma.com.br/produtos/bulas/view/healthcare/pt/bula-fisiologico.html",
+          "population": "UsoEV adulto e pediátrico individualizado",
+          "locator": "Linhas81–118,155–175,255–290,459–496,523–556",
+          "supports": "9mgNaCl/mL; Na/Cl154mEq/L; bolsas/frascos100/250/500/1000mL; cautelas, hipervolemia, viaEV",
+          "divergence": "Regimes dengue são da diretriz, não dose específica da bula. Registro declarado1.0043.1047, sem checagem independente de situação cadastral Anvisa."
+        },
+        {
+          "id": "cdc-dengue-2026",
+          "document": "Clinical Care of Dengue",
+          "version": "PáginaCDC",
+          "publicationDate": "2026-04-15",
+          "url": "https://www.cdc.gov/dengue/hcp/clinical-care/index.html",
+          "population": "Adultos/crianças; contexto norte-americano",
+          "locator": "Groups A,B1,B2,C; inpatient management",
+          "supports": "Cristaloide inicial, ajuste por clínica/Hct, prevenção de sobrecarga e não transfusão plaquetária profilática",
+          "divergence": "B2=alarme/C=severa no CDC versus C=alarme/D=severa no MS; não combinar nomes."
+        },
+        {
+          "id": "cdc-chik-2026",
+          "document": "Treatment and Prevention of Chikungunya Virus Disease",
+          "version": "PáginaCDC",
+          "publicationDate": "2026-02-19",
+          "url": "https://www.cdc.gov/chikungunya/hcp/treatment-prevention/index.html",
+          "population": "Geral, não regime posológico pediátrico",
+          "supports": "Conduzir como dengue até excluí-la; dor persistente pode exigir abordagem diferente; risco periparto",
+          "divergence": "Permite AINE depois de excluir dengue em CHIK. Não implica liberação automática pediátrica ou transferência de dose."
+        },
+        {
+          "id": "wills-2005",
+          "document": "Comparison of three fluid solutions for resuscitation in dengue shock syndrome",
+          "version": "NEJM2005; DOI10.1056/NEJMoa044057",
+          "publicationDate": "2005",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16135832/",
+          "population": "Crianças vietnamitas;383 choque moderado e129 grave",
+          "readExtent": "Resumo PubMed, não texto completo",
+          "supports": "Contextualiza evidência comparativa de cristaloide/coloide",
+          "divergence": "Grupo grave não teve braço cristaloide; não permite declarar equivalência nesse subgrupo. Não promove coloides antigos."
+        },
+        {
+          "id": "cochrane-2014",
+          "document": "Corticosteroids for treating dengue infection in children and adults",
+          "version": "CD003488.pub3",
+          "publicationDate": "2014-06-30; busca2014-01-06",
+          "url": "https://www.cochrane.org/evidence/CD003488_corticosteroids-treating-dengue-infection-children-and-adults",
+          "population": "Oitoensaios948 participantes; estudos choque com crianças",
+          "readExtent": "Resumo de revisão",
+          "supports": "Evidência insuficiente para uso rotineiro",
+          "divergence": "Baixa certeza e busca antiga; não concluir prova de ausência absoluta de benefício."
+        }
+      ],
+      "status": "partially_reviewed",
+      "wholeAvailableChapterReviewed": false,
+      "humanReview": false,
+      "automatedPrescribing": false,
+      "externalWhitebookConsulted": false,
+      "checks": {
+        "clinical": "passed",
+        "pharmaceutical": "passed",
+        "mathematical": "passed",
+        "reverse": "passed"
+      },
+      "checkScope": "Passes referem-se aos campos efetivamente apresentados. Valores não selecionados ou sem preparo operacional definido não são habilitados. Limiares sem dose foram conferidos nas fontes; aritmética não aplicável é justificada.",
+      "independentAudit": {
+        "clinical": "Segundo leitor independente, correções incorporadas pelo integrador",
+        "mathematical": "Decimal/Fraction independente, incluindo pesos fracionários e limites do teto; sem calculadora automática"
+      },
+      "pendingAction": "Concluir regimes pediátricos de corticoide/AINE em chikungunya por fase, produto e população, e suporte de choque refratário; não repetir bolus automaticamente.",
+      "excludedCriticalFields": [
+        "Regimes pediátricos de corticoide/AINE na chikungunya",
+        "Suporte específico do choque refratário"
+      ],
+      "reviewEnvelopeSha256": "bd3497a955fc8505ec65f8a1fdc49446661fdf6ae7b4970cb63ce342e7eef42d"
+    },
+    {
+      "schemaVersion": 1,
+      "stableIdentity": "pedwb:artrite-septica-em-pediatria",
+      "title": "Artrite Séptica em Pediatria",
+      "historicalReviewPosition": 95,
+      "nativeTitleOrdinal": 128,
+      "publicOrdinal": 26,
+      "reviewedAt": "2026-10-04T12:44:52.724068+00:00",
+      "reviewType": "Revisão clínica e farmacêutica por IA; pesquisa dirigida em fontes primárias",
+      "scope": "Todo o texto disponível do tema128 e ligação ao preparo compartilhado, sem revisão do Whitebook externo nem aprovação de regimes dos demais capítulos",
+      "text": "## 128. Artrite Séptica em Pediatria\n\n**Emergência articular.** Dor localizada, recusa de apoio ou pseudoparalisia e limitação da mobilidade exigem considerar artrite séptica. A febre pode faltar; marcadores inflamatórios inicialmente baixos e poucos critérios de Kocher/Caird não excluem infecção, especialmente em pré-escolares com *Kingella kingae*. Dor referida ao joelho pode ter origem no quadril. Diferenciar de sinovite transitória, osteomielite, trauma e doença inflamatória sem atrasar avaliação ortopédica.\n\n**Investigação e coleta.** Avaliar sepse, obter hemocultura antes do antimicrobiano quando possível e dosar PCR como referência para acompanhamento. Radiografia avalia causas alternativas e osso adjacente; ultrassom pesquisa derrame, mas não estabelece sozinho sua etiologia. Articular punção com ortopedia para Gram, cultura, contagem celular e diferencial. Considerar teste molecular do líquido sinovial, sobretudo em pré-escolares com culturas negativas. Criança estável pode aguardar brevemente a coleta sob observação hospitalar; criança doente ou com progressão rápida deve receber antibiótico imediatamente, sem esperar punção ou imagem avançada.\n\n**Controle do foco.** Aspiração, lavagem e eventual drenagem cirúrgica são escolhidas conforme articulação, gravidade, coleção e resposta. A punção pode ser o procedimento inicial; artrotomia não é obrigatória para toda apresentação. Quadril e ombro exigem decisão ortopédica urgente. Procurar foco ósseo ou muscular associado quando a evolução ou exame sugerirem extensão.\n\n**Antimicrobiano e dose delimitada.** Cobrir *S. aureus*, incorporando atividade contra MRSA conforme gravidade, colonização e resistência local. Para MSSA provável ou confirmado em criança além do período neonatal, com função renal adequada e sem contraindicação a cefalosporina, o RCH apresenta **cefazolina 50 mg/kg/dose EV a cada 8 horas, máximo 2 g/dose**. Antes do teto, isso corresponde a **150 mg/kg/dia**; com o teto adotado, no máximo **6 g/dia**. É regime institucional internacional, classe C, com dose acima da faixa pediátrica grave da bula brasileira consultada: registrar uso fora dessa bula. O teto de 2 g/dose pertence ao RCH e não deve ser atribuído à tabela PIDS/IDSA. Preparo, concentração, infusão e ajuste renal dependem do produto brasileiro efetivamente conferido no módulo de cefazolina; não usar a concentração reconstituída como concentração final de infusão.\n\n**Idade e espectro.** Entre 6 e 48 meses, incluir atividade contra *K. kingae*; vancomicina ou clindamicina isoladas não asseguram essa cobertura. Direcionar pelo agente e suscetibilidade quando identificados. Neonatos, menores de três meses, imunocomprometidos, hemoglobinopatias, vacinação incompleta, lesão penetrante e suspeita gonocócica exigem escolha específica com infectologia; não reutilizar cegamente a monoterapia acima. Cefazolina não cobre MRSA.\n\n**Transição e duração.** Após controle do foco, melhora funcional, defervescência e queda dos marcadores, preferir antimicrobiano oral dirigido quando ativo, tolerado e com adesão viável. PIDS/IDSA admite **10–14 dias totais, somando EV e VO**, apenas em artrite primária sem osteomielite adjacente, com resposta rápida e queda progressiva consistente da PCR até o fim da primeira semana; a certeza é baixa para doença confirmada e muito baixa para presumida. Na doença confirmada, a recomendação refere-se aos patógenos comuns S. aureus, S. pyogenes, S. pneumoniae e H. influenzae b; agentes menos suscetíveis ou de maior virulência podem exigir cursos mais longos. O ensaio finlandês que sustenta o curso curto estudou crianças de três meses a 15 anos, sem osteomielite, e não fundamenta extrapolação para neonatos ou infecção complicada. RCH indica usualmente duas a três semanas; preservar essa divergência institucional. Resposta lenta, PCR persistentemente elevada ou controle incompleto do foco favorecem curso mais longo; osteomielite segue protocolo próprio.\n\n**Falha, monitorização e seguimento.** Reavaliar diariamente febre, dor, mobilidade e toxicidade medicamentosa; acompanhar resultados microbiológicos e PCR seriada conforme evolução, sem impor coleta diária. Deterioração em qualquer momento exige reavaliação imediata. Febre persistente, bacteremia ou PCR ascendente após 48–96 horas de tratamento adequado e procedimento inicial justificam procurar osteomielite, piomiosite ou abscesso por ressonância e reconsiderar drenagem, dose, espectro e adesão. Não apenas ampliar antibiótico. Corticoide adjuvante e antibiótico intra-articular não são rotinas recomendadas. Manter seguimento até o fim do tratamento e recuperação funcional; complicações e foco ósseo exigem acompanhamento ortopédico prolongado para detectar contratura, lesão fisária e alteração do crescimento.\n\n**Status da revisão.** Revisão documental assistida por IA em 04/10/2026. O regime numérico permanece vinculado à indicação, população, função renal, fonte internacional e divergência regulatória acima. Este leitor não habilita prescrição ou cálculo automático. Conferências clínica, farmacêutica, dimensional e reversa registradas, incluindo sete cenários sintéticos e limites do teto; não equivalem a homologação humana. A bula ABL de 20/01/2026 do genérico 1.5562.0055 informa que 1 g com 10 mL de água para injetáveis produz aproximadamente 10,6 mL e 94 mg/mL. Esse dado pertence ao produto, sem liberar preparo pediátrico personalizado ou ajuste renal automático. Para Kefazol 1 g, o comunicado ABL de abril de 2026 determina suspender e segregar os lotes 111485C, 111626C, 111750C, 111770C e 112056C; não generalizar o recolhimento a todos os produtos de cefazolina.\n\n**Fontes verificadas em 04/10/2026:** [ABL — cefazolina, bula profissional IB200126](https://www.ablbrasil.com.br/wp-content/uploads/2026/02/Cefazolina-Bula-Profissional_IB200126.pdf) · [ABL — recolhimento Kefazol, abril de 2026](https://www.ablbrasil.com.br/wp-content/uploads/2026/04/Comunicado-Recolhimento-Kefazol.pdf) · [Anvisa — recolhimento, 23/02/2026](https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-recolhimento-de-lote-do-antibiotico-kefadim-1) · [PIDS/IDSA — diretriz 2023, publicação 2024](https://www.idsociety.org/practice-guideline/acute-bacterial-arthritis-in-pediatrics2/) · [PIDS/IDSA — PDF oficial, tabela 5](https://www.idsociety.org/globalassets/idsa/practice-guidelines/piad089.pdf) · [RCH — infecção osteoarticular, agosto de 2021](https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/) · [Peltola et al. — ensaio de duração, 2009](https://pubmed.ncbi.nlm.nih.gov/19323633/) · [De Marco et al. — coorte de artrite por Kingella, 2025](https://doi.org/10.3390/microorganisms13102323) · [Kotzias Neto et al. — coorte brasileira de quadril, 2011](https://www.scielo.br/j/rbort/a/TkQZCZzyqxBQzcJmDMc3x3c/?lang=pt) · [Cochrane — corticosteroides, 2018](https://www.cochrane.org/evidence/CD012125_corticosteroids-children-septic-arthritis)\n",
+      "sources": [
+        {
+          "id": "IDSA2023",
+          "entity": "PIDS/IDSA",
+          "title": "Clinical Practice Guideline:2023 Guideline on Diagnosis and Management of Acute Bacterial Arthritis in Pediatrics",
+          "versionDate": "2023; publicação29/01/2024",
+          "url": "https://www.idsociety.org/practice-guideline/acute-bacterial-arthritis-in-pediatrics2/",
+          "pdf": "https://www.idsociety.org/globalassets/idsa/practice-guidelines/piad089.pdf",
+          "doi": "10.1093/jpids/piad089",
+          "pmid": "37941444",
+          "population": "crianças previamente saudáveis1m–17a na América do Norte; neonatos excluídos",
+          "verifiedClaims": [
+            "hemocultura/PCR basal; aspirado com Gram/cultura/células; teste molecular em culturasnegativas",
+            "antimicrobiano imediato se doente/progressão rápida; observação para aspirado antes se estável",
+            "coberturaS.aureus eKingella6–48m; vancomicina/clindamicina não asseguramKingella",
+            "10–14d totais em primária semOM, resposta rápida ePCR diminuindo consistentemente atéfimprimeirasemana",
+            "21–28d podem serpreferíveis resposta lenta/foco não controlado/PCR persistente;OM segue diretrizprópria",
+            "MRIfalha48–96h após procedimentos/terapia adequada; não corticoide ou antimicrobiano intraarticular porrotina"
+          ],
+          "doseTableVerified": {
+            "cefazolin": "100–150mg/kg/dia divididoq8h",
+            "maximumAdultDaily": "12g/dia",
+            "comment": "extremo maior para estafilocócica mais invasiva com desbridamento inadequado",
+            "important": "não fundir teto12g/dia com regimeRCH2g/dose; candidatoadotaRCH"
+          },
+          "certainty": "GRADE variável; duração curta condicional baixa/ muito baixa, coberturaKingella condicional muito baixa",
+          "evidenceClass": "C",
+          "regulatoryStatus": "sem_confirmacao_brasileira_equivalente",
+          "access": "HTMLoficial das recomendações e racional; PDF tabela5p35 lido",
+          "toolRefs": [
+            "turn374view0",
+            "turn415view2",
+            "turn425view0",
+            "turn430view3"
+          ]
+        },
+        {
+          "id": "RCH2021",
+          "entity": "Royal Children's Hospital Melbourne",
+          "title": "Clinical Practice Guidelines: Bone and joint infection",
+          "versionDate": "agosto2021",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/",
+          "population": "crianças com infecçãoosteoarticular; menores3m solicitam infectologia",
+          "verifiedClaims": [
+            "cefazolina50mg/kg/doseIVq8h máximo2g/dose",
+            "ultrassom sensível para derrame mas não específico; hemocultura epunção",
+            "aspiração urgente ± artrotomia; não atrasar antibiótico",
+            "transição oral em melhora/afebril/marcadores em melhora; artrite usual2–3semanas",
+            "Salmonella hemoglobinopatia;GBS/Ecoli neonatos;MRSA contextual;Neisseria adolescentes"
+          ],
+          "divergence": "duração usual2–3sem versus10–14d condicional IDSA; teto2g/dose versusIDSA máximo adulto12g/dia",
+          "evidenceClass": "C",
+          "regulatoryStatus": "sem_confirmacao_brasileira_equivalente",
+          "access": "textoHTMLintegral",
+          "toolRefs": [
+            "turn384view2",
+            "turn384view3"
+          ]
+        },
+        {
+          "id": "PELTOLA2009",
+          "entity": "Peltola et al., Clin Infect Dis",
+          "title": "Prospective, randomized trial of10days versus30days of antimicrobial treatment, including a short-term course of parenteral therapy, for childhood septic arthritis",
+          "versionDate": "01/05/2009",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19323633/",
+          "doi": "10.1086/597582",
+          "pmid": "19323633",
+          "population": "Finlândia,130 analisados,3m–15a,culturapositiva;63 curto/67 longo;semOM,semMRSAna descriçãoIDSA",
+          "verifiedClaims": [
+            "curso10vs30d;inicialIV2–4d;interrupção com boa resposta ePCR20mg/L;recuperação semsequelas12m"
+          ],
+          "limitations": [
+            "apenasabstractprimário aberto; interpretação metodológica complementada pela diretriz",
+            "seleção/exclusões após randomização e poucos eventos; nãoextrapolar aMRSAvirulento/neonato/OM"
+          ],
+          "access": "abstractoficialPubMed",
+          "toolRefs": [
+            "turn380view0"
+          ]
+        },
+        {
+          "id": "DEMARCO2025",
+          "entity": "De Marco et al., Microorganisms",
+          "title": "Inefficiency of Kocher and Caird’s Criteria in Septic Arthritis of the Hip Due to Kingella kingae: A Multicenter Retrospective Cohort Study",
+          "versionDate": "07/10/2025",
+          "url": "https://doi.org/10.3390/microorganisms13102323",
+          "accessiblePrimaryCopy": "https://run.unl.pt/server/api/core/bitstreams/99aaa163-258e-4eaf-a1fd-b6d1296f44eb/content",
+          "doi": "10.3390/microorganisms13102323",
+          "pmid": "41156783",
+          "population": "140 crianças comKingella confirmada,17 hospitais7países, predomínio<4a",
+          "verifiedClaims": [
+            "escoreKocher/Caird baixo ou sinais modestos não excluem artrite porKingella",
+            "diagnóstico etiológico por culturas ePCRlíquidosinovial/sangue; nãoapenasescore"
+          ],
+          "limitations": [
+            "retrospectivo semgrupo controle; muitosdados ausentes; nãoestima especificidadeNPV universal",
+            "inconsistênciasnuméricasentreabstract/texto/tabela: não usar porcentagens do estudo como corte de decisão"
+          ],
+          "access": "PDFprimário10p porrepositórioinstitucional deautores, versão v2;PMCcomrecaptcha,editor429",
+          "toolRefs": [
+            "turn454view0",
+            "turn454view1"
+          ]
+        },
+        {
+          "id": "KOTZIAS2011",
+          "entity": "Kotzias Neto, Oliveira, Stipp; Rev Bras Ortop",
+          "title": "Avaliação do tratamento da artrite séptica do quadril",
+          "versionDate": "2011",
+          "url": "https://www.scielo.br/j/rbort/a/TkQZCZzyqxBQzcJmDMc3x3c/?lang=pt",
+          "doi": "10.1590/S0102-36162011001000004",
+          "population": "46crianças47quadris seguidosmínimo2a,Florianópolis1994–2009",
+          "verifiedClaims": [
+            "atraso decontrole cirúrgico associou-se apiordesfecho;sequela articular/fisária possível;urgênciaavaliação"
+          ],
+          "limitations": [
+            "coorte retrospectiva;46/104 inscritos retornaram;seleção/confundimento eperdas;semcausalidadequantificada",
+            "não sustenta dose atual cefazolina nemprotocolo universal"
+          ],
+          "access": "HTMLprimário integral",
+          "toolRefs": [
+            "turn405view3"
+          ]
+        },
+        {
+          "id": "COCHRANE2018",
+          "entity": "Delgado-Noguera et al., Cochrane",
+          "title": "Corticosteroids for septic arthritis in children",
+          "versionDate": "21/11/2018; buscas17/04/2018",
+          "url": "https://www.cochrane.org/evidence/CD012125_corticosteroids-children-septic-arthritis",
+          "doi": "10.1002/14651858.CD012125.pub2",
+          "population": "2RCT149crianças3m–18a imunocompetentesCostaRica/Israel",
+          "verifiedClaims": [
+            "possívelbenefício funcional/dor masbaixa certeza porperdas/relatoseletivo/imprecisão; nãoautoriza corticoterapia automática"
+          ],
+          "limitations": [
+            "somenteabstract/revisãosumáriooficial público;baixaqualidade ebuscaantiga",
+            "IDSAmaisrecente contrauso adjuvante derotina"
+          ],
+          "access": "sumárioeresumooficial",
+          "toolRefs": [
+            "turn409view0"
+          ]
+        }
+      ],
+      "status": "fully_reviewed",
+      "wholeAvailableChapterReviewed": true,
+      "humanReview": false,
+      "automatedPrescribing": false,
+      "externalWhitebookConsulted": false,
+      "checks": {
+        "clinical": "passed",
+        "pharmaceutical": "passed",
+        "mathematical": "passed",
+        "reverse": "passed"
+      },
+      "checkScope": "Passes referem-se aos campos efetivamente apresentados. Valores não selecionados ou sem preparo operacional definido não são habilitados. Limiares sem dose foram conferidos nas fontes; aritmética não aplicável é justificada.",
+      "independentAudit": {
+        "clinical": "Segundo leitor independente, correções incorporadas pelo integrador",
+        "mathematical": "Decimal/Fraction independente, incluindo pesos fracionários e limites do teto; sem calculadora automática"
+      },
+      "pendingAction": "Propagar escopo documental sem habilitar adaptador de prescrição; individualizar produto, função renal e cenário no uso clínico.",
+      "reviewEnvelopeSha256": "fe45781bc11b4c027058f645f04cdc3687b2a08b353815c0b09bbbfd6b3ec976"
+    },
+    {
+      "schemaVersion": 1,
+      "stableIdentity": "pedwb:botulismo-em-pediatria",
+      "title": "Botulismo em Pediatria",
+      "historicalReviewPosition": 96,
+      "nativeTitleOrdinal": 129,
+      "publicOrdinal": 39,
+      "reviewedAt": "2026-10-04T12:44:52.724068+00:00",
+      "reviewType": "Revisão clínica e farmacêutica por IA; pesquisa dirigida em fontes primárias",
+      "scope": "Capítulo documental nativo129 integral efetivamente disponível; ampliação de identificação etiológica, liberação doSAB, apresentação/dose/via por produto, precauções e vigilância recente. Cálculos documentaisBabyBIG e potênciaSAB; preparo operacionalSAB limitado por razão de diluição ambígua.",
+      "text": "## 129. Botulismo em Pediatria\n\n**Reconhecimento e estabilização.** Constipação, sucção/choro fracos, ptose, disfagia e hipotonia descendente no lactente sugerem botulismo intestinal; em crianças maiores, diplopia, disartria/disfagia e fraqueza descendente também exigem investigação. A consciência pode permanecer preservada. Avaliar repetidamente força bulbar, manejo das secreções e ventilação; oximetria normal não exclui insuficiência ventilatória inicial. Proteger contra aspiração e encaminhar à UTI diante de comprometimento bulbar ou respiratório. A recuperação pode demandar suporte ventilatório e nutricional prolongado. [CDC: visão clínica e diretriz 2021]\n\n**Ação imediata e diagnóstico.** Acionar vigilância e referência hospitalar; no Brasil, a suspeita requer notificação imediata, em até 24 h. Colher soro antes da antitoxina, quando isso não causar atraso evitável; orientar fezes, material da ferida e alimentos com o laboratório/vigilância. A coleta de fezes ou o resultado laboratorial não devem retardar antitoxina clinicamente indicada. Resultado negativo não exclui botulismo. O fluxo brasileiro de liberação do SAB exige prescrição, resumo clínico e ficha de investigação. A NT 77/2022 privilegia tratamento precoce e refere 7 dias do início neurológico, com exceções para produção persistente de toxina; progressão ativa tardia deve ser discutida com especialistas, sem transformar essa janela em exclusão universal. [MS-NT 77; CDC 2021]\n\n**Distinguir mecanismo e produto.** No botulismo intestinal infantil, esporos colonizam o intestino e produzem toxina; BabyBIG é imunoglobulina humana específica para toxinas A/B em menores de 1 ano. Um lactente com intoxicação por toxina pré-formada em alimento não deve ser classificado automaticamente como botulismo intestinal pela idade. Botulismo alimentar, por ferida ou iatrogênico requer escolha da antitoxina conforme mecanismo, cobertura e produto realmente obtido. BabyBIG, soro equino AB brasileiro e BAT heptavalente internacional não são intercambiáveis por mg, UI ou volume. [CDC infantil; CDC 2021; bulas]\n\n**Soro equino AB: apresentação brasileira identificada.** A bula profissional Butantan BLPSSBAB1FA_V03-21, aprovada pela Anvisa em 02/09/2022 e hospedada com impressão 08/02/2024, identifica frasco 20 mL: 375 UI/mL contra A e 275 UI/mL contra B, correspondendo separadamente a 7.500 UI A e 5.500 UI B. Para suspeita A/B, recomenda 1 frasco intravenoso, mesma dose inicial para adultos e crianças, em 30–60 min; doses adicionais dependem da evolução e decisão médica. A bula informa diluição 1: 10 em soro fisiológico, sem esclarecer se a razão representa volume final ou volume de diluente. Portanto, confirmar preparo com farmácia/referência e produto recebido antes de fixar volume final, concentração ou mL/h. Administrar em hospital com UTI e monitorização médica/de enfermagem; preparar tratamento imediato de anafilaxia e orientar possível doença do soro tardia. Não realizar teste cutâneo de sensibilidade. Conservar 2–8 °C, sem congelar; usar imediatamente após abrir. A página geral de soros contém menção discordante a IM: prevalece a via IV da bula profissional. Registro documental não comprova estoque local. [Butantan-VPS]\n\n**BabyBIG: referência específica internacional, sem disponibilidade brasileira presumida.** A bula CDPH vigente consultada no DailyMed, revisão 09/2025, informa dose única IV 50 mg/kg, equivalente nominal a 1 mL/kg. Frasco 100 mg ± 20 mg, reconstituído com 2 mL de água estéril para injeção USP, fornece 50 mg/mL nominais. Não pré-diluir; usar linha separada, equipo de baixo volume, bomba constante e filtro 18 µm. Iniciar em até 2 h da reconstituição e concluir em até 4 h, ressalvada interrupção por reação. Infundir 0,5 mL/kg/h nos primeiros 15 min; se tolerado,1 mL/kg/h como máximo. Monitorar sinais vitais, hidratação, função renal e diurese; reduzir a velocidade conforme tolerância/risco renal, sem fórmula de ajuste inventada. Contraindicações incluem reação grave prévia a imunoglobulina humana e deficiência seletiva de IgA com anticorpos anti-IgA; anafilaxia pode ocorrer mesmo sem sensibilidade previamente conhecida. Coordenar adiamento de vacinas vivas de sarampo/caxumba/rubéola e varicela por 6 meses. Registro e acesso no Brasil não foram comprovados. [CDPH/DailyMed; FDA]\n\n**Conferência dimensional documental.** Para peso de teste 5 kg, BabyBIG corresponde a 250 mg= 5 mL. A velocidade inicial é 2,5 mL/h: em 15 min administra 0,625 mL; os 4,375 mL restantes demandam 52,5 min a 5 mL/h. Tempo total teórico 67,5 min, se não houver interrupção e a progressão for tolerada. Reversa: 5 mL× 50 mg/mL÷ 5 kg= 50 mg/kg. No SAB-AB, 20 mL× 375 UI/mL= 7.500 UI A e 20 mL× 275 UI/mL= 5.500 UI B; não somar essas potências como uma unidade intercambiável. Esses testes não habilitam um adaptador de prescrição.\n\n**Cuidados associados.** Antitoxina neutraliza toxina ainda circulante; não reverte imediatamente a paralisia instalada. Não usar antibiótico rotineiro no botulismo intestinal infantil; uma infecção intercorrente exige tratamento próprio. No botulismo por ferida, controlar o foco/debridar e selecionar antibiótico com especialistas. Aminoglicosídeos podem agravar o bloqueio neuromuscular. Não tornar carvão, lavagem gástrica, enemas ou laxantes rotina: benefício humano é incerto e aspiração/íleo podem aumentar o risco. Imunoglobulina IV comum não deve substituir automaticamente BabyBIG; estudo retrospectivo de 2025 não demonstrou equivalência entre produtos. [CDC 2021; Palomino-Fernandez 2025]\n\n**Exposição e vigilância atual.** Perguntar sobre mel, poeira/solo, alimentos, fórmulas e seus lotes; ausência de mel não afasta botulismo infantil. CDC/FDA encerraram em 27/08/2026 a investigação norte-americana associada à fórmula Nara Organics Whole Milk: 4 casos confirmados, 4 hospitalizações e nenhum óbito; os produtos recolhidos continuam sujeitos ao recall. Esse evento não comprova circulação do produto ou surto no Brasil. Investigar também aplicação terapêutica/estética recente de toxina botulínica; na suspeita iatrogênica, registrar produto/lote/data e seguir a NT conjunta MS/Anvisa 405/2025, incluindo vigilância em 24 h e notificação VigiMed em 72 h. [CDC/FDA 2026; MS/Anvisa 405]\n\n**Fontes rastreáveis.** [MS-NT77/2022](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2022/nota-tecnica-no-77-2022.pdf); [Butantan: bula profissionalSAB-AB](https://butantan.gov.br/assets/arquivos/soros-e-vacinas/2024/Bula%20Profissional%20da%20Sa%C3%BAde%20Soro%20Antibotul%C3%ADnico%20AB.pdf); [CDC: botulismo infantil,24/04/2024](https://www.cdc.gov/botulism/hcp/clinical-overview/infant-botulism.html); [CDC: visão clínica,22/04/2024](https://www.cdc.gov/botulism/hcp/clinical-overview/); [CDC: diretriz2021](https://www.cdc.gov/mmwr/volumes/70/rr/rr7002a1.htm); [BabyBIG: bulaCDPH/DailyMed09/2025](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=9ec59262-35c1-4d8e-8451-a7cfbacb0675&type=display); [FDA: BabyBIG](https://www.fda.gov/vaccines-blood-biologics/approved-blood-products/babybig); [CDC: surto/fórmula2026](https://www.cdc.gov/botulism/outbreaks-investigations/infant-formula-june-2026/index.html); [FDA: investigação2026](https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026); [MS/Anvisa: NT405/2025](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/b/botulismo/notas-tecnicas/nota-tecnica-conjunta-no-405-2025-cgzv-dedt-svsa-ms-e-anvisa); [estudo observacional2025](https://pubmed.ncbi.nlm.nih.gov/40359240/).\n\n**Limitações específicas e estado.** Revisão por IA do capítulo documental efetivamente disponível; não é leitura do Whitebook autenticado nem homologação humana. Apresentação, dose e via do SAB-AB foram identificadas, mas a interpretação operacional da diluição 1: 10 e o estoque local permanecem pendentes. BabyBIG foi conferido como produto internacional; disponibilidade/registro brasileiro não confirmados. Não foram autorizados cálculos operacionais de SAB-AB nem substituições. Esta ampliação não aprova capítulos externos, manejo completo de anafilaxia, esquemas antibióticos ou todas as antitoxinas.\n",
+      "sources": [
+        {
+          "id": "butantan-vps",
+          "document": "Bula profissional: soro antibotulínicoAB bivalente",
+          "organization": "InstitutoButantan/Anvisa",
+          "version": "BLPSSBAB1FA_V03-21; aprovaçãoAnvisa02/09/2022; impressão08/02/2024",
+          "url": "https://butantan.gov.br/assets/arquivos/soros-e-vacinas/2024/Bula%20Profissional%20da%20Sa%C3%BAde%20Soro%20Antibotul%C3%ADnico%20AB.pdf",
+          "access": "PDF7p completo, inclusive posologia p4, reações p5–6 e aprovação p7",
+          "claims": [
+            "Identidade/composição, indicação suspeitaA/B, viaIV, dose inicial e tempo por produto",
+            "Armazenamento e observação hospitalar",
+            "Não realizar teste cutâneo; reações imediatas e doença do soro"
+          ],
+          "population": "Uso adulto e pediátrico; mesma dose inicial",
+          "limitations": [
+            "Não comprova estoque local ou fornecimento efetivo",
+            "Razão1:10 sem convenção de volume final vs diluente",
+            "Não apresenta ajuste renal/hepático operacional, máximo absoluto acumulado ou schedule automático de repetição",
+            "Não transferir posologia BAT ouBabyBIG"
+          ]
+        },
+        {
+          "id": "butantan-landing-conflict",
+          "document": "Página institucionalSoros, seçãoSoroAntibotulínico",
+          "organization": "InstitutoButantan",
+          "date": "Sem data editorial confirmada; consultada04/10/2026",
+          "url": "https://butantan.gov.br/soros",
+          "access": "HTML, descrição do soro",
+          "claims": [
+            "Contém menção discordante a via intramuscular"
+          ],
+          "population": "Página geral de produtos",
+          "limitations": [
+            "Não utilizada para definir administração; VPS primária confirmaIV"
+          ]
+        },
+        {
+          "id": "ms-nt77",
+          "document": "NotaTécnica77/2022-CGZV/DEIDT/SVS/MS",
+          "organization": "Ministério daSaúde",
+          "date": "Assinatura10/08/2022; impressão23/08/2022",
+          "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2022/nota-tecnica-no-77-2022.pdf",
+          "access": "PDF6p completo",
+          "claims": [
+            "Notificação e fluxo de liberação",
+            "Amostras antes da antitoxina",
+            "Tratamento precoce, janela com exceções para ferida/intestinal",
+            "Identificação20mLIVAB e fornecimentoSUS documental"
+          ],
+          "population": "Brasil; suspeita clínica botulismo",
+          "limitations": [
+            "Não usar data da republicação como nova versão clínica",
+            "Volumes mínimos de amostras não foram transplantados a lactentes",
+            "Janela não usada como exclusão universal ou autorização automática tardia",
+            "Não atesta estoque contemporâneo de cada serviço"
+          ]
+        },
+        {
+          "id": "ms-anvisa-nt405",
+          "document": "NotaTécnicaConjunta405/2025-CGZV/DEDT/SVSA/MS eAnvisa",
+          "organization": "Ministério daSaúde/Anvisa",
+          "date": "2025; disponibilizada18/11/2025",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/b/botulismo/notas-tecnicas/nota-tecnica-conjunta-no-405-2025-cgzv-dedt-svsa-ms-e-anvisa",
+          "access": "DocumentoPDF5p completo",
+          "claims": [
+            "Suspeita iatrogênica por disseminação além do local de aplicação",
+            "Vigilância24h, VigiMed72h e registro produto/lote/data",
+            "Progressão ativa pode justificar avaliação antitoxina após7dias; explicitamenteoff-label"
+          ],
+          "population": "Botulismo iatrogênico; uso terapêutico/estético",
+          "limitations": [
+            "Não generalizar condição tardia a qualquer paciente estável",
+            "Dose de coleta20mL não incorporada a neonatos/lactentes",
+            "Política de estoque nos estados não garante obtenção local"
+          ]
+        },
+        {
+          "id": "babybig-current-label",
+          "document": "BabyBIG — BotulismImmuneGlobulinIntravenous(Human), prescribinginformation",
+          "organization": "CaliforniaDepartment ofPublicHealth; versão fabricante noDailyMed/NLM",
+          "date": "Revisão clínica09/2025; record eletrônico versão14, effective08/12/2025",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=9ec59262-35c1-4d8e-8451-a7cfbacb0675&type=display",
+          "access": "BulaHTML completa,605linhas; indication/dosage/preparation/contraindications/warnings/interactions",
+          "claims": [
+            "ToxinasA/B em botulismo infantil intestinal<1ano",
+            "Dose nominal, reconstituição, via e velocidade específicas",
+            "Filtro e limites de tempo de uso",
+            "Contraindicações, segurança renal e vacina viva"
+          ],
+          "population": "Menores de1ano com botulismo infantilA/B",
+          "limitations": [
+            "Disponibilidade/registro brasileiro não demonstrados",
+            "Conteúdo revisão09/2025 distinto da atualização eletrônica12/2025",
+            "Concentração nominal usada; não recalcular por variação rotulada da massa",
+            "Sem máximo absoluto por peso além da dose indicada; sem fórmula renal/hepática inventada",
+            "Não habilitaIVIGcomum ou soro equino"
+          ]
+        },
+        {
+          "id": "fda-babybig",
+          "document": "BabyBIG — approvedbloodproduct, STN125034",
+          "organization": "FDA",
+          "date": "Página vigente04/10/2026; PDF vinculado revisão06/2021",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/approved-blood-products/babybig",
+          "labelURL": "https://www.fda.gov/media/150406/download?attachment=",
+          "access": "Página e bulaPDF17p lidas",
+          "claims": [
+            "Fabricante e indicaçãoA/B<1ano",
+            "Concordância da dose e taxas com versão mais recenteCDPH"
+          ],
+          "population": "IndicaçãoFDA, não acesso regulatório brasileiro",
+          "limitations": [
+            "PDFFDA de2021 não usado para congelar bula posterior; não é estudo independente"
+          ]
+        },
+        {
+          "id": "cdc-infant",
+          "document": "ClinicalOverview ofInfantBotulism",
+          "organization": "CDC",
+          "date": "24/04/2024",
+          "url": "https://www.cdc.gov/botulism/hcp/clinical-overview/infant-botulism.html",
+          "access": "HTML completo",
+          "claims": [
+            "Colonização intestinal por esporos, reconhecimento, confirmação por fezes",
+            "BabyBIG precoce por suspeita clínica; não esperar laboratório"
+          ],
+          "population": "Botulismo infantil intestinal",
+          "limitations": [
+            "IBTPP é fluxoEUA; adaptar contato à vigilância brasileira",
+            "Sem dose/volume de enema inventado"
+          ]
+        },
+        {
+          "id": "cdc-general",
+          "document": "ClinicalOverview ofBotulism",
+          "organization": "CDC",
+          "date": "22/04/2024",
+          "url": "https://www.cdc.gov/botulism/hcp/clinical-overview/",
+          "access": "HTML completo",
+          "claims": [
+            "Reconhecimento, diagnósticos diferenciais e suporte prolongado"
+          ],
+          "population": "Botulismo geral",
+          "limitations": [
+            "Não é bula de produto brasileiro"
+          ]
+        },
+        {
+          "id": "cdc-guideline2021",
+          "document": "ClinicalGuidelines forDiagnosis andTreatment ofBotulism,2021",
+          "organization": "CDC/MMWR; RaoAK etal",
+          "date": "07/05/2021; MMWR70(2):1–30",
+          "url": "https://www.cdc.gov/mmwr/volumes/70/rr/rr7002a1.htm",
+          "access": "HTML integral; reconhecimento/respiração/laboratório/antitoxina/antimicrobianos e cuidados",
+          "claims": [
+            "Diretriz exclui síndrome intestinal infantil de seu escopo terapêutico principal",
+            "Lactente alimentar em surto não equivale à síndrome infantil por colonização",
+            "Coleta de soro pré-antitoxina; fezes não devem atrasar",
+            "Suporte, limitações oximetria e não reversão da paralisia",
+            "Antibióticos e intervençõesdigestivas não rotineiros; aminoglicosídeos agravam bloqueio"
+          ],
+          "population": "Botulismo fora da síndrome infantil intestinal; decisões por tipo/situação",
+          "limitations": [
+            "Posologia pediátricaBAT não transferida aoSAB-AB",
+            "Não importar volumes de coleta adultos",
+            "Sinais respiratórios precisam avaliação clínica, sem limiar único fabricado"
+          ]
+        },
+        {
+          "id": "cdc-formula2026",
+          "document": "InfantBotulismOutbreakLinked toInfantFormula—June2026",
+          "organization": "CDC",
+          "date": "Publicado13/06/2026; atualização/encerramento27/08/2026",
+          "url": "https://www.cdc.gov/botulism/outbreaks-investigations/infant-formula-june-2026/index.html",
+          "access": "HTML completo",
+          "claims": [
+            "SurtoNaraOrganics nosEUA encerrado;4casos,4hospitalizações,0óbitos",
+            "Produtos recolhidos continuam com recomendação de não uso"
+          ],
+          "population": "EUA; produto/lotes relacionados ao recall específico",
+          "limitations": [
+            "Não extrapolar a toda fórmula ou anunciar surtoBrasil; não comprova importação"
+          ]
+        },
+        {
+          "id": "fda-formula2026",
+          "document": "OutbreakInvestigation ofInfantBotulism:PowderedInfantFormula(June2026)",
+          "organization": "FDA",
+          "date": "Atualização27/08/2026; encerramento epidemiológico",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "access": "HTML completo",
+          "claims": [
+            "Confirma produto, recall e dados epidemiológicosCDC",
+            "Investigação de causa continua distinta do encerramento do surto"
+          ],
+          "population": "EstadosCalifórnia/Pensilvânia/WashingtonEUA; início sintomasabril–maio2026",
+          "limitations": [
+            "Não afirmar fontecausal de matéria-prima como estabelecida"
+          ]
+        },
+        {
+          "id": "cochrane2019",
+          "document": "MedicalTreatment forBotulism; ChalkCH etal; CD008123.pub4",
+          "organization": "Cochrane; abstractPubMed",
+          "date": "17/04/2019; busca23/01/2018, registros21/02/2019",
+          "url": "https://www.cochrane.org/evidence/CD008123_medical-treatment-botulism",
+          "pubmedURL": "https://pubmed.ncbi.nlm.nih.gov/30993666/",
+          "access": "Resumo e abstract completo conferidos",
+          "claims": [
+            "RCT específicoBIG-IV122infantes; benefício duração hospitalização/ventilação/alimentação",
+            "Não estabelece benefício de outras intervenções sem evidência"
+          ],
+          "population": "Lactentes do ensaioBIG-IV específico",
+          "limitations": [
+            "Busca antiga; nenhuma declaração de ausência absoluta de estudos posteriores",
+            "Resumo leigo erra valor hospitalização3,1vs5,7; abstract2,6vs5,7 e diferença−3,1",
+            "Não quantificados efeitos no candidato nem extrapolados a soro brasileiro"
+          ]
+        },
+        {
+          "id": "ivig-observational2025",
+          "document": "Palomino-FernandezJ etal, InfantBotulismandNonspecificImmunoglobulin; PIDJ44(6):e193–e198; DOI10.1097/INF.0000000000004727",
+          "organization": "Artigo primário, PubMed",
+          "date": "Publicação01/06/2025; eletrônica17/01/2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40359240/",
+          "access": "Abstract lido; texto integral indisponível nessa consulta",
+          "claims": [
+            "Retrospectivo23casos/7hospitais;4HBIG,10IVIG",
+            "Sem diferença global entre grupos; associação exploratóriaIVIGprecoce não prova equivalência"
+          ],
+          "population": "Casos pediátricosAndaluzia1997–2023; mediana3meses",
+          "limitations": [
+            "Pequeno, não randomizado e confusão por gravidade/tempo; não autoriza substituição nem doseIVIG no candidato"
+          ]
+        },
+        {
+          "id": "scielo-case2022",
+          "document": "SerranoCrespoN etal. Botulismoenellactante. RevPediatrAtenPrimaria2022;24:401–404",
+          "organization": "SciELO/Espanha; relato primário",
+          "date": "29/11/2022",
+          "url": "https://scielo.isciii.es/scielo.php?pid=S1139-76322022000400011&script=sci_arttext",
+          "access": "Texto integral lido",
+          "claims": [
+            "Relato de lactente confirmado toxinaB; diagnóstico/terapia tardios e suporte"
+          ],
+          "population": "Um lactente",
+          "limitations": [
+            "Não fornece efeito comparativo, indicação universal ou janela máxima; não usado para posologia"
+          ]
+        }
+      ],
+      "status": "partially_reviewed",
+      "wholeAvailableChapterReviewed": false,
+      "humanReview": false,
+      "automatedPrescribing": false,
+      "externalWhitebookConsulted": false,
+      "checks": {
+        "clinical": "passed",
+        "pharmaceutical": "passed",
+        "mathematical": "passed",
+        "reverse": "passed"
+      },
+      "checkScope": "Passes referem-se aos campos efetivamente apresentados. Valores não selecionados ou sem preparo operacional definido não são habilitados. Limiares sem dose foram conferidos nas fontes; aritmética não aplicável é justificada.",
+      "independentAudit": {
+        "clinical": "Segundo leitor independente, correções incorporadas pelo integrador",
+        "mathematical": "Decimal/Fraction independente, incluindo pesos fracionários e limites do teto; sem calculadora automática"
+      },
+      "pendingAction": "Esclarecer com referência/farmácia a interpretação operacional da diluição SAB-AB 1:10, sem inferir volume final ou mL/h; confirmar produto recebido e acesso local.",
+      "excludedCriticalFields": [
+        "Interpretação operacional da diluição SAB-AB 1:10",
+        "Volume final e mL/h SAB-AB",
+        "Disponibilidade brasileira de BabyBIG"
+      ],
+      "reviewEnvelopeSha256": "bf60512919ac8c5bcdf26f27116fbf24f7a00680204c4b26d25b1f066ab4a0c0"
+    },
+    {
+      "schemaVersion": 1,
+      "stableIdentity": "pedwb:caxumba",
+      "title": "Caxumba",
+      "historicalReviewPosition": 97,
+      "nativeTitleOrdinal": 130,
+      "publicOrdinal": 44,
+      "reviewedAt": "2026-10-04T12:44:52.724068+00:00",
+      "reviewType": "Revisão clínica e farmacêutica por IA; pesquisa dirigida em fontes primárias",
+      "scope": "Capítulo documental nativo 130 integral efetivamente disponível: avaliação, exames, tratamento, seguimento; expansão rastreável de coleta, isolamento e prevenção. Não abrange todo Whitebook externo nem aprovação das remissões farmacológicas.",
+      "text": "## 130. Caxumba\n\n**Avaliação.** Suspeitar diante de aumento doloroso de uma ou ambas as parótidas, inclusive em criança com duas doses documentadas de vacina. Há apresentações sem parotidite e complicações também podem ocorrer sem edema salivar. Registrar início do edema, vacinação e contato epidemiológico; diferenciar a parótida aumentada de linfonodos cervicais delimitados. Outras viroses, obstrução ductal e parotidite recorrente entram no diferencial. Pus pelo ducto de Stensen favorece sialadenite bacteriana e exige investigação própria; não atribuir toda parotidite à caxumba. [CDC, características clínicas; AEP/SEIP, 2023]\n\n**Exames.** Articular coleta e disponibilidade de testes com a vigilância e o laboratório de referência; RT-PCR não deve ser apresentada como exame universalmente disponível no SUS. Pelo fluxo CDC, colher swab bucal para RT-PCR o mais cedo possível: até três dias desde o início da parotidite, priorizar essa amostra; após três dias, colher também soro para IgM. Em suspeita de complicação, colher swab e soro independentemente do dia, conforme orientação laboratorial. IgM auxilia, mas isoladamente não confirma o diagnóstico; pode faltar em vacinados. RT-PCR ou IgM negativos não excluem caxumba quando clínica e contexto forem compatíveis. IgG isolada não confirma infecção aguda nem garante proteção. Investigar etiologias alternativas em apresentação esporádica sem vínculo e testes negativos. Não solicitar imagem de rotina na apresentação típica; ultrassom pode esclarecer abscesso, obstrução ou origem extraglandular. [CDC, laboratório/coleta/sorologia; AEP/SEIP, 2023]\n\n**Tratamento.** Não há terapia específica de rotina. Garantir hidratação, alimentação tolerada, higiene bucal, compressas e alívio de dor/febre, usando o módulo próprio de analgesia com conferência individual. Antibióticos não tratam a infecção viral nem a orquite viral; reservar investigação e tratamento antibacteriano para outro diagnóstico demonstrado ou suficientemente provável. Glicocorticoides não têm benefício comprovado para a parotidite/orquite por caxumba e não devem ser usados rotineiramente para tentar prevenir sequelas. Dor escrotal aguda exige avaliação imediata: se torção não puder ser excluída com segurança, solicitar avaliação cirúrgica urgente, sem retardá-la por ultrassom. [MS, Guia de Vigilância 2024; RCH, janeiro de 2026]\n\n**Isolamento e seguimento.** Afastar de escola e contatos próximos até completar cinco dias após o início da parotidite ou de outro edema salivar. Manter essa orientação enquanto exames estiverem pendentes ou negativos, salvo diagnóstico alternativo mais provável. Em infecção confirmada sem edema salivar, o CDC conta os cinco dias a partir do primeiro sintoma. No hospital, aplicar precauções padrão e de gotículas. Acionar a vigilância diante de agregação de casos/suspeita de surto e observar as regras locais de notificação. Reavaliar prontamente se ingestão ou diurese caírem. Meningismo, alteração de consciência, convulsão, perda auditiva, dor abdominal importante ou dor testicular requerem avaliação urgente. Internação depende de gravidade e suporte necessário, como desidratação relevante ou complicação neurológica/sistêmica. [CDC, controle de surtos; MS, Guia de Vigilância 2024]\n\n**Prevenção e contatos.** Conferir o cartão e atualizar o esquema segundo o PNI vigente. A Instrução Normativa de 2026 prevê duas doses de rotina aos 12 e 15 meses; aos 15 meses, recomenda SCR e varicela monovalente concomitantes em sítios distintos. Em criança/adolescente com esquema incompleto, seguir a atualização do calendário. A vacinação de quem está com suspeita de caxumba deve aguardar resolução clínica; contraindicações e precauções dependem da condição e formulação. A vacina não trata o episódio instalado nem oferece profilaxia comprovada da exposição à caxumba já ocorrida. Intensificação seletiva em contatos visa a proteção futura e segue vigilância/PNI. A indicação CDC de dose adicional em grupo de alto risco durante surto não equivale a terceira dose de rotina brasileira. Contatos podem adoecer apesar de vacinação e devem observar sintomas por 25 dias após a exposição, conforme orientação da vigilância. [PNI, 2026; CDC, controle de surtos]\n\n**Escopo da revisão por IA.** Revisado o capítulo documental efetivamente disponível, com expansão de diagnóstico laboratorial e prevenção. Esta entrada não define dose de analgésico, produto vacinal, volume, diluição ou infusão e não libera receitas/cálculos dos módulos remetidos. Não há homologação humana ou institucional.\n\n**Fontes conferidas em 04/10/2026:** [CDC — características clínicas, 05/06/2024](https://www.cdc.gov/mumps/hcp/clinical-signs/index.html); [CDC — testes laboratoriais, 11/06/2024](https://www.cdc.gov/mumps/php/laboratories/index.html); [CDC — coleta, 06/06/2024](https://www.cdc.gov/mumps/php/laboratories/specimen-collection.html); [CDC — sorologia, 05/06/2024](https://www.cdc.gov/mumps/php/laboratories/serology.html); [CDC — controle e investigação de surtos](https://www.cdc.gov/mumps/php/public-health-strategy/index.html); [MS — Guia de Vigilância em Saúde, 6ª edição revisada, 2024, caxumba, pp. 251–260](https://prefeitura.sp.gov.br/documents/d/saude/guia-de-vigilancia-em-saude-vol-1_caxumba-pdf); [MS — Instrução Normativa do Calendário Nacional de Vacinação, 2026, seção 15](https://www.gov.br/saude/pt-br/vacinacao/publicacoes/instrucao-normativa-que-instrui-o-calendario-nacional-de-vacinacao-2026.pdf); [AEP/SEIP — Parotiditis aguda y parotiditis recurrente, 2023, atualização interna de 2022](https://static.aeped.es/7_parotiditis_35b1c0d11d.pdf); [RCH — dor/edema escrotal agudo, janeiro de 2026](https://www.rch.org.au/clinicalguide/guideline_index/Acute_scrotal_pain_or_swelling/).\n",
+      "sources": [
+        {
+          "id": "cdc-clinical",
+          "document": "Clinical Features of Mumps",
+          "organization": "CDC",
+          "date": "2024-06-05",
+          "url": "https://www.cdc.gov/mumps/hcp/clinical-signs/index.html",
+          "access": "HTML conferido",
+          "claims": [
+            "Vacinação não exclui caxumba",
+            "Complicações podem ocorrer sem parotidite",
+            "Linfonodos e outras viroses no diferencial"
+          ],
+          "population": "População geral, com informação de complicações por idade/status vacinal",
+          "limitation": "Não extrapolar frequências de adultos ou surtosEUA para toda criança brasileira."
+        },
+        {
+          "id": "cdc-lab",
+          "document": "Laboratory Testing for Mumps",
+          "organization": "CDC",
+          "date": "2024-06-11",
+          "url": "https://www.cdc.gov/mumps/php/laboratories/index.html",
+          "access": "HTML conferido",
+          "claims": [
+            "rRT-PCR preferida",
+            "IgM apoio, não confirmação isolada",
+            "Negativos não excluem",
+            "IgG não garante proteção"
+          ],
+          "population": "Suspeita de caxumba, inclusive vacinados",
+          "limitation": "Disponibilidade e fluxosEUA adaptados com vigilância/laboratório brasileiro."
+        },
+        {
+          "id": "cdc-collection",
+          "document": "Mumps Specimen Collection",
+          "organization": "CDC",
+          "date": "2024-06-06",
+          "url": "https://www.cdc.gov/mumps/php/laboratories/specimen-collection.html",
+          "access": "HTML conferido",
+          "claims": [
+            "Até3dias swab bucal; após3dias swab+soro",
+            "Complicações: swab+soro independentemente do tempo"
+          ],
+          "population": "Suspeitas com parotidite ou complicações",
+          "limitation": "Amostras adicionais, transporte e laboratório seguem procedimento local; não inventada janela universal de exclusão após3dias."
+        },
+        {
+          "id": "cdc-serology",
+          "document": "Serology to Diagnose Mumps",
+          "organization": "CDC",
+          "date": "2024-06-05",
+          "url": "https://www.cdc.gov/mumps/php/laboratories/serology.html",
+          "access": "HTML conferido",
+          "claims": [
+            "IgM pode faltar após vacinação",
+            "IgG isolada não diagnostica episódio agudo",
+            "Outras causas para apresentação esporádica"
+          ],
+          "population": "Vacinados, previamente infectados e casos esporádicos",
+          "limitation": "Sensibilidade varia entre kits; não incorporadas porcentagens universais."
+        },
+        {
+          "id": "cdc-outbreak",
+          "document": "Strategies for the Control and Investigation of Mumps Outbreaks",
+          "organization": "CDC",
+          "date": "Página vigente consultada04/10/2026; data editorial não transcrita",
+          "url": "https://www.cdc.gov/mumps/php/public-health-strategy/index.html",
+          "access": "HTML conferido, trechosIsolate the patient/Known close contacts/Health facilities",
+          "claims": [
+            "5dias inclusive aguardando resultados",
+            "Confirmada sem edema:5dias após primeiro sintoma",
+            "MMR não é PEP eficaz da exposição instalada",
+            "Observar contatos25dias; dose extra apenas grupo definido em surtoEUA"
+          ],
+          "population": "Suspeitos, confirmados, contatos e instituições",
+          "limitation": "PolíticaEUA não substitui CNV brasileiro; regras de notificação e surto locais."
+        },
+        {
+          "id": "ms-gvs2024",
+          "document": "Guia de Vigilância em Saúde, volume1, 6ª edição revisada, Caxumba/parotidite epidêmica pp251–260",
+          "organization": "Ministério da Saúde; cópia institucional SMS São Paulo",
+          "date": "2024",
+          "url": "https://prefeitura.sp.gov.br/documents/d/saude/guia-de-vigilancia-em-saude-vol-1_caxumba-pdf",
+          "access": "PDF capítulo integral",
+          "claims": [
+            "Suporte, sem terapia específica/benefício comprovado corticoide",
+            "Antibacteriano não trata orquite viral",
+            "Diagnóstico clínico-epidemiológico; exames não rotinaSUS",
+            "Isolamento5dias e controle de surtos"
+          ],
+          "population": "Brasil, todas idades",
+          "limitation": "Calendário atualizado porPNI2026; divergência dePEP e afirmação deimunidade permanente explicitamente conciliadas abaixo."
+        },
+        {
+          "id": "pni2026",
+          "document": "Instrução Normativa que instrui o Calendário Nacional de Vacinação2026, seção15 pp36–39PDF",
+          "organization": "Ministério da Saúde/PNI",
+          "date": "2026",
+          "url": "https://www.gov.br/saude/pt-br/vacinacao/publicacoes/instrucao-normativa-que-instrui-o-calendario-nacional-de-vacinacao-2026.pdf",
+          "access": "PDF oficial recuperado pelo link da páginaVacinaçãoMS, seção15 lida",
+          "claims": [
+            "SCR12/15meses",
+            "15mesesSCR+varicela separadas",
+            "Adiar na suspeita de caxumba; contraindicações por condição/formulação"
+          ],
+          "population": "Calendário brasileiro; criança/adolescente e grupos específicos",
+          "limitation": "Sem copiar volume/reconstituição de fabricante nem antecipação excepcional como rotina."
+        },
+        {
+          "id": "aep-seip",
+          "document": "Jiménez MonteroB, Suárez ArrabalMC, De Lamo GonzálezE. Parotiditis aguda y parotiditis recurrente. Protoc diagn ter pediatr2023;2:111–124",
+          "organization": "AEP/SEIP",
+          "date": "2023, atualização interna2022",
+          "url": "https://static.aeped.es/7_parotiditis_35b1c0d11d.pdf",
+          "access": "PDF14p; avaliação/diferencial/imagem/tratamento lidos",
+          "claims": [
+            "Pus ductal favorece bacteriana",
+            "Imagem não rotina; ultrassom para diferencial/abscesso"
+          ],
+          "population": "Pediátrica, parotidites de múltiplas etiologias",
+          "limitation": "Conceitos de sorologia não usados para confirmarIgM isolada: preferidoCDCatual. Regimes antibióticos espanhóis não promovidos."
+        },
+        {
+          "id": "rch-scrotum",
+          "document": "Clinical Practice Guidelines: Acute scrotal pain or swelling",
+          "organization": "Royal Children's Hospital Melbourne",
+          "date": "2026-01",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_scrotal_pain_or_swelling/",
+          "access": "HTML integral clínico",
+          "claims": [
+            "Torção possível:cirurgião urgente; não atrasar porultrassom"
+          ],
+          "population": "Crianças e adolescentes comescroto agudo",
+          "limitation": "Não aprova antibioticoterapia de epididimite nem tratamento cirúrgico por esta entrada."
+        },
+        {
+          "id": "rota2013",
+          "document": "RotaJS etal. Comparison of the sensitivity of laboratory diagnostic methods from a well-characterized outbreak of mumps in New York City in2009. Clin Vaccine Immunol2013;20:391–396",
+          "date": "2013-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23324519/",
+          "doi": "10.1128/CVI.00660-12",
+          "pmid": "23324519",
+          "access": "Registro eabstractPubMed conferidos;PMC abriu inicialmente mas depoisreCAPTCHA, semcontorno",
+          "design": "Comparação de testes em296casos confirmados de surto2009",
+          "population": "Comunidades ortodoxasNYC;subgrupo115comduas doses",
+          "claims": [
+            "Método etempo de coleta afetamIgM/RT-PCR emvacinados"
+          ],
+          "limitation": "Espectro selecionado porcasos confirmados e surto específico; não inferir sensibilidade/especificidade universal. Não usados percentuais nocandidato."
+        },
+        {
+          "id": "cochrane2021",
+          "document": "Di PietrantonjC etal. Vaccines for measles,mumps,rubella,andvaricella inchildren. Cochrane Database Syst Rev2021;11:CD004407",
+          "date": "2021-11-22;últimabusca2019-05-02",
+          "url": "https://www.cochrane.org/evidence/CD004407_does-measles-mumps-rubella-and-varicella-mmrv-vaccine-protect-children-and-does-it-cause-harmful",
+          "doi": "10.1002/14651858.CD004407.pub5",
+          "access": "Resumo eabstractoficial conferidos",
+          "population": "Crianças saudáveis até15anos",
+          "claims": [
+            "Proteção vacinal não é absoluta"
+          ],
+          "limitation": "Estudos predominantemente observacionais;busca2019não usada comocalendário2026."
+        }
+      ],
+      "status": "fully_reviewed",
+      "wholeAvailableChapterReviewed": true,
+      "humanReview": false,
+      "automatedPrescribing": false,
+      "externalWhitebookConsulted": false,
+      "checks": {
+        "clinical": "passed",
+        "pharmaceutical": "passed",
+        "mathematical": "passed",
+        "reverse": "passed"
+      },
+      "checkScope": "Passes referem-se aos campos efetivamente apresentados. Valores não selecionados ou sem preparo operacional definido não são habilitados. Limiares sem dose foram conferidos nas fontes; aritmética não aplicável é justificada.",
+      "independentAudit": {
+        "clinical": "Segundo leitor independente, correções incorporadas pelo integrador",
+        "mathematical": "Decimal/Fraction independente, incluindo pesos fracionários e limites do teto; sem calculadora automática"
+      },
+      "pendingAction": "Propagar escopo documental; módulos de analgesia e vacinação mantêm validação própria por produto/cenário.",
+      "reviewEnvelopeSha256": "5d2380b9654c1db8da9b81b5a13d2f4776e23c24f53e11d2d502a8b782ae22a5"
+    }
+  ]
+}
