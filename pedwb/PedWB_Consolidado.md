@@ -2049,6 +2049,31 @@ A diretriz ASH/ISTH 2025 admite anticoagulantes orais diretos em crianças eleg�
 
 ## 125. Equinococose em Pediatria
 
+### Equinococose em Pediatria — subbloco diagnóstico, estadiamento e destino
+
+**Reconhecer a forma e o contexto.** No Brasil devem ser lembradas a equinococose cística e a equinococose neotropical. A suspeita combina procedência ou permanência em área de ocorrência, contato com cães ou ciclo pecuário/silvestre compatível e achado cístico, mais frequentemente hepático ou pulmonar. A infecção pode permanecer assintomática por anos; dor abdominal, massa/hepatomegalia, icterícia, tosse, dor torácica, hemoptise ou dispneia dependem do órgão, tamanho e complicações. Um cisto incidental não deve ser rotulado apenas pela exposição: manter diagnóstico diferencial e caracterizar a lesão. [MS-HID-2025; WHO-FS]
+
+**Imagem primeiro, com estadiamento.** Ultrassonografia é o método de escolha para investigar e classificar lesões em órgãos acessíveis, sobretudo no fígado. Tomografia ou ressonância complementam a avaliação quando a localização, extensão, complicação ou planejamento exigirem. Na equinococose cística, registrar órgão, número, tamanho, morfologia e estágio ultrassonográfico; a escolha entre observação, terapia medicamentosa, abordagem percutânea ou cirurgia é dependente do estágio, das complicações e da experiência do centro. Imagem compatível deve ser interpretada com clínica e epidemiologia, não como achado isolado. [WHO-FS; WHO-CE-2025; TAMAROZZI-2024]
+
+**Sorologia é complementar.** Testes de anticorpos podem apoiar a investigação e o acompanhamento, inclusive por serviço público de referência no Brasil, mas não substituem a caracterização por imagem. Resultado negativo não exclui equinococose, porque a resposta varia com localização, integridade e atividade do cisto; resultados positivos também exigem correlação por possibilidade de reação cruzada ou infecção passada. [CDC-DPDX; MS-SORO-2026]
+
+**Evitar intervenção empírica.** Não realizar punção ou biópsia de uma lesão suspeita como etapa empírica de rotina. Extravasamento do conteúdo pode provocar reação alérgica grave e disseminação secundária. Quando um procedimento invasivo for realmente necessário, a indicação deve ser feita após classificação da lesão e em centro experiente, com plano específico de segurança e manejo de complicações. A classificação por imagem deve preceder qualquer decisão de intervenção. [CDC-DPDX; WHO-CE-2025]
+
+**Destino e sinais de complicação.** Encaminhar suspeita relevante para infectologia/parasitologia e equipe hepatobiliar, torácica ou de outra especialidade conforme o órgão. Ruptura suspeita, anafilaxia, insuficiência respiratória, hemoptise importante, icterícia obstrutiva/colangite, hipertensão portal, déficit neurológico ou efeito de massa exigem avaliação hospitalar urgente. Lesões multivesiculares ou infiltrativas no fígado devem suscitar diferenciação entre formas cística, alveolar e neotropical por equipe especializada. [MS-HID-2025; WHO-FS]
+
+**Escopo da revisão por IA.** Subbloco documental parcial, vinculado ao capítulo nativo 145 e ao título público 125. Não revisa nem aprova albendazol ou mebendazol; indicação terapêutica por estágio, idade ou órgão; produto, apresentação brasileira, dose, intervalo, duração, monitorização, interação ou ajuste; PAIR, agente escolicida, técnica de punção, cirurgia, transplante, anestesia, preparo, diluição ou cálculo. Não habilita prescrição nem procedimento. Todo o conteúdo terapêutico histórico permanece não promovido e requer revisão clínica, farmacêutica, matemática, cirúrgica e humana específica.
+
+**Referências consultadas em 04/10/2026.**
+
+- **MS-HID-2025.** Ministério da Saúde. *Hidatidose humana*. https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hidatidose-humana/hidatidose-humana/. População: orientação brasileira geral, inclusive prevenção para crianças. Sustenta formas presentes no Brasil, contexto epidemiológico, órgãos frequentes, manifestações, complicação por ruptura e investigação por imagem/sorologia.
+- **MS-SORO-2026.** Ministério da Saúde / Instituto Evandro Chagas. *Realizar diagnóstico sorológico da Hidatidose/Equinococose*. Última modificação em 29/07/2026. https://www.gov.br/pt-br/servicos/realizar-diagnostico-sorologico-da-hidatidose-equinococose. População: pessoas usuárias do SUS e profissionais. Sustenta a disponibilidade do exame de anticorpos como apoio à triagem e ao acompanhamento, sem equivaler a diagnóstico isolado.
+- **WHO-FS.** World Health Organization. *Echinococcosis — fact sheet*. https://www.who.int/news-room/fact-sheets/detail/echinococcosis. População: geral. Sustenta ultrassonografia como técnica de escolha, complementação por TC/RM, apoio sorológico e manejo da equinococose cística guiado pelo estágio ultrassonográfico e pela infraestrutura.
+- **WHO-CE-2025.** World Health Organization. *WHO guidelines for the treatment of patients with cystic echinococcosis*. Publicada em 16/06/2025. ISBN 978-92-4-011047-2. https://www.who.int/publications/i/item/9789240110472. População: adultos e crianças com equinococose cística. Sustenta abordagem por estágio, seguimento por imagem de cistos inativos não complicados e necessidade de infraestrutura e experiência para evitar intervenções invasivas desnecessárias e complicações iatrogênicas.
+- **TAMAROZZI-2024.** Tamarozzi F. *Ultrasound diagnosis of cystic echinococcosis: updates and implications for clinical management*. J Helminthol. 2024;98:e34. DOI 10.1017/S0022149X2400021X; PMID 38628145. https://pubmed.ncbi.nlm.nih.gov/38628145/. População: revisão diagnóstica geral. Sustenta imagem como base do diagnóstico e ultrassonografia como método de escolha para diagnóstico etiológico e estadiamento em órgãos acessíveis.
+- **CDC-DPDX.** Centers for Disease Control and Prevention. *DPDx — Echinococcosis*. Revisada em 15/07/2019. https://www.cdc.gov/dpdx/echinococcosis/. População: profissionais de saúde e laboratório. Sustenta papel complementar e limitações da sorologia e o risco de reação alérgica/disseminação em procedimentos invasivos com extravasamento.
+
+### Conteúdo histórico ainda não promovido neste subbloco
+
 **Caracterizar antes de intervir.** Cisto hepático ou pulmonar com exposição epidemiológica pode representar equinococose. Dor, efeito compressivo, infecção secundária, ruptura e anafilaxia são complicações relevantes. Não puncionar empiricamente uma lesão suspeita: a abordagem depende de estágio, localização, tamanho e comunicação biliar.
 
 **Exames.** Ultrassom classifica cistos hepáticos; TC/RM complementam anatomia e complicações. Sorologia auxilia, mas resultado negativo não exclui todos os estágios. Avaliar tórax e outros órgãos quando indicado. Cirurgia, PAIR, observação e tratamento farmacológico são opções diferentes, escolhidas por equipe experiente; PAIR não se aplica a qualquer cisto.
@@ -2058,7 +2083,6 @@ A diretriz ASH/ISTH 2025 admite anticoagulantes orais diretos em crianças eleg�
 **Monitorização e destino.** Hemograma/transaminases antes e durante tratamento prolongado; observar hepatotoxicidade e citopenia. Não suspender acompanhamento apenas porque o cisto diminuiu: imagem seriada determina resposta/inatividade. Internar em ruptura, anafilaxia, obstrução biliar, complicação respiratória ou procedimento. Uso pediátrico e formulação devem ser confrontados com bula brasileira, pois a indicação tecidual pode ser fora da bula.
 
 **Fontes: ** [CDC — equinococose, tratamento](https://www.cdc.gov/echinococcosis/hcp/clinical-care/index.html); [CDC — visão clínica](https://www.cdc.gov/echinococcosis/hcp/clinical-overview/index.html)
-
 
 ## 126. Erisipela em Pediatria
 

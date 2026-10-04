@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T17:15:00.000Z",
+  "publishedAt": "2026-10-04T19:31:00.000Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 24,
-  "savedCorpusSha256": "40bfb0bf998096bc54d92d819ef93847b53d4f3150bfbd6b13163b022e273b4a",
-  "publicCorpusSha256": "a7d32427eb59336cfe92fe0854d47b9253e2e866d367a09cdb72c04eff88b028",
+  "sourceVersion": 27,
+  "savedCorpusSha256": "932ace42e7bca00d0f45b72b7262565c4eedda3ab01f24434b8b656fedc4bc9c",
+  "publicCorpusSha256": "177b4b94f638e9399a1264f5fae3613b7af59a6f83237c03a90c6d8ca0cbecd0",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "7bb2f97adb9daded381a5216d8df28f068aa8d1a",
+  "sourceBaselineCommit": "ca4ea5dbd74cb35a9de492e596cd6aaebf51b4c5",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -465,10 +465,49 @@
       "bodySha256": "2f94852a6f15f206e9c7ec5a654012f0e9d7c8e20d83b7853ac8f4387c5607e4",
       "savedBlockSha256": "b21718ca235116a27767b7a21ed865c2e77bfe1589f245260525249d415091a2",
       "publicBlockSha256": "eb534ef420ce1951a5de1c91f676a052343ea43792008c8c38ef43a68f254c0c"
+    },
+    {
+      "title": "Endocardite Infecciosa em Pediatria",
+      "savedOrdinal": 143,
+      "publicOrdinal": 123,
+      "stableIdentity": "pedwb:endocardite-infecciosa-em-pediatria",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de infectologia/cardiologia pediátrica, microbiologia, farmacêutico, cirúrgico e humano antes de antimicrobiano, dose, duração, profilaxia ou técnica.",
+      "bodySha256": "95165a701a0981228a17060ba7138764704aea8589e3da085e1ae07b562db9aa",
+      "savedBlockSha256": "8566b33bff088d1727a5e1becb7a089b40963fbe916d890d4b5730278d3db7eb",
+      "publicBlockSha256": "920acd745e98f23a1c5229ebd7836e3d26b4d8be9c5b1c59efb275fdabbc93d8",
+      "candidateSha256": "95165a701a0981228a17060ba7138764704aea8589e3da085e1ae07b562db9aa"
+    },
+    {
+      "title": "Enterobíase em Pediatria",
+      "savedOrdinal": 144,
+      "publicOrdinal": 117,
+      "stableIdentity": "pedwb:enterobiase-em-pediatria",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de infectologia/parasitologia, farmacêutico, regulatório e humano; confirmar produtos, idades, doses, repetição e tratamento de conviventes antes de prescrição.",
+      "bodySha256": "4d67216804f35e8152176152cde9bc0f17c805dfcdba4aa9ef6a5392034a916b",
+      "savedBlockSha256": "d03d40ab91cd8bb2b14df8b66ad57f44aa17c464e39fef1c8a17681f4d18cc41",
+      "publicBlockSha256": "8a68e96107ea0d13cc0b697c111ae2bfaa1c9affb680950e7d10011752cbb8ba",
+      "candidateSha256": "4d67216804f35e8152176152cde9bc0f17c805dfcdba4aa9ef6a5392034a916b"
+    },
+    {
+      "title": "Equinococose em Pediatria",
+      "savedOrdinal": 145,
+      "publicOrdinal": 125,
+      "stableIdentity": "pedwb:equinococose-em-pediatria",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de infectologia/parasitologia, hepatobiliar/torácico, intervencionista/cirúrgico, farmacêutico, regulatório e humano; confirmar produto e estágio antes de terapia, PAIR, cirurgia, dose ou cálculo.",
+      "bodySha256": "d0146d6a6f79e8ac76e9594d797f053f6506b77600d8c66eafaa901fb5b26d13",
+      "savedBlockSha256": "523fdec6fa968118fef0009a0749984fed3127d37a5958305f829ee7c2455260",
+      "publicBlockSha256": "66364ea521253925fe9c13380eeae294e6b9714e0992695914eb16c3cdf24b84",
+      "candidateSha256": "d0146d6a6f79e8ac76e9594d797f053f6506b77600d8c66eafaa901fb5b26d13"
     }
   ],
   "previousPublication": {
-    "commit": "7bb2f97adb9daded381a5216d8df28f068aa8d1a",
-    "note": "Correção estrutural: remoção de cabeçalho duplicado introduzido na integração do tema 142; conteúdo clínico preservado."
+    "commit": "ca4ea5dbd74cb35a9de492e596cd6aaebf51b4c5",
+    "note": "Tema 144 publicado e verificado; esta versão acrescenta somente o subbloco diagnóstico/estadiamento seguro do tema 145 e reconcilia o manifesto dos temas 143–145."
   }
 }
