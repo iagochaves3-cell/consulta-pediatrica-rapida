@@ -2767,15 +2767,53 @@ Recorrência aparece em cerca de 9%–12% de algumas coortes. Episódios repetid
 
 ### Limite farmacoterapêutico e matemático
 
-Nenhum medicamento, produto, concentração, dose, volume, velocidade de infusão, meta de diurese ou fórmula de bicarbonato/manitol foi liberado neste bloco. Sem paciente, estado volêmico, eletrólitos, função renal, acesso, produto e protocolo institucional, cálculos direto, dimensional e reverso são não aplicáveis. Analgesia, antiviral e fluidoterapia devem permanecer vinculados aos módulos próprios e à validação clínica/farmacêutica/humana correspondente.
+Não há prescrição automática nem protocolo universal de fluidos liberado neste bloco. O complemento abaixo documenta uma apresentação de analgesia e diferenças entre fontes de fluidoterapia; não libera preparação extemporânea, infusão, correção eletrolítica ou fórmulas de bicarbonato/manitol. As conversões ilustrativas do produto oral definido foram conferidas documental, dimensional e reversamente. Sem paciente, estado volêmico, eletrólitos, função renal, acesso e protocolo institucional, não há cálculo individual de fluidos ou prescrição liberada. Antiviral e tratamento das complicações permanecem vinculados aos módulos próprios e à validação clínica/farmacêutica/humana correspondente.
+
+### Analgesia: produto e conversões documentais
+
+Para dor leve a moderada, paracetamol é uma opção sintomática; não modifica a evolução da MABI. A tabela oficial do fabricante para **TYLENOL Criança, suspensão oral 32 mg/mL, frasco de 60 mL**, fornece as faixas abaixo. Agitar e medir com o dispositivo próprio; conferir o produto efetivamente dispensado. Esta apresentação é recomendada acima de três anos; fora das faixas, usar avaliação e bula específicas, sem extrapolar a tabela.
+
+| Peso | Volume por dose | Paracetamol por dose |
+| --- | --- | --- |
+| 11–15 kg | 5 mL | 160 mg |
+| 16–21 kg | 7,5 mL | 240 mg |
+| 22–26 kg | 10 mL | 320 mg |
+| 27–31 kg | 12,5 mL | 400 mg |
+| 32–43 kg | 15 mL | 480 mg |
+
+A orientação de paracetamol do fabricante é intervalo de 4–6 horas conforme necessidade, sem ultrapassar cinco administrações em 24 horas; o intervalo não autoriza uma sexta dose. Utilizar pelo menor período necessário e reavaliar dor persistente/progressiva. Não associar outro produto com paracetamol; evitar em doença hepática grave e hipersensibilidade. Doença hepática, nefropatia importante, desnutrição ou outros fatores clínicos exigem avaliação individual. Não usar AINE como padrão se houver desidratação, pigmentúria ou lesão renal. O estudo brasileiro com naproxeno é observacional e não estabelece superioridade.
+
+Exemplo exclusivamente para conferência: 20 kg está na faixa de 7,5 mL; 7,5 × 32 = 240 mg = 12 mg/kg/dose. Quatro doses correspondem a 48 mg/kg/dia e cinco a 60 mg/kg/dia; no cálculo reverso, 240 ÷ 32 = 7,5 mL. **32, 100 e 200 mg/mL não são intercambiáveis em volume.** Na bula de TYLENOL Gotas 200 mg/mL, cada mL tem 14–16 gotas; não presumir 20 gotas/mL nem transferir o limite de gotas a outro fabricante.
+
+### Hidratação venosa: contexto e divergências verificadas
+
+MABI típica, euvolêmica e com ingestão/diurese adequadas costuma permitir hidratação oral. Choque, desidratação importante, incapacidade de ingerir, rabdomiólise ou risco renal requerem avaliação hospitalar. Na revisão pediátrica de Kuok e Chan (2025), o choque hipovolêmico recebe cristaloide em alíquotas de 10–20 mL/kg, reavaliadas; para rabdomiólise são descritas taxas de 1,5–2 vezes manutenção e diurese de 2–4 mL/kg/h, sem ensaios grandes que estabeleçam a composição/taxa ideal.
+
+O pathway de Connecticut Children's (2025) utiliza NaCl 0,9% 20 mL/kg, máximo 1 L, na emergência, e duas vezes manutenção, máximo 200 mL/h, com diurese de 1–2 mL/kg/h. O documento não especifica tempo do bolus. São parâmetros institucionais para comparação, **não uma prescrição pronta para MABI nem uma meta única consensual**. Não combinar a taxa de uma fonte com a meta de outra. O serviço deve selecionar seu protocolo, tempo de administração e critérios de ajuste; avaliar perfusão, pressão, pulmões, balanço e função renal antes/depois de cada alíquota. Oligúria, anúria ou sobrecarga exigem reavaliação/nefrologia, sem aumentar fluidos apenas para alcançar uma meta urinária. Não acrescentar potássio sem conhecer potassemia e função renal.
+
+### Monitorização e complicações: quando acelerar o cuidado
+
+Em rabdomiólise grave, a revisão de 2025 propõe eletrólitos/função renal a cada 8–12 horas, antecipados se houver instabilidade ou alteração em progressão; pacientes estáveis no pathway institucional são reavaliados laboratorialmente em 24 horas. Registrar diurese e balanço, acompanhar CK, creatinina, potássio, fósforo, cálcio e acidose conforme gravidade. Esses intervalos não substituem reavaliação clínica imediata.
+
+Hipercalemia/alteração eletrocardiográfica exige monitorização e tratamento emergencial pelo protocolo específico. Hipocalcemia sintomática exige correção dirigida; não corrigir automaticamente um valor isolado em paciente assintomático. Dor desproporcional, compartimento tenso, piora neurovascular ou dor à mobilização passiva exigem avaliação cirúrgica urgente; pulsos presentes não afastam síndrome compartimental. Não usar bicarbonato, manitol ou furosemida rotineiramente para prevenir lesão renal; bicarbonato em acidose importante/hipercalemia e diurético em sobrecarga são decisões específicas, não profilaxia universal.
+
+Terapia renal substitutiva é considerada por hipercalemia/acidose refratárias, sobrecarga e lesão renal com oligúria conforme nefrologia/UTI, não por CK ou mioglobina isoladas. Não há indicação estabelecida de hemoadsorção pediátrica apenas para reduzir mioglobina. Após lesão renal, planejar seguimento renal e pressórico além da recuperação muscular.
+
+### Antiviral e reavaliação ambulatorial
+
+MABI isolada não indica oseltamivir. O Guia de Influenza do Ministério da Saúde indica tratamento em síndrome respiratória aguda grave ou síndrome gripal com fatores de risco, preferencialmente precoce e sem aguardar confirmação quando indicado. Usar o módulo de influenza para idade, prematuridade, função renal, apresentação e preparo; não converter mg em mL sem concentração documentalmente conferida.
+
+A data de repetir exames depende do risco: o pathway propõe CK em 2–3 dias para a criança liberada de sua emergência; Brisca et al. propõem reavaliação clínica/laboratorial em 10–15 dias nos casos de baixo risco. Garantir retorno antecipado se piora, urina escura/escassa, edema ou fraqueza verdadeira. A queda de CK e a recuperação clínica orientam; não importar cortes de internação/alta de um centro como regra universal.
 
 ### Estado da revisão
 
-Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem homologação humana. O escopo de reconhecimento, diferenciais, avaliação de risco renal, destino e seguimento foi revisado; prescrição, protocolo de fluidos, cálculo e promoção clínica permanecem bloqueados.
+Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem homologação humana. Reconhecimento, diferenciais, avaliação de risco renal, destino, seguimento, segurança da analgesia documental e comparação de protocolos foram revisados. O complemento amplia o escopo aprovado documentalmente por IA; a prescrição automática, o protocolo local de fluidos e a promoção clínica integral permanecem bloqueados.
 
 ### Fontes verificadas em 05/10/2026
 
 [Du et al. — Influenza-associated BACM, curso e desfechos em 6 meses; online em 22/09/2026](https://doi.org/10.1097/INF.0000000000005417) · [Özkale et al. — hospitalizados versus ambulatoriais, 20/03/2026; PMID 41901664](https://pubmed.ncbi.nlm.nih.gov/41901664/) · [Alghamdi et al. — coorte de 392 crianças, 09/09/2025](https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2025.1653651/full) · [Majava et al. — scoping review, 2024](https://doi.org/10.1007/s00431-024-05786-y) · [Brisca et al. — manejo e desfecho em emergência, 09/03/2021; PMID 33750449](https://pubmed.ncbi.nlm.nih.gov/33750449/) · [Connecticut Children’s — pathway de rabdomiólise, atualizado em 16/07/2025](https://www.connecticutchildrens.org/sites/default/files/2025-07/rhabdomyolysis-7.17.25.pdf).
+
+[Kuok e Chan — revisão pediátrica de rabdomiólise, 2025](https://www.mdpi.com/2227-9067/12/4/492) · [Rosa et al. — estudo prospectivo brasileiro, 2020](https://residenciapediatrica.com.br/article/637/miosite-aguda-benigna-da-infancia-resultados-de-um-estudo-prospectivo-realizado-em-um-pronto-atendimento-pediatrico) · [Vaisbich et al. — enterovirose com rabdomiólise pediátrica, SciELO, 2009](https://www.scielo.br/j/rpp/a/T3Dps67pRjDSWg4TtQ73Czm/?lang=pt) · [TYLENOL — apresentação Criança](https://www.tylenol.com.br/produtos/infantil/tylenol-crianca) · [TYLENOL — dosagem oficial por peso](https://www.tylenol.com.br/alivio-seguro/instrucoes-de-dosagem/dosagem-para-bebes-e-criancas) · [Ministério da Saúde — Guia de Influenza, 2023](https://bvsms.saude.gov.br/bvs/publicacoes/guia_manejo_tratamento_influenza_2023.pdf).
 
 ## 169. Monilíase em Pediatria
 
