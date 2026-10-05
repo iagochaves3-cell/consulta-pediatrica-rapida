@@ -2675,17 +2675,57 @@ Conjuntivite granulomatosa com linfonodo pré-auricular pode corresponder à sí
 
 ## 167. Micoses Cutâneas na Infância
 
-**Confirmar topografia.** Tinea corporis/cruris/pedis envolve pele; tinea capitis compromete folículo e exige terapia sistêmica. Diferenciar eczema, psoríase, dermatite de fralda por Candida e alopecia não infecciosa. Exame micológico/cultura ajuda em lesões atípicas, extensas, resistentes ou couro cabeludo; não iniciar associação antifúngico-corticoide para esconder inflamação.
+### Status e escopo deste bloco
 
-**Pele limitada.** Clotrimazol 1% em camada fina duas vezes ao dia por 2–4 semanas é opção, incluindo margem da lesão. Terbinafina tópica pode ser alternativa conforme idade/bula. Manter área seca, tratar fatores de reinfecção e avaliar conviventes/animais quando pertinente. Nistatina não trata dermatófitos.
+**Revisão assistida por IA em 05/10/2026. Sem homologação humana. Não habilita prescrição nem cálculo automático.** Este subbloco revisa reconhecimento, diagnóstico, decisão por topografia, querion, prevenção de transmissão, reavaliação e destino nas dermatofitoses pediátricas. Candidíase mucocutânea, pitiríase versicolor, onicomicose, imunodeficiência e farmacoterapia sistêmica ou tópica operacional exigem capítulos/gates próprios.
 
-**Couro cabeludo.** Terapia sistêmica deve considerar Microsporum versus Trichophyton. Terbinafina VO em faixas frequentemente utilizadas: 10 a <20 kg,62,5 mg/dia; 20–40 kg,125 mg/dia; >40 kg,250 mg/dia, usualmente 4 semanas para Trichophyton, com ajuste pela espécie/resposta. Uso pediátrico pode ser fora da bula brasileira; não fracionar comprimido sem garantir dose. Microsporum frequentemente responde melhor a griseofulvina, com esquema próprio e duração maior. Xampu adjuvante reduz disseminação, mas não cura sozinho a infecção folicular.
+### Delimitar topografia e agente provável
 
-**Segurança/destino.** Verificar hepatopatia, interações e necessidade de transaminases para antifúngico sistêmico. Kerion deve ser avaliado prontamente para reduzir alopecia cicatricial; não drenar como abscesso bacteriano sem confirmação. Revisar resposta clínica e micológica ao final.
+Classificar a suspeita pelo sítio: pele glabra (tinea corporis), virilha (cruris), pés (pedis), couro cabeludo/hastes (capitis) ou unhas (unguium). A topografia muda diagnóstico, necessidade de amostra, via terapêutica e encaminhamento. Dermatofitose não é sinônimo de candidíase; nistatina não deve ser escolhida para dermatófitos. Tinea pedis, cruris e unguium são relativamente menos comuns em crianças pequenas e pedem revisão do diagnóstico e dos fatores predisponentes quando o fenótipo não for típico.
 
-**Fontes: ** [Canadian Paediatric Society — antifúngicos](https://cps.ca/en/documents/position/antifungal-agents-common-infections); [CDC — tratamento de tineas](https://www.cdc.gov/ringworm/treatment/index.html)
+### Reconhecimento clínico e diferenciais
 
-**Limitação específica: ** Disponibilidade e fracionamento de formulações pediátricas sistêmicas exigem confirmação farmacêutica; não foi fabricada suspensão em mL.
+Na pele glabra, procurar placa anular descamativa com borda mais ativa, mas reconhecer que eczema, psoríase, pitiríase rósea, granuloma anular, impetigo, dermatite de contato e candidíase podem imitar o quadro. No couro cabeludo, descamação, fios quebrados, “pontos negros”, alopecia focal e linfonodos cervicais aumentam a suspeita; dermatite seborreica, alopecia areata, tricotilomania, psoríase e foliculite bacteriana permanecem diferenciais. A aparência isolada não confirma espécie nem suscetibilidade.
+
+### Confirmação micológica
+
+Obter exame direto e cultura de escamas, cabelos ou unhas quando a apresentação for atípica, extensa, recorrente, refratária, envolver couro cabeludo/unha, houver imunocomprometimento ou quando o resultado mudar terapia sistêmica. Dermatoscopia pode apoiar a suspeita no couro cabeludo, mas não substitui identificação micológica quando espécie ou resistência mudará a escolha. Resultado negativo isolado não exclui infecção se coleta, sítio ou tratamento prévio forem inadequados; revisar técnica e diagnóstico antes de escalar tratamento.
+
+### Pele glabra localizada
+
+Dermatofitose limitada da pele costuma ser tratada por via tópica, após confirmação clínica ou micológica suficiente e escolha de produto compatível com idade, sítio e bula. Manter a área limpa e seca, evitar oclusão desnecessária e tratar a fonte de reinfecção. Doença extensa, inflamatória, recorrente, refratária, folicular ou em imunocomprometido exige reavaliação diagnóstica, cultura e discussão especializada antes de terapia sistêmica.
+
+### Couro cabeludo
+
+Tinea capitis envolve haste/folículo e requer antifúngico sistêmico; creme, loção, pó ou xampu isolado não cura a infecção folicular. Terapia tópica/xampu pode ser apenas adjuvante para reduzir transmissão. Colher material micológico cedo e usar espécie/complexo para orientar a escolha: diretrizes recentes distinguem Trichophyton de Microsporum/Nannizzia, e a preferência farmacológica pode mudar. Não transportar automaticamente recomendações de outra região, produto ou disponibilidade para o Brasil.
+
+### Querion
+
+Querion é a apresentação inflamatória exuberante da tinea capitis, com placa dolorosa ou amolecida, pústulas/crostas e alopecia, podendo simular abscesso bacteriano. Avaliar prontamente porque atraso pode resultar em alopecia cicatricial. Não realizar incisão, drenagem ou excisão de rotina; colher amostra micológica e considerar infecção bacteriana secundária apenas quando houver evidência clínica/microbiológica própria. Febre, toxicidade, dor desproporcional, progressão rápida ou imunocomprometimento exigem avaliação presencial urgente.
+
+### Stewardship e resistência
+
+Não usar combinação fixa antifúngico-corticosteroide para dermatofitose presumida: corticosteroide pode mascarar a borda, alterar a morfologia, atrasar o diagnóstico e favorecer doença persistente ou extensa (tinea incognito). Falha após tratamento aparentemente adequado exige confirmar adesão, diagnóstico, sítio, contato/reinfecção, produto, tempo de uso e espécie; doença grave, disseminada ou resistente pode exigir testes especializados e infectologia/dermatologia.
+
+### Interrupção da transmissão
+
+Não compartilhar pentes, escovas, bonés, capacetes, toalhas, roupas de cama ou equipamentos esportivos. Limpar itens reutilizáveis e lavar têxteis conforme material e orientação sanitária. Examinar contatos domiciliares e animais quando a epidemiologia sugerir fonte; encaminhar o animal ao veterinário em vez de tratá-lo empiricamente. Manter pele e pés secos e reduzir maceração. Medidas para escola/creche e rastreio de surtos devem seguir a vigilância e a política local.
+
+### Reavaliação, falha e destino
+
+Documentar extensão, fotografias clínicas apenas com consentimento e proteção de dados, e resposta por pele, cabelo/unha e sintomas. Reavaliar antes de repetir ou prolongar antifúngico. Encaminhar dermatologia/infectologia diante de querion, risco de cicatriz, dúvida diagnóstica, couro cabeludo recorrente, unha, doença extensa, imunocomprometimento, falha microbiológica ou suspeita de resistência. Investigar imunodeficiência ou doença sistêmica somente quando o padrão clínico justificar; não solicitar painel universal.
+
+### Limite farmacoterapêutico e matemático
+
+Foram retirados do bloco ativo clotrimazol 1% duas vezes ao dia por 2–4 semanas, as faixas de terbinafina oral de 62,5/125/250 mg e durações por espécie. Esses números não retornam até reconciliação de bula profissional brasileira vigente, fabricante e registro, forma e apresentação comercial, idade/peso, topografia, espécie, status off-label, via, dose, intervalo, duração, máximos, contraindicações, interações, função hepática/renal, monitorização, divisibilidade ou manipulação, estabilidade, mensurabilidade e revisão humana. Sem produto, paciente ou regime liberado, cálculo direto/reverso, mg, mL, fracionamento e receita são não aplicáveis a este subbloco.
+
+### Estado da revisão
+
+Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem homologação humana. O escopo clínico-diagnóstico, micológico, de prevenção, destino e seguimento foi revisado; farmacoterapia operacional, prescrição e calculadora permanecem em quarentena.
+
+### Fontes verificadas em 05/10/2026
+
+[CDC — Treatment of Ringworm, atualização de 09/02/2026](https://www.cdc.gov/ringworm/treatment/index.html) · [Canadian Paediatric Society — Antifungal agents for common outpatient paediatric infections, reafirmado em 21/11/2024](https://cps.ca/en/documents/position/antifungal-agents-common-infections) · [DDG — Consensus-based Guideline on tinea capitis, 2026; PMID 42444404](https://pubmed.ncbi.nlm.nih.gov/42444404/) · [Cochrane — Systemic antifungal therapy for tinea capitis in children; PMID 27816294](https://pubmed.ncbi.nlm.nih.gov/27816294/) · [SciELO — Dermatofitoses na criança: estudo de 137 casos; DOI 10.1590/S0036-46652001000200006](https://www.scielo.br/j/rimtsp/a/3xpzPHRt6CgtTgKBnqNYS6P/).
 
 ## 168. Miosite Viral Aguda
 
