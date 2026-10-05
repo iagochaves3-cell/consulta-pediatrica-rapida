@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-04T23:41:00.000Z",
+  "publishedAt": "2026-10-05T00:48:00.000Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 31,
-  "savedCorpusSha256": "ab5a40428040cd433ce3a0904dafd8c619d309b1d71d177e5945b8370e68003f",
-  "publicCorpusSha256": "146a58083159b728a4d9f41daf9ab72b74e3e9589630f57301427c78558584ca",
+  "sourceVersion": 32,
+  "savedCorpusSha256": "127fe6a4fcc6cd740f4cf8e6c43ee65306331862dc839661e656b40b1398dcee",
+  "publicCorpusSha256": "680384bf7211ed698a2303cb1294b63a3bd3a8eec422ee1ec2072a7b79bfa401",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "5410083aca58aab551d271856a226714eaa6d4b1",
+  "sourceBaselineCommit": "995fe38c86f3f68eff52337bd5dd5a98d5f6428b",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -558,10 +558,24 @@
       "publicBlockSha256": "bac47eb557e7c53dc19a1801f210fe398dd05edc7613b8cbe26ab70242f936de",
       "candidateSha256": "60597ce1fab8795aed2ed6be7a17f67435fdba43742594da4345de761eb00f22",
       "reviewEnvelopeSha256": "2a8082c5207d4130ac8ae27ddfee5ca9c5193b62a32188b567f500d84fe50186"
+    },
+    {
+      "title": "Exantema Súbito",
+      "savedOrdinal": 150,
+      "publicOrdinal": 141,
+      "stableIdentity": "pedwb:exantema-subito",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates de infectologia pediátrica, virologia/diagnóstico laboratorial, imunossupressão, farmácia/regulação e revisão humana antes de teste HHV-6, antiviral, antitérmico, anticonvulsivante, produto, dose ou cálculo.",
+      "bodySha256": "ada6d3e328b6996515d9e09a1309a924ba87a1493157d49220e53f63e49227a8",
+      "savedBlockSha256": "a4c5eb323fc7a7cdc55a85f4791e17ffc3217972bb6bb1f102c842e313244ee8",
+      "publicBlockSha256": "7d489b8eada2dcea6fd7bf586341375b234b04bb2173fd45054dd2fe84b12232",
+      "candidateSha256": "ada6d3e328b6996515d9e09a1309a924ba87a1493157d49220e53f63e49227a8",
+      "reviewEnvelopeSha256": "81c4eaeebcbcba02ffa134b82d3e296b0ca33461f79cd615742fee63d8f62be3"
     }
   ],
   "previousPublication": {
-    "commit": "9d16d755d5a079271262e0cb0ebf219128e2c29a",
-    "note": "Tema 148 publicado; esta versão acrescenta somente o subescopo diagnóstico, de gravidade, vigilância e prevenção do tema 149. Nenhum antifúngico ou número terapêutico foi promovido."
+    "commit": "736a466866f208df70ff50dc041a024ce34f3e46",
+    "note": "Tema 149 publicado; esta versão acrescenta somente o subescopo clínico, de risco, vigilância e destino do tema 150. Nenhum fármaco, dose ou cálculo foi promovido."
   }
 }
