@@ -2729,15 +2729,53 @@ Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem ho
 
 ## 168. Miosite Viral Aguda
 
-**Reconhecimento.** Dor bilateral em panturrilhas e dificuldade de marcha durante recuperação de virose, com força/reflexos preservados, sugerem miosite aguda benigna. Não concluir apenas pela associação temporal: assimetria, fraqueza verdadeira, arreflexia, dor articular, febre persistente ou toxicidade exigem avaliar guillain–Barré, infecção osteoarticular e outras causas.
+### Status e escopo deste bloco
 
-**Exames que modificam conduta.** CK, urina, creatinina e eletrólitos ajudam a distinguir curso benigno de rabdomiólise com repercussão. Urina escura, oligúria, hipercalemia ou elevação importante/progressiva da CK pedem monitorização hospitalar. Nenhum valor isolado de CK é critério universal de alta ou UTI; a coorte recente associa valores altos à internação, mas não valida um limiar causal.
+**Revisão assistida por IA em 05/10/2026. Sem homologação humana. Não habilita prescrição, protocolo de hidratação ou cálculo automático.** Este subbloco revisa a miosite aguda benigna da infância (MABI/BACM): fenótipo, diferenciais, avaliação renal/eletrolítica, separação de rabdomiólise, destino e seguimento. Fraqueza neurológica, miopatia inflamatória/metabólica, infecção osteoarticular ou muscular, trauma e rabdomiólise complicada seguem avaliação própria.
 
-**Tratamento.** Repouso relativo, hidratação adequada e analgesia do módulo comum. Não indicar corticoide, antibiótico ou antiviral apenas por miosite. Em rabdomiólise, hidratação EV e metas de diurese devem respeitar avaliação volêmica e função renal; não aplicar volume fixo excessivo nem bicarbonato/manitol rotineiros. Evitar nefrotóxicos se houver desidratação/lesão renal.
+### Fenótipo que sustenta a hipótese
 
-**Seguimento.** Alta é possível com criança bem, dor controlada, ingestão/diurese adequadas, exames sem risco e revisão garantida. Reavaliar clínica e CK até normalização quando indicado. Recorrência, fraqueza persistente ou CK que não normaliza exige investigar miopatia metabólica/genética. O desaparecimento da febre não substitui a avaliação renal.
+O padrão típico é criança pré-escolar ou escolar, frequentemente menino, com dor súbita e simétrica em panturrilhas e marcha dolorosa, na fase inicial de convalescença de síndrome viral. A recusa para andar costuma refletir dor: força, tônus, sensibilidade e reflexos osteotendíneos devem estar preservados. Influenza, sobretudo B, é a associação mais frequente, mas não exclusiva; painel viral negativo não exclui o diagnóstico e teste viral não é obrigatório quando não muda isolamento, antiviral ou vigilância.
 
-**Fontes: ** [Coorte pediátrica primária,2025](https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2025.1653651/full); [Coorte em emergência pediátrica,2021](https://pubmed.ncbi.nlm.nih.gov/33750449/)
+### Sinais que reabrem o diagnóstico diferencial
+
+Assimetria ou dor focal, edema importante, dor articular ou óssea, febre persistente, toxicidade, trauma, rash compatível com dermatomiosite, fraqueza proximal verdadeira, alteração sensitiva, arreflexia, disfunção esfincteriana, alteração de consciência ou progressão ascendente não pertencem ao fenótipo benigno. Nesses cenários, avaliar conforme o caso síndrome de Guillain–Barré, mielite, artrite séptica/osteomielite, piomiosite, trauma, trombose, dermatomiosite, distrofia/miopatia metabólica, malignidade e rabdomiólise por outra causa.
+
+### Avaliação inicial que modifica conduta
+
+Documentar estado volêmico, ingestão, diurese, cor da urina, medicamentos/toxinas, exercício/trauma, episódios prévios e história familiar; examinar marcha, músculos, articulações, perfusão e neurologia completa. CK confirma lesão muscular, mas não determina sozinha gravidade, internação ou alta. Quando a suspeita é relevante, verificar creatinina, ureia, eletrólitos e urina; dipstick positivo para heme com poucas ou nenhuma hemácia na microscopia sugere pigmento muscular. ECG e monitorização intensiva dependem de distúrbio eletrolítico, arritmia, instabilidade ou outra indicação clínica.
+
+### Como interpretar CK e risco renal
+
+Elevação expressiva da CK é comum e pode aumentar antes de cair. Coortes recentes associaram CK mais alta e incapacidade de andar à internação, mas as decisões foram observacionais e sujeitas a prática local, ansiedade familiar e acesso ao seguimento. Em 2025, CK acima de 5.000 U/L associou-se à internação, sem validar esse valor como limiar causal ou universal; em 2026, uma coorte incluiu um caso de lesão renal aguda com diálise entre valores extremos. Portanto, tendência da CK, creatinina, potássio/fósforo/cálcio, urina, diurese, hidratação e estado clínico valem mais que um corte isolado.
+
+### Separar MABI de rabdomiólise complicada
+
+Urina escura ou pigmentúria, oligúria, creatinina em elevação, hipercalemia, hipocalcemia sintomática, acidose, arritmia, desidratação, dor/edema progressivos, síndrome compartimental ou CK muito alta/progressiva deslocam o manejo para rabdomiólise e possível lesão renal. Um pathway institucional pediátrico de 2025 usa critérios próprios para diagnóstico, internação e alta e desaconselha bicarbonato/manitol rotineiros; esse documento não autoriza transportar bolus, manutenção, meta de diurese ou corte numérico para outro serviço.
+
+### Suporte e destino
+
+No fenótipo típico e estável, oferecer repouso relativo, hidratação oral suficiente e analgesia compatível com idade, contraindicações, estado volêmico e função renal. Não indicar corticoide, antibiótico ou antiviral apenas por MABI; eventual antiviral depende do diagnóstico viral, tempo de doença, risco e diretriz específica. Evitar nefrotóxicos quando houver desidratação, pigmentúria ou lesão renal. Incapacidade de ingerir líquidos, dor não controlada, alteração renal/eletrolítica, pigmentúria, oligúria, piora clínica, diagnóstico incerto ou seguimento inseguro favorecem observação/internação; UTI depende de instabilidade, arritmia, hipercalemia grave, lesão renal importante, síndrome compartimental ou suporte de órgão.
+
+### Alta e seguimento
+
+Alta pode ser considerada quando a criança está clinicamente bem, com dor controlada, hidratação e diurese adequadas, eletrólitos/função renal sem risco, sem pigmentúria relevante, tendência laboratorial aceitável e reavaliação garantida. Explicar retorno imediato por urina escura ou escassa, fraqueza verdadeira, piora da marcha/dor, edema, febre/toxicidade, vômitos persistentes ou alteração neurológica. Os sintomas tipicamente resolvem em poucos dias; a CK costuma normalizar ao redor de uma semana, mas a data de repetição deve ser individualizada. Persistência, nova elevação ou ausência de recuperação clínica exige reabrir o diagnóstico.
+
+### Recorrência e investigação ampliada
+
+Recorrência aparece em cerca de 9%–12% de algumas coortes. Episódios repetidos, história familiar, crises após jejum/exercício, fraqueza persistente, CK elevada entre episódios, atraso motor ou rabdomiólise desproporcional justificam neurologia/genética/metabolismo e investigação dirigida; não solicitar painel universal na primeira apresentação típica. A coorte de 2026 encontrou deficiência de CPT I em um caso recorrente, o que sustenta seleção clínica, não rastreio indiscriminado.
+
+### Limite farmacoterapêutico e matemático
+
+Nenhum medicamento, produto, concentração, dose, volume, velocidade de infusão, meta de diurese ou fórmula de bicarbonato/manitol foi liberado neste bloco. Sem paciente, estado volêmico, eletrólitos, função renal, acesso, produto e protocolo institucional, cálculos direto, dimensional e reverso são não aplicáveis. Analgesia, antiviral e fluidoterapia devem permanecer vinculados aos módulos próprios e à validação clínica/farmacêutica/humana correspondente.
+
+### Estado da revisão
+
+Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem homologação humana. O escopo de reconhecimento, diferenciais, avaliação de risco renal, destino e seguimento foi revisado; prescrição, protocolo de fluidos, cálculo e promoção clínica permanecem bloqueados.
+
+### Fontes verificadas em 05/10/2026
+
+[Du et al. — Influenza-associated BACM, curso e desfechos em 6 meses; online em 22/09/2026](https://doi.org/10.1097/INF.0000000000005417) · [Özkale et al. — hospitalizados versus ambulatoriais, 20/03/2026; PMID 41901664](https://pubmed.ncbi.nlm.nih.gov/41901664/) · [Alghamdi et al. — coorte de 392 crianças, 09/09/2025](https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2025.1653651/full) · [Majava et al. — scoping review, 2024](https://doi.org/10.1007/s00431-024-05786-y) · [Brisca et al. — manejo e desfecho em emergência, 09/03/2021; PMID 33750449](https://pubmed.ncbi.nlm.nih.gov/33750449/) · [Connecticut Children’s — pathway de rabdomiólise, atualizado em 16/07/2025](https://www.connecticutchildrens.org/sites/default/files/2025-07/rhabdomyolysis-7.17.25.pdf).
 
 ## 169. Monilíase em Pediatria
 
