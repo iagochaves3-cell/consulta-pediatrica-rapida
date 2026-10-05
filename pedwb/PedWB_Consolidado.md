@@ -2912,15 +2912,57 @@ Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem ho
 
 ## 172. Paracoccidioidomicose em Pediatria
 
-**Forma juvenil.** Febre, perda ponderal, adenomegalias volumosas, hepatoesplenomegalia e sinais de comprometimento abdominal/medular podem representar paracoccidioidomicose aguda/subaguda. Considerar TB, neoplasia e outras micoses; não iniciar corticoide empírico antes de esclarecer. Obstrução intestinal/biliar, insuficiência adrenal, desnutrição grave ou instabilidade justificam internação.
+### Status e escopo deste bloco
 
-**Diagnóstico.** Exame direto/cultura e histopatologia de tecido ou secreção; sorologia auxilio seguimento quando disponível. Avaliar hemograma, função hepática/renal, eletrólitos e extensão por imagem dirigida.
+**Revisão assistida por IA em 05/10/2026. Sem homologação humana. Não habilita prescrição, dose, preparo nem cálculo automático.** Este subbloco revisa reconhecimento da forma aguda/subaguda juvenil, gravidade, confirmação diagnóstica, avaliação de extensão, diferenciais, princípios de encaminhamento e seguimento. Todo antifúngico, produto, apresentação, dose, intervalo, duração individual, diluição, velocidade, ajuste e interação permanece fora do escopo ativo.
 
-**Tratamento pediátrico.** O consenso brasileiro recomenda TMP-SMX com 8–10 mg/kg/dia de TMP, dividido em duas doses. Portanto,4–5 mg/kg de TMP por dose 12/12 h; na suspensão 8 mg TMP+40 mg SMX/mL,0,5–0,625 mL/kg/dose. Não interpretar 8–10 mg/kg como dose a cada 12 horas: isso duplicaria o total diário. A duração frequentemente é 18–24 meses, condicionada à cura clínica/laboratorial, não apenas a um prazo. Doença grave pode exigir anfotericina B desoxicolato 0,5–0,7 mg/kg/dia EV, máximo 50 mg/dia, seguida de tratamento oral; formulação lipídica usa dose diferente.
+### Quando suspeitar
 
-**Segurança/seguimento.** Monitorar hemograma, creatinina, potássio e transaminases; ajustar TMP-SMX por função renal, verificar alergia a sulfas e interações. Não usar automaticamente em lactentes muito pequenos. Itraconazol é alternativa selecionada, com absorção/interações relevantes. Documentar peso seriado, estado nutricional e resolução dos órgãos acometidos; o seguimento prolongado é parte da terapia.
+Em crianças e adolescentes, a apresentação predominante é a forma aguda/subaguda juvenil, de evolução em semanas a meses e frequentemente disseminada. Febre, perda ponderal, anorexia, linfadenomegalia localizada ou generalizada — por vezes supurativa ou fistulizada —, hepatoesplenomegalia, lesões cutâneas, sintomas digestivos, massa abdominal, dor óssea e eosinofilia formam um conjunto de alerta. A ausência de doença pulmonar exuberante não afasta essa forma.
 
-**Fontes: ** [II Consenso Brasileiro — dose pediátrica](https://www.scielo.br/j/rsbmt/a/Ynd6SxcPqLjtqkFyVp678zj/); [MS — tratamento da PCM](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/p/pcm/tratamento)
+Perguntar por residência, passagem ou exposição em área endêmica e contato com solo, agricultura, terraplenagem ou poeira. Não há transmissão interpessoal conhecida; a investigação de contatos não segue lógica de isolamento respiratório por contágio entre pessoas.
+
+### Gravidade e destino
+
+Avaliar primeiro estabilidade respiratória e hemodinâmica, estado nutricional, hidratação, dor, perfusão e nível de consciência. Instabilidade, insuficiência respiratória, suspeita de disfunção adrenal, síndrome neurológica, abdome agudo, icterícia/ascite/edema importantes, obstrução intestinal ou biliar, sangramento, citopenia relevante, incapacidade de alimentação ou doença disseminada rapidamente progressiva justificam avaliação hospitalar urgente e discussão com infectologia pediátrica.
+
+Linfadenomegalias intra-abdominais podem coalescer e comprimir vias biliares ou alças. Eosinofilia muito marcada, ascite, acometimento visceral, fistulização ganglionar e lesão óssea acompanharam maior gravidade em séries pediátricas recentes, mas nenhum achado isolado substitui avaliação clínica global.
+
+### Confirmação etiológica
+
+Buscar demonstração do fungo em material clínico por exame micológico direto e cultura ou por histopatologia. Escolher a amostra mais segura e de maior rendimento entre secreção, aspirado de linfonodo, raspado/fragmento de lesão cutânea, biópsia ou outro tecido acometido. Planejar coleta com microbiologia e patologia, especialmente quando tuberculose, histoplasmose, leishmaniose ou neoplasia permanecem no diferencial.
+
+Sorologia é apoio para diagnóstico e seguimento, não substituto universal da demonstração etiológica. Desempenho varia com técnica, antígeno, laboratório e espécie de *Paracoccidioides*; resultado negativo não exclui doença quando a suspeita é alta, e título isolado não deve ser interpretado fora do quadro clínico e microbiológico.
+
+### Avaliação de extensão
+
+Documentar peso, altura e trajetória ponderal; examinar todas as cadeias linfonodais, pele e mucosas, abdome, fígado, baço, ossos/articulações e neurologia. Hemograma com diferencial, marcadores inflamatórios, bioquímica hepática, albumina/proteínas, creatinina e eletrólitos ajudam a medir extensão, segurança terapêutica futura e complicações. Radiografia de tórax integra a avaliação basal mesmo quando sintomas respiratórios são discretos.
+
+Ultrassonografia, tomografia, ressonância ou estudo ósseo devem ser dirigidos por sintomas, exame ou alterações laboratoriais; não constituem painel universal. Massa ou dor abdominal, icterícia, déficit neurológico, dor/tumoração óssea, alteração pulmonar ou suspeita adrenal exigem investigação direcionada e discussão especializada.
+
+### Diferenciais prioritários
+
+Na forma juvenil, considerar linfoma/leucemia, tuberculose, histoplasmose, leishmaniose visceral, toxoplasmose, mononucleose infecciosa e outras micoses sistêmicas. A possibilidade de coinfecção ou imunodeficiência deve ser avaliada quando epidemiologia, gravidade, infecções recorrentes ou fenótipo atípico justificarem; não solicitar painel universal sem indicação clínica.
+
+### Princípios terapêuticos sem posologia
+
+Todo caso confirmado ou fortemente provável requer plano antifúngico e seguimento prolongado por equipe experiente. Forma clínica, gravidade, sítios envolvidos, via disponível, absorção, interações, função renal/hepática, produto brasileiro e capacidade de monitorização determinam a escolha. Doença grave ou impossibilidade de via oral pode exigir indução parenteral hospitalar, seguida de terapia oral após estabilização, mas **nenhum fármaco ou regime quantitativo foi liberado neste bloco**.
+
+Os números antigos de cotrimoxazol, itraconazol e anfotericina, incluindo conversão de concentração para volume, foram retirados do texto ativo. Fontes públicas brasileiras acessíveis apresentam formulações e redações posológicas que precisam ser reconciliadas por produto, componente expresso, frequência, idade, apresentação, registro e função orgânica antes de qualquer prescrição. Imunomodulação não é rotina e só deve ser considerada por indicação definida, em conjunto com o controle da infecção.
+
+### Resposta, critérios de controle e seguimento
+
+Monitorar sintomas, temperatura, peso, nutrição, linfonodos, fígado/baço, pele, órgãos acometidos, hemograma e bioquímica conforme o regime e a gravidade. Resposta não se define apenas por completar um prazo: integrar melhora clínica, negativação micológica quando a amostra é repetível, estabilização radiológica quando havia lesão e evolução sorológica interpretável no mesmo método/laboratório.
+
+Persistência ou piora exige revisar adesão, absorção, interação, toxicidade, espécie/diagnóstico, coinfecção, foco compressivo ou supurativo, resistência e necessidade de nova amostra. Sequelas linfáticas, adrenais, neurológicas, ósseas ou pulmonares podem persistir apesar do controle da infecção e precisam ser distinguidas de recaída. O seguimento após o término terapêutico permanece necessário e deve seguir protocolo especializado.
+
+### Estado da revisão
+
+Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem homologação humana. O escopo de reconhecimento, gravidade, confirmação, extensão, diferenciais, destino e seguimento foi revisado. Farmacoterapia, critérios quantitativos de cura, produtos brasileiros, apresentações, estabilidade, compatibilidade, cálculos e prescrição permanecem em quarentena até gate clínico-farmacêutico próprio.
+
+### Fontes verificadas em 05/10/2026
+
+[Ministério da Saúde — Paracoccidioidomicose, acesso em 05/10/2026](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/p/pcm/paracoccidioidomicose/) · [II Consenso Brasileiro em Paracoccidioidomicose — 2017, publicado em 2018](https://www.scielo.br/j/ress/a/FzK9ZYXzYzk5bW7PCcrKH3t/) · [Siqueira et al. — revisão clínico-epidemiológica pediátrica, 2025; PMID 41298938](https://pubmed.ncbi.nlm.nih.gov/41298938/) · [Macedo et al. — avaliação de reagentes de imunodifusão, 2024; DOI 10.1590/0037-8682-0094-2024](https://www.scielo.br/j/rsbmt/a/jfhN6qYsHGt96Fpts5hpZ5n/)
 
 ## 173. Rubéola
 
