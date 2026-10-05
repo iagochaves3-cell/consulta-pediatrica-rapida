@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-05T00:48:00.000Z",
+  "publishedAt": "2026-10-05T01:47:00.000Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 32,
-  "savedCorpusSha256": "127fe6a4fcc6cd740f4cf8e6c43ee65306331862dc839661e656b40b1398dcee",
-  "publicCorpusSha256": "680384bf7211ed698a2303cb1294b63a3bd3a8eec422ee1ec2072a7b79bfa401",
+  "sourceVersion": 33,
+  "savedCorpusSha256": "c96b5a60f39c6c5203afb152a62245caf88ad1b9cefc449fd6d15095a365f042",
+  "publicCorpusSha256": "8c8d60266ea651ff443d5a1839e2f8568c22dd4c3a7d1e6e523e977da7733d4d",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "995fe38c86f3f68eff52337bd5dd5a98d5f6428b",
+  "sourceBaselineCommit": "64df4f7989bbe8c235aeaa50d2c31129690bd575",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -572,10 +572,24 @@
       "publicBlockSha256": "7d489b8eada2dcea6fd7bf586341375b234b04bb2173fd45054dd2fe84b12232",
       "candidateSha256": "ada6d3e328b6996515d9e09a1309a924ba87a1493157d49220e53f63e49227a8",
       "reviewEnvelopeSha256": "81c4eaeebcbcba02ffa134b82d3e296b0ca33461f79cd615742fee63d8f62be3"
+    },
+    {
+      "title": "Exantemas Febris em Pediatria",
+      "savedOrdinal": 151,
+      "publicOrdinal": 142,
+      "stableIdentity": "pedwb:exantemas-febris-em-pediatria",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates próprios das etiologias e revisão humana antes de promover diagnóstico definitivo, antimicrobiano, antiviral, imunoglobulina, corticoide, anti-inflamatório, antitérmico, dose, produto, preparo ou cálculo.",
+      "bodySha256": "d629daa1b7abf02ffc7d4b27f34a81d506feece36c401c6d71717424517f7a6e",
+      "savedBlockSha256": "49135991c505075cc88a086da3d15eefa19d0c696817bb43c2b248400a2e51b1",
+      "publicBlockSha256": "6e23bc4255dcb6e13729144a1cf373f89bae33712dcdc522c2656bc77cd6c08a",
+      "candidateSha256": "d629daa1b7abf02ffc7d4b27f34a81d506feece36c401c6d71717424517f7a6e",
+      "reviewEnvelopeSha256": "9af71337cfc56d42caebb7d0788f59bb8dfe903a81215d095929cd6688b43645"
     }
   ],
   "previousPublication": {
-    "commit": "736a466866f208df70ff50dc041a024ce34f3e46",
-    "note": "Tema 149 publicado; esta versão acrescenta somente o subescopo clínico, de risco, vigilância e destino do tema 150. Nenhum fármaco, dose ou cálculo foi promovido."
+    "commit": "6c76d7ebdd198bababd3e2c8beff840e0d58a396",
+    "note": "Tema 150 publicado; esta versão acrescenta somente o subescopo sindrômico, de risco, vigilância e destino do tema 151. Nenhum fármaco, dose ou cálculo foi promovido."
   }
 }
