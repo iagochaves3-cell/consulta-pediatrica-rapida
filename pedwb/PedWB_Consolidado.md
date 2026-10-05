@@ -3004,15 +3004,57 @@ Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem ho
 
 ## 173. Rubéola
 
-**Suspeita e vigilância.** Exantema maculopapular, febre geralmente baixa e adenopatia retroauricular/suboccipital sugerem rubéola, mas o diagnóstico clínico isolado é pouco específico. Investigar vacinação, viagem, contato e gestantes expostas. Mesmo quadros leves têm importância sanitária pelo risco congênito.
+**Revisão assistida por IA em 05/10/2026. Sem homologação humana. Não habilita prescrição, dose, calendário vacinal, cálculo ou decisão obstétrica automática.** Este bloco revisa rubéola adquirida na criança/adolescente: reconhecimento, vigilância, precauções, confirmação, diferenciais, complicações, destino e encaminhamento de gestante exposta ou suspeita de síndrome da rubéola congênita (SRC). A investigação materno-fetal e da SRC exige protocolo próprio.
 
-**Exames e proteção.** Notificar suspeita e colher amostras conforme vigilância para PCR/sorologia. Resultados precisam ser interpretados com o tempo de sintomas e possibilidade de falso-positivo; não confirmar infecção aguda apenas por uma IgM isolada sem contexto. Evitar contato com gestantes e adotar isolamento por sete dias após início do exantema, conforme orientação sanitária.
+### Por que um quadro leve exige resposta imediata
 
-**Tratamento.** Não há antiviral específico de rotina. Oferecer hidratação e analgesia/antitérmico para desconforto. Antibiótico e corticoide não são indicados no exantema simples. Artralgia geralmente recebe manejo sintomático; púrpura, sangramento, alteração neurológica ou desidratação exigem investigar complicação e possível internação.
+A rubéola costuma ser leve ou subclínica, e o diagnóstico apenas pela aparência do exantema é pouco confiável. Suspeitar diante de exantema maculopapular, febre baixa e linfadenopatia retroauricular, suboccipital ou cervical, sobretudo com vacinação incompleta, viagem internacional ou contato epidemiológico. O exantema costuma iniciar em face/pescoço, generalizar-se rapidamente e durar poucos dias, mas esse padrão não confirma a etiologia.
 
-**Seguimento.** Atualizar vacinação dos elegíveis após avaliação; vacina não trata o episódio já instalado e não deve ser administrada à gestante. Encaminhar gestante exposta ao pré-natal especializado. Suspeita de rubéola congênita exige investigação auditiva, ocular, cardíaca e laboratorial própria, além de precauções específicas para eliminação viral prolongada. Não usar a aparente benignidade no escolar para minimizar o risco fetal ou dispensar a vigilância epidemiológica.
+O Brasil mantém interrupção da transmissão autóctone, mas a circulação internacional preserva risco de importação. A importância sanitária decorre principalmente da exposição de gestante e do risco de aborto, óbito fetal ou SRC. Perguntar ativamente por gestação da própria paciente e por gestantes entre contatos domiciliares, escolares, ocupacionais ou assistenciais.
 
-**Fontes: ** [CDC — rubéola clínica](https://www.cdc.gov/rubella/hcp/clinical-overview/index.html); [CDC — vigilância de rubéola](https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-14-rubella.html)
+### Primeiras ações no serviço
+
+Separar prontamente o caso suspeito dos demais pacientes, fornecer máscara conforme tolerância/idade, aplicar precauções para gotículas e evitar contato com gestantes. Notificar e acionar imediatamente a vigilância epidemiológica local para definir investigação, coleta, transporte, busca de fonte e controle de contatos; não aguardar confirmação laboratorial para iniciar essas medidas.
+
+O roteiro brasileiro de 2025 orienta reconstruir a linha do tempo: locais e contatos nos 12–23 dias antes do exantema para provável exposição e nos 7 dias antes até 7 dias após o exantema para transmissibilidade. Registrar viagem, eventos/aglomerações, visitas de outras localidades, situação vacinal documentada e cada contato, incluindo gestação. A vigilância mantém o registro oficial e o acompanhamento em seus sistemas; o formulário inicial não o substitui.
+
+Manter isolamento por sete dias após o início do exantema. Se houver exposição potencial de gestante, iniciar o controle do surto sem esperar a confirmação. Criança com imunodeficiência, hospitalizada ou com suspeita de SRC deve ter precauções e duração definidas com infectologia/controle de infecção e vigilância, pois este bloco não aprova uma regra única para esses cenários.
+
+### Confirmação e interpretação dos testes
+
+Coordenar com a vigilância a coleta de sangue para sorologia e de amostra respiratória — e, quando indicada pelo protocolo, urina — para RT-PCR e caracterização molecular. A janela em relação ao início do exantema, vacinação recente, epidemiologia e método do laboratório precisa acompanhar o resultado.
+
+Não confirmar rubéola aguda por uma IgM isolada fora de contexto. Em cenário de baixa prevalência, resultados falso-positivos ganham importância e podem ocorrer por reatividade cruzada com outros exantemas virais ou fator reumatoide. IgM solicitada como “triagem de imunidade” é inadequada: imunidade é avaliada com IgG/documentação vacinal conforme o protocolo, enquanto IgM deve ser reservada à suspeita de doença aguda.
+
+Uma sorologia negativa muito precoce também não encerra a investigação. A IgM pode ainda não ser detectável nos primeiros quatro dias do exantema; a necessidade de nova amostra deve ser definida com a vigilância. Vacinação recente pode tornar sorologia difícil de distinguir de infecção, reforçando a necessidade de PCR, cronologia e vínculo epidemiológico.
+
+### Diferenciais e sinais de gravidade
+
+Considerar sarampo, exantema súbito, parvovírus B19, enteroviroses, dengue, rickettsioses, mononucleose, escarlatina e reação medicamentosa conforme clínica e epidemiologia. Sarampo precisa ser excluído com prioridade quando houver febre, tosse, coriza ou conjuntivite, exposição ou viagem compatível; as precauções de aerossóis do protocolo de sarampo são mais restritivas e não devem ser atrasadas por uma hipótese inicial de rubéola.
+
+Avaliar hidratação, perfusão, estado mental, sinais respiratórios, sangramento, petéquias/púrpura, sintomas neurológicos e dor/incapacidade articular. Púrpura trombocitopênica e encefalite são complicações raras; sangramento, alteração de consciência, convulsão, déficit focal, instabilidade, desidratação ou incapacidade de ingerir líquidos exigem avaliação hospitalar e investigação dirigida. Artralgia/artrite é mais frequente em adolescentes e adultos, especialmente mulheres, mas não deve ser atribuída automaticamente à rubéola sem confirmação do contexto.
+
+### Tratamento e destino
+
+Não há antiviral específico de rotina. Oferecer suporte individualizado, hidratação e controle de sintomas. Antibiótico, corticoide e imunoglobulina não tratam o exantema simples nem devem ser iniciados apenas pela suspeita de rubéola. Este bloco não seleciona antitérmico/analgésico, apresentação ou dose; qualquer prescrição deve passar por avaliação própria de idade, peso, contraindicações e produto.
+
+Alta pode ser considerada apenas se a criança estiver estável, hidratando-se, sem complicação e se houver capacidade de cumprir isolamento, investigação e seguimento da vigilância. Fornecer retorno imediato para sangramento, piora do estado geral, dispneia, sonolência, convulsão, fraqueza, desidratação ou novo contato gestante identificado.
+
+### Vacinação, gestação e suspeita de SRC
+
+A vacinação previne rubéola, mas não trata o episódio atual. Após a investigação, revisar a situação vacinal dos elegíveis com a sala de vacinação e a vigilância, usando o calendário brasileiro vigente; não aplicar vacina de vírus vivo em gestante. Pessoa suscetível no puerpério deve receber orientação para vacinação conforme o programa de imunização.
+
+Gestante exposta ou com suspeita clínica/laboratorial requer avaliação obstétrica especializada e coordenação imediata com a vigilância. Não concluir infecção materna, risco fetal ou conduta obstétrica a partir de exantema ou IgM isolada. A investigação pode exigir repetição de sorologia, IgG/avidez e métodos moleculares conforme tempo gestacional, vacinação e protocolo especializado.
+
+Em recém-nascido/lactente com exposição gestacional ou achados compatíveis — especialmente deficiência auditiva, catarata/outra alteração ocular, cardiopatia congênita, restrição de crescimento, púrpura ou alterações neurológicas — acionar pediatria/infectologia e vigilância para investigação de SRC. Organizar avaliação auditiva, oftalmológica, cardíaca, de crescimento e desenvolvimento. Lactentes com SRC podem eliminar vírus por período prolongado; precauções e liberação devem seguir vigilância e controle de infecção, não a regra de sete dias da rubéola adquirida.
+
+### Estado da revisão
+
+Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem homologação humana. O escopo não posológico de reconhecimento, vigilância, precauções, confirmação, diferenciais, complicações, destino e encaminhamento foi revisado. Produtos, doses, calendário vacinal completo, profilaxia de contatos, investigação materno-fetal detalhada e manejo da SRC permanecem fora do escopo ou dependentes de protocolo próprio.
+
+### Fontes verificadas em 05/10/2026
+
+[Ministério da Saúde — Rubéola](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rubeola) · [Ministério da Saúde — Notificação/Investigação e Roteiro 2025, atualizado em 06/07/2026](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rubeola/notificacao-investigacao) · [OMS — Rubella, 15/07/2026](https://www.who.int/news-room/fact-sheets/detail/rubella) · [CDC — Clinical Overview of Rubella, 15/07/2024](https://www.cdc.gov/rubella/hcp/clinical-overview/index.html) · [CDC — Manual for Surveillance of Vaccine-Preventable Diseases, Chapter 14](https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-14-rubella.html) · [Zubach et al. — acurácia de testes sorológicos, 2024; PMID 38275299](https://pubmed.ncbi.nlm.nih.gov/38275299/) · [Filardo et al. — adequação do teste IgM, 2024; PMID 39053655](https://pubmed.ncbi.nlm.nih.gov/39053655/) · [Lanzieri et al. — impacto da vacinação e vigilância da SRC no Brasil, 2007; SciELO](https://www.scielo.br/j/jped/a/jRmY9XVLDrJHcNSJQRjD4ry/)
 
 ## 174. Sarampo
 
