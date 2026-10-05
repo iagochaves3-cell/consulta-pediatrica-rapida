@@ -2220,6 +2220,77 @@
       "humanReview": false,
       "prescriptionOrCalculatorEnabled": false,
       "wholeChapterApproved": false
+    },
+    {
+      "schemaVersion": 1,
+      "stableIdentity": "pedwb:herpes-simples-em-pediatria",
+      "title": "Herpes Simples em Pediatria",
+      "nativeTitleOrdinal": 156,
+      "publicOrdinal": 166,
+      "reviewedAt": "2026-10-05T07:12:00Z",
+      "reviewType": "Revisão clínica documental parcial por IA com gate farmacêutico brasileiro",
+      "scope": "Gengivoestomatite herpética primária na criança imunocompetente: reconhecimento, diagnóstico, hidratação/analgesia, indicação restrita para considerar antiviral, qualidade da evidência, gate brasileiro e sinais de complicação.",
+      "text": "## 166. Herpes Simples em Pediatria\n\n**Escopo desta revisão.** Este bloco revisa a gengivoestomatite herpética primária na criança imunocompetente. Herpes neonatal/congênito, encefalite, doença ocular, eczema herpético, doença disseminada ou em imunocomprometido, herpes genital e supressão de recorrências exigem algoritmos próprios e não estão autorizados por este texto.\n\n**Reconhecimento e diferenciais.** Febre ou pródromo seguidos de gengivite dolorosa, vesículas/úlceras em gengiva, língua, mucosa jugal, palato, faringe, lábios ou pele perioral, com recusa de líquidos, sustentam o diagnóstico clínico. Avaliar ingestão, diurese, perfusão, mucosas, olhos e exame neurológico. Doença mão-pé-boca, herpangina, aftas, síndrome de Stevens–Johnson, Behçet e RIME integram o diferencial. Na apresentação típica, exames não são necessários; quando a confirmação muda a conduta, especialmente em imunocomprometido, usar PCR de swab de lesão. Sorologia raramente ajuda.\n\n**Prioridade: dor e hidratação.** Analgesia adequada deve preceder tentativas de hidratação. Oferecer pequenos volumes frequentes de solução de reidratação oral; na desidratação moderada, a diretriz RCH permite considerar 10–20 mL/kg em 1 hora, com reavaliação. Para 12 kg, isso corresponde a 120–240 mL em 1 hora; a checagem reversa é 120/12=10 mL/kg e 240/12=20 mL/kg. Incapacidade de manter hidratação, desidratação grave ou falha da tentativa oral pode exigir sonda nasogástrica ou via intravenosa e avaliação hospitalar.\n\n**Aciclovir oral: benefício provável, evidência limitada e regime não universal.** Crianças imunocompetentes geralmente não precisam de antiviral. O ensaio randomizado de 1997 incluiu crianças de 1–6 anos com sintomas há menos de 72 horas e testou aciclovir 15 mg/kg/dose, cinco vezes ao dia, por 7 dias; houve redução de lesões, febre, dificuldade para comer/beber e eliminação viral. A revisão Cochrane encontrou apenas dois ensaios pequenos e classificou o suporte como evidência fraca. A diretriz RCH de novembro de 2025 propõe considerar, somente até 72 horas do início e diante de dor intensa ou desidratação, 10 mg/kg/dose VO, máximo 400 mg/dose, cinco vezes ao dia, até não surgirem novas lesões. Esses regimes diferem em dose e duração: não combiná-los como se fossem um único esquema comprovado.\n\n**Gate farmacêutico e regulatório brasileiro.** A bula profissional brasileira recuperada confirma apenas comprimido de 200 mg, uso pediátrico acima de 6 anos e capacidade de deglutição; sua seção de eficácia cita estudo pediátrico, mas a posologia não estabelece esquema ponderal para gengivoestomatite infantil. A bula foi atualizada segundo Bula Padrão aprovada pela Anvisa em 05/08/2025. Não foi recuperada fonte primária brasileira atual que confirme suspensão oral comercializada, concentração, dispositivo de medida ou instrução de preparo. Portanto, não converter automaticamente mg em mL, não fracionar o comprimido como solução improvisada e não tratar o regime RCH como prescrição brasileira em bula. Se o antiviral for escolhido, confirmar produto realmente disponível, faixa etária, deglutição, função renal, hidratação, interações e protocolo institucional; registrar o caráter off-label quando aplicável. Este bloco não habilita receita nem calculadora.\n\n**Complicações e destino.** Dor ocular, fotofobia ou alteração visual sugerem ceratite e exigem avaliação oftalmológica urgente. Eczema herpético, pneumonite, dificuldade para despertar, comportamento alterado, déficit focal, convulsão ou suspeita de encefalite/doença disseminada exigem avaliação hospitalar imediata e tratamento específico, sem reutilizar o regime oral deste bloco. Imunocomprometidos requerem infectologia/pediatria e manejo sistêmico próprio. Consultar os capítulos próprios de Herpes Congênita/HSV neonatal e Encefalite Herpética.\n\n**Transmissão, alta e retorno.** Higienizar as mãos, evitar tocar lesões/olhos e contato direto das lesões com recém-nascidos. Criança sem controle de secreções deve permanecer fora de creche/escola até as lesões secarem. Alta requer ingestão suficiente para manter hidratação ou seguimento programado. Reavaliar se houver piora após melhora inicial, febre nova, baixa diurese, incapacidade de beber, sonolência, sinais oculares ou neurológicos.\n\n**Status da revisão.** Revisão documental parcial por IA em 05/10/2026, sem homologação humana. Foram validados o reconhecimento, a triagem de hidratação/complicações, a indicação restrita para considerar antiviral e a divergência entre os regimes publicados. Permanecem bloqueados produto líquido brasileiro, conversão em mL, prescrição operacional, ajuste renal pediátrico e tratamento dos fenótipos excluídos.\n\n**Fontes verificadas em 05/10/2026:** [Royal Children’s Hospital Melbourne — HSV Gingivostomatitis, atualizada em novembro de 2025](https://www.rch.org.au/clinicalguide/guideline_index/HSV_Gingivostomatitis/) · [Amir et al. — ensaio randomizado, BMJ 1997, PMID 9224082](https://pubmed.ncbi.nlm.nih.gov/9224082/) · [Nasser et al. — revisão Cochrane 2008, PMID 18843726](https://pubmed.ncbi.nlm.nih.gov/18843726/) · [Novartis/Sandoz — bula profissional brasileira de aciclovir comprimido 200 mg, VPS4, arquivo publicado em janeiro de 2026; Bula Padrão aprovada pela Anvisa em 05/08/2025](https://www.pro.novartis.com/br-pt/sites/pro_novartis_com_br/files/2026-01/Bula-ACICLOVIR-Comprimido-Medico.pdf).\n",
+      "sources": [
+        {
+          "id": "RCH-HSV-2025",
+          "title": "HSV Gingivostomatitis",
+          "issuer": "Royal Children's Hospital Melbourne",
+          "documentDate": "2025-11",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/HSV_Gingivostomatitis/",
+          "population": "crianças com gengivoestomatite herpética; exclui HSV neonatal",
+          "primary": true
+        },
+        {
+          "id": "AMIR-1997",
+          "title": "Treatment of herpes simplex gingivostomatitis with aciclovir in children",
+          "issuer": "BMJ / Amir et al.",
+          "documentDate": "1997-06-21",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9224082/",
+          "population": "72 crianças de 1–6 anos, sintomas <72 h; 61 HSV-cultura positiva completaram",
+          "primary": true
+        },
+        {
+          "id": "COCHRANE-2008",
+          "title": "Acyclovir for treating primary herpetic gingivostomatitis",
+          "issuer": "Cochrane / Nasser et al.",
+          "documentDate": "2008-10-08",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18843726/",
+          "population": "dois ensaios, 72 e 20 participantes",
+          "primary": false
+        },
+        {
+          "id": "BR-ACV-200-2026",
+          "title": "aciclovir 200 mg comprimidos — bula profissional VPS4",
+          "issuer": "Novartis Biociências / Sandoz do Brasil",
+          "documentDate": "2026-01",
+          "url": "https://www.pro.novartis.com/br-pt/sites/pro_novartis_com_br/files/2026-01/Bula-ACICLOVIR-Comprimido-Medico.pdf",
+          "population": "uso oral adulto e pediátrico acima de 6 anos; comprimido 200 mg",
+          "primary": true
+        }
+      ],
+      "checks": {
+        "clinical": "passed",
+        "pharmaceutical": "passed_with_product_gate_open",
+        "mathematical": "passed_for_ORS_example_only",
+        "reverse": "passed_for_ORS_example_only"
+      },
+      "gate": {
+        "decision": "approve_exact_hash_partial_scope",
+        "candidateSha256": "dc89d1ad418e26bf65b5d33a8698ad59f69477de7880d96615f0d85b282e4fea",
+        "gateSha256": "63bba799dbda679bde323ca70e17bd191c938e4fa360e346e93fb2f1c1c27065",
+        "blockingIssues": 0,
+        "boundaryScenarios": 11
+      },
+      "exclusions": [
+        "produto brasileiro de suspensão oral, concentração, dispositivo, preparo e conversão mg/mL",
+        "regime universal, ajuste renal, prescrição ou calculadora",
+        "HSV neonatal/congênito, encefalite, doença ocular, eczema herpético, doença disseminada/imunocomprometido, genital e supressão",
+        "homologação humana e Whitebook autenticado"
+      ],
+      "humanReview": false,
+      "prescriptionOrCalculatorEnabled": false,
+      "wholeChapterApproved": false
     }
   ]
 }
