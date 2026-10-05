@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-05T01:47:00.000Z",
+  "publishedAt": "2026-10-05T02:45:00.000Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 33,
-  "savedCorpusSha256": "c96b5a60f39c6c5203afb152a62245caf88ad1b9cefc449fd6d15095a365f042",
-  "publicCorpusSha256": "8c8d60266ea651ff443d5a1839e2f8568c22dd4c3a7d1e6e523e977da7733d4d",
+  "sourceVersion": 34,
+  "savedCorpusSha256": "563c55e4a746a6fff243a3922f7571787307e9344e742f553d0ee2ff251c70c5",
+  "publicCorpusSha256": "186f30ca92aee2df447e4eacdcf0eff87c670cbe923c3e92be90af983ecb7a3f",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "64df4f7989bbe8c235aeaa50d2c31129690bd575",
+  "sourceBaselineCommit": "996749be02c4fc01bdbf0e137933b291ff44a588",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -586,10 +586,24 @@
       "publicBlockSha256": "6e23bc4255dcb6e13729144a1cf373f89bae33712dcdc522c2656bc77cd6c08a",
       "candidateSha256": "d629daa1b7abf02ffc7d4b27f34a81d506feece36c401c6d71717424517f7a6e",
       "reviewEnvelopeSha256": "9af71337cfc56d42caebb7d0788f59bb8dfe903a81215d095929cd6688b43645"
+    },
+    {
+      "title": "Fasciolíase em Pediatria",
+      "savedOrdinal": 152,
+      "publicOrdinal": 146,
+      "stableIdentity": "pedwb:fascioliase-em-pediatria",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates farmacêutico, regulatório brasileiro, terapêutico e procedimental e revisão humana antes de promover triclabendazol, outro antiparasitário, produto, dose, administração, monitorização, ERCP, cirurgia ou cálculo.",
+      "bodySha256": "8fe0769af02d9323b9fac1ee6d7525b2632e0856fd98fbc3bd80e7587a5606b5",
+      "savedBlockSha256": "c8b15059140b1d872c1eaa6b098ba03a9fdff7e456d6222335f779bef6059a5a",
+      "publicBlockSha256": "e7468586c1bf44dad350768b04a2c508e88139d84cc00025b23dfb217a7fb03a",
+      "candidateSha256": "8fe0769af02d9323b9fac1ee6d7525b2632e0856fd98fbc3bd80e7587a5606b5",
+      "reviewEnvelopeSha256": "15fbf50b235d3e2beed68557730135d38b83df6325681a1ec4eb5cbef2909076"
     }
   ],
   "previousPublication": {
-    "commit": "6c76d7ebdd198bababd3e2c8beff840e0d58a396",
-    "note": "Tema 150 publicado; esta versão acrescenta somente o subescopo sindrômico, de risco, vigilância e destino do tema 151. Nenhum fármaco, dose ou cálculo foi promovido."
+    "commit": "5083f66e1bac975127415fe666c7b5072251250d",
+    "note": "Tema 151 publicado; esta versão acrescenta somente o subescopo diagnóstico, de gravidade, destino e prevenção do tema 152. Nenhum fármaco, produto, dose, procedimento ou cálculo foi promovido."
   }
 }
