@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-05T03:58:00.000Z",
+  "publishedAt": "2026-10-05T04:52:07.000Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 35,
-  "savedCorpusSha256": "03e2ef34b3eefb45fd505f55ec2043e295613b95ab16980b50fb271edd91d6d9",
-  "publicCorpusSha256": "815cd1d299dc45c46d30f0ad0424a2a034c70099a8ee2968089198c5151e8eb5",
+  "sourceVersion": 36,
+  "savedCorpusSha256": "0509f35bfc60a01c3070bb9b961ee7b96c042a3863a293b2c9bd97dab6d020a7",
+  "publicCorpusSha256": "9415c403fa44df60c5f68e51e5b321999545b57269b86e630d3b39aaaac21cb2",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "831c9ca7fbd2f440073b072324a79b9eb952f525",
+  "sourceBaselineCommit": "aaff5a4b7d92e3a7907adbc7a4d348a3c05b624e",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
-  "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
+  "note": "O tema Herpangina recebeu revisão clínica escopada e foi incorporado sem promover fármaco, produto, dose, concentração, volume ou cálculo; o Whitebook autenticado não foi consultado.",
   "topics": [
     {
       "title": "Estenose Hipertrófica do Piloro",
@@ -614,10 +614,24 @@
       "publicBlockSha256": "40026457cbfb2af9e453ad980b4f882af14ed91668b830c2f2e49d6fc71b4e2f",
       "candidateSha256": "42f8f5ba258219457cb21c6700c63dfa9efa5fa730b904d4a505de49dda59c0e",
       "reviewEnvelopeSha256": "e44c6db5f3e6a477f5207728b61a05240005d864927b58acd04c354b1699885d"
+    },
+    {
+      "title": "Herpangina",
+      "savedOrdinal": 154,
+      "publicOrdinal": 164,
+      "stableIdentity": "pedwb:herpangina",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates clínico complementar, farmacêutico/regulatório brasileiro, matemático/reverso e humano antes de promover analgésico, antitérmico, anestésico tópico, antiviral, antibiótico, corticoide, produto, dose, concentração, volume ou prescrição.",
+      "bodySha256": "ba405e29936c45db14bf70ffccd5ece4e3be47493092b86a4a66f3171fff96c3",
+      "savedBlockSha256": "98f5a6f011fe12a90d00250c5b2b2274c1285ac387329eec041c0b0d918696d5",
+      "publicBlockSha256": "1a8104e7a2998a5cbc0de33d12281622868d348a54058738e4920b7b26d195b8",
+      "candidateSha256": "ba405e29936c45db14bf70ffccd5ece4e3be47493092b86a4a66f3171fff96c3",
+      "reviewEnvelopeSha256": "72b414a6ca1bdc474bd462daefe22d656cbffd6620b1b61376987e830370b572"
     }
   ],
   "previousPublication": {
-    "commit": "5083f66e1bac975127415fe666c7b5072251250d",
-    "note": "Tema 151 publicado; esta versão acrescenta somente o subescopo diagnóstico, de gravidade, destino e prevenção do tema 152. Nenhum fármaco, produto, dose, procedimento ou cálculo foi promovido."
+    "commit": "70b9340a6d8334f8625288f07e3ea31c89694862",
+    "note": "Tema 153 publicado; esta versão acrescenta somente o subescopo diagnóstico, de gravidade, destino, prevenção e suporte não farmacológico do tema 154. Nenhum fármaco, produto, dose ou cálculo foi promovido."
   }
 }
