@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-05T04:52:07.000Z",
+  "publishedAt": "2026-10-05T06:31:20.185Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 36,
-  "savedCorpusSha256": "0509f35bfc60a01c3070bb9b961ee7b96c042a3863a293b2c9bd97dab6d020a7",
-  "publicCorpusSha256": "9415c403fa44df60c5f68e51e5b321999545b57269b86e630d3b39aaaac21cb2",
+  "sourceVersion": 37,
+  "savedCorpusSha256": "d4d6aea692eeebdac630a12fe7ec5ab15e65dac10b5748288dc4acfa11a694e5",
+  "publicCorpusSha256": "36ab5cf327a072625e656d8d8086019cfe1f4f055a8b26f607934f9cee51b303",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "aaff5a4b7d92e3a7907adbc7a4d348a3c05b624e",
+  "sourceBaselineCommit": "7e33f32795f29789b1eff7ea6498092ec625ed11",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
-  "note": "O tema Herpangina recebeu revisão clínica escopada e foi incorporado sem promover fármaco, produto, dose, concentração, volume ou cálculo; o Whitebook autenticado não foi consultado.",
+  "note": "Herpes Congênita/HSV neonatal recebeu revisão escopada com estadiamento, tratamento de alta dose e checagem farmacêutica/matemática específica da bula Blau; a confirmação direta no Bulário/Anvisa, transferência entre fabricantes, algoritmo completo de exposição e cálculo oral permanecem excluídos.",
   "topics": [
     {
       "title": "Estenose Hipertrófica do Piloro",
@@ -628,10 +628,24 @@
       "publicBlockSha256": "1a8104e7a2998a5cbc0de33d12281622868d348a54058738e4920b7b26d195b8",
       "candidateSha256": "ba405e29936c45db14bf70ffccd5ece4e3be47493092b86a4a66f3171fff96c3",
       "reviewEnvelopeSha256": "72b414a6ca1bdc474bd462daefe22d656cbffd6620b1b61376987e830370b572"
+    },
+    {
+      "title": "Herpes Congênita",
+      "savedOrdinal": 155,
+      "publicOrdinal": 165,
+      "stableIdentity": "pedwb:herpes-congenita",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Confirmar a bula profissional vigente do fabricante recebido diretamente no Bulário/Anvisa; concluir algoritmo do recém-nascido assintomático exposto, apresentação oral brasileira, conversão para mL e revisão humana antes de uso operacional ou prescrição automatizada.",
+      "bodySha256": "f305876c4122b7ef61739f5aa9375de685aafe639e7a6581a7ff31b5a975acd4",
+      "savedBlockSha256": "6a92af289e6c19db5ec7f7a4e9cef9a8227afd11c01f5745a3203fda55c4d6e6",
+      "publicBlockSha256": "f65128cc54cc483f6dba289db6366867202fe29ad0bbe90e84bcd3503b067b1c",
+      "candidateSha256": "f305876c4122b7ef61739f5aa9375de685aafe639e7a6581a7ff31b5a975acd4",
+      "reviewEnvelopeSha256": "e2b255b4e9870ee1d55db14ae368ca1d3a8f7e5067b1ca527970ebb524ced9c1"
     }
   ],
   "previousPublication": {
-    "commit": "70b9340a6d8334f8625288f07e3ea31c89694862",
-    "note": "Tema 153 publicado; esta versão acrescenta somente o subescopo diagnóstico, de gravidade, destino, prevenção e suporte não farmacológico do tema 154. Nenhum fármaco, produto, dose ou cálculo foi promovido."
+    "commit": "17d707bd2ec9fe4bf0235f9a16eeb51f3fb053dd",
+    "note": "Tema 154 publicado; esta versão acrescenta o subescopo revisado do tema 155, preservando pendências regulatórias, de produto e de revisão humana."
   }
 }
