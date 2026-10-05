@@ -2321,7 +2321,7 @@ A diretriz ASH/ISTH 2025 admite anticoagulantes orais diretos em crianças eleg�
 **Fontes verificadas: ** [RCH — obstrução aguda de via aérea superior](https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/) · [RCH — crupe](https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/) · [RCH — manejo emergencial de via aérea](https://www.rch.org.au/clinicalguide/guideline_index/Emergency_airway_management/).
 
 
-## 150. Exantema Súbito
+## 141. Exantema Súbito
 
 **Escopo e reconhecimento.** Este bloco cobre a síndrome clínica em criança imunocompetente e não substitui a avaliação da febre por idade e risco. A infecção primária por HHV-6 costuma ocorrer nos primeiros dois anos de vida, mas apenas uma minoria apresenta a sequência clássica. O padrão mais sugestivo é febre aguda por alguns dias, seguida de defervescência e aparecimento de exantema macular ou maculopapular, geralmente no tronco e/ou face, com melhora do estado geral. Antes dessa sequência, não atribuir prospectivamente uma febre sem foco a “roséola”; mesmo entre crianças brasileiras com infecção primária por HHV-6 confirmada, a apresentação típica foi incomum e houve sobreposição clínica com outras doenças exantemáticas.
 
