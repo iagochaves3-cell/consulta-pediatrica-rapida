@@ -2779,15 +2779,49 @@ Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem ho
 
 ## 169. Monilíase em Pediatria
 
-**Diagnóstico e extensão.** Placas brancas aderentes na mucosa oral que deixam base inflamada ao remover sugerem candidíase; leite residual sai mais facilmente sem esse aspecto. Examinar fralda, alimentação e uso de antibiótico/corticoide inalatório. Disfagia, odinofagia, perda ponderal, recorrência intensa ou doença extensa exigem investigar esofagite e imunodeficiência.
+### Status e escopo deste bloco
 
-**Tratamento oral localizado.** Nistatina suspensão 100.000 UI/mL,200.000 UI (2 mL) por dose, quatro vezes ao dia, é esquema frequente para lactentes; distribuir na mucosa após alimentação, evitando despejar no fundo da boca. Em prematuro/RN, a dose pode ser menor e deve seguir bula/protocolo neonatal. Manter 7–14 dias e pelo menos 48 horas após desaparecimento das lesões, conforme produto. Não confundir UI com mg; 2 mL× 100.000 UI/mL=200.000 UI.
+**Revisão assistida por IA em 05/10/2026. Sem homologação humana. Não habilita prescrição, dose, cálculo automático ou protocolo para doença invasiva.** Este subbloco separa candidíase orofaríngea, dermatite de fraldas por *Candida*, suspeita de doença esofágica e candidíase invasiva; revisa reconhecimento, fatores predisponentes, cuidados locais, destino e gates farmacoterapêuticos. Doença neonatal/invasiva, imunossupressão e candidíase mucocutânea crônica seguem fluxos próprios.
 
-**Cuidados associados.** Higienizar chupetas/mamadeiras e tratar candidíase materna concomitante quando diagnosticada. Não recomendar limpeza agressiva das placas. Na dermatite por Candida, barreira e antifúngico tópico são úteis, sem corticoide potente associado.
+### Reconhecimento por sítio
 
-**Escalada e segurança.** Falha após uso correto exige confirmar diagnóstico, adesão e fatores predisponentes; fluconazol sistêmico é reservado a casos selecionados, com dose por indicação e checagem de interação/função renal. Febre ou instabilidade em RN não é “sapinho complicado”: investigar infecção invasiva pelo tema 159. Reavaliar sucção, dor, peso e ingestão.
+**Orofaringe.** Placas brancas aderentes em língua, palato ou mucosa jugal, com base eritematosa quando se tenta removê-las, sustentam candidíase; resíduo de leite costuma sair com facilidade e não deixa a mesma base inflamada. Eritema oral doloroso sem placas também pode ocorrer. Avaliar dor, sucção, ingestão, peso, hidratação, uso recente de antibiótico, corticoide inalatório, higiene do dispositivo inalatório e condições de imunidade. O diagnóstico é geralmente clínico no quadro típico e limitado; apresentação atípica, recorrente ou refratária exige reabrir o diagnóstico e considerar exame micológico/cultura conforme o contexto.
 
-**Fontes: ** [Canadian Paediatric Society — candidíase oral](https://cps.ca/en/documents/position/antifungal-agents-common-infections); [DailyMed — nistatina 100.000 UI/mL, bula do fabricante](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e1b762a-800f-b79c-e063-6294a90a99c9)
+**Área de fraldas.** Eritema vivo envolvendo dobras, com pápulas ou pústulas satélites, favorece *Candida*; dermatite irritativa simples costuma predominar nas superfícies convexas e poupar as dobras. Examinar boca e restante da pele. Lesão extensa, erosiva, bolhosa, purpúrica, com crostas, febre, dor importante ou falha de resposta exige procurar infecção bacteriana, dermatose inflamatória, deficiência de zinco, imunodeficiência ou outro diagnóstico.
+
+**Esôfago e doença invasiva.** Disfagia, odinofagia, dor retroesternal, recusa alimentar relevante ou perda ponderal — sobretudo em imunocomprometido — não devem ser tratados como “sapinho mais forte”: candidíase esofágica requer terapia sistêmica e avaliação própria. Febre/instabilidade em prematuro, recém-nascido hospitalizado, paciente com cateter/dispositivo invasivo, pós-operatório, neutropenia, quimioterapia ou imunossupressão desloca o caso para investigação de candidíase invasiva/candidemia. Candidíase de mucosa ou pele não “evolui” automaticamente para invasiva na criança saudável.
+
+### Fatores predisponentes e recorrência
+
+Antibiótico de amplo espectro, corticoide inalatório depositado na orofaringe, chupeta/dispositivos contaminados, maceração/oclusão na fralda e alteração de barreira favorecem doença mucocutânea. Diabetes descompensado, HIV, malignidade, neutropenia, imunossupressão, xerostomia e exposição repetida a azóis ampliam o risco ou mudam a espécie/sensibilidade. Candidíase oral intensa, persistente ou recorrente, onicomicose/candidíase cutânea crônica, baixo ganho ponderal, infecções incomuns ou sinais sistêmicos justificam avaliação dirigida de imunodeficiência e doenças de base; não solicitar painel universal para um primeiro episódio típico em lactente saudável.
+
+### Medidas locais e prevenção de recorrência
+
+Para candidíase oral, evitar raspagem traumática; limpar chupetas, bicos e partes da bomba conforme orientação do fabricante e reduzir uso contínuo de chupeta quando possível. Após corticoide inalatório, revisar técnica, espaçador e higiene oral. Na amamentação, dor ou lesão mamilar do cuidador requer avaliação clínica própria: não presumir candidíase nem indicar tratamento simultâneo apenas porque o lactente tem placas.
+
+Na dermatite de fraldas, trocar a fralda rapidamente após urina/fezes, limpar de forma suave, secar sem fricção, ampliar tempo sem fralda e usar barreira apropriada. Antifúngico tópico pode ser necessário quando o fenótipo é candidiásico. Evitar corticoide potente e combinações indiscriminadas; corticoide de baixa potência, quando houver indicação inflamatória, depende de diagnóstico, tempo curto e protocolo local. Antifúngico oral não é rotina para dermatite de fraldas em hospedeiro imunocompetente.
+
+### Farmacoterapia — produto, apresentação e gates
+
+A página vigente do fabricante brasileiro confirma nistatina suspensão oral 100.000 UI/mL em frasco de 50 mL; a página do mesmo fabricante também confirma nistatina 100.000 UI/g + óxido de zinco 200 mg/g em pomada de 60 g para assaduras. São produtos, vias e objetivos diferentes: suspensão oral não deve ser transposta para a pele, e produto tópico não deve ser usado na boca. A bula profissional brasileira completa e vigente do produto escolhido deve ser recuperada antes de liberar idade, volume por dose, frequência, duração ou continuidade após resolução.
+
+A Canadian Paediatric Society mantém nistatina suspensão como opção frequente para candidíase oral leve em hospedeiro imunocompetente e reserva fluconazol sistêmico para doença moderada/grave ou falha de terapia convencional; porém, suas apresentações e faixas posológicas são canadenses e não autorizam cópia direta para produto brasileiro. Fluconazol exige indicação por sítio, idade/peso, função renal/hepática, interações, QT e espécie/sensibilidade quando pertinente. A pesquisa deste ciclo confirmou cápsula brasileira de 150 mg em uma fonte de fabricante, mas não confirmou apresentação líquida pediátrica vigente; isso não prova inexistência e impede converter automaticamente mg/kg em mL.
+
+### Checagem do esquema antigo e limite matemático
+
+O texto anterior continha 2 mL de nistatina 100.000 UI/mL, quatro vezes ao dia. A aritmética é internamente correta: 2 mL × 100.000 UI/mL = 200.000 UI; a reversa 200.000 UI ÷ 100.000 UI/mL = 2 mL reproduz o volume sem erro dimensional. Essa correção matemática não valida indicação, idade, produto, frequência ou duração. Como a versão profissional vigente do produto selecionado não foi integralmente recuperada e não houve revisão humana/farmacêutica, o regime numérico foi retirado do bloco ativo e permanece apenas no histórico auditável.
+
+### Reavaliação e destino
+
+Reavaliar em caso de piora, ausência de resposta após uso correto, recorrência precoce, baixa ingestão, desidratação, perda ponderal, disfagia/odinofagia, febre, toxicidade ou lesão extensa. Confirmar diagnóstico, técnica, adesão, produto, sítio, fatores predisponentes e necessidade de cultura/espécie antes de “escalar” automaticamente. Suspeita esofágica, imunodeficiência, candidíase mucocutânea crônica ou refratariedade a azol requer infectologia/imunologia/gastroenterologia conforme o caso; suspeita invasiva em RN ou imunocomprometido exige avaliação hospitalar imediata.
+
+### Estado da revisão
+
+Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem homologação humana. O escopo de distinção anatômica, reconhecimento clínico, fatores de risco, cuidados locais, sinais de alarme e destino foi revisado. Posologia, prescrição, seleção final de produto brasileiro, ajuste renal/hepático, estabilidade, compatibilidade, candidíase esofágica/invasiva e automação de cálculo permanecem bloqueados.
+
+### Fontes verificadas em 05/10/2026
+
+[Canadian Paediatric Society — Antifungal agents for common outpatient paediatric infections; reafirmado em 21/11/2024](https://cps.ca/en/documents/position/antifungal-agents-common-infections) · [IDSA — Clinical Practice Guideline for the Management of Candidiasis, atualização de 2016](https://www.idsociety.org/practice-guideline/candidiasis/) · [CDC — Candidiasis Basics; atualizado e revisado em 05/10/2026](https://www.cdc.gov/candidiasis/about/index.html) · [Royal Children’s Hospital Melbourne — Nappy rash](https://www.rch.org.au/clinicalguide/guideline_index/nappy_rash/) · [EMS — nistatina suspensão oral 100.000 UI/mL, frasco 50 mL](https://www.ems.com.br/medicamentos/nistatina/) · [EMS — nistatina 100.000 UI/g + óxido de zinco 200 mg/g, pomada 60 g](https://www.ems.com.br/medicamentos/nistatina-oxido-de-zinco/) · [Medley — fluconazol cápsulas 150 mg](https://www.medley.com.br/medicamentos/anti-infecciosos/fluconazol).
 
 ## 170. Mononucleose Infecciosa em Pediatria
 
