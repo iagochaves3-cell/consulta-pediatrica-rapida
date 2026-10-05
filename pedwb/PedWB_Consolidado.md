@@ -2825,16 +2825,45 @@ Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem ho
 
 ## 170. Mononucleose Infecciosa em Pediatria
 
-**Avaliação.** Febre, faringite, adenomegalia e fadiga, com possível hepatoesplenomegalia, sugerem mononucleose por EBV. Exame heterófilo pode ser negativo nos pequenos ou precocemente; sorologia específica auxilia quando modifica conduta. Não presumir que toda amigdalite exsudativa seja bacteriana. Obstrução de via aérea, dor abdominal súbita, síncope, icterícia intensa ou sangramento indicam urgência.
+### Status e escopo deste bloco
 
-**Exames.** Hemograma com diferencial e transaminases conforme gravidade; avaliar outros agentes/diferenciais se apresentação atípica. Ultrassom de baço não é rastreio obrigatório de todo caso nem libera sozinho atividade esportiva. A avaliação clínica e tempo de doença são essenciais.
+**Revisão assistida por IA em 05/10/2026. Sem homologação humana. Não habilita prescrição, dose, cálculo automático nem liberação esportiva automática.** Este subbloco revisa reconhecimento, diagnóstico laboratorial, limites dos testes, tratamento de suporte, sinais de complicação, atividade física e seguimento. Regimes de corticoide para complicação, antivirais, analgesia por idade/produto e protocolos de via aérea permanecem fora do escopo ativo.
 
-**Tratamento.** Repouso relativo, hidratação e analgesia do módulo comum. Antiviral, antibiótico e corticoide sistêmico não são de rotina. Corticoide pode ser considerado em complicações específicas, como obstrução importante da via aérea ou citopenia imune grave, com plano especializado. Evitar amoxicilina/ampicilina sem indicação bacteriana confirmada, pela associação com exantema; esse rash não prova necessariamente alergia imediata permanente.
+### Reconhecer e diferenciar
 
-**Reavaliação/destino.** Afastar esportes de contato e atividades com risco abdominal enquanto houver risco de ruptura esplênica; retorno progressivo depende de resolução dos sintomas e avaliação médica. Dor no quadrante superior esquerdo, dor referida ao ombro ou choque exige investigar ruptura imediatamente. Internar quando houver comprometimento respiratório, desidratação relevante, complicação hematológica/hepática ou impossibilidade de cuidado seguro. Fadiga pode persistir além da faringite, sem justificar cursos repetidos de antimicrobianos.
+Febre, faringite, fadiga e linfadenopatia cervical — frequentemente posterior — formam a apresentação clássica, com possível hepatoesplenomegalia, exantema e alterações hematológicas/hepáticas. Crianças pequenas podem ter quadro leve, incompleto ou inespecífico. Amigdalite exsudativa não demonstra etiologia bacteriana; testar estreptococo quando os critérios clínicos/epidemiológicos justificarem, sem atribuir toda faringite ao EBV. Em apresentação atípica, exposição ou imunossupressão, considerar diagnósticos como citomegalovírus, toxoplasmose, infecção aguda pelo HIV, adenovírus, rubéola e hepatites, além de causas hematológicas.
 
-**Fontes: ** [CDC — mononucleose infecciosa](https://cdc.gov/epstein-barr/about/mononucleosis.html); [CDC — testes de EBV](https://www.cdc.gov/epstein-barr/php/laboratories/index.html)
+### Testes e interpretação
 
+Hemograma com diferencial e transaminases podem apoiar avaliação de gravidade e diferenciais, mas linfócitos atípicos ou elevação de aminotransferases não confirmam sozinhos EBV. O CDC não recomenda Monospot para uso geral: anticorpos heterófilos podem ser falso-positivos ou falso-negativos e frequentemente estão ausentes em crianças. Um resultado heterófilo negativo precoce ou em criança pequena não exclui mononucleose.
+
+Quando a confirmação modifica conduta, epidemiologia ou aconselhamento, interpretar sorologia específica com o tempo de doença. Anti-VCA IgM aparece cedo e geralmente desaparece em quatro a seis semanas; anti-VCA IgG surge na fase aguda e persiste. EBNA não costuma aparecer na fase aguda, surgindo em dois a quatro meses. **VCA IgM positivo com EBNA negativo sustenta infecção primária recente**; VCA e EBNA positivos juntos favorecem infecção passada. EA IgG isolado não prova atividade, pois pode persistir em cerca de 20% das pessoas saudáveis. Se a evolução clínica e a sorologia discordarem, reavaliar cronologia, método e diagnósticos alternativos.
+
+### Imagem e baço
+
+O exame físico não estima com precisão o tamanho esplênico, e ultrassonografia de rotina não deve ser usada como rastreio universal nem como único critério para liberar esporte: há variação individual e frequentemente não existe medida basal. Imagem é dirigida por suspeita de complicação ou decisão especializada. Dor súbita no quadrante superior esquerdo, dor referida ao ombro, síncope, palidez, taquicardia, hipotensão ou sinais de choque exigem avaliação emergencial para lesão/ruptura esplênica; não esperar exame ambulatorial programado.
+
+### Tratamento e limites farmacológicos
+
+A maioria dos casos imunocompetentes recebe hidratação, repouso relativo e manejo sintomático conforme idade, produto, comorbidades e módulos próprios. Antibiótico não trata EBV; ampicilina ou amoxicilina sem indicação bacteriana deve ser evitada pela associação com exantema. Esse exantema não confirma automaticamente alergia imediata permanente, mas requer história e avaliação apropriadas antes de futura exposição.
+
+Antivirais não são rotina: revisão Cochrane encontrou evidência de efetividade incerta e de qualidade muito baixa, sem benefício clínico sustentado. Corticoide sistêmico também não é tratamento rotineiro de sintomas; a revisão Cochrane encontrou evidência insuficiente. Pode ser reservado a complicações selecionadas — por exemplo, obstrução significativa de via aérea ou citopenia imune grave — sob avaliação especializada. **Nenhum fármaco, produto, dose, intervalo, duração, concentração, volume, preparo, ajuste renal/hepático ou prescrição foi liberado neste bloco.**
+
+### Atividade física e retorno
+
+Durante a doença aguda, suspender exercício e atividades com impacto, contato, queda ou aumento importante de pressão abdominal. A ruptura esplênica é rara, porém potencialmente fatal e pode ocorrer sem trauma. Uma série retrospectiva encontrou 90,5% das lesões até 31 dias do início dos sintomas; esse achado observacional não cria um limiar universal de segurança. A posição AMSSM de 2023 enfatiza variabilidade clínica, risco concentrado no primeiro mês e decisão compartilhada. Retorno deve ser individualizado, gradual, somente após recuperação clínica e avaliação médica; modalidade, intensidade, possibilidade de contato e incerteza sobre início dos sintomas importam. Ultrassom normal isolado não autoriza retorno automático.
+
+### Urgência, internação e seguimento
+
+Comprometimento respiratório, incapacidade de manejar secreções, desidratação relevante, alteração de consciência, sangramento, anemia/trombocitopenia grave, icterícia importante ou suspeita de ruptura esplênica exigem avaliação hospitalar. Internar quando houver instabilidade, complicação orgânica ou impossibilidade de hidratação/cuidado seguro. A maioria melhora em duas a quatro semanas, mas fadiga pode persistir por semanas; sintomas por mais de seis meses ou evolução incompatível pedem reavaliação de diagnóstico e outras causas, não repetição automática de antimicrobianos. Orientar prevenção de compartilhamento de bebidas, utensílios e objetos com saliva durante a fase sintomática, reconhecendo que a eliminação viral pode persistir.
+
+### Estado da revisão
+
+Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem homologação humana. O escopo de reconhecimento, interpretação sorológica, limites de Monospot/ultrassom, tratamento de suporte, exclusão de terapias rotineiras, atividade e destino foi revisado. Corticoide em complicações, analgesia operacional, protocolo de via aérea, imunossupressão, farmacoterapia quantitativa e liberação esportiva individual permanecem dependentes de contexto, gates próprios e revisão humana.
+
+### Fontes verificadas em 05/10/2026
+
+[CDC — About Infectious Mononucleosis, 09/05/2024](https://www.cdc.gov/epstein-barr/about/mononucleosis.html) · [CDC — Laboratory Testing for EBV, 10/04/2024](https://www.cdc.gov/epstein-barr/php/laboratories/index.html) · [AMSSM — Mononucleosis and Athletic Participation, 2023](https://pubmed.ncbi.nlm.nih.gov/37186809/) · [Sylvester et al. — lesão esplênica e retorno ao esporte, 2019](https://pubmed.ncbi.nlm.nih.gov/31550435/) · [Cochrane — corticoides, 2015](https://www.cochrane.org/evidence/CD004402_steroids-short-term-symptom-control-infectious-mononucleosis-glandular-fever) · [Cochrane — antivirais, 2016](https://pubmed.ncbi.nlm.nih.gov/27933614/)
 ## 171. Osteomielite em Pediatria
 
 **Suspeita.** Dor óssea localizada, febre, limitação funcional ou recusa de apoio podem representar osteomielite hematogênica, mesmo sem radiografia alterada inicialmente. Avaliar sepse, articulação adjacente e abscesso. Neonatos, doença falciforme, imunodeficiência e ferimento perfurante modificam patógenos prováveis e espectro.
