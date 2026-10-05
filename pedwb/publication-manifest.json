@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-05T02:45:00.000Z",
+  "publishedAt": "2026-10-05T03:58:00.000Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 34,
-  "savedCorpusSha256": "563c55e4a746a6fff243a3922f7571787307e9344e742f553d0ee2ff251c70c5",
-  "publicCorpusSha256": "186f30ca92aee2df447e4eacdcf0eff87c670cbe923c3e92be90af983ecb7a3f",
+  "sourceVersion": 35,
+  "savedCorpusSha256": "03e2ef34b3eefb45fd505f55ec2043e295613b95ab16980b50fb271edd91d6d9",
+  "publicCorpusSha256": "815cd1d299dc45c46d30f0ad0424a2a034c70099a8ee2968089198c5151e8eb5",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "996749be02c4fc01bdbf0e137933b291ff44a588",
+  "sourceBaselineCommit": "831c9ca7fbd2f440073b072324a79b9eb952f525",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
   "note": "Sínteses originais de fontes rastreáveis. Publicação documental não equivale a homologação clínica; estados parciais e pendências permanecem preservados.",
@@ -600,6 +600,20 @@
       "publicBlockSha256": "e7468586c1bf44dad350768b04a2c508e88139d84cc00025b23dfb217a7fb03a",
       "candidateSha256": "8fe0769af02d9323b9fac1ee6d7525b2632e0856fd98fbc3bd80e7587a5606b5",
       "reviewEnvelopeSha256": "15fbf50b235d3e2beed68557730135d38b83df6325681a1ec4eb5cbef2909076"
+    },
+    {
+      "title": "Febre Faringoconjuntival",
+      "savedOrdinal": 153,
+      "publicOrdinal": 147,
+      "stableIdentity": "pedwb:febre-faringoconjuntival",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Concluir gates clínico, farmacêutico/regulatório brasileiro, matemático/reverso e humano antes de promover analgésico, antitérmico, antiviral, antibiótico, colírio, produto, dose, concentração, volume ou prescrição.",
+      "bodySha256": "42f8f5ba258219457cb21c6700c63dfa9efa5fa730b904d4a505de49dda59c0e",
+      "savedBlockSha256": "a2f9ad0fc0dc4c3d40100beab754d665491b2a0e897b55284c432e9276e50d54",
+      "publicBlockSha256": "40026457cbfb2af9e453ad980b4f882af14ed91668b830c2f2e49d6fc71b4e2f",
+      "candidateSha256": "42f8f5ba258219457cb21c6700c63dfa9efa5fa730b904d4a505de49dda59c0e",
+      "reviewEnvelopeSha256": "e44c6db5f3e6a477f5207728b61a05240005d864927b58acd04c354b1699885d"
     }
   ],
   "previousPublication": {
