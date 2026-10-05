@@ -2866,15 +2866,49 @@ Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem ho
 [CDC — About Infectious Mononucleosis, 09/05/2024](https://www.cdc.gov/epstein-barr/about/mononucleosis.html) · [CDC — Laboratory Testing for EBV, 10/04/2024](https://www.cdc.gov/epstein-barr/php/laboratories/index.html) · [AMSSM — Mononucleosis and Athletic Participation, 2023](https://pubmed.ncbi.nlm.nih.gov/37186809/) · [Sylvester et al. — lesão esplênica e retorno ao esporte, 2019](https://pubmed.ncbi.nlm.nih.gov/31550435/) · [Cochrane — corticoides, 2015](https://www.cochrane.org/evidence/CD004402_steroids-short-term-symptom-control-infectious-mononucleosis-glandular-fever) · [Cochrane — antivirais, 2016](https://pubmed.ncbi.nlm.nih.gov/27933614/)
 ## 171. Osteomielite em Pediatria
 
-**Suspeita.** Dor óssea localizada, febre, limitação funcional ou recusa de apoio podem representar osteomielite hematogênica, mesmo sem radiografia alterada inicialmente. Avaliar sepse, articulação adjacente e abscesso. Neonatos, doença falciforme, imunodeficiência e ferimento perfurante modificam patógenos prováveis e espectro.
+### Status e escopo deste bloco
 
-**Exames.** Hemocultura antes do antibiótico quando não houver atraso; PCR/VHS ajudam seguimento. Radiografia exclui fratura/tumor e serve de referência; RM é o principal exame para delimitar foco, abscesso e extensão quando indicado. Obter cultura de osso/coleção durante procedimento. Criança instável recebe antimicrobiano sem esperar RM.
+**Revisão assistida por IA em 05/10/2026. Sem homologação humana. Não habilita prescrição, dose, cálculo automático nem seleção empírica fora de protocolo local.** Este subbloco revisa suspeita de osteomielite hematogênica aguda, investigação inicial, imagem, microbiologia, urgência do antimicrobiano, controle de foco, transição de via, resposta e seguimento. Produto, dose, intervalo, duração individual, preparo e ajustes permanecem fora do escopo ativo.
 
-**Terapia.** Para provável MSSA, o esquema de cefazolina do tema 128 é opção; MRSA depende de epidemiologia e gravidade. Abscesso, sequestro, instabilidade ou falha demandam avaliação de drenagem/desbridamento. Após resposta clínica e laboratorial, transição oral dirigida permite completar tratamento; não prolongar EV apenas por existir osteomielite. A diretriz PIDS/IDSA aceita 3–4 semanas totais em osteomielite aguda por S. aureus não complicada e de boa resposta; doença complexa precisa de prazo maior.
+### Suspeitar e delimitar
 
-**Monitorização.** Seguir dor, função, febre, PCR e tolerância medicamentosa; reavaliar diagnósticos e controle de foco se persistir bacteremia. Cultura e sensibilidade orientam estreitamento. Ajustar antibiótico à função renal e considerar uso fora da bula nas doses elevadas. Seguimento ortopédico verifica crescimento e sequela, especialmente com placa fisária acometida.
+Dor óssea localizada, febre, limitação funcional, claudicação ou recusa de apoiar/usar o membro podem representar osteomielite; febre pode faltar, especialmente em lactentes. Examinar osso, articulações adjacentes, partes moles, coluna e marcha, e procurar sepse, abscesso, ferida ou inoculação direta. Trauma, artrite séptica, piomiosite, discite, malignidade, fratura, inflamação não bacteriana e lesão não acidental são diferenciais relevantes.
 
-**Fontes: ** [PIDS/IDSA — osteomielite aguda pediátrica](https://www.idsociety.org/practice-guideline/bone-joint-infections---osteomyelitis/); [RCH — infecção osteoarticular](https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/)
+Idade, imunização, hemoglobinopatia, imunossupressão, exposição, perfuração e epidemiologia local modificam patógenos prováveis. A diretriz PIDS/IDSA de 2021 se aplica principalmente à osteomielite hematogênica aguda em crianças previamente saudáveis de 1 mês a menos de 18 anos; neonatos, osteomielite crônica, infecção por fungos/micobactérias, dispositivos, ferida aberta e disseminação contígua exigem abordagem própria.
+
+### Laboratório e microbiologia
+
+Colher hemocultura antes do antimicrobiano quando isso não atrasar cuidado urgente. PCR basal tem baixa acurácia diagnóstica isolada, mas auxilia seguimento seriado quando o diagnóstico é confirmado; VHS e hemograma podem complementar a avaliação. Marcadores normais não excluem doença precoce, crônica ou de pequenos ossos. Não usar procalcitonina rotineiramente para confirmar osteomielite hematogênica aguda.
+
+Quando factível e clinicamente indicado, aspirar/biopsiar osso ou coleção purulenta para Gram e cultura, sobretudo se houver procedimento terapêutico, hemocultura negativa ou falha. Criança toxêmica, com sepse ou progressão rápida recebe antimicrobiano empírico imediatamente; não esperar RM nem procedimento invasivo. Em criança estável com coleta invasiva já planejada, eventual espera deve ocorrer hospitalizada, por tempo limitado e com equipe experiente — nunca como atraso automático.
+
+### Imagem
+
+Radiografia simples é exame inicial útil para excluir fratura, tumor e outros diagnósticos, embora possa estar normal no início. Quando imagem adicional é necessária, a RM é preferida para definir localização, extensão, comprometimento medular/partes moles, abscesso e diagnóstico alternativo. Nem toda apresentação não complicada exige RM para confirmar o diagnóstico. Ultrassom auxilia quando há derrame articular ou coleção superficial; cintilografia pode localizar foco mal definido quando RM não está disponível, mas resultado positivo não é específico e negativo não exclui doença.
+
+### Tratamento e controle de foco
+
+O tratamento empírico deve cobrir *Staphylococcus aureus*; cobertura adicional e MRSA dependem de idade, apresentação, exposições, colonização/infecção prévia e suscetibilidade local. Após microbiologia e resposta, estreitar ao agente mais específico, eficaz e tolerável. **Nenhum antimicrobiano, dose, intervalo, duração, concentração, volume, diluição, velocidade, ajuste renal/hepático ou cálculo foi liberado neste bloco.** O esquema numérico antigo do tema e sua remissão automática ao tema 128 foram retirados do escopo ativo até gate farmacêutico brasileiro específico.
+
+Sepse ou infecção rapidamente progressiva exige avaliação para desbridamento/drenagem tão cedo quanto possível. Em criança estável, abscesso substancial documentado também favorece controle de foco; a diretriz PIDS/IDSA usa mais de 2 cm como referência condicional de evidência muito baixa, não como regra isolada. Considerar articulação adjacente e discutir com ortopedia; não adiar antimicrobiano na criança instável.
+
+### Resposta, transição e duração
+
+Monitorar febre, dor, edema, função, capacidade de apoiar/usar o membro e PCR seriada. Em resposta clínica e laboratorial adequada, preferir transição para opção oral ativa e tolerada quando disponível, em vez de manter terapia parenteral ambulatorial apenas pelo diagnóstico. Duração total depende de patógeno, controle de foco, local, complicações e velocidade da resposta. A faixa de três a quatro semanas da diretriz internacional se limita a osteomielite hematogênica aguda por *S. aureus* não complicada e com boa resposta; **não constitui duração automática nem prescrição neste portal**.
+
+Persistência de febre, dor, disfunção, bacteremia ou PCR sem melhora exige revisar diagnóstico, espectro, dose/adesão, penetração, resistência, foco não drenado e necessidade de nova cultura/imagem. Não ampliar antimicrobiano sem reavaliar adequação e controle de foco.
+
+### Alta e seguimento
+
+Alta requer estabilidade, melhora clínica/laboratorial, plano antimicrobiano exequível, tolerância, uso do membro conforme evolução e retorno garantido. Acompanhamento especializado por pelo menos um ano é sugerido para risco de sequela, como placa fisária, curso complicado, cirurgia relevante, recidiva ou função persistente anormal. Retorno imediato por febre recorrente, piora da dor, edema, incapacidade funcional, toxicidade medicamentosa ou sinais de sepse.
+
+### Estado da revisão
+
+Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem homologação humana. O escopo diagnóstico, de imagem, microbiologia, urgência, controle de foco, transição de via, resposta e seguimento foi revisado. Neonatos, osteomielite crônica/não bacteriana, artrite séptica, coluna, pé perfurado, doença falciforme, imunodeficiência e toda farmacoterapia quantitativa permanecem dependentes de protocolos e gates próprios.
+
+### Fontes verificadas em 05/10/2026
+
+[PIDS/IDSA — Acute Hematogenous Osteomyelitis in Pediatrics, publicada em 05/08/2021](https://www.idsociety.org/practice-guideline/bone-joint-infections---osteomyelitis/) · [Woods et al., JPIDS 2021, DOI 10.1093/jpids/piab027](https://pubmed.ncbi.nlm.nih.gov/34350458/) · [Royal Children's Hospital Melbourne — Bone and joint infection, atualização de agosto de 2021](https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/)
 
 ## 172. Paracoccidioidomicose em Pediatria
 
