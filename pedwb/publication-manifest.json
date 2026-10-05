@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-05T06:31:20.185Z",
+  "publishedAt": "2026-10-05T07:12:00Z",
   "kind": "documentary_saved_delta",
-  "sourceVersion": 37,
-  "savedCorpusSha256": "d4d6aea692eeebdac630a12fe7ec5ab15e65dac10b5748288dc4acfa11a694e5",
-  "publicCorpusSha256": "36ab5cf327a072625e656d8d8086019cfe1f4f055a8b26f607934f9cee51b303",
+  "sourceVersion": 38,
+  "savedCorpusSha256": "730a7edba36d95614b8ffde3be06d8c07c20e52400e2a34d69c38041cc9a0a63",
+  "publicCorpusSha256": "53d441074b0d1d291128623561d594078e796415b49644ee58843d131d485150",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
-  "sourceBaselineCommit": "7e33f32795f29789b1eff7ea6498092ec625ed11",
+  "sourceBaselineCommit": "88bb1f69b86f34395627ac45d3a0c0dfd0d887e4",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
-  "note": "Herpes Congênita/HSV neonatal recebeu revisão escopada com estadiamento, tratamento de alta dose e checagem farmacêutica/matemática específica da bula Blau; a confirmação direta no Bulário/Anvisa, transferência entre fabricantes, algoritmo completo de exposição e cálculo oral permanecem excluídos.",
+  "note": "Herpes Simples em Pediatria recebeu revisão escopada da gengivoestomatite primária, separando regimes divergentes e bloqueando conversão para mL sem produto brasileiro confirmado.",
   "topics": [
     {
       "title": "Estenose Hipertrófica do Piloro",
@@ -642,6 +642,18 @@
       "publicBlockSha256": "f65128cc54cc483f6dba289db6366867202fe29ad0bbe90e84bcd3503b067b1c",
       "candidateSha256": "f305876c4122b7ef61739f5aa9375de685aafe639e7a6581a7ff31b5a975acd4",
       "reviewEnvelopeSha256": "e2b255b4e9870ee1d55db14ae368ca1d3a8f7e5067b1ca527970ebb524ced9c1"
+    },
+    {
+      "title": "Herpes Simples em Pediatria",
+      "savedOrdinal": 156,
+      "publicOrdinal": 166,
+      "stableIdentity": "pedwb:herpes-simples-em-pediatria",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Recuperar fonte primária brasileira atual de eventual suspensão oral, concentração, dispositivo e preparo; selecionar protocolo institucional pediátrico, ajuste renal e apresentação antes de prescrição operacional; concluir fenótipos excluídos e revisão humana.",
+      "bodySha256": "dc89d1ad418e26bf65b5d33a8698ad59f69477de7880d96615f0d85b282e4fea",
+      "savedBlockSha256": "dc89d1ad418e26bf65b5d33a8698ad59f69477de7880d96615f0d85b282e4fea",
+      "publicBlockSha256": "5c63f81ce3a43352fb71d4e1a06ac9e3c8df75b7686d70f3c64445907a8907a0"
     }
   ],
   "previousPublication": {
