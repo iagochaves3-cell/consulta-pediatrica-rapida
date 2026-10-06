@@ -3058,15 +3058,55 @@ Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem ho
 
 ## 174. Sarampo
 
-**Tempo-dependente.** Febre, tosse, coriza, conjuntivite e exantema descendente levantam suspeita de sarampo. Isolar por aerossóis, evitar sala de espera compartilhada e notificar imediatamente. Coletar amostras para PCR/sorologia conforme vigilância; não aguardar confirmação para precauções. Hipoxemia, desconforto respiratório, desidratação, alteração mental ou convulsões requerem hospital.
+**Revisão assistida por IA em 05/10/2026 (BRT). Sem homologação humana. Não habilita prescrição, dose, calendário vacinal, profilaxia de contatos ou cálculo automático.** Este bloco revisa o escopo não posológico do sarampo em crianças e adolescentes: suspeita, isolamento, notificação, investigação, coleta, diferenciais, complicações, destino e seguimento. Vitamina A, imunoglobulina, vacina pós-exposição e qualquer antimicrobiano exigem gate farmacêutico próprio.
 
-**Tratamento.** Suporte de hidratação/nutrição e avaliação de pneumonia, otite e encefalite. Vitamina A, por VO, uma dose ao dia por dois dias: menores de 6 meses 50.000 UI; 6–11 meses 100.000 UI; 12 meses ou mais 200.000 UI. Não confundir UI com mg nem prescrever dose diária prolongada. A apresentação deve permitir medir exatamente o conteúdo; volume=UI prescritas/UI por mL. Não há antiviral específico de rotina e antibiótico não é indicado preventivamente a todos: tratar infecção bacteriana quando identificada/suspeita consistente.
+### Suspeita clínica e definição operacional brasileira
 
-**Segurança.** Vitamina A em excesso é tóxica, sobretudo para fígado e SNC; revisar suplementos concomitantes. Criança com deficiência clínica pode precisar de dose adicional posteriormente, sob avaliação. Corticoide não integra rotina do sarampo não complicado.
+Suspeitar diante de febre e exantema maculopapular morbiliforme de progressão cefalocaudal, acompanhados de tosse, coriza ou conjuntivite, independentemente da idade e da situação vacinal. A definição brasileira atual também abrange febre e exantema com viagem, nos 30 dias anteriores, para local com circulação do vírus ou contato com viajante, e febre com exantema maculopapular e IgM reagente para sarampo.
 
-**Reavaliação e contatos.** Monitorar respiração, saturação, ingestão e neurologia. Internar lactente vulnerável ou complicações; assegurar seguimento após alta. Vigilância define bloqueio vacinal ou imunoglobulina pós-exposição para contatos elegíveis. A vitamina A auxilia manejo, mas não substitui vacinação nem impede transmissão.
+O pródromo costuma incluir febre, mal-estar, tosse, coriza e conjuntivite; manchas de Koplik podem preceder o exantema, mas sua ausência não exclui sarampo. Apresentações modificadas podem ser mais leves, e pessoas imunocomprometidas podem ter exantema atípico ou ausente. A vacinação documentada reduz a probabilidade, porém não deve atrasar precauções e investigação quando a clínica e a epidemiologia forem compatíveis.
 
-**Fontes: ** [CDC Yellow Book — sarampo e vitamina A](https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html); [CDC — prevenção/tratamento 2026](https://cdc.gov/measles/media/pdfs/2026/05/measles-prevention-and-treatment-overview.pdf)
+### Primeiras ações no serviço
+
+Separar imediatamente o caso suspeito dos demais pacientes, evitar sala de espera compartilhada, fornecer máscara ao paciente conforme idade e tolerância e instituir precauções para aerossóis. Em unidade de saúde, preferir quarto de isolamento respiratório quando disponível; profissionais que entrarem no ambiente devem usar respirador adequado para aerossóis. Avisar previamente o serviço receptor antes de qualquer transferência.
+
+Notificar imediatamente a vigilância epidemiológica local, em até 24 horas, registrar no fluxo oficial e iniciar a investigação sem aguardar confirmação laboratorial. A vigilância municipal deve investigar em até 48 horas. Reconstruir locais e contatos, situação vacinal documentada, viagem e possível fonte de exposição.
+
+Para a vigilância brasileira, considerar o período de transmissibilidade de seis dias antes até quatro dias após o início do exantema. Manter isolamento até o quarto dia após o início do exantema, considerando o dia do exantema como dia zero. Em imunocomprometidos, a eliminação viral pode ser prolongada; a duração deve ser definida com infectologia, controle de infecção e vigilância, sem aplicar automaticamente a regra de quatro dias.
+
+O vírus pode permanecer infeccioso no ar de ambiente fechado por até duas horas após a saída do caso. Esse intervalo deve orientar identificação de exposições em recepção, transporte, escola, creche, domicílio e outros espaços fechados. O roteiro brasileiro orienta monitorar contatos por até 30 dias após a última exposição quando o caso for confirmado, ou até o descarte do caso suspeito. Bloqueio vacinal, vacina pós-exposição e imunoglobulina são decisões da vigilância e permanecem fora deste bloco.
+
+### Confirmação e coleta
+
+Coordenar com a vigilância, preferencialmente no primeiro atendimento, a coleta de sangue para sorologia e de amostras para RT-qPCR. O fluxo brasileiro atual utiliza soro para IgM/IgG, swab combinado de nasofaringe e orofaringe e urina para detecção e caracterização viral.
+
+O soro deve ser coletado entre o primeiro e o trigésimo dia após o início do exantema. O swab respiratório deve ser obtido preferencialmente entre o primeiro e o sétimo dia e, no máximo, até o décimo quarto dia. A urina deve ser coletada preferencialmente entre o primeiro e o sétimo dia e, no máximo, até o décimo dia. Fora da janela ideal, discutir com vigilância e laboratório; não descartar a suspeita apenas por atraso de coleta.
+
+IgM reagente isolada não encerra a investigação: vacinação recente, baixa prevalência e reatividade cruzada podem produzir resultados difíceis de interpretar. IgM negativa muito precoce também não exclui sarampo. Integrar cronologia, vínculo epidemiológico, RT-qPCR, sorologia e, quando indicado, nova amostra. A caracterização molecular ajuda a distinguir vírus selvagem de reação pós-vacinal e a reconstruir cadeias de transmissão.
+
+### Diferenciais e complicações
+
+Considerar rubéola, exantema súbito, parvovírus B19, adenovírus e enterovírus, dengue, zika, chikungunya, escarlatina, rickettsioses, mononucleose e reação medicamentosa conforme clínica e epidemiologia. Não retirar precauções de aerossóis apenas porque outro exantema parece mais provável antes da avaliação da vigilância.
+
+Procurar ativamente otite média, laringotraqueobronquite, pneumonia, diarreia e desidratação. Persistência ou recrudescimento da febre após o aparecimento do exantema, hipoxemia, desconforto respiratório, incapacidade de ingerir líquidos, oligúria, alteração de consciência, convulsão, déficit focal, instabilidade ou piora rápida exigem avaliação hospitalar. Encefalite aguda é rara, mas pode causar sequela neurológica. A panencefalite esclerosante subaguda é uma complicação tardia rara e fatal, que deve ser lembrada diante de regressão cognitiva, mudança comportamental, mioclonias ou crises anos após sarampo.
+
+### Tratamento, destino e seguimento
+
+Não há antiviral específico de rotina. Oferecer suporte individualizado, hidratação, nutrição, controle de sintomas e tratamento dirigido das complicações. Antibiótico não deve ser usado preventivamente no sarampo não complicado; infecção bacteriana secundária requer diagnóstico e protocolo próprio. Corticoide e ribavirina não integram o manejo rotineiro do sarampo simples.
+
+O Ministério da Saúde recomenda vitamina A para crianças com suspeita de sarampo, mas este bloco não aprova produto, apresentação, dose, intervalo, duração nem volume. A recomendação quantitativa anterior foi retirada da promoção porque ainda exige revisão farmacêutica brasileira, conferência dimensional e cálculo reverso independentes. Vitamina A não previne sarampo, não substitui vacinação e pode causar toxicidade quando usada inadequadamente.
+
+Alta somente se a criança estiver estável, sem hipoxemia ou complicação que exija internação, hidratando-se e com capacidade real de cumprir isolamento, investigação e seguimento. Orientar retorno imediato para piora respiratória, desidratação, febre persistente ou recorrente, sonolência, convulsão, fraqueza, alteração visual ou piora geral.
+
+Lactentes, menores de cinco anos, pessoas com desnutrição, gestantes e imunocomprometidos apresentam maior risco de complicações. Gestante exposta e pessoa imunocomprometida exposta devem ser comunicadas imediatamente à vigilância e avaliadas por equipe especializada; não decidir vacina ou imunoglobulina por este texto.
+
+### Estado da revisão
+
+Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem homologação humana. O escopo não posológico de reconhecimento, vigilância, precauções, confirmação, diferenciais, complicações, destino e seguimento foi revisado. Vitamina A, vacina, imunoglobulina, profilaxia de contatos, calendários, produtos, doses e cálculos permanecem fora do escopo até gates clínico, farmacêutico, matemático e reverso próprios.
+
+### Fontes verificadas em 05/10/2026 (BRT)
+
+[Ministério da Saúde — Nota Técnica Conjunta nº 344/2025](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2025/nota-tecnica-conjunta-no-344-2025-cgvdi-dpni-svsa-ms.pdf/@@download/file) · [Ministério da Saúde — Nota Técnica Conjunta nº 345/2025](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2025/nota-tecnica-conjunta-no-345-2025-cgvdi-dpni-svsa-ms.pdf/@@download/file) · [Ministério da Saúde — Nota Técnica nº 64/2025](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rubeola/notas-tecnicas-e-informativas/nota-tecnica-no-64-2025-cglab-svsa-ms) · [Ministério da Saúde — Sarampo](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sarampo/sarampo) · [OMS — Measles, 15/07/2026](https://www.who.int/news-room/fact-sheets/detail/measles) · [CDC — Clinical Overview of Measles, atualizado em 05/08/2026](https://www.cdc.gov/measles/hcp/clinical-overview/index.html) · [Zubach et al. — acurácia de testes sorológicos, 2024; PMID 38275299](https://pubmed.ncbi.nlm.nih.gov/38275299/) · [Yang et al. — vitamina A para tratar sarampo, Cochrane CD001479](https://www.cochrane.org/evidence/CD001479_vitamin-measles-children) · [Xavier et al. — diagnóstico clínico e laboratorial no Brasil, SciELO, 2019](https://www.scielo.br/j/jbpml/a/d4HfzvcFGZ75SYHL9ZZhkkt/)
 
 ## 175. Sepse em Pediatria
 
