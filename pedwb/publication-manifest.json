@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-05T07:12:00Z",
+  "publishedAt": null,
   "kind": "documentary_saved_delta",
   "sourceVersion": 38,
   "savedCorpusSha256": "730a7edba36d95614b8ffde3be06d8c07c20e52400e2a34d69c38041cc9a0a63",
-  "publicCorpusSha256": "53d441074b0d1d291128623561d594078e796415b49644ee58843d131d485150",
+  "publicCorpusSha256": "b47fdb12bb1ab130ed1ee5344187f13ab91e24a16a643b0342bbb7bbabe14699",
   "sourceRepository": "iagochaves3-cell/consulta-pediatrica-rapida",
   "sourceBaselineCommit": "88bb1f69b86f34395627ac45d3a0c0dfd0d887e4",
   "humanClinicalApproval": false,
   "prescriptionOrCalculatorEnabled": false,
-  "note": "Herpes Simples em Pediatria recebeu revisão escopada da gengivoestomatite primária, separando regimes divergentes e bloqueando conversão para mL sem produto brasileiro confirmado.",
+  "note": "Atualização documental escopada dos temas Rubéola, Sarampo, Sepse em Pediatria e Síndrome da Pele Escaldada: dez correções delimitadas e quatro blocos práticos de trechos sustentados. Não certifica capítulos inteiros, posologia, cálculo ou homologação humana. Os registros históricos preservados não foram revalidados por esta edição.",
   "topics": [
     {
       "title": "Estenose Hipertrófica do Piloro",
@@ -654,10 +654,104 @@
       "bodySha256": "dc89d1ad418e26bf65b5d33a8698ad59f69477de7880d96615f0d85b282e4fea",
       "savedBlockSha256": "dc89d1ad418e26bf65b5d33a8698ad59f69477de7880d96615f0d85b282e4fea",
       "publicBlockSha256": "5c63f81ce3a43352fb71d4e1a06ac9e3c8df75b7686d70f3c64445907a8907a0"
+    },
+    {
+      "title": "Rubéola",
+      "savedOrdinal": null,
+      "publicOrdinal": 173,
+      "stableIdentity": "pedwb:rubeola",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Verificar aplicação/deployment/bloco literal em produção e manter separadas as lacunas de evidência por campo; capítulos, farmacoterapia e homologação humana permanecem não certificados.",
+      "bodySha256": "096f89753334d7aacc60de1f14c75bd9628b2ffe0c601561161db204fd27d189",
+      "savedBlockSha256": null,
+      "publicBlockSha256": "096f89753334d7aacc60de1f14c75bd9628b2ffe0c601561161db204fd27d189",
+      "candidateSha256": "096f89753334d7aacc60de1f14c75bd9628b2ffe0c601561161db204fd27d189",
+      "reviewEnvelopeSha256": "e43672f9c2ecda49f898735743122006000fbd89c1164e88e1d3e58eec39c31d",
+      "savedLibraryReadOrWriteObserved": false
+    },
+    {
+      "title": "Sarampo",
+      "savedOrdinal": null,
+      "publicOrdinal": 174,
+      "stableIdentity": "pedwb:sarampo",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Verificar aplicação/deployment/bloco literal em produção e manter separadas as lacunas de evidência por campo; capítulos, farmacoterapia e homologação humana permanecem não certificados.",
+      "bodySha256": "426f38e374afa4b30ec3814c84b94815686fdd109d2f589d0ae2aa03aea83e03",
+      "savedBlockSha256": null,
+      "publicBlockSha256": "426f38e374afa4b30ec3814c84b94815686fdd109d2f589d0ae2aa03aea83e03",
+      "candidateSha256": "426f38e374afa4b30ec3814c84b94815686fdd109d2f589d0ae2aa03aea83e03",
+      "reviewEnvelopeSha256": "4939062c0c16ed47303db2b2413e31308fa7351b8e229efc0823cbce4df04308",
+      "savedLibraryReadOrWriteObserved": false
+    },
+    {
+      "title": "Sepse em Pediatria",
+      "savedOrdinal": null,
+      "publicOrdinal": 175,
+      "stableIdentity": "pedwb:sepse-em-pediatria",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Verificar aplicação/deployment/bloco literal em produção e manter separadas as lacunas de evidência por campo; capítulos, farmacoterapia e homologação humana permanecem não certificados.",
+      "bodySha256": "43669ad664cc493d8a650d75c307950343990310dcdfe0467a10cbfbda9378ad",
+      "savedBlockSha256": null,
+      "publicBlockSha256": "43669ad664cc493d8a650d75c307950343990310dcdfe0467a10cbfbda9378ad",
+      "candidateSha256": "43669ad664cc493d8a650d75c307950343990310dcdfe0467a10cbfbda9378ad",
+      "reviewEnvelopeSha256": "f2c1d0682a23bee528b11b7aa46f17a2e65b790cbee16ba8b254a259f8b4b324",
+      "savedLibraryReadOrWriteObserved": false
+    },
+    {
+      "title": "Síndrome da Pele Escaldada",
+      "savedOrdinal": null,
+      "publicOrdinal": 176,
+      "stableIdentity": "pedwb:sindrome-da-pele-escaldada",
+      "reviewStatus": "partially_reviewed",
+      "humanApproval": false,
+      "pendingAction": "Verificar aplicação/deployment/bloco literal em produção e manter separadas as lacunas de evidência por campo; capítulos, farmacoterapia e homologação humana permanecem não certificados.",
+      "bodySha256": "8c2a7685b8766881328f1396b4122e55f6e85ff523b75d9f2cd5f1f7c4d0f1df",
+      "savedBlockSha256": null,
+      "publicBlockSha256": "8c2a7685b8766881328f1396b4122e55f6e85ff523b75d9f2cd5f1f7c4d0f1df",
+      "candidateSha256": "8c2a7685b8766881328f1396b4122e55f6e85ff523b75d9f2cd5f1f7c4d0f1df",
+      "reviewEnvelopeSha256": "ad03c53b1ebb9cc3684a5674a6df2973b7b137961927ab41351ed0cd1d2a1db8",
+      "savedLibraryReadOrWriteObserved": false
     }
   ],
   "previousPublication": {
-    "commit": "17d707bd2ec9fe4bf0235f9a16eeb51f3fb053dd",
-    "note": "Tema 154 publicado; esta versão acrescenta o subescopo revisado do tema 155, preservando pendências regulatórias, de produto e de revisão humana."
+    "commit": "1f3fda0fa859ca38532b70885b5cda315cd57c13",
+    "note": "Baseline Git atual observado antes do patch; estado e evidências das publicações anteriores permanecem preservados.",
+    "historicalPreviousPublication": {
+      "commit": "17d707bd2ec9fe4bf0235f9a16eeb51f3fb053dd",
+      "note": "Tema 154 publicado; esta versão acrescenta o subescopo revisado do tema 155, preservando pendências regulatórias, de produto e de revisão humana."
+    },
+    "historicalPublishedAt": "2026-10-05T07:12:00Z",
+    "historicalPublicCorpusSha256": "53d441074b0d1d291128623561d594078e796415b49644ee58843d131d485150"
+  },
+  "preparedAt": "2026-10-06T03:38:39.962721+00:00",
+  "gitBaselineCommit": "1f3fda0fa859ca38532b70885b5cda315cd57c13",
+  "publicationRequestedAt": "2026-10-06T03:38:39.962721+00:00",
+  "publicationTimestampMeaning": "publishedAt nulo: nenhuma evidência de deployment neste manifesto. publicationRequestedAt é o preparo/submissão solicitada ao controlador; publicação real e identidade do commit/deployment serão registradas e verificadas externamente.",
+  "sourceProvenance": {
+    "sourceVersion": 38,
+    "savedCorpusSha256Meaning": "SHA histórico da edição38 da Library; preservado, não relido nem regravado nesta rodada.",
+    "sourceBaselineCommitMeaning": "Baseline histórico88bb da edição anterior, preservado.",
+    "currentLibraryReadOrWriteVerified": false,
+    "currentGitRead": {
+      "repository": "iagochaves3-cell/consulta-pediatrica-rapida",
+      "branch": "principal",
+      "path": "pedwb/PedWB_Consolidado.md",
+      "baselineCommit": "1f3fda0fa859ca38532b70885b5cda315cd57c13",
+      "baselineCorpusSha256": "69ade498975d136c6b4951b3fe22356f2533e91d1b30d56c059a9daf6b81232a"
+    },
+    "newPublicCorpusMeaning": "Candidato Git canônico com alterações escopadas; publicação/deployment ainda pendentes.",
+    "historicalManifest": {
+      "path": "/tmp/soberania-r28-wb-sources/control-fresh/PedWB-publication-manifest-current-native.json",
+      "bytes": 43626,
+      "sha256": "284ab2af56e64ed4fe6a44c42e34d37fccfb30273a1d8544725ab93069432faf"
+    },
+    "historicalEvidence": {
+      "path": "/tmp/soberania-r28-wb-sources/control-fresh/PedWB-publication-evidence-current-native.json",
+      "bytes": 195420,
+      "sha256": "52e54db474ab2320f34902deb7803c1e22049c26658c8336eead7bdec236b1d2"
+    }
   }
 }

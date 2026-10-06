@@ -3048,13 +3048,29 @@ Gestante exposta ou com suspeita clínica/laboratorial requer avaliação obsté
 
 Em recém-nascido/lactente com exposição gestacional ou achados compatíveis — especialmente deficiência auditiva, catarata/outra alteração ocular, cardiopatia congênita, restrição de crescimento, púrpura ou alterações neurológicas — acionar pediatria/infectologia e vigilância para investigação de SRC. Organizar avaliação auditiva, oftalmológica, cardíaca, de crescimento e desenvolvimento. Lactentes com SRC podem eliminar vírus por período prolongado; precauções e liberação devem seguir vigilância e controle de infecção, não a regra de sete dias da rubéola adquirida.
 
+### Orientação prática para profissionais de saúde
+
+<!-- infoswb:bloco-final:inicio -->
+173. Rubéola
+
+Leitura profissional — rubéola adquirida na criança/adolescente.
+
+Primeiras ações no serviço
+
+Manter isolamento por sete dias após o início do exantema. Se houver exposição potencial de gestante, iniciar o controle do surto sem esperar a confirmação.
+
+Confirmação e interpretação dos testes
+
+Não confirmar rubéola aguda por uma IgM isolada fora de contexto. Em cenário de baixa prevalência, resultados falso-positivos ganham importância e podem ocorrer por reatividade cruzada com outros exantemas virais ou fator reumatoide. IgM solicitada como “triagem de imunidade” é inadequada: imunidade é avaliada com IgG/documentação vacinal conforme o protocolo, enquanto IgM deve ser reservada à suspeita de doença aguda.
+<!-- infoswb:bloco-final:fim -->
+
 ### Estado da revisão
 
 Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem homologação humana. O escopo não posológico de reconhecimento, vigilância, precauções, confirmação, diferenciais, complicações, destino e encaminhamento foi revisado. Produtos, doses, calendário vacinal completo, profilaxia de contatos, investigação materno-fetal detalhada e manejo da SRC permanecem fora do escopo ou dependentes de protocolo próprio.
 
 ### Fontes verificadas em 05/10/2026
 
-[Ministério da Saúde — Rubéola](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rubeola) · [Ministério da Saúde — Notificação/Investigação e Roteiro 2025, atualizado em 06/07/2026](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rubeola/notificacao-investigacao) · [OMS — Rubella, 15/07/2026](https://www.who.int/news-room/fact-sheets/detail/rubella) · [CDC — Clinical Overview of Rubella, 15/07/2024](https://www.cdc.gov/rubella/hcp/clinical-overview/index.html) · [CDC — Manual for Surveillance of Vaccine-Preventable Diseases, Chapter 14](https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-14-rubella.html) · [Zubach et al. — acurácia de testes sorológicos, 2024; PMID 38275299](https://pubmed.ncbi.nlm.nih.gov/38275299/) · [Filardo et al. — adequação do teste IgM, 2024; PMID 39053655](https://pubmed.ncbi.nlm.nih.gov/39053655/) · [Lanzieri et al. — impacto da vacinação e vigilância da SRC no Brasil, 2007; SciELO](https://www.scielo.br/j/jped/a/jRmY9XVLDrJHcNSJQRjD4ry/)
+[Ministério da Saúde — Rubéola](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rubeola) · [Ministério da Saúde — Notificação/Investigação (página atualizada em 10/10/2025) e Roteiro 2025 (item publicado em 06/07/2026)](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rubeola/notificacao-investigacao) · [OMS — Rubella, 15/07/2026](https://www.who.int/news-room/fact-sheets/detail/rubella) · [CDC — Clinical Overview of Rubella, 15/07/2024](https://www.cdc.gov/rubella/hcp/clinical-overview/index.html) · [CDC — Manual for Surveillance of Vaccine-Preventable Diseases, Chapter 14](https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-14-rubella.html) · [Zubach et al. — acurácia de testes sorológicos, 2024; PMID 38275299](https://pubmed.ncbi.nlm.nih.gov/38275299/) · [Filardo et al. — adequação do teste IgM, 2024; PMID 39053655](https://pubmed.ncbi.nlm.nih.gov/39053655/) · [Lanzieri et al. — impacto da vacinação e vigilância da SRC no Brasil, 2007; SciELO](https://www.scielo.br/j/jped/a/jRmY9XVLDrJHcNSJQRjD4ry/)
 
 ## 174. Sarampo
 
@@ -3062,7 +3078,7 @@ Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem ho
 
 ### Suspeita clínica e definição operacional brasileira
 
-Suspeitar diante de febre e exantema maculopapular morbiliforme de progressão cefalocaudal, acompanhados de tosse, coriza ou conjuntivite, independentemente da idade e da situação vacinal. A definição brasileira atual também abrange febre e exantema com viagem, nos 30 dias anteriores, para local com circulação do vírus ou contato com viajante, e febre com exantema maculopapular e IgM reagente para sarampo.
+Suspeitar diante de febre e exantema maculopapular morbiliforme de progressão cefalocaudal, acompanhados de tosse, coriza ou conjuntivite, independentemente da idade e da situação vacinal. A definição brasileira atual também abrange febre e exantema com viagem, nos 30 dias anteriores, para local com circulação do vírus do sarampo ou contato, no mesmo período, com pessoa que viajou para local com circulação viral, e febre com exantema maculopapular e IgM reagente para sarampo.
 
 O pródromo costuma incluir febre, mal-estar, tosse, coriza e conjuntivite; manchas de Koplik podem preceder o exantema, mas sua ausência não exclui sarampo. Apresentações modificadas podem ser mais leves, e pessoas imunocomprometidas podem ter exantema atípico ou ausente. A vacinação documentada reduz a probabilidade, porém não deve atrasar precauções e investigação quando a clínica e a epidemiologia forem compatíveis.
 
@@ -3072,7 +3088,7 @@ Separar imediatamente o caso suspeito dos demais pacientes, evitar sala de esper
 
 Notificar imediatamente a vigilância epidemiológica local, em até 24 horas, registrar no fluxo oficial e iniciar a investigação sem aguardar confirmação laboratorial. A vigilância municipal deve investigar em até 48 horas. Reconstruir locais e contatos, situação vacinal documentada, viagem e possível fonte de exposição.
 
-Para a vigilância brasileira, considerar o período de transmissibilidade de seis dias antes até quatro dias após o início do exantema. Manter isolamento até o quarto dia após o início do exantema, considerando o dia do exantema como dia zero. Em imunocomprometidos, a eliminação viral pode ser prolongada; a duração deve ser definida com infectologia, controle de infecção e vigilância, sem aplicar automaticamente a regra de quatro dias.
+Para a vigilância brasileira, considerar o período de transmissibilidade de seis dias antes até quatro dias após o início do exantema. Manter isolamento até o quarto dia após o início do exantema, considerando o dia do exantema como dia zero. Em imunocomprometidos, a eliminação viral pode ser prolongada; manter precauções para aerossóis durante toda a doença, com duração definida em conjunto com infectologia, controle de infecção e vigilância, sem aplicar automaticamente a regra de quatro dias.
 
 O vírus pode permanecer infeccioso no ar de ambiente fechado por até duas horas após a saída do caso. Esse intervalo deve orientar identificação de exposições em recepção, transporte, escola, creche, domicílio e outros espaços fechados. O roteiro brasileiro orienta monitorar contatos por até 30 dias após a última exposição quando o caso for confirmado, ou até o descarte do caso suspeito. Bloqueio vacinal, vacina pós-exposição e imunoglobulina são decisões da vigilância e permanecem fora deste bloco.
 
@@ -3094,11 +3110,27 @@ Procurar ativamente otite média, laringotraqueobronquite, pneumonia, diarreia e
 
 Não há antiviral específico de rotina. Oferecer suporte individualizado, hidratação, nutrição, controle de sintomas e tratamento dirigido das complicações. Antibiótico não deve ser usado preventivamente no sarampo não complicado; infecção bacteriana secundária requer diagnóstico e protocolo próprio. Corticoide e ribavirina não integram o manejo rotineiro do sarampo simples.
 
-O Ministério da Saúde recomenda vitamina A para crianças com suspeita de sarampo, mas este bloco não aprova produto, apresentação, dose, intervalo, duração nem volume. A recomendação quantitativa anterior foi retirada da promoção porque ainda exige revisão farmacêutica brasileira, conferência dimensional e cálculo reverso independentes. Vitamina A não previne sarampo, não substitui vacinação e pode causar toxicidade quando usada inadequadamente.
+O Ministério da Saúde recomenda vitamina A, mediante avaliação clínica e/ou nutricional por profissional de saúde, para crianças com suspeita de sarampo, mas este bloco não aprova produto, apresentação, dose, intervalo, duração nem volume. A recomendação quantitativa anterior foi retirada da promoção porque ainda exige revisão farmacêutica brasileira, conferência dimensional e cálculo reverso independentes. Vitamina A não previne sarampo, não substitui vacinação e pode causar toxicidade quando usada inadequadamente.
 
 Alta somente se a criança estiver estável, sem hipoxemia ou complicação que exija internação, hidratando-se e com capacidade real de cumprir isolamento, investigação e seguimento. Orientar retorno imediato para piora respiratória, desidratação, febre persistente ou recorrente, sonolência, convulsão, fraqueza, alteração visual ou piora geral.
 
 Lactentes, menores de cinco anos, pessoas com desnutrição, gestantes e imunocomprometidos apresentam maior risco de complicações. Gestante exposta e pessoa imunocomprometida exposta devem ser comunicadas imediatamente à vigilância e avaliadas por equipe especializada; não decidir vacina ou imunoglobulina por este texto.
+
+### Orientação prática para profissionais de saúde
+
+<!-- infoswb:bloco-final:inicio -->
+174. Sarampo
+
+Leitura profissional — crianças e adolescentes.
+
+Primeiras ações no serviço
+
+Separar imediatamente o caso suspeito dos demais pacientes, evitar sala de espera compartilhada, fornecer máscara ao paciente conforme idade e tolerância e instituir precauções para aerossóis. Em unidade de saúde, preferir quarto de isolamento respiratório quando disponível; profissionais que entrarem no ambiente devem usar respirador adequado para aerossóis. Avisar previamente o serviço receptor antes de qualquer transferência.
+
+Notificar imediatamente a vigilância epidemiológica local, em até 24 horas, registrar no fluxo oficial e iniciar a investigação sem aguardar confirmação laboratorial. A vigilância municipal deve investigar em até 48 horas. Reconstruir locais e contatos, situação vacinal documentada, viagem e possível fonte de exposição.
+
+Para a vigilância brasileira, considerar o período de transmissibilidade de seis dias antes até quatro dias após o início do exantema. Manter isolamento até o quarto dia após o início do exantema, considerando o dia do exantema como dia zero. Em imunocomprometidos, a eliminação viral pode ser prolongada; manter precauções para aerossóis durante toda a doença, com duração definida em conjunto com infectologia, controle de infecção e vigilância, sem aplicar automaticamente a regra de quatro dias.
+<!-- infoswb:bloco-final:fim -->
 
 ### Estado da revisão
 
@@ -3110,7 +3142,7 @@ Revisão documental parcial por IA, sem acesso ao Whitebook autenticado e sem ho
 
 ## 175. Sepse em Pediatria
 
-**Revisão assistida por IA em 05/10/2026 (BRT). Sem homologação humana. Não habilita prescrição, preparo de vasoativo, concentração de bomba ou cálculo automático.** Este bloco trata do reconhecimento e do manejo inicial de sepse em crianças e adolescentes. Recém-nascidos e prematuros exigem protocolo neonatal específico. A Phoenix Sepsis Score foi desenvolvida para crianças de 1 mês a menos de 18 anos com suspeita de infecção; não deve ser usada como barreira de triagem nem para atrasar tratamento antes de a disfunção orgânica estar plenamente estabelecida.
+**Revisão assistida por IA em 05/10/2026 (BRT). Sem homologação humana. Não habilita prescrição, preparo de vasoativo, concentração de bomba ou cálculo automático.** Este bloco trata do reconhecimento e do manejo inicial de sepse em crianças e adolescentes. Recém-nascidos e prematuros exigem protocolo neonatal específico. A Phoenix Sepsis Score foi desenvolvida para pacientes menores de 18 anos com suspeita de infecção, excluindo hospitalizações desde o nascimento e crianças com idade pós-concepcional inferior a 37 semanas; não deve ser usada como barreira de triagem nem para atrasar tratamento antes de a disfunção orgânica estar plenamente estabelecida.
 
 ### Reconhecimento e primeiras ações
 
@@ -3138,7 +3170,25 @@ Usar perfusão, pressão arterial, estado mental, diurese, tendência do lactato
 
 Não usar hidrocortisona se fluidos e vasoativos restauraram estabilidade hemodinâmica. Quando a instabilidade persiste apesar dessas medidas, a evidência é insuficiente para recomendar a favor ou contra seu uso rotineiro; suspeita ou confirmação de insuficiência adrenal exige reposição de estresse conforme protocolo específico. Não usar rotineiramente vitamina C intravenosa, tiamina, imunoglobulina intravenosa ou vitamina D em dose aguda, salvo deficiência documentada e indicação própria.
 
-Choque séptico requer transferência e cuidado intensivo. Registrar resposta a cada intervenção, balanço hídrico e sinais de sobrecarga. Após a fase aguda, avaliar nova morbidade física, cognitiva e emocional e planejar reabilitação e seguimento individualizados.
+Considerar transferência para terapia intensiva quando a necessidade de cuidado da criança exceder a capacidade do serviço local, em coordenação com a equipe pediátrica e o serviço de transporte especializado. Registrar resposta a cada intervenção, balanço hídrico e sinais de sobrecarga. Após a fase aguda, avaliar nova morbidade física, cognitiva e emocional e planejar reabilitação e seguimento individualizados.
+
+### Orientação prática para profissionais de saúde
+
+<!-- infoswb:bloco-final:inicio -->
+175. Sepse em Pediatria
+
+Leitura profissional — crianças e adolescentes. Recém-nascidos e prematuros exigem protocolo neonatal específico.
+
+Reconhecimento e primeiras ações
+
+Sepse é infecção associada a disfunção orgânica com risco de vida; choque pode estar presente antes de hipotensão. Procurar alteração do estado mental, perfusão periférica ruim, extremidades frias ou quentes, pulsos anormais, enchimento capilar alterado, taquicardia ou bradicardia inadequada, desconforto respiratório, hipoxemia, oligúria, sangramento, púrpura e deterioração rápida. Nenhum escore isolado substitui reavaliação clínica seriada.
+
+Iniciar ABCDE, oxigenação e ventilação conforme necessidade, monitorização contínua, glicemia, acesso venoso ou intraósseo e investigação dirigida do foco. Medir lactato na avaliação inicial e acompanhar a tendência junto da perfusão; um lactato isolado normal não exclui sepse, e sua elevação não é específica. Colher hemoculturas antes do antimicrobiano apenas quando isso não causar atraso substancial.
+
+Corticoide, adjuvantes e destino
+
+Considerar transferência para terapia intensiva quando a necessidade de cuidado da criança exceder a capacidade do serviço local, em coordenação com a equipe pediátrica e o serviço de transporte especializado.
+<!-- infoswb:bloco-final:fim -->
 
 ### Escopo e limites
 
@@ -3148,7 +3198,7 @@ Conteúdo documental revisado por IA não equivale a validação humana. Este bl
 
 ## 176. Síndrome da Pele Escaldada
 
-**Revisão assistida por IA em 05/10/2026 (BRT). Sem homologação humana. Conteúdo documental; não habilita prescrição, preparo ou cálculo automático.** Este bloco aborda reconhecimento, investigação dirigida, princípios antimicrobianos não posológicos e suporte da síndrome da pele escaldada estafilocócica (SSSS) em crianças. A revisão sistemática de 2025 que sustenta parte importante deste texto excluiu recém-nascidos com menos de 90 dias e prematuros; nesses grupos, a conduta deve seguir protocolo neonatal e avaliação especializada.
+**Revisão assistida por IA em 05/10/2026 (BRT). Sem homologação humana. Conteúdo documental; não habilita prescrição, preparo ou cálculo automático.** Este bloco aborda reconhecimento, investigação dirigida, princípios antimicrobianos não posológicos e suporte da síndrome da pele escaldada estafilocócica (SSSS) em crianças. A revisão sistemática de 2025 que sustenta parte importante deste texto excluiu lactentes menores de 90 dias e prematuros (<37 semanas de gestação); nesses grupos, a conduta deve seguir protocolo específico para a idade e a prematuridade, com avaliação especializada.
 
 ### Reconhecimento e diferenciais críticos
 
@@ -3164,9 +3214,9 @@ Hemograma, marcadores inflamatórios e painéis metabólicos não confirmam SSSS
 
 ### Tratamento antimicrobiano e controle do foco
 
-SSSS generalizada requer internação e início oportuno de terapia sistêmica antiestafilocócica. Na criança não neonatal em que MSSA é o cenário provável, um betalactâmico antiestafilocócico é a base usual; cefazolina é uma opção hospitalar. A escolha definitiva deve considerar foco, culturas, suscetibilidade, alergias, função renal, epidemiologia local e resposta clínica. Cobertura empírica para MRSA não é automática: reservá-la para risco individual, colonização ou infecção prévia, epidemiologia local relevante, doença grave ou falha clínica.
+SSSS generalizada requer internação e início oportuno de terapia sistêmica antiestafilocócica. Nas crianças fora dos grupos excluídos pela revisão de 2025 em que MSSA é o cenário provável, um betalactâmico antiestafilocócico é a base usual; cefazolina é uma opção hospitalar. A escolha definitiva deve considerar foco, culturas, suscetibilidade, alergias, função renal, epidemiologia local e resposta clínica. Cobertura empírica para MRSA não é automática: reservá-la para risco individual, colonização ou infecção prévia, epidemiologia local relevante, doença grave ou falha clínica.
 
-Clindamicina não deve ser acrescentada rotineiramente apenas com a justificativa de inibir toxina. A revisão sistemática de 2025 não encontrou melhora de desfechos, e coortes retrospectivas não demonstraram benefício clínico consistente; eventual uso deve ser individualizado em doença rapidamente progressiva ou refratária, após considerar suscetibilidade local e discussão com infectologia ou stewardship. Não usar corticoide sistêmico por rotina.
+Clindamicina não deve ser acrescentada rotineiramente apenas com a justificativa de inibir toxina. A revisão sistemática de 2025 não encontrou melhora de desfechos, e a série retrospectiva de 84 casos de Liy-Wong et al. não encontrou redução da duração da internação; eventual uso deve ser individualizado em doença rapidamente progressiva ou refratária, após considerar suscetibilidade local e discussão com infectologia ou stewardship. Não usar corticoide sistêmico por rotina.
 
 Este bloco não define apresentação brasileira, dose, intervalo, duração fixa, diluição ou transição oral. Esses elementos, assim como qualquer esquema neonatal, exigem validação farmacêutica e protocolar própria antes de uso clínico.
 
@@ -3178,9 +3228,29 @@ Avaliar hidratação, perfusão, diurese, eletrólitos e capacidade de ingestão
 
 Doença extensa, toxicidade, instabilidade térmica, desidratação, alteração renal/eletrolítica, dor difícil de controlar ou dúvida diagnóstica justificam cuidado hospitalar e eventual terapia intensiva. A alta exige estabilidade clínica e hídrica, controle da dor, reepitelização em curso, tratamento dirigido viável e seguimento seguro.
 
+### Orientação prática para profissionais de saúde
+
+<!-- infoswb:bloco-final:inicio -->
+176. Síndrome da Pele Escaldada
+
+Leitura profissional — crianças.
+
+Lactentes menores de 90 dias e prematuros (<37 semanas de gestação)
+
+Nesses grupos, a conduta deve seguir protocolo específico para a idade e a prematuridade, com avaliação especializada.
+
+Tratamento antimicrobiano e controle do foco
+
+SSSS generalizada requer internação e início oportuno de terapia sistêmica antiestafilocócica.
+
+Suporte, pele e destino
+
+Desbridamento cirúrgico rotineiro não é indicado para a clivagem superficial da SSSS. Reservar procedimentos para outra indicação claramente estabelecida.
+<!-- infoswb:bloco-final:fim -->
+
 ### Escopo e limites
 
-Conteúdo revisado por IA não equivale a homologação humana. Este subbloco não valida esquema neonatal, dose ou duração antimicrobiana, apresentação brasileira, diluição, compatibilidade, estabilidade, ajuste renal, preparo ou prescrição automatizada. A revisão sistemática central excluiu neonatos menores de 90 dias e prematuros; a extrapolação para esses grupos não é autorizada.
+Conteúdo revisado por IA não equivale a homologação humana. Este subbloco não valida esquema neonatal, dose ou duração antimicrobiana, apresentação brasileira, diluição, compatibilidade, estabilidade, ajuste renal, preparo ou prescrição automatizada. A revisão sistemática central excluiu lactentes menores de 90 dias e prematuros (<37 semanas de gestação); a extrapolação para esses grupos não é autorizada.
 
 **Fontes primárias e diretrizes consultadas:** [Gray et al. — revisão sistemática pediátrica, *Pediatric Dermatology*, 2025](https://pubmed.ncbi.nlm.nih.gov/40650480/); [Neubauer et al. — coorte multicêntrica de estratégias antimicrobianas, 2021](https://pubmed.ncbi.nlm.nih.gov/33617441/); [Liy-Wong et al. — série de 84 casos pediátricos, 2021](https://pubmed.ncbi.nlm.nih.gov/33283348/); [Brazel et al. — revisão clínica e fisiopatológica, 2021](https://pubmed.ncbi.nlm.nih.gov/34833375/); [RCH Melbourne — infecções bacterianas cutâneas, consultada em 06/10/2026](https://www.rch.org.au/clinicalguide/guideline_index/Cellulitis_and_other_bacterial_skin_infections/); [Perth Children’s Hospital — SSSS, versão outubro de 2023, revisão prevista outubro de 2026](https://pch.health.wa.gov.au/For-health-professionals/Emergency-Department-Guidelines/Staphylococcal-scalded-skin-syndrome).
 
