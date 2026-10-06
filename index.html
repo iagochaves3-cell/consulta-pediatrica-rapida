@@ -676,5 +676,6 @@ function preencherHigida(){
 function limparCaixas(){ ['textoIdentificacao','textoAnamnese','textoExame','textoHipotesesCondutas'].forEach(id=>document.getElementById(id).value=''); ['statusIdentificacao','statusAnamnese','statusExame','statusHipotesesCondutas'].forEach(id=>document.getElementById(id).textContent=''); }
 function limparSemConfirmar(){ document.getElementById('formulario').reset(); document.querySelectorAll('input[value="ni"]').forEach(e=>e.checked=true); document.getElementById('condutas').value='- Prescrevo sintomáticos como medidas suportivas devido à condição de base.\n- Oriento ao acompanhante sinais e sintomas de alarme.\n- Acompanhante ciente e concordante com plano terapêutico proposto.\n- Deixo-me à disposição para esclarecimento de dúvidas ou eventuais ocorrências.'; limparCaixas(); }
 </script>
+<!-- deploy-refresh: gerar-texto-completo verified 2026-10-06 -->
 </body>
 </html>
