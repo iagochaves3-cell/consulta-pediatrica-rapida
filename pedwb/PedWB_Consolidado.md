@@ -3148,15 +3148,41 @@ Conteúdo documental revisado por IA não equivale a validação humana. Este bl
 
 ## 176. Síndrome da Pele Escaldada
 
-**Reconhecer a toxina.** Dor cutânea, eritema difuso, bolhas flácidas e descamação em lactente/criança pequena sugerem síndrome da pele escaldada estafilocócica. Mucosas costumam ser poupadas; acometimento mucoso importante pede avaliar SJS/NET e outros diagnósticos. Desidratação, hipotermia, dor, sepse e perdas cutâneas exigem internação.
+**Revisão assistida por IA em 05/10/2026 (BRT). Sem homologação humana. Conteúdo documental; não habilita prescrição, preparo ou cálculo automático.** Este bloco aborda reconhecimento, investigação dirigida, princípios antimicrobianos não posológicos e suporte da síndrome da pele escaldada estafilocócica (SSSS) em crianças. A revisão sistemática de 2025 que sustenta parte importante deste texto excluiu recém-nascidos com menos de 90 dias e prematuros; nesses grupos, a conduta deve seguir protocolo neonatal e avaliação especializada.
 
-**Exames.** Colher culturas de provável foco estafilocócico (nasofaringe, conjuntiva, umbigo, ferida) e hemocultura conforme gravidade. Conteúdo da bolha pode não cultivar o agente porque a doença é mediada por toxina produzida à distância. Avaliar eletrólitos, função renal e balanço hídrico.
+### Reconhecimento e diferenciais críticos
 
-**Tratamento.** Antibioticoterapia EV antiestafilocócica, como cefazolina no esquema hospitalar do tema 128, quando MSSA provável; adicionar/substituir cobertura de MRSA conforme risco e sensibilidade. Neonatos precisam de esquema próprio. A inibição de toxina com clindamicina não deve ser automática sem considerar resistência local e gravidade. Não usar corticoide sistêmico por rotina.
+SSSS decorre da ação sistêmica de toxinas esfoliativas de *Staphylococcus aureus*, que clivam a desmogleína 1. Suspeitar diante de dor ou hipersensibilidade cutânea, eritema difuso, bolhas flácidas, sinal de Nikolsky e descamação superficial, especialmente em lactentes e crianças pequenas. O foco produtor da toxina pode estar distante da pele acometida.
 
-**Suporte e destino.** Manipulação mínima, curativos não aderentes, analgesia adequada e controle térmico. Reposição de líquidos individualizada por perfusão, diurese e perdas; não copiar fórmula de queimadura extensa sem avaliação. Evitar substâncias irritantes na pele sem barreira. Monitorizar infecção secundária e resposta nas primeiras 24–48 h. A alta exige reepitelização em curso, estabilidade hídrica, dor controlada e tratamento dirigido viável. Falha pede reconsiderar diagnóstico, foco e resistência, com dermatologia/infectologia.
+O diagnóstico é principalmente clínico. A preservação das mucosas favorece SSSS; erosões mucosas relevantes, exposição medicamentosa compatível, lesões-alvo ou clivagem mais profunda exigem reconsiderar síndrome de Stevens-Johnson/necrólise epidérmica tóxica e outros diagnósticos. Impetigo bolhoso tende a ser localizado e contém o microrganismo na bolha. Quando a apresentação é atípica ou o diagnóstico permanece incerto, solicitar avaliação dermatológica e considerar biópsia sem atrasar estabilização e tratamento.
 
-**Fontes: ** [RCH — síndrome da pele escaldada/pele](https://www.rch.org.au/clinicalguide/guideline_index/Cellulitis_and_other_bacterial_skin_infections/); [PCH — staphylococcal scalded skin syndrome](https://pch.health.wa.gov.au/For-health-professionals/Emergency-Department-Guidelines/Staphylococcal-scalded-skin-syndrome)
+### Investigação dirigida
+
+Colher cultura do foco estafilocócico provável — por exemplo, nasofaringe, conjuntiva, umbigo, área periorificial, ferida ou outro sítio clinicamente suspeito — porque essas amostras têm maior rendimento que a bolha distante. Erosões e bolhas podem ser estéreis. Hemoculturas costumam ser negativas em crianças não neonatais, mas são apropriadas quando há toxicidade sistêmica, choque, imunossupressão, idade neonatal ou suspeita de bacteremia.
+
+Hemograma, marcadores inflamatórios e painéis metabólicos não confirmam SSSS e não devem ser solicitados de modo indiscriminado. Direcionar eletrólitos, função renal, glicemia e outros exames à gravidade, hidratação, perfusão, perdas cutâneas, comorbidades e dúvida diagnóstica.
+
+### Tratamento antimicrobiano e controle do foco
+
+SSSS generalizada requer internação e início oportuno de terapia sistêmica antiestafilocócica. Na criança não neonatal em que MSSA é o cenário provável, um betalactâmico antiestafilocócico é a base usual; cefazolina é uma opção hospitalar. A escolha definitiva deve considerar foco, culturas, suscetibilidade, alergias, função renal, epidemiologia local e resposta clínica. Cobertura empírica para MRSA não é automática: reservá-la para risco individual, colonização ou infecção prévia, epidemiologia local relevante, doença grave ou falha clínica.
+
+Clindamicina não deve ser acrescentada rotineiramente apenas com a justificativa de inibir toxina. A revisão sistemática de 2025 não encontrou melhora de desfechos, e coortes retrospectivas não demonstraram benefício clínico consistente; eventual uso deve ser individualizado em doença rapidamente progressiva ou refratária, após considerar suscetibilidade local e discussão com infectologia ou stewardship. Não usar corticoide sistêmico por rotina.
+
+Este bloco não define apresentação brasileira, dose, intervalo, duração fixa, diluição ou transição oral. Esses elementos, assim como qualquer esquema neonatal, exigem validação farmacêutica e protocolar própria antes de uso clínico.
+
+### Suporte, pele e destino
+
+Realizar manipulação mínima, analgesia, controle térmico e curativos não aderentes. Emoliente simples e inerte, como petrolato, pode reduzir perda de água e desconforto quando apropriado; evitar produtos irritantes ou sensibilizantes sobre a barreira rompida. Desbridamento cirúrgico rotineiro não é indicado para a clivagem superficial da SSSS e esteve associado a mais complicações em série observacional; reservar procedimentos para outra indicação claramente estabelecida.
+
+Avaliar hidratação, perfusão, diurese, eletrólitos e capacidade de ingestão. Corrigir perdas de modo individualizado; não copiar fórmulas de queimadura térmica extensa, pois a profundidade e a fisiopatologia são diferentes. Procurar e tratar foco infeccioso, monitorar infecção secundária e reavaliar diagnóstico, suscetibilidade e controle do foco se não houver melhora clínica esperada.
+
+Doença extensa, toxicidade, instabilidade térmica, desidratação, alteração renal/eletrolítica, dor difícil de controlar ou dúvida diagnóstica justificam cuidado hospitalar e eventual terapia intensiva. A alta exige estabilidade clínica e hídrica, controle da dor, reepitelização em curso, tratamento dirigido viável e seguimento seguro.
+
+### Escopo e limites
+
+Conteúdo revisado por IA não equivale a homologação humana. Este subbloco não valida esquema neonatal, dose ou duração antimicrobiana, apresentação brasileira, diluição, compatibilidade, estabilidade, ajuste renal, preparo ou prescrição automatizada. A revisão sistemática central excluiu neonatos menores de 90 dias e prematuros; a extrapolação para esses grupos não é autorizada.
+
+**Fontes primárias e diretrizes consultadas:** [Gray et al. — revisão sistemática pediátrica, *Pediatric Dermatology*, 2025](https://pubmed.ncbi.nlm.nih.gov/40650480/); [Neubauer et al. — coorte multicêntrica de estratégias antimicrobianas, 2021](https://pubmed.ncbi.nlm.nih.gov/33617441/); [Liy-Wong et al. — série de 84 casos pediátricos, 2021](https://pubmed.ncbi.nlm.nih.gov/33283348/); [Brazel et al. — revisão clínica e fisiopatológica, 2021](https://pubmed.ncbi.nlm.nih.gov/34833375/); [RCH Melbourne — infecções bacterianas cutâneas, consultada em 06/10/2026](https://www.rch.org.au/clinicalguide/guideline_index/Cellulitis_and_other_bacterial_skin_infections/); [Perth Children’s Hospital — SSSS, versão outubro de 2023, revisão prevista outubro de 2026](https://pch.health.wa.gov.au/For-health-professionals/Emergency-Department-Guidelines/Staphylococcal-scalded-skin-syndrome).
 
 ## 177. Síndrome do Choque Tóxico
 
