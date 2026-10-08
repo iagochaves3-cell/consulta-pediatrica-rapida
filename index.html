@@ -370,6 +370,10 @@ function montarRadios(){
 }
 montarRadios();
 const V=id=>(document.getElementById(id)?.value||'').trim();
+const blocoLiteral=id=>{
+  const texto=document.getElementById(id)?.value||'';
+  return texto.trim()?texto:'';
+};
 const R=id=>document.querySelector('input[name="'+id+'"]:checked')?.value||'ni';
 const cap=s=>s? s.charAt(0).toUpperCase()+s.slice(1):'';
 const low=s=>String(s||'').trim().toLowerCase();
@@ -665,8 +669,8 @@ function gerarTextoCompleto(){
   const identificacao=gerarIdentificacao();
   const anamnese=gerarAnamneseNarrativa();
   const exame=gerarExameFisico();
-  const hipoteses=V('hipoteses');
-  const condutas=V('condutas');
+  const hipoteses=blocoLiteral('hipoteses');
+  const condutas=blocoLiteral('condutas');
   const hipotesesCondutas=hipoteses && condutas ? hipoteses+'\n\n\n'+condutas : hipoteses || condutas;
   document.getElementById('textoIdentificacao').value=identificacao;
   document.getElementById('textoAnamnese').value=anamnese;
