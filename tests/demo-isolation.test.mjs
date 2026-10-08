@@ -25,6 +25,7 @@ function setup() {
     throw new Error('Opening an example must never reset clinical data');
   };
   const context = vm.createContext({
+    confirm: () => true,
     document: {
       getElementById: id => elements.get(id),
       querySelector(selector) {
@@ -137,4 +138,52 @@ test('empty output stays uncopyable after demo and clipboard fallback selects on
   await app.run("copiarCaixa('textoAnamnese', 'statusAnamnese')");
   assert.deepEqual(app.selected, ['textoAnamnese']);
   assert.equal(app.elements.get('statusAnamnese').textContent, 'Texto copiado.');
+});
+
+test('blank consultation generates no clinical assertions or conduct and normal template defaults off', () => {
+  const app = setup();
+  assert.match(html, /<textarea id="condutas"[^>]*><\/textarea>/);
+  const normalControl = html.match(/<input id="incluirExameNormal"[^>]*>/)[0];
+  assert.doesNotMatch(normalControl, /\bchecked\b/);
+  assert.equal(app.run('gerarTextoCompleto()'), '');
+  for (const id of outputs) assert.equal(app.elements.get(id).value, '');
+  app.run('preencherHigida(); fecharDemonstracao()');
+  assert.equal(app.run('gerarTextoCompleto()'), '');
+});
+
+test('exam includes only entered findings unless reviewed normal model is explicitly selected', () => {
+  const app = setup();
+  app.elements.get('alteracoesExame').value = 'SCV: sopro sistólico\nSR: sibilos difusos';
+  const enteredOnly = '- SR: Sibilos difusos.\n- SCV: Sopro sistólico.';
+  assert.equal(app.run('gerarExameFisico()'), enteredOnly);
+  app.elements.get('incluirExameNormal').checked = true;
+  const withModel = app.run('gerarExameFisico()');
+  assert.match(withModel, /Estado geral: Criança em bom estado geral/);
+  assert.match(withModel, /- SR: Sibilos difusos\.\n- SCV: Sopro sistólico\./);
+  assert.doesNotMatch(withModel, /Murmúrio vesicular fisiológico|sem sopros|97%|ECGp 15|5\/5|TEC < 2s/);
+  assert.match(app.elements.get('modeloExameNormal').textContent, /Estado geral/);
+  app.elements.get('incluirExameNormal').checked = false;
+  assert.equal(app.run('gerarExameFisico()'), enteredOnly);
+  app.elements.get('alteracoesExame').value = 'SR: SatO2 96% em ar ambiente';
+  assert.match(app.run('gerarExameFisico()'), /SatO2 96% em ar ambiente/);
+});
+
+test('clear respects cancellation and resets to blank instead of inserting conduct or normal findings', () => {
+  const app = setup();
+  app.elements.get('formulario').reset = () => {
+    for (const element of app.elements.values()) { element.value = ''; element.checked = false; }
+    app.radios.clear();
+  };
+  app.elements.get('condutas').value = 'Conduta efetivamente registrada';
+  app.elements.get('incluirExameNormal').checked = true;
+  app.run('gerarTextoCompleto()');
+  const before = app.snapshot();
+  app.context.confirm = () => false;
+  app.run('limparFormulario()');
+  assert.equal(app.snapshot(), before);
+  app.context.confirm = () => true;
+  app.run('limparFormulario()');
+  assert.equal(app.elements.get('incluirExameNormal').checked, false);
+  assert.equal(app.elements.get('condutas').value, '');
+  assert.equal(app.run('gerarTextoCompleto()'), '');
 });
