@@ -47,6 +47,12 @@ textarea{min-height:56px;resize:vertical;line-height:1.3}.tall{min-height:120px}
 .copy-button{min-height:32px;padding:6px 12px;background:#087f78;color:#fff}
 .copy-button:hover,.pri:hover{background:#0b9990}
 .output-message{min-height:1em;margin:4px 0 0;color:#b8f3e8;font-size:.76rem}
+.demo-dialog{width:min(700px,calc(100% - 24px));max-height:85vh;overflow:auto;border:1px solid var(--border);border-radius:12px;background:var(--card);color:var(--text);padding:16px}
+.demo-dialog::backdrop{background:#000b}
+.demo-dialog h2{font-size:1.1rem;margin:0 0 8px}
+.demo-dialog h3{font-size:.95rem;margin:14px 0 6px}
+.demo-dialog p{line-height:1.5;margin-bottom:8px}
+.demo-dialog pre{white-space:pre-wrap;font:inherit;line-height:1.5;background:var(--soft);border:1px solid var(--border);border-radius:8px;padding:10px}
 .mini{font-size:.76rem;color:var(--muted);font-weight:400}
 @media(max-width:900px){.grid,.checks{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){
@@ -89,7 +95,7 @@ textarea{min-height:56px;resize:vertical;line-height:1.3}.tall{min-height:120px}
 <main>
   <div class="bar">
     <button class="pri" type="button" onclick="gerarTextoCompleto()">GERAR TEXTO COMPLETO</button>
-    <button class="sec" type="button" onclick="preencherHigida()">Preencher criança hígida</button>
+    <button class="sec" type="button" onclick="preencherHigida()" aria-haspopup="dialog" aria-controls="demonstracaoHigida">Ver demonstração (dados fictícios)</button>
     <button class="danger" type="button" onclick="limparFormulario()">Limpar formulário</button>
   </div>
 
@@ -263,6 +269,25 @@ textarea{min-height:56px;resize:vertical;line-height:1.3}.tall{min-height:120px}
     <p class="output-message" id="statusHipotesesCondutas" aria-live="polite"></p>
   </section>
 </main>
+
+<dialog id="demonstracaoHigida" class="demo-dialog" aria-labelledby="tituloDemonstracao" aria-describedby="avisoDemonstracao">
+  <h2 id="tituloDemonstracao">Demonstração — criança hígida fictícia</h2>
+  <p id="avisoDemonstracao"><strong>EXEMPLO FICTÍCIO — NÃO USAR EM PRONTUÁRIO.</strong> Esta visualização não preenche, apaga ou altera o formulário nem os textos do atendimento.</p>
+  <p>Exemplo somente para conhecer a organização da anamnese. No atendimento, registre apenas informações obtidas na história e no exame da criança.</p>
+  <h3>1. Identificação e antecedentes</h3>
+  <pre>EXEMPLO FICTÍCIO — NÃO USAR EM PRONTUÁRIO.
+Peso ilustrativo: 15 kg. Alergias, comorbidades, medicações e antecedentes: não informados neste exemplo.</pre>
+  <h3>2. Anamnese — itens 2 a 12</h3>
+  <pre>EXEMPLO FICTÍCIO — NÃO USAR EM PRONTUÁRIO.
+Criança comparece para consulta de rotina, sem queixas atuais. No cenário simulado, acompanhante refere apetite, aceitação de líquidos, diurese e evacuações preservados.</pre>
+  <h3>3. Exame físico</h3>
+  <pre>EXEMPLO FICTÍCIO — NÃO USAR EM PRONTUÁRIO.
+No cenário simulado: criança ativa e reativa, em bom estado geral. Estes achados não representam exame realizado em paciente.</pre>
+  <h3>4. Hipóteses diagnósticas e condutas</h3>
+  <pre>EXEMPLO FICTÍCIO — NÃO USAR EM PRONTUÁRIO.
+Consulta de rotina simulada. Nenhuma hipótese, prescrição ou orientação foi registrada no atendimento.</pre>
+  <button class="sec" type="button" onclick="fecharDemonstracao()" autofocus>Fechar demonstração e voltar ao atendimento</button>
+</dialog>
 
 <script>
 const grupos = {
@@ -662,17 +687,11 @@ async function copiarCaixa(textId,statusId){
 function setRadio(id,val){ const el=document.querySelector('input[name="'+id+'"][value="'+val+'"]'); if(el) el.checked=true; }
 function limparFormulario(){ if(!confirm('Limpar todos os campos?')) return; document.getElementById('formulario').reset(); document.querySelectorAll('input[value="ni"]').forEach(e=>e.checked=true); document.getElementById('condutas').value='- Prescrevo sintomáticos como medidas suportivas devido à condição de base.\n- Oriento ao acompanhante sinais e sintomas de alarme.\n- Acompanhante ciente e concordante com plano terapêutico proposto.\n- Deixo-me à disposição para esclarecimento de dúvidas ou eventuais ocorrências.'; limparCaixas(); }
 function preencherHigida(){
-  limparSemConfirmar();
-  peso.value='15 kg'; alergias.value='nega'; comorbidades.value='nega'; medContinuas.value='nega';
-  queixa.value='sem queixas no momento, vem realizar consulta de rotina porque teve pneumonia ano passado';
-  ['ativaReativa','comportamentoHabitual','consciente','orientada','alerta','interageComandos','movimentaMembro','extremidadesMovem','sensibilidadePreservada','diurese','evacuacoes','consomeLiquidos','apetite','estadoClinico','estadoIrritabilidade'].forEach(x=>setRadio(x,'sim'));
-  ['febre','dor','gemencia','choroPersistente','coriza','congestaoNasal','respiracaoBucal','respiracaoOfegante','tosseSecretiva','tosseSeca','dispneia','chieira','roncos','pioraNoturna','outrosRespBaixos','diarreia','constipacao','vomitosEspontaneos','vomitosPosTosse','vomitosCatarro','vomitosPosPrandiais','lesoesPeleMucosas','cocamLesoes','dorLesoes','secrecaoLesoesPresente','disseminacaoLesoes','sangramentoPele','olhoVermelho','secrecaoOcular','dorOcular','pruridoLacrimejamento','fotofobia','alteracaoVisual','lesoesOrais','dorOral','dorEngolir','otalgia','otorreia','pruridoOtologico','alteracaoAuditiva','zumbido','vertigem','movimentosAnormais','sincope','convulsoes','sonolenciaExcessiva','choroInconsolavel','comportamentoAnormal','vomitoJato','cefaleiaIntratavel','hematomaSubgaleal','bateuCabeca','historiaTrauma','equimosesHematomas','dorMecanica','dorInflamatoria','sinaisArtrite','desalinhamento','dorPeito','palpitacoes','cianose','sincopeAbrupta','sialorreia'].forEach(x=>setRadio(x,'nao'));
-  tipoFebre.value='nao-informada';
-  setRadio('usouMedicacaoSintomatica','nao');
-  setRadio('medicacaoAjudou','nao');
-  queixasUrinarias.value='nega'; queixasEvacuacao.value='nega'; sangueMucoFezes.value='nega'; secrecoesAnormais.value='nega';
-  gerarTextoCompleto();
+  // Keep the legacy handler name, but never write example data into the clinical form.
+  const demonstracao=document.getElementById('demonstracaoHigida');
+  if(!demonstracao.open) demonstracao.showModal();
 }
+function fecharDemonstracao(){ document.getElementById('demonstracaoHigida').close(); }
 function limparCaixas(){ ['textoIdentificacao','textoAnamnese','textoExame','textoHipotesesCondutas'].forEach(id=>document.getElementById(id).value=''); ['statusIdentificacao','statusAnamnese','statusExame','statusHipotesesCondutas'].forEach(id=>document.getElementById(id).textContent=''); }
 function limparSemConfirmar(){ document.getElementById('formulario').reset(); document.querySelectorAll('input[value="ni"]').forEach(e=>e.checked=true); document.getElementById('condutas').value='- Prescrevo sintomáticos como medidas suportivas devido à condição de base.\n- Oriento ao acompanhante sinais e sintomas de alarme.\n- Acompanhante ciente e concordante com plano terapêutico proposto.\n- Deixo-me à disposição para esclarecimento de dúvidas ou eventuais ocorrências.'; limparCaixas(); }
 </script>
