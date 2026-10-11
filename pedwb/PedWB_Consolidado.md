@@ -4524,22 +4524,9 @@ O escopo aprovado é reconhecimento, estratificação por idade/aparência, limi
 
 **Fontes verificadas:** [UCSF — consenso para PAC pediátrica](https://medconnection.ucsfbenioffchildrens.org/pneumonia-guidelines) · [SBP — Pneumonias Adquiridas na Comunidade Complicadas, 29/04/2024](https://www.sbp.com.br/fileadmin/user_upload/24347d-DC_PneumoniaAdquiridas_ComunidadeComplicada-Atualiza2024.pdf) · [EMS — amoxicilina suspensão oral](https://www.ems.com.br/medicamentos/amoxicilina-250mg-5ml/) · [SAFER, PMID 33683325](https://pubmed.ncbi.nlm.nih.gov/33683325/) · [SCOUT-CAP, PMID 35040920](https://pubmed.ncbi.nlm.nih.gov/35040920/) · [CAP-IT, PMID 34726708](https://pubmed.ncbi.nlm.nih.gov/34726708/) · [Cochrane CD005976](https://www.cochrane.org/evidence/CD005976_comparing-different-durations-same-antibiotic-therapy-non-severe-community-acquired-pneumonia).
 
-## 240. Pneumonia Congênita
-
-**Emergência neonatal.** Dificuldade respiratória ao nascimento/início da vida pode representar pneumonia, sepse, doença de membrana hialina, cardiopatia ou adaptação pulmonar. Revisar prematuridade, febre materna, tempo de bolsa rota e colonização; a radiografia isolada não distingue todas as causas. Apneia, hipotermia/hipertermia, perfusão ruim e intolerância alimentar ampliam suspeita.
-
-**ABCDE e investigação.** Termorregulação, glicemia, suporte ventilatório e circulatório adequados à idade. Hemocultura antes do antibiótico se não atrasar; hemograma, marcadores e gasometria auxiliam, mas resultado inicial normal não exclui infecção. Punção lombar depende de estabilidade e suspeita de meningite.
-
-**Antimicrobiano de referência.** NICE para infecção neonatal precoce: benzilpenicilina **25 mg/kg IV 12/12 h**, considerar 8/8 h se gravidade, associada a gentamicina **5 mg/kg IV inicial**, próxima dose habitualmente 36 horas, modificada por níveis e estado clínico. É um protocolo britânico; serviços brasileiros frequentemente escolhem ampicilina/gentamicina com intervalos por idade gestacional/pós-natal. Não substituir mg de benzilpenicilina porUI ou ampicilina sem conversão/regime próprios. Meningite exige outro esquema.
-
-**Monitorização e revisão.** Gentamicina exige função renal, diurese e nível sérico para doses seguintes, principalmente prematuro/asfixia. Em cultura negativa e baixa suspeita, critérios do protocolo permitem interrupção precoce; em infecção confirmada, duração depende do agente e foco. Não prolongar automaticamente pela radiografia alterada.
-
-**Cálculo.** RN 3 kg no regime citado: 75 mg de benzilpenicilina por dose e 15 mg de gentamicina inicial. Volume=D/C após conferir o produto; a próxima gentamicina não é programada cegamente a cada 24 horas. Destino é unidade neonatal com reavaliação contínua.
-
-**Limites de aplicação: ** Regime mostrado é NICE; prescrição brasileira final exige escolha do protocolo neonatal, apresentação e ajuste por idade/níveis.
-
-**Fontes verificadas: ** [NICE NG 195 — infecção neonatal](https://www.ncbi.nlm.nih.gov/books/NBK571222/) · [NHS neonatal network — recomendações 2022–2024](https://kids.bwc.nhs.uk/wp-content/uploads/2024/01/Neonatal-Network-Guidelines-2022-24.pdf).
-
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+AttributeError: 'NoneType' object has no attribute 'group'
 ## 241. Resfriado Comum em Pediatria
 
 **Reconhecimento.** Coriza, obstrução, espirros e tosse em criança bem, sem sinais focais de gravidade, favorecem infecção viral de vias aéreas superiores. Coloração amarela/verde da secreção, isoladamente, não comprova bactéria. Febre em lactente pequeno, dificuldade respiratória, desidratação ou prostração requer avaliação ampliada.
