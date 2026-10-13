@@ -9,6 +9,6 @@ Regressão: `node --test tests/*.test.mjs`. A suíte `demo-isolation.test.mjs` v
 O exame físico gera somente os achados informados por padrão. O modelo normal permanece disponível para leitura e inclusão opcional, mediante seleção explícita após exame e revisão pelo profissional; achados digitados substituem o sistema correspondente. Valores fixos de saturação, Glasgow, força muscular e enchimento capilar foram retirados do modelo: medidas e escores devem ser digitados quando obtidos. As condutas começam vazias, inclusive após limpar o formulário. Os testes também cobrem estas condições e a preservação da ordem dos sistemas.
 
 ## Publicação
-Os workflows do GitHub Pages publicam a branch `principal`, automaticamente no push ou manualmente. Eles preparam `dist/` apenas com os arquivos públicos do site, incluindo `pedwb/`, sem publicar testes, configurações ou documentos de edição.
+Os workflows do GitHub Pages publicam a branch `principal`, automaticamente no push ou manualmente. Eles preparam `dist/` apenas com os arquivos públicos do site, incluindo `pedwb/`, sem publicar testes, configurações ou documentos de edição. A cópia completa da consulta também fica disponível em `/nexo/`.
 
 Antes do upload, removem os artefatos `github-pages` de tentativas anteriores da mesma execução para permitir reexecuções sem duplicatas. O novo artefato tem retenção de um dia; artefatos de outras execuções não são removidos.
