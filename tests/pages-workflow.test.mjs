@@ -10,6 +10,7 @@ const publicFiles = [
   '.nojekyll', 'index.html', 'app.js', 'styles.css',
   'pedwb/index.html', 'pedwb/PedWB_Consolidado.md',
 ];
+const mirroredFiles = publicFiles.map(file => `nexo/${file}`);
 
 function runBlock(workflow, name) {
   const step = workflow.split(`- name: ${name}\n`)[1]?.split(/\n\s*- name:/)[0];
@@ -20,6 +21,23 @@ function runBlock(workflow, name) {
 
 for (const name of ['pages.yml', 'publicar-pages-manualmente.yml']) {
   const workflow = fs.readFileSync(new URL(`.github/workflows/${name}`, root), 'utf8');
+
+  test(`${name} configures GitHub Actions as the Pages build source`, () => {
+    const stepName = name === 'pages.yml' ? 'Configure Pages source' : 'Configurar origem do GitHub Pages';
+    const configure = runBlock(workflow, stepName);
+    assert.match(workflow, /GH_TOKEN: \$\{\{ github\.token \}\}/);
+    assert.ok(workflow.indexOf('actions/configure-pages@v5') < workflow.indexOf(stepName));
+    assert.ok(workflow.indexOf(stepName) < workflow.indexOf('Build site'));
+    const result = spawnSync('bash', ['-e', '-c', `
+      gh() { printf '%s\\n' "$*"; }
+      ${configure}
+    `], {
+      encoding: 'utf8',
+      env: { ...process.env, GITHUB_REPOSITORY: 'owner/site' },
+    });
+    assert.equal(result.status, 0, result.stderr);
+    assert.equal(result.stdout, 'api --method PUT repos/owner/site/pages -f build_type=workflow\n');
+  });
 
   test(`${name} builds only public files and removes stale dist content`, () => {
     const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'pages-build-'));
@@ -38,9 +56,13 @@ for (const name of ['pages.yml', 'publicar-pages-manualmente.yml']) {
       assert.equal(result.status, 0, result.stderr);
       const files = fs.readdirSync(path.join(directory, 'dist'), { recursive: true })
         .filter(file => fs.statSync(path.join(directory, 'dist', file)).isFile());
-      assert.deepEqual(files.sort(), [...publicFiles].sort());
+      assert.deepEqual(files.sort(), [...publicFiles, ...mirroredFiles].sort());
       for (const file of publicFiles) {
         assert.deepEqual(fs.readFileSync(path.join(directory, 'dist', file)), fs.readFileSync(new URL(file, root)));
+        assert.deepEqual(
+          fs.readFileSync(path.join(directory, 'dist', 'nexo', file)),
+          fs.readFileSync(new URL(file, root)),
+        );
       }
     } finally {
       fs.rmSync(directory, { recursive: true, force: true });
