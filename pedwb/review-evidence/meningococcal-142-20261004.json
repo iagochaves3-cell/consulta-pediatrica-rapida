@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "stableIdentity": "pedwb:doenca-meningococica-em-pediatria",
+  "title": "Doença Meningocócica em Pediatria",
+  "nativeTitleOrdinal": 142,
+  "publicOrdinal": 106,
+  "reviewedAt": "2026-10-04T17:12:00.000Z",
+  "reviewType": "Revisão clínica documental parcial por IA com gate independente",
+  "scope": "Suspeita clínica, gravidade, destino hospitalar, tratamento sem atraso por exames e notificação imediata.",
+  "text": "### Doença Meningocócica em Pediatria — subbloco de reconhecimento e emergência\n\n**Suspeita clínica.** Considerar doença meningocócica invasiva diante de febre aguda com petéquias ou púrpura, alteração do estado mental, dificuldade para despertar, convulsões ou sinais de sepse/hipoperfusão. Em lactentes, irritabilidade, pouca atividade, recusa alimentar, vômitos ou fontanela abaulada podem ser a apresentação inicial. Meningococcemia pode ocorrer sem rigidez de nuca ou outros sinais clássicos de meningite; não aguardar exantema completo ou meningismo para reconhecer gravidade. [MS-MEN; CDC-CG]\n\n**Destino e tempo crítico.** Meningite bacteriana e suspeita de doença meningocócica são emergências médicas. Encaminhar para avaliação hospitalar e iniciar tratamento efetivo prontamente. A coleta de exames para identificação do agente não deve atrasar o tratamento; a obtenção de sangue ou líquor depende de segurança clínica e do fluxo assistencial, sem transformar o procedimento diagnóstico em pré-requisito para tratar. [MS-MEN; CDC-CG]\n\n**Vigilância.** No Brasil, doença meningocócica e outras meningites permanecem de notificação imediata, em até 24 horas, às Secretarias Estadual e Municipal de Saúde. Notificar a suspeita pelo fluxo local sem aguardar confirmação microbiológica para iniciar o atendimento clínico. [MS-P11211]\n\n**Escopo da revisão por IA.** Subbloco documental parcial, vinculado ao capítulo nativo 142, limitado a reconhecimento, gravidade, destino, tratamento sem atraso por exames e notificação. Não revisa nem aprova antibiótico, dose, apresentação, duração, punção lombar operacional, neuroimagem, quimioprofilaxia, definição de contatos, isolamento, vacinação, erradicação de portador ou seguimento; não habilita receita ou cálculo. O texto histórico dessas partes permanece sujeito a revisão própria.\n\n**Referências consultadas em 04/10/2026.**\n\n- [MS-MEN — Ministério da Saúde, página “Meningite”, conteúdo vigente consultado em 04/10/2026](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/meningite).\n- [CDC-CG — Clinical Guidance for Meningococcal Disease, 04/06/2026](https://www.cdc.gov/meningococcal/hcp/clinical-guidance/index.html).\n- [MS-P11211 — Portaria GM/MS nº 11.211, de 13/05/2026, Anexo I](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html).\n",
+  "sources": [
+    {
+      "id": "MS-MEN",
+      "title": "Meningite",
+      "issuer": "Ministério da Saúde",
+      "documentDate": null,
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/meningite",
+      "primary": true,
+      "population": "Brasil; meningites e doença meningocócica",
+      "access": "Página oficial consultada em 04/10/2026."
+    },
+    {
+      "id": "CDC-CG",
+      "title": "Clinical Guidance for Meningococcal Disease",
+      "issuer": "CDC",
+      "documentDate": "2026-06-04",
+      "url": "https://www.cdc.gov/meningococcal/hcp/clinical-guidance/index.html",
+      "primary": true,
+      "population": "Doença meningocócica invasiva; orientação clínica",
+      "access": "Página oficial consultada em 04/10/2026."
+    },
+    {
+      "id": "MS-P11211",
+      "title": "Portaria GM/MS nº 11.211, Anexo I",
+      "issuer": "Ministério da Saúde",
+      "documentDate": "2026-05-13",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html",
+      "primary": true,
+      "population": "Brasil; notificação compulsória",
+      "access": "Ato normativo oficial consultado em 04/10/2026."
+    }
+  ],
+  "checks": {
+    "clinical": "passed",
+    "pharmaceutical": "not_applicable_no_medication_fields",
+    "mathematical": "not_applicable_no_drug_or_calculation_fields",
+    "reverse": "not_applicable_no_drug_or_calculation_fields"
+  },
+  "gate": {
+    "decision": "approve_exact_hash_partial_scope",
+    "candidateSha256": "2f94852a6f15f206e9c7ec5a654012f0e9d7c8e20d83b7853ac8f4387c5607e4",
+    "independentGateSha256": "dbf8eb39729816336c8ff37e971d00e1f21d502d1b69d9351f3f598b779b1683",
+    "blockingIssues": 0,
+    "boundaryScenarios": 5
+  },
+  "exclusions": [
+    "antibiótico, apresentação, dose, intervalo, duração, diluição e cálculo",
+    "punção lombar operacional e neuroimagem",
+    "quimioprofilaxia, contatos, isolamento e vacinação",
+    "erradicação de portador e seguimento",
+    "homologação humana e prescrição automatizada"
+  ],
+  "humanReview": false,
+  "prescriptionOrCalculatorEnabled": false,
+  "wholeChapterApproved": false
+}
